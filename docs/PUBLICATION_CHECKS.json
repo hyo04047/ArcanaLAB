@@ -6,10 +6,10 @@
     "node": "v24.15.0"
   },
   "unitTests": {
-    "passed": 2947,
+    "passed": 2950,
     "failed": 0,
     "skipped": 0,
-    "files": 158
+    "files": 159
   },
   "parserTests": {
     "passed": 7,
@@ -42,5 +42,11 @@
     "No guarantee against all vulnerabilities",
     "No current-game coefficient or timing certification",
     "Full historical 72-condition research is not reproduced by this snapshot"
-  ]
+  ],
+  "codeqlReview": {
+    "reported": 6,
+    "fixed": 1,
+    "reviewedFalsePositives": 5,
+    "document": "SECURITY_REVIEW.md"
+  }
 }

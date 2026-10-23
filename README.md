@@ -34,6 +34,7 @@ npm run dev
 npm test
 npm run build
 npm run test:parser
+npm run test:security
 npm run check:publication
 ```
 

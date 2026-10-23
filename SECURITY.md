@@ -19,6 +19,7 @@ npm ci
 npm audit
 npm test
 npm run test:parser
+npm run test:security
 npm run build
 npm run check:publication
 ```
@@ -26,6 +27,8 @@ npm run check:publication
 Gitleaks로 파일과 실제 푸시 이력을 추가 검사합니다. 자동 검사는 알려진 패턴에 대한 탐지이며 모든 취약점이 없다는 보증은 아닙니다. 새 의존성, 인증 경로, 파일 읽기·쓰기, 외부 입력 출력이 바뀌면 해당 동작을 다시 검토합니다.
 
 CI는 읽기 권한을 기본으로 사용합니다. 외부 PR 코드를 권한 있는 `pull_request_target` 작업에서 실행하지 않습니다. API 키 없이 테스트와 빌드가 가능해야 합니다.
+
+최초 CodeQL 경고의 데이터 흐름 검토와 수정·오탐 판단 근거는 [정적 분석 검토](docs/SECURITY_REVIEW.md)에 기록합니다.
 
 ## 제보
 

@@ -114,14 +114,14 @@ export class SimState implements CardHost {
   }
   cooldownMultiplier(skill: SkillDef): number {
     let p = 1;
-    const groups: Partial<Record<NonNullable<Modifier['cooldownGroup']>, number>> = {};
+    const groups = new Map<NonNullable<Modifier['cooldownGroup']>, number>();
     for (const m of this.activeMods()) {
       if (m.bucket !== 'cooldown') continue;
       if (!skillMatches(m.filter, skill)) continue;
-      if (m.cooldownGroup) groups[m.cooldownGroup] = (groups[m.cooldownGroup] ?? 0) + m.value;
+      if (m.cooldownGroup) groups.set(m.cooldownGroup, (groups.get(m.cooldownGroup) ?? 0) + m.value);
       else p *= 1 - m.value;
     }
-    for (const value of Object.values(groups)) p *= 1 - value;
+    for (const value of groups.values()) p *= 1 - value;
     return p;
   }
   private cooldownDuration(skill: SkillDef): number {

@@ -33,13 +33,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3316,
-      "sha256": "b57be2b9838130195908fc3480f82748217da4d4feecb7ffdd4c0b86ba28787f"
+      "bytes": 3338,
+      "sha256": "3ded638e59239769aef34151139a137d906daa5ddc8d87df4588fdb74a8edf12"
     },
     {
       "path": "SECURITY.md",
-      "bytes": 1889,
-      "sha256": "901a596ae50c38cf1c9b5aeeb650c545a1b873de76802369212080be1de2b39e"
+      "bytes": 2063,
+      "sha256": "417f7a0660c4e96277abd1fce3f81260dc4a60109cc68f844ec7282b4e6bf195"
     },
     {
       "path": "data/arkgrid.json",
@@ -173,8 +173,13 @@
     },
     {
       "path": "docs/PUBLICATION_CHECKS.json",
-      "bytes": 940,
-      "sha256": "c67f698a0802f9b7a1cda3df25aa5434a57d654e39b436e16dcf87b4ab2ca82a"
+      "bytes": 1070,
+      "sha256": "ce6c0cf2a3b93fd04c85ace142341641b1a05c92ad18a340a07bcf1cd27e31b9"
+    },
+    {
+      "path": "docs/SECURITY_REVIEW.md",
+      "bytes": 2227,
+      "sha256": "b8d2ed58312b115c8ddda2e78d3cd59a826b701386cbdeac2380b48accf0b24a"
     },
     {
       "path": "docs/VALIDATION.md",
@@ -445,6 +450,11 @@
       "path": "src/engine/__tests__/conditional-tripod-input.test.ts",
       "bytes": 4114,
       "sha256": "8778c6e3604473868d8cbf1b3c5c8f830321213acd6bb1754e5ae1ee9c271380"
+    },
+    {
+      "path": "src/engine/__tests__/cooldown-property-security.test.ts",
+      "bytes": 757,
+      "sha256": "016fd65524c9ae2f414c349cf19c8eca15bca70767781b2d78eee1254a912256"
     },
     {
       "path": "src/engine/__tests__/cooldown-time-input.test.ts",
@@ -1113,8 +1123,8 @@
     },
     {
       "path": "src/engine/sim.ts",
-      "bytes": 38347,
-      "sha256": "23df8ab548fb9bee888d6d397b91caa680966e990df8309964d0cb4c03266909"
+      "bytes": 38338,
+      "sha256": "3361265cf1afbf717f07acee04367788485d5b620020559107a7418b1fa9146e"
     },
     {
       "path": "src/engine/skilldata.ts",

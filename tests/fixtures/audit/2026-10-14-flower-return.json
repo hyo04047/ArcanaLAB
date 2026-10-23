@@ -1,0 +1,626 @@
+{
+  "checkedAt": "2026-10-14T09:56:56.202Z",
+  "profiles": [
+    {
+      "startStageId": 8,
+      "returnStageId": 9,
+      "fullStartMs": 4000,
+      "fullReturnMs": 1067,
+      "movingTimesMs": [
+        189,
+        1091,
+        2243,
+        3000
+      ],
+      "projectileSpawnInReturnMs": 4,
+      "alternativeSlots": [
+        "08",
+        "18",
+        "28"
+      ],
+      "inputWindowsMs": []
+    },
+    {
+      "startStageId": 10,
+      "returnStageId": 11,
+      "fullStartMs": 4000,
+      "fullReturnMs": 1067,
+      "movingTimesMs": [
+        189,
+        1091,
+        2243,
+        3000
+      ],
+      "projectileSpawnInReturnMs": 4,
+      "alternativeSlots": [
+        "08",
+        "18",
+        "28"
+      ],
+      "inputWindowsMs": []
+    },
+    {
+      "startStageId": 12,
+      "returnStageId": 13,
+      "fullStartMs": 4000,
+      "fullReturnMs": 1067,
+      "movingTimesMs": [
+        189,
+        1091,
+        2243,
+        3000
+      ],
+      "projectileSpawnInReturnMs": 4,
+      "alternativeSlots": [
+        "08",
+        "18",
+        "28"
+      ],
+      "inputWindowsMs": []
+    }
+  ],
+  "rows": [
+    {
+      "level": 1,
+      "baseAp": 10.32,
+      "baseFlat": 620,
+      "firstPairAp": 2.064,
+      "firstPairFlat": 124,
+      "spikeAp": 4.128,
+      "spikeFlat": 248,
+      "baseFortyPercentAp": 4.128,
+      "baseFortyPercentFlat": 248,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 12.13632,
+          "withCore115Ap": 23.719488,
+          "withCore115Flat": 1425.008
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 18.08064,
+          "withCore115Ap": 36.499776,
+          "withCore115Flat": 2192.816
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "baseAp": 11.331,
+      "baseFlat": 1108,
+      "firstPairAp": 2.266,
+      "firstPairFlat": 222,
+      "spikeAp": 4.533,
+      "spikeFlat": 442,
+      "baseFortyPercentAp": 4.5324,
+      "baseFortyPercentFlat": 443.20000000000005,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 13.32652,
+          "withCore115Ap": 26.046118,
+          "withCore115Flat": 2540.732
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 19.854039999999998,
+          "withCore115Ap": 40.080285999999994,
+          "withCore115Flat": 3909.1639999999998
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "baseAp": 11.870000000000001,
+      "baseFlat": 1418.5,
+      "firstPairAp": 2.374,
+      "firstPairFlat": 284,
+      "spikeAp": 4.748,
+      "spikeFlat": 566.5,
+      "baseFortyPercentAp": 4.748,
+      "baseFortyPercentFlat": 567.4,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 13.95912,
+          "withCore115Ap": 27.282007999999998,
+          "withCore115Flat": 3255.859
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 20.796239999999997,
+          "withCore115Ap": 41.981815999999995,
+          "withCore115Flat": 5009.7429999999995
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "baseAp": 12.252,
+      "baseFlat": 1664.5,
+      "firstPairAp": 2.45,
+      "firstPairFlat": 333,
+      "spikeAp": 4.902,
+      "spikeFlat": 665.5,
+      "baseFortyPercentAp": 4.9008,
+      "baseFortyPercentFlat": 665.8000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 14.410879999999999,
+          "withCore115Ap": 28.165891999999996,
+          "withCore115Flat": 3824.2129999999997
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 21.46976,
+          "withCore115Ap": 43.342484000000006,
+          "withCore115Flat": 5884.601
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "baseAp": 12.550999999999998,
+      "baseFlat": 1863.5,
+      "firstPairAp": 2.51,
+      "firstPairFlat": 373,
+      "spikeAp": 5.021,
+      "spikeFlat": 744.5,
+      "baseFortyPercentAp": 5.0203999999999995,
+      "baseFortyPercentFlat": 745.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 14.761239999999999,
+          "withCore115Ap": 28.850165999999994,
+          "withCore115Flat": 4278.646999999999
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 21.991479999999996,
+          "withCore115Ap": 44.39518199999999,
+          "withCore115Flat": 6583.619
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "baseAp": 12.79,
+      "baseFlat": 2018.5,
+      "firstPairAp": 2.558,
+      "firstPairFlat": 404,
+      "spikeAp": 5.116,
+      "spikeFlat": 806.5,
+      "baseFortyPercentAp": 5.116,
+      "baseFortyPercentFlat": 807.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 15.041039999999999,
+          "withCore115Ap": 29.396535999999998,
+          "withCore115Flat": 4634.898999999999
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 22.408079999999998,
+          "withCore115Ap": 45.235671999999994,
+          "withCore115Flat": 7131.822999999999
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "baseAp": 12.989,
+      "baseFlat": 2153,
+      "firstPairAp": 2.598,
+      "firstPairFlat": 431,
+      "spikeAp": 5.195,
+      "spikeFlat": 860,
+      "baseFortyPercentAp": 5.195600000000001,
+      "baseFortyPercentFlat": 861.2,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 15.273800000000001,
+          "withCore115Ap": 29.85097,
+          "withCore115Flat": 4942.56
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 22.7546,
+          "withCore115Ap": 45.934689999999996,
+          "withCore115Flat": 7605.119999999999
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "baseAp": 13.157,
+      "baseFlat": 2278,
+      "firstPairAp": 2.632,
+      "firstPairFlat": 456,
+      "spikeAp": 5.261,
+      "spikeFlat": 910,
+      "baseFortyPercentAp": 5.2628,
+      "baseFortyPercentFlat": 911.2,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 15.46884,
+          "withCore115Ap": 30.231206,
+          "withCore115Flat": 5229.86
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 23.04468,
+          "withCore115Ap": 46.51926199999999,
+          "withCore115Flat": 8047.219999999999
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "baseAp": 13.298,
+      "baseFlat": 2367,
+      "firstPairAp": 2.66,
+      "firstPairFlat": 473,
+      "spikeAp": 5.318,
+      "spikeFlat": 948,
+      "baseFortyPercentAp": 5.3192,
+      "baseFortyPercentFlat": 946.8000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 15.635919999999999,
+          "withCore115Ap": 30.558227999999996,
+          "withCore115Flat": 5446.208
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 23.29384,
+          "withCore115Ap": 47.022756,
+          "withCore115Flat": 8381.216
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "baseAp": 13.42,
+      "baseFlat": 2458.5,
+      "firstPairAp": 2.684,
+      "firstPairFlat": 491,
+      "spikeAp": 5.368,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 5.368,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 15.78192,
+          "withCore115Ap": 30.844528,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 23.511840000000003,
+          "withCore115Ap": 47.463856,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "baseAp": 14.6,
+      "baseFlat": 2458.5,
+      "firstPairAp": 2.92,
+      "firstPairFlat": 491,
+      "spikeAp": 5.84,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 5.84,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 17.1696,
+          "withCore115Ap": 33.556639999999994,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 25.5792,
+          "withCore115Ap": 51.63728,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "baseAp": 15.329,
+      "baseFlat": 2458.5,
+      "firstPairAp": 3.066,
+      "firstPairFlat": 491,
+      "spikeAp": 6.131,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 6.131600000000001,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 18.02564,
+          "withCore115Ap": 35.229226000000004,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 26.85428,
+          "withCore115Ap": 54.210802,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "baseAp": 15.898,
+      "baseFlat": 2458.5,
+      "firstPairAp": 3.18,
+      "firstPairFlat": 491,
+      "spikeAp": 6.358,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 6.3592,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 18.69352,
+          "withCore115Ap": 36.53406799999999,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 27.84904,
+          "withCore115Ap": 56.218436,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "baseAp": 16.406,
+      "baseFlat": 2458.5,
+      "firstPairAp": 3.282,
+      "firstPairFlat": 491,
+      "spikeAp": 6.56,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 6.5624,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 19.2884,
+          "withCore115Ap": 37.69575999999999,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 28.734799999999996,
+          "withCore115Ap": 58.00551999999999,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "baseAp": 17.224,
+      "baseFlat": 2458.5,
+      "firstPairAp": 3.446,
+      "firstPairFlat": 491,
+      "spikeAp": 6.886,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 6.889600000000001,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 20.24784,
+          "withCore115Ap": 39.56995599999999,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 30.163680000000003,
+          "withCore115Ap": 60.889012,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "baseAp": 18.735,
+      "baseFlat": 2458.5,
+      "firstPairAp": 3.748,
+      "firstPairFlat": 491,
+      "spikeAp": 7.491,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 7.494,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 22.02604,
+          "withCore115Ap": 43.04578599999999,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 32.81308,
+          "withCore115Ap": 66.237922,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "baseAp": 18.976,
+      "baseFlat": 2458.5,
+      "firstPairAp": 3.796,
+      "firstPairFlat": 491,
+      "spikeAp": 7.588,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 7.5904,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 22.31072,
+          "withCore115Ap": 43.602648,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 33.23744,
+          "withCore115Ap": 67.095096,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "baseAp": 19.225,
+      "baseFlat": 2458.5,
+      "firstPairAp": 3.846,
+      "firstPairFlat": 491,
+      "spikeAp": 7.687,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 7.690000000000001,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 22.60228,
+          "withCore115Ap": 44.17200199999999,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 33.67156,
+          "withCore115Ap": 67.970954,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "baseAp": 20.915,
+      "baseFlat": 2458.5,
+      "firstPairAp": 4.184,
+      "firstPairFlat": 491,
+      "spikeAp": 8.363,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 8.366,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 24.58972,
+          "withCore115Ap": 48.05629799999999,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 36.632439999999995,
+          "withCore115Ap": 73.948146,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "baseAp": 22.753999999999998,
+      "baseFlat": 2458.5,
+      "firstPairAp": 4.552,
+      "firstPairFlat": 491,
+      "spikeAp": 9.098,
+      "spikeFlat": 985.5,
+      "baseFortyPercentAp": 9.1016,
+      "baseFortyPercentFlat": 983.4000000000001,
+      "firstPairThenReturnCandidates": [
+        {
+          "stacks": 2,
+          "withoutCoreAp": 26.75112,
+          "withCore115Ap": 52.280108,
+          "withCore115Flat": 5660.933
+        },
+        {
+          "stacks": 4,
+          "withoutCoreAp": 39.85224,
+          "withCore115Ap": 80.44751600000001,
+          "withCore115Flat": 8712.041
+        }
+      ]
+    }
+  ],
+  "videoUiTransitionBounds": {
+    "startAfter": 12.516605,
+    "startBy": 12.766605,
+    "cooldownAfter": 13.516606,
+    "cooldownBy": 13.766606,
+    "minimumObservedStateDuration": 0.750001,
+    "maximumObservedStateDuration": 1.250001
+  },
+  "conclusions": [
+    "공개 첫 효과의 2회 내부 타격이 모두 맞고 각각 증폭 중첩을 올리면 14P에서 첫 묶음만으로 4중첩이 되는 후보입니다.",
+    "슬롯 08/18/28은 선택 분기이므로 가시를 세 번 합산하지 않습니다.",
+    "multi_hit_interval_ms=0, 빈 inputWindowsMs, 발사 후 적중 지연 미표시로 빠른 복귀 이벤트 시각을 확정하지 않습니다.",
+    "가시 계수는 이미 기본 합계 약 40%입니다. 다시 40%를 곱하지 않습니다.",
+    "일반 6+1 합산에 가시를 더하면 빠른 복귀 시 생략한 기본 타격까지 포함하는 오류가 됩니다.",
+    "계수 산술과 UI 관측의 대조이며 실제 DPS·시전 시간·스택 판정을 검증한 것은 아닙니다."
+  ],
+  "inputs": [
+    {
+      "path": "docs/audit/2026-10-13-flower-core-sources.json",
+      "sha256": "2ba9d618261b4800120f15040b06bdae4b58a75b6f4e8fe3f3ae22da91e8fc7e"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return-sources.json",
+      "sha256": "0f567b2dbb82487af7b24f1ad1da4ef3b6e3e1aa3dada90a212e0829ddf904b9"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/observations.json",
+      "sha256": "881931672168792c71ae02549aeb8b0a50d9c41f17b8489cafcc00bbff7660da"
+    },
+    {
+      "path": "scripts/audit_flower_return.mjs",
+      "sha256": "c795ca3029d4df2b917c3034064ca5c9960fa5a4288aabde2f84f24332308e36"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/training-12.517.png",
+      "sha256": "77b7c14efaafbefc5164a688d79333b1006d7437ec087dd2611ae091dd8eaae2"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/training-12.767.png",
+      "sha256": "9800c816ec6f732ac7c97da8d07687307191f753394dfd8c88ca3009213ab3e4"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/training-13.017.png",
+      "sha256": "a01b8ade0284d8d45ca23acf51e5145d8e80a3bfbff3229aaaec69132c4be8e4"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/training-13.267.png",
+      "sha256": "91691a596bdb7ae94b20ea7f8de8eaba8bc49dab110fab646c1b1b73206e5a1a"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/training-13.517.png",
+      "sha256": "9389c2faea0ced2bf995dca17529d2668b489202efe04797e451c4a72a51f89d"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/training-13.767.png",
+      "sha256": "82a49c525193e7d83e2b7f5f151fe6b57e27262f77496d15664b979229e0e031"
+    },
+    {
+      "path": "docs/audit/2026-10-14-flower-return/training-14.017.png",
+      "sha256": "33c6de280d9fe904936643a5e6d97248a95d6da2fdbb912a5b732024a9815ac5"
+    }
+  ]
+}

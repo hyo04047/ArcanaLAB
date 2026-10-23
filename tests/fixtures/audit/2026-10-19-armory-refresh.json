@@ -1,0 +1,3214 @@
+{
+  "modelId": "sha256:267c7d2032230a8f9d62cf66e403023c661f7d3adeaeb915eade13041826faab",
+  "comparisons": [
+    {
+      "character": "FixtureCharacter12",
+      "previousWindow": {
+        "startedAt": "2026-10-17T10:36:44.082Z",
+        "finishedAt": "2026-10-17T10:36:45.033Z"
+      },
+      "currentWindow": {
+        "startedAt": "2026-10-19T11:29:01.066Z",
+        "finishedAt": "2026-10-19T11:29:01.703Z"
+      },
+      "responses": [
+        {
+          "endpoint": "profiles",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "f5130f5f017af61aa237285132e781f1089c3f65f67357a00868dcd786223a14",
+          "bytes": 7214,
+          "checkedAt": "2026-10-19T11:29:01.181Z"
+        },
+        {
+          "endpoint": "equipment",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "a735dc92fec72a8c0b8d953ad0573cbe8f8424dbdd24058f10f6437f60afccbf",
+          "bytes": 63751,
+          "checkedAt": "2026-10-19T11:29:01.229Z"
+        },
+        {
+          "endpoint": "combat-skills",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "8c64a42131524c40a22332161421efecfbd8deb3aad4d4fe66df450e1537fd3e",
+          "bytes": 140157,
+          "checkedAt": "2026-10-19T11:29:01.279Z"
+        },
+        {
+          "endpoint": "engravings",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "e8c22c2c0792d8a0a6632abbfee92a1c29a89365d21149b6163e4b14b4813cc4",
+          "bytes": 1567,
+          "checkedAt": "2026-10-19T11:29:01.586Z"
+        },
+        {
+          "endpoint": "gems",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "e2026082bdfcb824460306f49f0156abc7e652013d35834696c070c0c3faee12",
+          "bytes": 78843,
+          "checkedAt": "2026-10-19T11:29:01.628Z"
+        },
+        {
+          "endpoint": "arkpassive",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "15143c3e5a24b68c3cfbc7a1adc7b5c638c3c5e243bbea9c5f19118a10c8b906",
+          "bytes": 18855,
+          "checkedAt": "2026-10-19T11:29:01.648Z"
+        },
+        {
+          "endpoint": "arkgrid",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "4611cf180ae3bb9c771cba46845d9d5107f3906e07521c12c29e63fd9ec01dc6",
+          "bytes": 103243,
+          "checkedAt": "2026-10-19T11:29:01.684Z"
+        },
+        {
+          "endpoint": "cards",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "19d62c946b78ac5504b3b5d28a2b40567a215c4083158958551bde660f79544e",
+          "bytes": 10044,
+          "checkedAt": "2026-10-19T11:29:01.703Z"
+        }
+      ]
+    },
+    {
+      "character": "FixtureCharacter26",
+      "previousWindow": {
+        "startedAt": "2026-10-17T10:36:44.129Z",
+        "finishedAt": "2026-10-17T10:36:44.677Z"
+      },
+      "currentWindow": {
+        "startedAt": "2026-10-19T11:29:01.114Z",
+        "finishedAt": "2026-10-19T11:29:01.703Z"
+      },
+      "responses": [
+        {
+          "endpoint": "profiles",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "fce186582fcc98855b782b0f6d0ecfa83e541b91a01718457e030e12c6a868a5",
+          "bytes": 7130,
+          "checkedAt": "2026-10-19T11:29:01.450Z"
+        },
+        {
+          "endpoint": "equipment",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "5de921fb19755c4f9a99c6e018022790ebc7e5cc612131d84be15e13475af849",
+          "bytes": 63499,
+          "checkedAt": "2026-10-19T11:29:01.472Z"
+        },
+        {
+          "endpoint": "combat-skills",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "b5f9f0f21200ec728eceb0178816947fb72dc42822d091be9bb50a0429abc024",
+          "bytes": 138171,
+          "checkedAt": "2026-10-19T11:29:01.560Z"
+        },
+        {
+          "endpoint": "engravings",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "6eaf2cd6e9e3dcf64865de5480ba795a2c2e94cf9108785b51f7134cd4c4aa07",
+          "bytes": 1567,
+          "checkedAt": "2026-10-19T11:29:01.578Z"
+        },
+        {
+          "endpoint": "gems",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "30fe16c0541af09c0cb64c33b42c791fe036f49d4f8ab9697bfa99f397124611",
+          "bytes": 54,
+          "checkedAt": "2026-10-19T11:29:01.612Z"
+        },
+        {
+          "endpoint": "arkpassive",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "0da44ef298628ab3a9bb4f6d39b7adffc4eaa762c5e36f9a948ba815b4e29eb8",
+          "bytes": 19942,
+          "checkedAt": "2026-10-19T11:29:01.633Z"
+        },
+        {
+          "endpoint": "arkgrid",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "5677124b4df89f6771309c7ac7cea687d1832e741b5ce3623c90e58ab53378e5",
+          "bytes": 103300,
+          "checkedAt": "2026-10-19T11:29:01.654Z"
+        },
+        {
+          "endpoint": "cards",
+          "status": 200,
+          "unchanged": true,
+          "sha256": "31e4a53becac6a240ef88cca324e67d5287971218486f67a24ec733d65562627",
+          "bytes": 10036,
+          "checkedAt": "2026-10-19T11:29:01.703Z"
+        }
+      ]
+    }
+  ],
+  "requests": [
+    "/api/armories/characters/FixtureCharacter12/profiles",
+    "/api/armories/characters/FixtureCharacter12/combat-skills",
+    "/api/armories/characters/FixtureCharacter12/arkpassive",
+    "/api/armories/characters/FixtureCharacter12/arkgrid",
+    "/api/armories/characters/FixtureCharacter12/engravings",
+    "/api/armories/characters/FixtureCharacter12/gems",
+    "/api/armories/characters/FixtureCharacter12/equipment",
+    "/api/armories/characters/FixtureCharacter12/cards",
+    "/api/armories/characters/FixtureCharacter26/profiles",
+    "/api/armories/characters/FixtureCharacter26/combat-skills",
+    "/api/armories/characters/FixtureCharacter26/arkpassive",
+    "/api/armories/characters/FixtureCharacter26/arkgrid",
+    "/api/armories/characters/FixtureCharacter26/engravings",
+    "/api/armories/characters/FixtureCharacter26/gems",
+    "/api/armories/characters/FixtureCharacter26/equipment",
+    "/api/armories/characters/FixtureCharacter26/cards"
+  ],
+  "conversions": [
+    {
+      "build": {
+        "name": "FixtureCharacter12 (1,788.33, 황제)",
+        "combatLevel": 70,
+        "attackPower": {
+          "base": 222811,
+          "displayed": 240373,
+          "increase": 17562,
+          "flat": 3870,
+          "percent": 0.060399999999999995,
+          "reconstructed": 240372.5324,
+          "difference": -0.4676000000035856,
+          "status": "matched-display"
+        },
+        "variant": "emperor",
+        "stats": {
+          "crit": 644,
+          "spec": 75,
+          "swift": 1827
+        },
+        "passiveMods": [
+          {
+            "bucket": "critRate",
+            "value": 0.2304,
+            "source": "치명"
+          },
+          {
+            "bucket": "atkSpeed",
+            "value": 0.31379999999999997,
+            "source": "신속"
+          },
+          {
+            "bucket": "moveSpeed",
+            "value": 0.31379999999999997,
+            "source": "신속"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.3923,
+            "source": "신속"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.0375,
+            "filter": {
+              "kinds": [
+                "ruin"
+              ]
+            },
+            "source": "특화(루인)"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.0163,
+            "filter": {
+              "kinds": [
+                "awakening"
+              ]
+            },
+            "source": "특화(각성)"
+          },
+          {
+            "bucket": "emperorCardDmg",
+            "value": 0.8,
+            "filter": {
+              "ids": [
+                "card_emperor"
+              ]
+            },
+            "source": "황제의 칙령 Lv3"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.47,
+            "filter": {
+              "kinds": [
+                "normal"
+              ]
+            },
+            "source": "황제의 만찬 Lv3"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.16,
+            "source": "또 다른 황제 Lv3"
+          },
+          {
+            "bucket": "emperorCardDmg",
+            "value": 0.4,
+            "filter": {
+              "ids": [
+                "card_emperor"
+              ]
+            },
+            "source": "또 다른 황제 Lv3"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.14,
+            "filter": {
+              "usesMana": true
+            },
+            "source": "끝없는 마나 Lv2",
+            "cooldownGroup": "manaEvolution"
+          },
+          {
+            "bucket": "evoDmg",
+            "value": 0.05,
+            "source": "최적화 훈련 Lv1"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.04,
+            "filter": {
+              "excludeKinds": [
+                "awakening"
+              ]
+            },
+            "source": "최적화 훈련 Lv1",
+            "cooldownGroup": "nonAwakeningEvolution"
+          },
+          {
+            "bucket": "evoDmg",
+            "value": 0.16,
+            "source": "무한한 마력 Lv2"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.14,
+            "filter": {
+              "usesMana": true
+            },
+            "source": "무한한 마력 Lv2",
+            "cooldownGroup": "manaEvolution"
+          },
+          {
+            "bucket": "critHitDmg",
+            "value": 0.12,
+            "source": "회심 Lv1"
+          },
+          {
+            "bucket": "evoDmg",
+            "value": 0.2,
+            "source": "분쇄 Lv1"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.15,
+            "filter": {
+              "kinds": [
+                "hyper_awakening"
+              ]
+            },
+            "source": "풀려난 힘 Lv5"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.06,
+            "filter": {
+              "kinds": [
+                "hyper_awakening"
+              ]
+            },
+            "source": "잠재력 해방 Lv3"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.39,
+            "filter": {
+              "ids": [
+                "the_sun"
+              ],
+              "component": "direct"
+            },
+            "source": "숨겨진 패 Lv3"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.020099999999999996,
+            "source": "젬 공격력 합산"
+          },
+          {
+            "bucket": "addDmg",
+            "value": 0.0323,
+            "source": "젬 추가 피해 합산"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.0175,
+            "source": "젬 보스 피해 합산"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.017,
+            "filter": {
+              "kinds": [
+                "normal"
+              ]
+            },
+            "source": "노말 인핸스 10P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.0016,
+            "filter": {
+              "kinds": [
+                "normal"
+              ]
+            },
+            "source": "노말 인핸스 18P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.017,
+            "filter": {
+              "kinds": [
+                "normal"
+              ]
+            },
+            "source": "스택 홀드 10P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.04,
+            "filter": {
+              "kinds": [
+                "normal"
+              ],
+              "minStacks": 1
+            },
+            "source": "스택 홀드 17P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.8,
+            "filter": {
+              "ids": [
+                "unlimited_shuffle"
+              ]
+            },
+            "source": "셔플 댄스 17P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.016,
+            "filter": {
+              "ids": [
+                "dancing_of_spineflower"
+              ]
+            },
+            "source": "셔플 댄스 18P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.016,
+            "filter": {
+              "ids": [
+                "dancing_of_spineflower"
+              ]
+            },
+            "source": "셔플 댄스 19P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.016,
+            "filter": {
+              "ids": [
+                "dancing_of_spineflower"
+              ]
+            },
+            "source": "셔플 댄스 20P"
+          },
+          {
+            "bucket": "critHitDmg",
+            "value": 0.0055000000000000005,
+            "source": "현란한 공격 10P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.005,
+            "source": "현란한 공격 14P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.015,
+            "source": "현란한 공격 17P"
+          },
+          {
+            "bucket": "critHitDmg",
+            "value": 0.011000000000000001,
+            "source": "현란한 공격 17P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.0016,
+            "source": "현란한 공격 18P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.005,
+            "source": "불타는 일격 14P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.02,
+            "source": "불타는 일격 17P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.0016,
+            "source": "불타는 일격 18P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.0016,
+            "source": "불타는 일격 19P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.0016,
+            "source": "불타는 일격 20P"
+          },
+          {
+            "bucket": "atkFlat",
+            "value": 900,
+            "source": "공격 10P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0055000000000000005,
+            "source": "공격 14P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.011000000000000001,
+            "source": "공격 17P"
+          },
+          {
+            "bucket": "atkFlat",
+            "value": 1800,
+            "source": "공격 17P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0016,
+            "source": "공격 18P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0016,
+            "source": "공격 19P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0016,
+            "source": "공격 20P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0095,
+            "source": "장신구 귀걸이"
+          },
+          {
+            "bucket": "atkFlat",
+            "value": 390,
+            "source": "장신구 귀걸이"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0095,
+            "source": "장신구 귀걸이"
+          },
+          {
+            "bucket": "atkFlat",
+            "value": 390,
+            "source": "장신구 반지"
+          },
+          {
+            "bucket": "atkFlat",
+            "value": 390,
+            "source": "장신구 반지"
+          },
+          {
+            "bucket": "addDmg",
+            "value": 0.3,
+            "source": "장비 무기 추가 효과"
+          },
+          {
+            "bucket": "addDmg",
+            "value": 0.026000000000000002,
+            "source": "장비 목걸이 연마 효과"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.02,
+            "source": "장비 목걸이 연마 효과"
+          },
+          {
+            "bucket": "critRate",
+            "value": 0.0095,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "critDmg",
+            "value": 0.024,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "critRate",
+            "value": 0.0095,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "critDmg",
+            "value": 0.024,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.1038,
+            "source": "아드레날린(유물4)(6중첩 상시)"
+          },
+          {
+            "bucket": "critRate",
+            "value": 0.2,
+            "source": "아드레날린(유물4)"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.19,
+            "source": "질량 증가(유물4)"
+          },
+          {
+            "bucket": "atkSpeed",
+            "value": -0.1,
+            "source": "질량 증가(유물4)"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.2075,
+            "source": "저주받은 인형(유물4)"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.21,
+            "source": "원한(유물4)"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.44,
+            "filter": {
+              "ids": [
+                "evoke"
+              ]
+            },
+            "dotScope": "exclude",
+            "source": "보석 이보크"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.24,
+            "filter": {
+              "ids": [
+                "evoke"
+              ]
+            },
+            "source": "보석 이보크"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.44,
+            "filter": {
+              "ids": [
+                "dark_resurrection"
+              ]
+            },
+            "source": "보석 다크 리저렉션"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.2,
+            "filter": {
+              "ids": [
+                "dark_resurrection"
+              ]
+            },
+            "source": "보석 다크 리저렉션"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.44,
+            "filter": {
+              "ids": [
+                "unlimited_shuffle"
+              ]
+            },
+            "source": "보석 언리미티드 셔플"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.24,
+            "filter": {
+              "ids": [
+                "unlimited_shuffle"
+              ]
+            },
+            "source": "보석 언리미티드 셔플"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.24,
+            "filter": {
+              "ids": [
+                "stream_of_edge"
+              ]
+            },
+            "source": "보석 스트림 오브 엣지"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.44,
+            "filter": {
+              "ids": [
+                "dancing_of_spineflower"
+              ]
+            },
+            "source": "보석 댄싱 오브 스파인플라워"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.24,
+            "filter": {
+              "ids": [
+                "dancing_of_spineflower"
+              ]
+            },
+            "source": "보석 댄싱 오브 스파인플라워"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.2,
+            "filter": {
+              "ids": [
+                "return"
+              ]
+            },
+            "source": "보석 리턴"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.44,
+            "filter": {
+              "ids": [
+                "card_emperor"
+              ]
+            },
+            "source": "보석 황제"
+          }
+        ],
+        "bluntThorn": {
+          "base": 0.15,
+          "ratio": 1.5,
+          "cap": 0.75
+        },
+        "cardDurationBonus": {},
+        "deckOverrides": {
+          "add": [
+            "chancellor",
+            "sovereign",
+            "empress_knight"
+          ],
+          "remove": [
+            "balance",
+            "judgment"
+          ]
+        },
+        "skills": [
+          {
+            "id": "call_of_destiny",
+            "name": "운명의 부름",
+            "kind": "normal",
+            "cooldown": 8,
+            "level": 10,
+            "directCoef": 6.307,
+            "directFlat": 1156.5,
+            "hits": 3,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                191801,
+                191803
+              ]
+            },
+            "castTime": 0.4964539007092198,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.21999999999999997,
+                "filter": {
+                  "ids": [
+                    "call_of_destiny"
+                  ],
+                  "component": "direct"
+                },
+                "source": "연속 공격"
+              }
+            ],
+            "onCast": [],
+            "quickDraw": {
+              "chance": 0.2,
+              "trigger": "each",
+              "attempts": 3
+            },
+            "usesMana": true,
+            "tags": [
+              "quickdraw"
+            ]
+          },
+          {
+            "id": "unlimited_shuffle",
+            "name": "언리미티드 셔플",
+            "kind": "normal",
+            "cooldown": 44,
+            "level": 14,
+            "directCoef": 24.143,
+            "directFlat": 3609.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                191200,
+                191202,
+                191201
+              ]
+            },
+            "castTime": 0.6140350877192982,
+            "hits": 8,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.35,
+                "filter": {
+                  "ids": [
+                    "unlimited_shuffle"
+                  ],
+                  "component": "direct"
+                },
+                "source": "어둠의 핵"
+              },
+              {
+                "bucket": "critDmg",
+                "value": 0.42,
+                "filter": {
+                  "ids": [
+                    "unlimited_shuffle"
+                  ],
+                  "component": "direct"
+                },
+                "source": "어둠의 핵"
+              }
+            ],
+            "onCast": [],
+            "usesMana": true
+          },
+          {
+            "id": "return",
+            "name": "리턴",
+            "kind": "normal",
+            "cooldown": 12,
+            "level": 10,
+            "directCoef": 2.576,
+            "directFlat": 472,
+            "hits": 1,
+            "castTime": 0.708,
+            "hitSequence": {
+              "duration": 0.708,
+              "hits": [
+                {
+                  "at": 0.3,
+                  "directCoef": 2.576,
+                  "directFlat": 472
+                }
+              ]
+            },
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                192600
+              ]
+            },
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.45,
+                "filter": {
+                  "ids": [
+                    "return"
+                  ]
+                },
+                "source": "집중된 카드"
+              },
+              {
+                "bucket": "critRate",
+                "value": 0.4,
+                "filter": {
+                  "ids": [
+                    "return"
+                  ],
+                  "component": "direct"
+                },
+                "source": "노출된 어둠"
+              }
+            ],
+            "onCast": [],
+            "onHit": [
+              {
+                "id": "arcana_crit_resistance",
+                "duration": 10,
+                "mod": {
+                  "bucket": "critRate",
+                  "value": 0.1,
+                  "source": "급소 노출"
+                }
+              },
+              {
+                "id": "arcana_crit_damage",
+                "duration": 7,
+                "mod": {
+                  "bucket": "critDmg",
+                  "value": 0.775,
+                  "source": "노출된 어둠"
+                }
+              }
+            ],
+            "runeCdReduce": {
+              "chance": 0.2,
+              "fraction": 0.16
+            },
+            "usesMana": true
+          },
+          {
+            "id": "mysterious_stampede",
+            "name": "신비한 쇄도",
+            "kind": "normal",
+            "cooldown": 14,
+            "level": 10,
+            "directCoef": 5.673,
+            "directFlat": 1042.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                192101,
+                192103
+              ]
+            },
+            "castTime": 0.7,
+            "hits": 2,
+            "mods": [],
+            "onCast": [],
+            "quickDraw": {
+              "chance": 0.3,
+              "trigger": "first",
+              "attempts": 1
+            },
+            "maxCharges": 2,
+            "hitRune": {
+              "kind": "conviction",
+              "chance": 0.4,
+              "duration": 3
+            },
+            "usesMana": true,
+            "tags": [
+              "quickdraw"
+            ]
+          },
+          {
+            "id": "dark_resurrection",
+            "name": "다크 리저렉션",
+            "kind": "normal",
+            "cooldown": 27,
+            "level": 14,
+            "directCoef": 24.623,
+            "directFlat": 3698.5,
+            "castTime": 1.4,
+            "hits": 3,
+            "delayedHits": {
+              "duration": 1.4,
+              "spawnAt": 0.565,
+              "hits": [
+                {
+                  "after": 0,
+                  "directCoef": 2.464,
+                  "directFlat": 372
+                },
+                {
+                  "after": 1.1,
+                  "directCoef": 2.464,
+                  "directFlat": 372
+                },
+                {
+                  "after": 1.3,
+                  "directCoef": 19.695,
+                  "directFlat": 2954.5
+                }
+              ]
+            },
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                190502,
+                190503
+              ]
+            },
+            "mods": [],
+            "onCast": [],
+            "defenseIgnore": {
+              "chance": 1,
+              "fraction": 0.3
+            },
+            "quickDraw": {
+              "chance": 0.4,
+              "trigger": "last",
+              "attempts": 1
+            },
+            "fearOfDeath": {
+              "coef": 6.8159600000000005,
+              "flat": 1023.3900000000001,
+              "firstTick": 0.5,
+              "interval": 1,
+              "duration": 3,
+              "maxStacks": 1
+            },
+            "usesMana": true,
+            "tags": [
+              "quickdraw"
+            ]
+          },
+          {
+            "id": "evoke",
+            "name": "이보크",
+            "kind": "normal",
+            "cooldown": 24,
+            "level": 14,
+            "directCoef": 24.234,
+            "directFlat": 3633.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                190301
+              ]
+            },
+            "castTime": 1.3,
+            "hits": 1,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.5,
+                "filter": {
+                  "ids": [
+                    "evoke"
+                  ]
+                },
+                "source": "집속 마법진"
+              }
+            ],
+            "onCast": [],
+            "quickDraw": {
+              "chance": 0.2,
+              "trigger": "each",
+              "attempts": 1
+            },
+            "splitEvoke": {
+              "duration": 1.3,
+              "placementAt": 0.326,
+              "delay": 2,
+              "window": 3
+            },
+            "gaugeMultiplier": 1.4,
+            "usesMana": true,
+            "tags": [
+              "quickdraw"
+            ]
+          },
+          {
+            "id": "dancing_of_spineflower",
+            "name": "댄싱 오브 스파인플라워",
+            "kind": "normal",
+            "cooldown": 40,
+            "level": 14,
+            "directCoef": 58.00551999999999,
+            "directFlat": 8712.041,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                192002,
+                192011
+              ]
+            },
+            "castTime": 0.6249999999999999,
+            "hits": 3,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.45,
+                "filter": {
+                  "ids": [
+                    "dancing_of_spineflower"
+                  ]
+                },
+                "source": "격렬한 춤"
+              },
+              {
+                "bucket": "critDmg",
+                "value": 1.35,
+                "filter": {
+                  "ids": [
+                    "dancing_of_spineflower"
+                  ]
+                },
+                "source": "밤에 피는 꽃"
+              }
+            ],
+            "onCast": [],
+            "stacksGranted": 0,
+            "tags": [
+              "flower_fake_flip"
+            ],
+            "flowerFakeFlip": {
+              "baseFraction": 0.4,
+              "damagePerStack": 0.72
+            },
+            "usesMana": true,
+            "hitSequence": {
+              "duration": 1,
+              "hits": [
+                {
+                  "at": 1,
+                  "directCoef": 1.641,
+                  "directFlat": 245.5
+                },
+                {
+                  "at": 1,
+                  "directCoef": 1.641,
+                  "directFlat": 245.5
+                },
+                {
+                  "at": 1,
+                  "directCoef": 54.723519999999986,
+                  "directFlat": 8221.041
+                }
+              ]
+            },
+            "flowerThornChance": 0.33
+          },
+          {
+            "id": "stream_of_edge",
+            "name": "스트림 오브 엣지",
+            "kind": "stack",
+            "cooldown": 24,
+            "level": 10,
+            "directCoef": 0.469,
+            "directFlat": 88,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+              "effectIds": [
+                191501
+              ]
+            },
+            "castTime": 0.7,
+            "hits": 15,
+            "mods": [],
+            "onCast": [],
+            "stacksGranted": 2,
+            "onHit": [
+              {
+                "id": "darkness_edge",
+                "duration": 3,
+                "maxStacks": 5,
+                "mod": {
+                  "bucket": "critRate",
+                  "value": 0.055200000000000006,
+                  "source": "다크니스 엣지"
+                }
+              }
+            ],
+            "hitRune": {
+              "kind": "judgment",
+              "chance": 0.4,
+              "duration": 6
+            },
+            "usesMana": true
+          },
+          {
+            "id": "the_sun",
+            "name": "더 썬",
+            "kind": "hyper_awakening",
+            "cooldown": 80,
+            "level": 1,
+            "directCoef": 149.714,
+            "directFlat": 8985.5,
+            "castTime": 1.6669642857142855,
+            "hits": 5,
+            "delayedHits": {
+              "duration": 1.867,
+              "spawnAt": 0.947,
+              "hits": [
+                {
+                  "after": 0.3,
+                  "directCoef": 22.457,
+                  "directFlat": 1348
+                },
+                {
+                  "after": 0.57,
+                  "directCoef": 22.457,
+                  "directFlat": 1348
+                },
+                {
+                  "after": 0.84,
+                  "directCoef": 22.457,
+                  "directFlat": 1348
+                },
+                {
+                  "after": 1.11,
+                  "directCoef": 22.457,
+                  "directFlat": 1348
+                },
+                {
+                  "after": 1.5,
+                  "directCoef": 59.886,
+                  "directFlat": 3593.5
+                }
+              ]
+            },
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 1,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                193401,
+                193402
+              ]
+            },
+            "mods": [],
+            "onCast": [],
+            "usesMana": true,
+            "tags": [
+              "normal"
+            ],
+            "hiddenHandChance": 1
+          }
+        ],
+        "rotation": {
+          "ruinPriority": [],
+          "stackPriority": [
+            "stream_of_edge"
+          ],
+          "fillers": [
+            "the_sun",
+            "dark_resurrection",
+            "evoke",
+            "unlimited_shuffle",
+            "mysterious_stampede",
+            "call_of_destiny",
+            "dancing_of_spineflower"
+          ],
+          "setupSkill": "return",
+          "critSetupSkill": "stream_of_edge",
+          "wheelTargets": [
+            "dark_resurrection",
+            "the_sun"
+          ]
+        },
+        "onCardUse": [
+          {
+            "id": "mercy",
+            "duration": 8,
+            "mod": {
+              "bucket": "dmgToEnemy",
+              "value": 0.012,
+              "source": "황제의 자비 Lv1"
+            }
+          }
+        ],
+        "anotherEmperorChance": 0.2,
+        "stackHold": true,
+        "normalEnhanceCooldown": 0.1,
+        "onDestiny": [
+          {
+            "id": "normal_enhance",
+            "duration": 16,
+            "mod": {
+              "bucket": "skillDmg",
+              "value": 0.05,
+              "filter": {
+                "kinds": [
+                  "normal"
+                ]
+              },
+              "source": "노말 인핸스 17P"
+            }
+          }
+        ],
+        "onRuinAt4": [],
+        "params": {
+          "stackEffectCoefPerStack": 600,
+          "gaugePerHit": {
+            "normal": 0.04,
+            "stack": 0.03,
+            "ruin": 0.03,
+            "hyper_awakening": 0.05,
+            "awakening": 0
+          },
+          "gaugeGainBonus": 0.0268,
+          "normalGaugePenalty": 0,
+          "atkBase": 222811,
+          "raidCaptainRatio": 0.48,
+          "twistedFateZeroChance": 0.25,
+          "fatalHandCull": false,
+          "corrosionValue": 0.1,
+          "cardDamageCoef": {},
+          "stackEffectScale": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "warnings": [
+        "장착 카드 세트 효과 미모델: 세상을 구하는 빛 2세트: 암속성 피해 감소 +10.00% / 세상을 구하는 빛 4세트: 암속성 피해 감소 +10.00% / 세상을 구하는 빛 6세트: 암속성 피해 감소 +10.00% / 세상을 구하는 빛 6세트 (12각성합계): 공격 속성을 성속성으로 변환 / 세상을 구하는 빛 6세트 (18각성합계): 성속성 피해 +7.00% / 세상을 구하는 빛 6세트 (24각성합계): 성속성 피해 +4.00% / 세상을 구하는 빛 6세트 (30각성합계): 성속성 피해 +4.00%",
+        "전투 특성은 API 툴팁의 표시 정밀도로 적용하며 숨은 소수부는 미확인입니다",
+        "황제 카드 기본 피해 계수의 기준 전투 레벨 [미확인]",
+        "황후의 기사 기본 피해 계수의 기준 전투 레벨 [미확인] → 자동 입력 0",
+        "또 다른 황제 Lv3: 추가 카드 피해 40%는 칙령과 합연산 후보로 직접 사용·추가 발동에 적용 [공식 문구·작성자 계산 대조, 실측 미검증]",
+        "즉각적인 주문 Lv3: T 스킬 시전시간을 1 / (1 + 12.0%)로 보정하는 후보이며 공속·질풍 조합과 실제 타격 시각은 미검증입니다. 마나 소모 90.0% 감소는 미모델·미반영",
+        "코어 옵션 [미모델·미반영]: 불타는 일격 10P: 보스 이상 적에게 공격 적중 시 6.0초 간 화상 상태로 만들어 피해를 입힌다.",
+        "코어 옵션 [미모델·미반영]: 불타는 일격 17P: 화상의 피해량이 150% 증가한다.",
+        "팔찌 피해·치명·조건부 효과 미모델 — 전투 특성·공격력 변환과 별개입니다",
+        "언리미티드 셔플 / 파멸의 셔플: 추가 공격·위치 조건·타수 변경 미검증 — 변형 피해·타수·모션 미반영, 기본 피해 후보만 사용",
+        "언리미티드 셔플 / 파멸의 폭풍: 추가 공격·위치 조건·타수 변경 미검증 — 변형 피해·타수·모션 미반영, 기본 피해 후보만 사용",
+        "리턴 / 집중된 카드: 피해 증가만 반영하며 공격 각도·거리 변경은 미모델",
+        "트라이포드 해석 못함: mysterious_stampede / 회피의 달인: 스킬 시전 중 회피율이 20.0% 증가한다.",
+        "룬 중독(도트) 미모델 (dark_resurrection)",
+        "트라이포드 해석 못함: stream_of_edge / 엣지 밤: 스트림 오브 엣지 종료 시 차원문이 폭발하여, 3.0m 이내의 적에게 기본 피해량의 45.0%에 해당하는 추가 피해를 준다.",
+        "피해 기준 미검증: 공개 계수 후보와 정규화되지 않은 임시값이 함께 사용될 수 있습니다. 현재 DPS와 피해 비중으로 세팅 우열을 판단할 수 없습니다.",
+        "합산 직접 피해의 치명 판정 (운명의 부름, 언리미티드 셔플, 신비한 쇄도, 스트림 오브 엣지): 개별 적중 프로필이 없어 직접 피해 합계에 치명 여부를 한 번만 판정합니다. 실제 타격별 치명 판정과 피해 분산은 미검증이며, 평균 피해의 게임 정확성을 보장하지 않습니다.",
+        "중독의 카드 버프: 뒤틀린 운명·제후의 스킬 피해 증가는 적용 범위 미확인으로 임시 제외합니다. 도태·재상의 치명타 계열 효과는 틱 시점에 계산하는 기존 가정입니다.",
+        "일반 각성기와 초각성기의 피해·카드 수급은 자동 입력에서 빠져 있습니다. API 스킬 목록만으로 장착한 각성기를 구분할 수 없으며, 현재 결과는 이 누락을 포함한 부분 모델입니다.",
+        "T 스킬의 표시 Lv1을 공개 피해 배열의 첫 값에 연결한 것은 후보입니다. 표시 레벨·피해 배열 인덱스·전투 레벨의 관계를 확인하지 못했으며, 별도 Lv70 루인 폭발 후보와 구분합니다.",
+        "T 스킬 시전시간과 즉각적인 주문·공속·질풍 조합은 실측 미검증입니다. 새 검색 입력과 참고 프리셋은 즉각적인 주문을 시간 / (1 + 증가율) 후보로 반영하며 마나 감소는 미모델입니다.",
+        "진화 쿨감: 끝없는 마나·무한한 마력 및 최적화 훈련·타이밍 지배는 각각 합산하고 두 묶음을 곱하는 후보입니다. 2024년 공개 측정에 근거하며 현행 서버 실측 미검증입니다.",
+        "적중 버프는 직접 피해 처리 후 시작·갱신합니다. 운부·리턴·엣지의 치피와 급소 노출은 각각 동일 효과 하나로 갱신하며, 서로 다른 트포 레벨의 우선순위·동일 프레임 선후·개별 타격 없는 스킬의 중간 적중·미스는 미검증입니다.",
+        "돌격대장은 피해 발생 시점의 합산 이속 증가분(0~40%)에 적용합니다. 신속·유령·안전 장치·가벼운 발걸음을 반영하며 두 트포의 시작은 최초 시전 기준 가정입니다. 정확한 콤보 입력 시점·서포터와 외부 이속·상한 확장 효과는 미모델입니다.",
+        "운명의 부름: 기본 2타·연속 공격 3타·페이크 플립 대체 1타의 직접 피해 후보를 분리합니다. 비행·적중·후딜은 임시 합산이며 치명·어두운 운명 시작·시전 단축과 현재 계수의 실측 검증은 미완료입니다.",
+        "운명의 부름 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "언리미티드 셔플 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "언리미티드 셔플: 기본 6+1+1회 피해 후보만 합산합니다. 연타 시각·행동 시간은 임시값이며 변형 트포의 추가 공격·피해·타수·모션은 미반영입니다. 현행 파멸의 폭풍을 개편 전 14/20타로 처리하지 않습니다.",
+        "리턴 속행 발동 확률 [미확인] 20% 가정. 남은 쿨 16% 감소율과 다릅니다. 시전 시작 시 1회 판정하며 체인 재입력별 발동·동일 시각 처리 순서는 미검증입니다.",
+        "리턴 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "리턴: 검색 변환은 시너지용 첫 입력만 계산합니다. 적중 0.300/0.301초·첫 모션 0.708초는 공개 후보이며 실제 후딜·콤보 창·쿨 시작은 미검증입니다. 쿨은 기존 첫 시전 시작 기준을 유지하며 추가 입력 운용은 미반영입니다.",
+        "신비한 쇄도: 2회 저장·순차 충전 후보입니다. 회복 시작 시 쿨감, 진행 중 회복에만 속행, 운수는 해당 사용만 면제하는 가정이며 스트림 직접 실측·동시 이벤트 순서는 미검증입니다. 자동 사용 정책은 최적 사이클을 보장하지 않습니다.",
+        "신비한 쇄도 단죄·심판 룬: 직접 적중별 판정, 단죄 갱신·소모, 심판 이후 쿨 시작에 15% 곱연산·공유 내부쿨 30초를 반영합니다. 마나 회복·도트 판정·미스·최적 운용은 미모델이며 현행 서버 실측 미검증입니다. 개별 적중 시간 후보가 없어 임시 타수 전체를 시전 종료에 합산 판정합니다.",
+        "신비한 쇄도 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "신비한 쇄도 신비한 전략: 2회 충전과 기존 직렬 회복 후보를 연결합니다. 개별 타격·취소 후딜·현행 충전 시간과 쿨감 처리 순서는 실측 미검증입니다.",
+        "신비한 쇄도: 기본 두 타격 피해 후보를 합산합니다. 입력·개별 적중·취소 후딜과 연속 공격의 세 번째 타격은 미반영입니다.",
+        "다크 리저렉션 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "다크 리저렉션: 발사 동작과 이후 개별 적중을 분리한 공개 모션 후보입니다. 거리별 비행·취소 후딜·현행 서버 프레임은 실측하지 않았습니다.",
+        "다크 리저렉션: 공개 전체 모션과 실제 입력 후딜은 다릅니다. 죽공 선입력 취소·거리별 적중은 미모델이며 현재 행동 시간으로 최적 로테이션을 확정할 수 없습니다.",
+        "죽음의 공포: 별도 계수·트포 +66%는 공개 후보(선택 레벨 미확인)입니다. 마지막 직접 적중에 최대 1중첩, 재적중 지속 갱신·기존 틱 주기 유지·마나 미사용은 모델 가정입니다. 도트 보석·각인·방어 무시·후딜은 현행 실측 미검증이며 도트 게이지·부식은 미반영입니다.",
+        "죽음의 공포 적용 미확인·임시 제외: 황제의 만찬 Lv3, 노말 인핸스 10P, 노말 인핸스 18P, 스택 홀드 10P, 스택 홀드 17P, 보석 다크 리저렉션, 노말 인핸스 17P. 과거 세트 실험만으로 현행 각인·코어의 미적용을 확정할 수 없습니다.",
+        "다크 리저렉션 꿰뚫는 일격: 대상 방어력 6500 가정에서 방어 무시 없는 동일 대상 대비 증폭만 적용합니다. 절대 방어 감쇠·별도 보스 뎀감·방깎 시너지는 미모델, 직접 피해·폭발의 독립 추첨은 공개 모델 가정이며 현행 서버 실측 미검증입니다.",
+        "이보크 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "분할 이보크: 설치 후 2초 폭발, 별도 두 번째 설치를 반영합니다. 동작 1.3초·설치 0.326초는 공개 후보이며 두 번째 설치도 같은 모션을 가정합니다. 재입력 때 현재 쿨감·운수를 적용합니다. 분할 운수 적용·체인 창 시작·만료 쿨·체인별 룬은 현행 실측 미검증입니다.",
+        "댄싱 오브 스파인플라워 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "플라워 14P 빠른 복귀: 작성자 설명과 공개 계수에 따라 첫 2타·4중첩 가시 1타·가시 카드 획득을 연결한 후보입니다. 세 타격을 기존 시전 종료에 처리하며 입력 창·비행·쿨 시작·질풍 적용·미스·시전 중 카드 사용은 실측 미검증입니다. 전체 6+1타를 함께 더하지 않습니다.",
+        "스트림: 이 트포 조합의 개별 타격·스택 시점은 미검증이며 시전 종료 합산 적중으로 임시 처리합니다. 지속 적중과 치적 유지 시간을 재현하지 않습니다.",
+        "스트림 오브 엣지 단죄·심판 룬: 직접 적중별 판정, 단죄 갱신·소모, 심판 이후 쿨 시작에 15% 곱연산·공유 내부쿨 30초를 반영합니다. 마나 회복·도트 판정·미스·최적 운용은 미모델이며 현행 서버 실측 미검증입니다. 개별 적중 시간 후보가 없어 임시 타수 전체를 시전 종료에 합산 판정합니다.",
+        "스트림 오브 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "더 썬 Lv1: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "더 썬: 발사 동작과 이후 개별 적중을 분리한 공개 모션 후보입니다. 거리별 비행·취소 후딜·현행 서버 프레임은 실측하지 않았습니다.",
+        "공격력 입력값 222811: 고정·% 공격력 수정치 적용 전 값입니다. API 기본 공격력 연결. 검색 당시 상시 공격력 표시 오차 범위 일치. 순수 공격력 분해와 피해 계수의 정규화 기준은 미검증입니다.",
+        "각 반복은 빈 손패·게이지 0·대상 스택 0, 모든 스킬 사용 가능·충전 최대 상태에서 시작합니다. 시간제 버프와 이전 전투 상태를 이월하지 않으며, 상시 효과 가정은 Build 입력을 따릅니다. 시작 카드·게이지·사전 버프를 지정하는 입력은 지원하지 않습니다.",
+        "기본 드로우 가중치는 균등한 임시 가정이며 실제 확률이 아닙니다. 카드별 관측 빈도와 손패 조건을 검증하기 전 카드 운·세팅 우열을 판정할 수 없습니다.",
+        "카드 게이지는 스킬 분류·타수별 임시값입니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.",
+        "마나 소모·회복·고갈은 미모델이며 마나 부족으로 시전을 멈추지 않습니다. 별의 마나 효과와 삼두사의 평타·스택·게이지 효과도 미반영입니다. 두 카드는 사용 횟수와 카드 사용 연동 효과에는 포함되므로, 현재 DPS로 마나 유지율이나 평타 운용의 이득을 판단할 수 없습니다.",
+        "특화·패시브 게이지 증가는 합산하고 풍요는 별도로 곱하는 임시 모델입니다. 조합별 실제 연산은 미검증입니다.",
+        "환희는 사용마다 한 번 50%를 판정해 대상의 남은 쿨을 함께 15% 또는 30% 줄입니다. 서버의 공통 판정 단위와 체인 도중 추가 쿨감은 미검증이며, 체인 중 환희의 관측 예외는 아직 반영하지 않습니다.",
+        "스택 홀드 14P는 실제 카드 사용 두 번마다 운명을 발생시킵니다. 획득·광대 복제는 세지 않습니다. 카드 효과 다음 처리·누적 유지 시간은 현행 실측 미검증입니다. 17P는 실제 대상 스택 조건으로 적용하며 스택 자연 만료는 미모델입니다.",
+        "또 다른 황제는 황제 이외의 실제 카드 사용당 확률을 판정하고 추가 피해를 별도로 집계합니다. 카드 고유 효과·자비 다음, 운명 이전에 즉시 적중하는 순서와 확률 독립성은 미검증입니다. 추가 발동을 카드 사용·획득·스킬 적중으로 다시 세지 않습니다. 검색 변환은 추가 카드 피해를 칙령과 합산해 직접 사용·추가 발동에 적용하는 후보이며 게임 실측 미검증입니다.",
+        "노말 인핸스 14P는 일반·스택트의 남은 쿨을 줄이고 17P는 일반 피해 버프를 갱신하는 후보입니다. 더 썬 포함 범위·감소 기준·연속 입력 중 쿨·동일 시각 순서는 현행 실측 미검증입니다. 미래 쿨에 상시 쿨감을 적용하지 않습니다.",
+        "뒤틀린 운명의 꽝 확률 25%와 나머지 10/20/40%의 균등 분포는 임시 가정입니다. 페이탈 핸드의 확률 감소 문구로 정확한 확률을 알 수 없으며 관측 2/100도 확정값이 아닙니다.",
+        "황제 카드 운용은 더 썬·셔플·다크·이보크에 도태·뒤운·제후를 맞추는 기본 정책입니다. 노말 인핸스의 더 썬·셔플만 쿨 시작 직후, 나머지는 시전 전이며 이보크는 두 번째 입력 전입니다. 직후 입력은 간격 0초 후보로 실제 입력 창·지연을 재현하지 않습니다. 시전 중 새 카드 사용·황제 카드와의 연계·플라워/체크메이트 운용·최적 킵 시간은 미모델이며 숙련자 DPS를 재현하지 않습니다.",
+        "황제 기본 운용은 다크니스 엣지가 없고 도태가 비활성일 때 준비된 스트림을 일반기 앞에서 사용합니다. 적 4스택에서도 재사용하지만 실제 타격 시각·버프 가동률·도태 보관·설치 중 미리 준비하는 최적 순서는 미검증입니다.",
+        "새 황제 기본 순서의 리턴은 선택된 공통 버프가 없을 때 일반기 앞에서 준비하며, 버프 유지 중에는 쿨마다 다시 쓰지 않습니다. 속행·카드 수급 기회도 줄어드는 후보 운용이며 선제 갱신·설치기 순서와 실제 DPS는 미검증입니다.",
+        "황제·황후의 기사 피해는 기준 전투 레벨을 확인하지 못해 자동 입력이 0입니다. 황제 피해 보석·칙령·기사 노드의 피해 증가는 반영하지만 또 다른 황제의 합연산 후보·적중 지연은 실측 미검증이므로 수동 계수로도 세팅 우열을 판정할 수 없습니다.",
+        "카드 피해는 일반 스킬 전용 효과에서 분리합니다. 황제에 제후 미적용은 공략 근거가 있으나 황후의 기사와 각 효과의 현행 적용 범위는 추가 검증이 필요합니다.",
+        "개별 타격 자료가 없는 퀵 드로는 툴팁 확률·판정 횟수를 시전 종료에 합산합니다. 해당 스킬의 개별 적중·지연 폭발은 미모델입니다.",
+        "시전 중 획득한 카드는 다음 행동 시점에 사용합니다. 시전 도중 카드 사용은 미모델입니다.",
+        "숨겨진 패는 더 썬 마지막 직접 적중에서만 판정하며 손패가 가득 차면 획득하지 않습니다. 비행 시간·게이지와 동일 시각 처리 순서는 후보 모델이고, 시전 중 카드 사용·최적 운용은 미모델입니다."
+      ],
+      "summary": [
+        "FixtureCharacter12 (1,788.33, 황제)  치명 644 / 특화 75 / 신속 1827",
+        "공격력: 기본 222811 / 상시 재구성 240372.5324 / API 표시 240373 (표시 오차 범위 일치)",
+        "스킬: 운명의 부름 Lv10[N], 언리미티드 셔플 Lv14[N], 리턴 Lv10[N], 신비한 쇄도 Lv10[N], 다크 리저렉션 Lv14[N], 이보크 Lv14[N], 댄싱 오브 스파인플라워 Lv14[N], 스트림 오브 엣지 Lv10[S2], 더 썬 Lv1[H]",
+        "코어: 질서의 해 코어 : 노말 인핸스(18) | 질서의 달 코어 : 스택 홀드(17) | 질서의 별 코어 : 셔플 댄스(20) | 혼돈의 해 코어 : 현란한 공격(18) | 혼돈의 달 코어 : 불타는 일격(20) | 혼돈의 별 코어 : 공격(20)",
+        "각인: 아드레날린(유물4), 질량 증가(유물4), 저주받은 인형(유물4), 돌격대장(유물4), 원한(유물4)   보석 효과 11개",
+        "상시 수정치 77개, 운명 드로우 X, 뭉가 O"
+      ]
+    },
+    {
+      "build": {
+        "name": "FixtureCharacter26 (1,750.00, 황후)",
+        "combatLevel": 70,
+        "attackPower": {
+          "base": 158137,
+          "displayed": 171684,
+          "increase": 13547,
+          "flat": 3600,
+          "percent": 0.0615,
+          "reconstructed": 171683.8255,
+          "difference": -0.17449999999371357,
+          "status": "matched-display"
+        },
+        "variant": "empress",
+        "stats": {
+          "crit": 526,
+          "spec": 1735,
+          "swift": 227
+        },
+        "passiveMods": [
+          {
+            "bucket": "critRate",
+            "value": 0.1882,
+            "source": "치명"
+          },
+          {
+            "bucket": "atkSpeed",
+            "value": 0.038900000000000004,
+            "source": "신속"
+          },
+          {
+            "bucket": "moveSpeed",
+            "value": 0.038900000000000004,
+            "source": "신속"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.0487,
+            "source": "신속"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.8687,
+            "filter": {
+              "kinds": [
+                "ruin"
+              ]
+            },
+            "source": "특화(루인)"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.37920000000000004,
+            "filter": {
+              "kinds": [
+                "awakening"
+              ]
+            },
+            "source": "특화(각성)"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.009000000000000001,
+            "filter": {
+              "kinds": [
+                "ruin"
+              ]
+            },
+            "source": "황후의 탐욕 Lv1"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.26,
+            "filter": {
+              "kinds": [
+                "ruin"
+              ],
+              "minStacks": 4
+            },
+            "source": "황후의 연회 Lv3"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.2,
+            "filter": {
+              "kinds": [
+                "ruin"
+              ]
+            },
+            "source": "황후의 속삭임 Lv3"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.06,
+            "filter": {
+              "kinds": [
+                "normal",
+                "stack"
+              ]
+            },
+            "source": "황후의 속삭임 Lv3"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.14,
+            "filter": {
+              "usesMana": true
+            },
+            "source": "끝없는 마나 Lv2",
+            "cooldownGroup": "manaEvolution"
+          },
+          {
+            "bucket": "evoDmg",
+            "value": 0.05,
+            "source": "최적화 훈련 Lv1"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.04,
+            "filter": {
+              "excludeKinds": [
+                "awakening"
+              ]
+            },
+            "source": "최적화 훈련 Lv1",
+            "cooldownGroup": "nonAwakeningEvolution"
+          },
+          {
+            "bucket": "evoDmg",
+            "value": 0.16,
+            "source": "무한한 마력 Lv2"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.14,
+            "filter": {
+              "usesMana": true
+            },
+            "source": "무한한 마력 Lv2",
+            "cooldownGroup": "manaEvolution"
+          },
+          {
+            "bucket": "critHitDmg",
+            "value": 0.12,
+            "source": "회심 Lv1"
+          },
+          {
+            "bucket": "evoDmg",
+            "value": 0.2,
+            "source": "분쇄 Lv1"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.15,
+            "filter": {
+              "kinds": [
+                "hyper_awakening"
+              ]
+            },
+            "source": "풀려난 힘 Lv5"
+          },
+          {
+            "bucket": "cooldown",
+            "value": 0.06,
+            "filter": {
+              "kinds": [
+                "hyper_awakening"
+              ]
+            },
+            "source": "잠재력 해방 Lv3"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.2,
+            "filter": {
+              "ids": [
+                "the_devil"
+              ]
+            },
+            "source": "쿼즈 Lv3"
+          },
+          {
+            "bucket": "stackEffectDmg",
+            "value": 0.2,
+            "filter": {
+              "ids": [
+                "the_devil"
+              ],
+              "minStacks": 4
+            },
+            "source": "쿼즈 Lv3(4중첩)"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.020499999999999997,
+            "source": "젬 공격력 합산"
+          },
+          {
+            "bucket": "addDmg",
+            "value": 0.042,
+            "source": "젬 추가 피해 합산"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.0108,
+            "source": "젬 보스 피해 합산"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.016,
+            "filter": {
+              "kinds": [
+                "ruin"
+              ]
+            },
+            "source": "인피니티 덱 10P"
+          },
+          {
+            "bucket": "critHitDmg",
+            "value": 0.02,
+            "source": "엣지 콤보 10P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.08,
+            "filter": {
+              "ids": [
+                "celestial_rain"
+              ]
+            },
+            "source": "스트림 오브 엣지 14P"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.008,
+            "filter": {
+              "ids": [
+                "celestial_rain"
+              ]
+            },
+            "source": "스트림 오브 엣지 18P"
+          },
+          {
+            "bucket": "critHitDmg",
+            "value": 0.0055000000000000005,
+            "source": "현란한 공격 10P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.005,
+            "source": "현란한 공격 14P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.01,
+            "source": "현란한 공격 17P"
+          },
+          {
+            "bucket": "critHitDmg",
+            "value": 0.0055000000000000005,
+            "source": "현란한 공격 17P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.0016,
+            "source": "현란한 공격 18P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.005,
+            "source": "불타는 일격 14P"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.02,
+            "source": "불타는 일격 17P"
+          },
+          {
+            "bucket": "atkFlat",
+            "value": 900,
+            "source": "공격 10P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0055000000000000005,
+            "source": "공격 14P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0165,
+            "source": "공격 17P"
+          },
+          {
+            "bucket": "atkFlat",
+            "value": 2700,
+            "source": "공격 17P"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0095,
+            "source": "장신구 귀걸이"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.0095,
+            "source": "장신구 귀걸이"
+          },
+          {
+            "bucket": "addDmg",
+            "value": 0.2882,
+            "source": "장비 무기 추가 효과"
+          },
+          {
+            "bucket": "addDmg",
+            "value": 0.016,
+            "source": "장비 목걸이 연마 효과"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.012,
+            "source": "장비 목걸이 연마 효과"
+          },
+          {
+            "bucket": "critDmg",
+            "value": 0.024,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "critRate",
+            "value": 0.0095,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "critRate",
+            "value": 0.0095,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "critDmg",
+            "value": 0.024,
+            "source": "장비 반지 연마 효과"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.2625,
+            "source": "원한(유물4)"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.17,
+            "source": "저주받은 인형(유물4)"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.1975,
+            "source": "질량 증가(유물0)"
+          },
+          {
+            "bucket": "atkSpeed",
+            "value": -0.1,
+            "source": "질량 증가(유물0)"
+          },
+          {
+            "bucket": "atk",
+            "value": 0.054000000000000006,
+            "source": "아드레날린(유물4)(6중첩 상시)"
+          },
+          {
+            "bucket": "critRate",
+            "value": 0.2,
+            "source": "아드레날린(유물4)"
+          }
+        ],
+        "bluntThorn": {
+          "base": 0.15,
+          "ratio": 1.5,
+          "cap": 0.75
+        },
+        "cardDurationBonus": {
+          "cull": 2,
+          "judgment": 2
+        },
+        "skills": [
+          {
+            "id": "call_of_destiny",
+            "name": "운명의 부름",
+            "kind": "stack",
+            "cooldown": 8,
+            "level": 10,
+            "directCoef": 2.703,
+            "directFlat": 494.5,
+            "hits": 1,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                191823
+              ]
+            },
+            "castTime": 0.5511811023622046,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.15,
+                "filter": {
+                  "ids": [
+                    "call_of_destiny"
+                  ],
+                  "component": "direct"
+                },
+                "source": "어두운 운명"
+              },
+              {
+                "bucket": "skillDmg",
+                "value": 0.45,
+                "filter": {
+                  "ids": [
+                    "call_of_destiny"
+                  ],
+                  "component": "direct"
+                },
+                "source": "페이크 플립"
+              }
+            ],
+            "onCast": [],
+            "stacksGranted": 2,
+            "onHit": [
+              {
+                "id": "arcana_crit_damage",
+                "duration": 5,
+                "mod": {
+                  "bucket": "critDmg",
+                  "value": 0.775,
+                  "source": "어두운 운명"
+                }
+              }
+            ],
+            "runeCdReduce": {
+              "chance": 0.2,
+              "fraction": 0.16
+            },
+            "usesMana": true
+          },
+          {
+            "id": "scratch_dealer",
+            "name": "스크래치 딜러",
+            "kind": "stack",
+            "cooldown": 10,
+            "level": 10,
+            "directCoef": 3.941,
+            "directFlat": 724.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                193200,
+                193202
+              ]
+            },
+            "castTime": 0.6140350877192982,
+            "hits": 2,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.7,
+                "filter": {
+                  "ids": [
+                    "scratch_dealer"
+                  ]
+                },
+                "source": "약점 공격(피면)"
+              }
+            ],
+            "onCast": [
+              {
+                "id": "scratch_dealer_안전 장치_as",
+                "duration": 5,
+                "mod": {
+                  "bucket": "atkSpeed",
+                  "value": 0.192,
+                  "source": "안전 장치"
+                }
+              },
+              {
+                "id": "scratch_dealer_안전 장치_ms",
+                "duration": 5,
+                "mod": {
+                  "bucket": "moveSpeed",
+                  "value": 0.3,
+                  "source": "안전 장치"
+                }
+              }
+            ],
+            "stacksGranted": 2,
+            "onHit": [
+              {
+                "id": "arcana_crit_resistance",
+                "duration": 10,
+                "mod": {
+                  "bucket": "critRate",
+                  "value": 0.1,
+                  "source": "급소 노출"
+                }
+              }
+            ],
+            "usesMana": true
+          },
+          {
+            "id": "spiral_edge",
+            "name": "스파이럴 엣지",
+            "kind": "stack",
+            "cooldown": 9,
+            "level": 10,
+            "directCoef": 2.78,
+            "directFlat": 505.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                191902
+              ]
+            },
+            "castTime": 0.6140350877192982,
+            "hits": 2,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.46,
+                "filter": {
+                  "ids": [
+                    "spiral_edge"
+                  ],
+                  "component": "direct"
+                },
+                "source": "무자비한 사격"
+              }
+            ],
+            "onCast": [
+              {
+                "id": "spiral_edge_가벼운 발걸음_ms",
+                "duration": 2,
+                "mod": {
+                  "bucket": "moveSpeed",
+                  "value": 0.4,
+                  "source": "가벼운 발걸음"
+                }
+              }
+            ],
+            "stacksGranted": 2,
+            "usesMana": true
+          },
+          {
+            "id": "stream_of_edge",
+            "name": "스트림 오브 엣지",
+            "kind": "stack",
+            "cooldown": 24,
+            "level": 10,
+            "directCoef": 0.469,
+            "directFlat": 88,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 10,
+              "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+              "effectIds": [
+                191501
+              ]
+            },
+            "castTime": 1.133,
+            "hits": 15,
+            "delayedHits": {
+              "duration": 1.133,
+              "spawnAt": 0.299,
+              "hits": [
+                {
+                  "after": 0.3,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 0.6,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 0.9,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 1.2,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 1.5,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 1
+                },
+                {
+                  "after": 1.8,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 2.1,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 2.4,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 2.7,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 3,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 1
+                },
+                {
+                  "after": 3.3,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 3.6,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 3.9,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 4.2,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 0
+                },
+                {
+                  "after": 4.5,
+                  "directCoef": 0.031266666666666665,
+                  "directFlat": 5.866666666666666,
+                  "stacksGranted": 1
+                }
+              ]
+            },
+            "mods": [],
+            "onCast": [
+              {
+                "id": "edge_combo",
+                "duration": 8,
+                "mod": {
+                  "bucket": "skillDmg",
+                  "value": 0.06,
+                  "filter": {
+                    "kinds": [
+                      "ruin"
+                    ]
+                  },
+                  "source": "엣지 콤보 17P"
+                }
+              },
+              {
+                "id": "soe_as",
+                "duration": 8,
+                "mod": {
+                  "bucket": "atkSpeed",
+                  "value": 0.08,
+                  "source": "스트림 오브 엣지 10P"
+                }
+              }
+            ],
+            "stacksGranted": 3,
+            "onHit": [
+              {
+                "id": "darkness_edge",
+                "duration": 3,
+                "maxStacks": 5,
+                "mod": {
+                  "bucket": "critRate",
+                  "value": 0.055200000000000006,
+                  "source": "다크니스 엣지"
+                }
+              },
+              {
+                "id": "darkness_edge_core",
+                "duration": 3,
+                "maxStacks": 5,
+                "mod": {
+                  "bucket": "critDmg",
+                  "value": 0.016,
+                  "source": "스트림 오브 엣지 17P"
+                }
+              }
+            ],
+            "usesMana": true,
+            "tags": [
+              "destiny"
+            ],
+            "maxCharges": 2
+          },
+          {
+            "id": "celestial_rain",
+            "name": "셀레스티얼 레인",
+            "kind": "ruin",
+            "cooldown": 17,
+            "level": 14,
+            "directCoef": 4.718,
+            "directFlat": 705.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+              "effectIds": [
+                191401
+              ]
+            },
+            "castTime": 0.7,
+            "hits": 1,
+            "mods": [
+              {
+                "bucket": "critRate",
+                "value": 0.45,
+                "filter": {
+                  "ids": [
+                    "celestial_rain"
+                  ]
+                },
+                "source": "급소 타격"
+              },
+              {
+                "bucket": "skillDmg",
+                "value": 0.6,
+                "filter": {
+                  "ids": [
+                    "celestial_rain"
+                  ]
+                },
+                "source": "강화된 일격"
+              },
+              {
+                "bucket": "stackEffectDmg",
+                "value": 1.76,
+                "filter": {
+                  "ids": [
+                    "celestial_rain"
+                  ],
+                  "minStacks": 4
+                },
+                "source": "약점 포착(4중첩)"
+              }
+            ],
+            "onCast": [],
+            "usesMana": true
+          },
+          {
+            "id": "four_of_a_kind",
+            "name": "포 카드",
+            "kind": "ruin",
+            "cooldown": 16,
+            "level": 14,
+            "directCoef": 4.243,
+            "directFlat": 636.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                191600
+              ]
+            },
+            "castTime": 0.7,
+            "hits": 1,
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.75,
+                "filter": {
+                  "ids": [
+                    "four_of_a_kind"
+                  ]
+                },
+                "source": "카드 강화"
+              },
+              {
+                "bucket": "critRate",
+                "value": 0.44,
+                "filter": {
+                  "ids": [
+                    "four_of_a_kind"
+                  ]
+                },
+                "source": "풀 하우스"
+              },
+              {
+                "bucket": "skillDmg",
+                "value": 0.36,
+                "filter": {
+                  "ids": [
+                    "four_of_a_kind"
+                  ]
+                },
+                "source": "풀 하우스(피면)"
+              }
+            ],
+            "onCast": [],
+            "cdResetChance": 0.55,
+            "gaugeMultiplier": 1.4,
+            "usesMana": true
+          },
+          {
+            "id": "serendipity",
+            "name": "세렌디피티",
+            "kind": "ruin",
+            "cooldown": 16,
+            "level": 14,
+            "directCoef": 6.743,
+            "directFlat": 1015.5,
+            "castTime": 2.5598214285714285,
+            "hits": 3,
+            "hitSequence": {
+              "duration": 2.867,
+              "firstHitEnd": 1.8,
+              "hits": [
+                {
+                  "at": 0.293,
+                  "directCoef": 1.927,
+                  "directFlat": 291
+                },
+                {
+                  "at": 1.093,
+                  "directCoef": 1.927,
+                  "directFlat": 291
+                },
+                {
+                  "at": 2.199,
+                  "directCoef": 2.889,
+                  "directFlat": 433.5
+                }
+              ]
+            },
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                192400,
+                192401
+              ]
+            },
+            "mods": [
+              {
+                "bucket": "skillDmg",
+                "value": 0.21999999999999997,
+                "filter": {
+                  "ids": [
+                    "serendipity"
+                  ],
+                  "component": "direct"
+                },
+                "source": "연속된 어둠"
+              }
+            ],
+            "onCast": [],
+            "defenseIgnore": {
+              "chance": 0.5,
+              "fraction": 0.8
+            },
+            "procCritDmg": {
+              "chancePerStack": 0.2,
+              "value": 5.04
+            },
+            "usesMana": true
+          },
+          {
+            "id": "secret_garden",
+            "name": "시크릿 가든",
+            "kind": "ruin",
+            "cooldown": 8,
+            "level": 14,
+            "directCoef": 2,
+            "directFlat": 299,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 14,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                193100
+              ]
+            },
+            "castTime": 0.7,
+            "hits": 1,
+            "mods": [
+              {
+                "bucket": "critRate",
+                "value": 0.4,
+                "filter": {
+                  "ids": [
+                    "secret_garden"
+                  ]
+                },
+                "source": "급소 타격"
+              },
+              {
+                "bucket": "stackEffectDmg",
+                "value": 0.8,
+                "filter": {
+                  "ids": [
+                    "secret_garden"
+                  ],
+                  "minStacks": 4
+                },
+                "source": "완전한 비밀"
+              },
+              {
+                "bucket": "stackEffectDmg",
+                "value": 0.95,
+                "filter": {
+                  "ids": [
+                    "secret_garden"
+                  ]
+                },
+                "source": "시크릿 찬스"
+              }
+            ],
+            "onCast": [],
+            "runeCdReduce": {
+              "chance": 0.2,
+              "fraction": 0.12
+            },
+            "usesMana": true
+          },
+          {
+            "id": "the_devil",
+            "name": "더 데빌",
+            "kind": "hyper_awakening",
+            "cooldown": 60,
+            "level": 1,
+            "directCoef": 70.245,
+            "directFlat": 4215.5,
+            "damageReference": {
+              "source": "public-coefficient-candidate",
+              "level": 1,
+              "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+              "effectIds": [
+                193501
+              ]
+            },
+            "castTime": 1.3392857142857142,
+            "hits": 1,
+            "mods": [],
+            "onCast": [],
+            "usesMana": true,
+            "tags": [
+              "ruin"
+            ]
+          }
+        ],
+        "rotation": {
+          "ruinPriority": [
+            "the_devil",
+            "celestial_rain",
+            "secret_garden",
+            "four_of_a_kind",
+            "serendipity"
+          ],
+          "cullRuinPriority": [
+            "the_devil",
+            "serendipity",
+            "celestial_rain",
+            "secret_garden",
+            "four_of_a_kind"
+          ],
+          "stackPriority": [
+            "stream_of_edge",
+            "spiral_edge",
+            "scratch_dealer"
+          ],
+          "finisher": "call_of_destiny",
+          "fishing": [
+            "four_of_a_kind"
+          ],
+          "wheelTargets": [
+            "celestial_rain",
+            "the_devil",
+            "serendipity"
+          ],
+          "fillers": []
+        },
+        "onCardUse": [
+          {
+            "id": "mercy",
+            "duration": 8,
+            "mod": {
+              "bucket": "dmgToEnemy",
+              "value": 0.012,
+              "source": "황제의 자비 Lv1"
+            }
+          }
+        ],
+        "infinityDeck": {
+          "judgment": {
+            "delay": 6,
+            "fraction": 0.15
+          },
+          "balance": {
+            "id": "infinity_balance",
+            "duration": 30,
+            "mod": {
+              "bucket": "skillDmg",
+              "value": 0.02,
+              "filter": {
+                "kinds": [
+                  "ruin"
+                ]
+              },
+              "source": "인피니티 덱 17P"
+            }
+          }
+        },
+        "onDestiny": [
+          "drawCard"
+        ],
+        "onRuinAt4": [
+          {
+            "id": "whisper_as",
+            "duration": 6,
+            "mod": {
+              "bucket": "atkSpeed",
+              "value": 0.08,
+              "source": "황후의 속삭임 Lv3"
+            }
+          }
+        ],
+        "params": {
+          "stackEffectCoefPerStack": 600,
+          "gaugePerHit": {
+            "normal": 0.04,
+            "stack": 0.03,
+            "ruin": 0.03,
+            "hyper_awakening": 0.05,
+            "awakening": 0
+          },
+          "gaugeGainBonus": 0.6605,
+          "normalGaugePenalty": -0.5,
+          "atkBase": 158137,
+          "raidCaptainRatio": 0.4,
+          "twistedFateZeroChance": 0.25,
+          "fatalHandCull": false,
+          "corrosionValue": 0.1,
+          "cardDamageCoef": {},
+          "stackEffectScale": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "warnings": [
+        "장착 카드 세트 효과 미모델: 세상을 구하는 빛 2세트: 암속성 피해 감소 +10.00% / 세상을 구하는 빛 4세트: 암속성 피해 감소 +10.00% / 세상을 구하는 빛 6세트: 암속성 피해 감소 +10.00% / 세상을 구하는 빛 6세트 (12각성합계): 공격 속성을 성속성으로 변환 / 세상을 구하는 빛 6세트 (18각성합계): 성속성 피해 +7.00% / 세상을 구하는 빛 6세트 (24각성합계): 성속성 피해 +4.00% / 세상을 구하는 빛 6세트 (30각성합계): 성속성 피해 +4.00%",
+        "전투 특성은 API 툴팁의 표시 정밀도로 적용하며 숨은 소수부는 미확인입니다",
+        "즉각적인 주문 Lv3: T 스킬 시전시간을 1 / (1 + 12.0%)로 보정하는 후보이며 공속·질풍 조합과 실제 타격 시각은 미검증입니다. 마나 소모 90.0% 감소는 미모델·미반영",
+        "코어 옵션 [미모델·미반영]: 불타는 일격 10P: 보스 이상 적에게 공격 적중 시 6.0초 간 화상 상태로 만들어 피해를 입힌다.",
+        "코어 옵션 [미모델·미반영]: 불타는 일격 17P: 화상의 피해량이 150% 증가한다.",
+        "팔찌 피해·치명·조건부 효과 미모델 — 전투 특성·공격력 변환과 별개입니다",
+        "룬 중독(도트) 미모델 (stream_of_edge)",
+        "룬 출혈(도트) 미모델 (celestial_rain)",
+        "피해 기준 미검증: 공개 계수 후보와 정규화되지 않은 임시값이 함께 사용될 수 있습니다. 현재 DPS와 피해 비중으로 세팅 우열을 판단할 수 없습니다.",
+        "합산 직접 피해의 치명 판정 (스크래치 딜러, 스파이럴 엣지): 개별 적중 프로필이 없어 직접 피해 합계에 치명 여부를 한 번만 판정합니다. 실제 타격별 치명 판정과 피해 분산은 미검증이며, 평균 피해의 게임 정확성을 보장하지 않습니다.",
+        "일반 각성기와 초각성기의 피해·카드 수급은 자동 입력에서 빠져 있습니다. API 스킬 목록만으로 장착한 각성기를 구분할 수 없으며, 현재 결과는 이 누락을 포함한 부분 모델입니다.",
+        "T 스킬의 표시 Lv1을 공개 피해 배열의 첫 값에 연결한 것은 후보입니다. 표시 레벨·피해 배열 인덱스·전투 레벨의 관계를 확인하지 못했으며, 별도 Lv70 루인 폭발 후보와 구분합니다.",
+        "T 스킬 시전시간과 즉각적인 주문·공속·질풍 조합은 실측 미검증입니다. 새 검색 입력과 참고 프리셋은 즉각적인 주문을 시간 / (1 + 증가율) 후보로 반영하며 마나 감소는 미모델입니다.",
+        "진화 쿨감: 끝없는 마나·무한한 마력 및 최적화 훈련·타이밍 지배는 각각 합산하고 두 묶음을 곱하는 후보입니다. 2024년 공개 측정에 근거하며 현행 서버 실측 미검증입니다.",
+        "적중 버프는 직접 피해 처리 후 시작·갱신합니다. 운부·리턴·엣지의 치피와 급소 노출은 각각 동일 효과 하나로 갱신하며, 서로 다른 트포 레벨의 우선순위·동일 프레임 선후·개별 타격 없는 스킬의 중간 적중·미스는 미검증입니다.",
+        "돌격대장은 피해 발생 시점의 합산 이속 증가분(0~40%)에 적용합니다. 신속·유령·안전 장치·가벼운 발걸음을 반영하며 두 트포의 시작은 최초 시전 기준 가정입니다. 정확한 콤보 입력 시점·서포터와 외부 이속·상한 확장 효과는 미모델입니다.",
+        "운명의 부름: 기본 2타·연속 공격 3타·페이크 플립 대체 1타의 직접 피해 후보를 분리합니다. 비행·적중·후딜은 임시 합산이며 치명·어두운 운명 시작·시전 단축과 현재 계수의 실측 검증은 미완료입니다.",
+        "운명의 부름 속행 발동 확률 [미확인] 20% 가정. 남은 쿨 16% 감소율과 다릅니다. 시전 시작 시 1회 판정하며 체인 재입력별 발동·동일 시각 처리 순서는 미검증입니다.",
+        "운명의 부름 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "스크래치 딜러: 기본 이동·내려찍기의 총 피해 후보만 합산합니다. 내부 다단 수를 피해에 다시 곱하지 않습니다. 적중 판정 2회·시전 종료 2스택은 임시 처리이며 콤보 입력·내부 타수·게이지·후딜·트포의 개별 타격 범위는 실측 미검증입니다.",
+        "스크래치 딜러 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "스파이럴 엣지: 도약 한 번의 피해 후보와 기본 1타·무자비한 사격 2타를 합산합니다. 체인 두 번째 입력은 미반영이며 첫 시전 쿨 시작은 임시 처리입니다. 재입력 허용 시간·운수·개별 타격·스택 시점·후딜은 미검증입니다.",
+        "스파이럴 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "스트림 오브 엣지: 2회 저장·순차 충전 후보입니다. 회복 시작 시 쿨감, 진행 중 회복에만 속행, 운수는 해당 사용만 면제하는 가정이며 스트림 직접 실측·동시 이벤트 순서는 미검증입니다. 자동 사용 정책은 최적 사이클을 보장하지 않습니다.",
+        "스트림 132: 설치 후 첫 0.3초부터 15타, 5·10·15번째 1스택과 적중 치적 5중첩 후보입니다. 설치 동작만 공속 적용하며 첫 오프셋·현행 서버 프레임·퍼펙트 범위·부분 적중·게이지는 미검증입니다.",
+        "스트림 오브 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "스트림 오브 엣지: 발사 동작과 이후 개별 적중을 분리한 공개 모션 후보입니다. 거리별 비행·취소 후딜·현행 서버 프레임은 실측하지 않았습니다.",
+        "셀레스티얼 레인 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "포 카드 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "세렌디피티 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "세렌디피티: 평시 1타, 심판 사용 후 시전은 3타. 1타 후 행동 가능 시각·후딜 취소는 미확인으로 첫 모션 종료 1.8초를 임시 대기값으로 사용합니다(공속 적용 전). 심판 콤보 시간도 전체 모션 후보이며 스페이스 자원·시전 중 카드 사용은 미모델입니다.",
+        "세렌디피티 꿰뚫는 일격: 대상 방어력 6500 가정에서 방어 무시 없는 동일 대상 대비 증폭만 적용합니다. 절대 방어 감쇠·별도 보스 뎀감·방깎 시너지는 미모델, 직접 피해·폭발의 독립 추첨은 공개 모델 가정이며 현행 서버 실측 미검증입니다.",
+        "시크릿 가든 속행 발동 확률 [미확인] 20% 가정. 남은 쿨 12% 감소율과 다릅니다. 시전 시작 시 1회 판정하며 체인 재입력별 발동·동일 시각 처리 순서는 미검증입니다.",
+        "시크릿 가든 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "더 데빌 Lv1: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+        "공격력 입력값 158137: 고정·% 공격력 수정치 적용 전 값입니다. API 기본 공격력 연결. 검색 당시 상시 공격력 표시 오차 범위 일치. 순수 공격력 분해와 피해 계수의 정규화 기준은 미검증입니다.",
+        "스택트 효과 (셀레스티얼 레인, 포 카드, 세렌디피티, 시크릿 가든, 더 데빌): Lv70 공개 계수 후보 사용. 고정 피해·공격력항을 분리하고 스킬 레벨 배율은 적용하지 않습니다. 현재 패치·인게임 실측 미검증이며 직접 피해와의 비율도 미검증입니다.",
+        "각 반복은 빈 손패·게이지 0·대상 스택 0, 모든 스킬 사용 가능·충전 최대 상태에서 시작합니다. 시간제 버프와 이전 전투 상태를 이월하지 않으며, 상시 효과 가정은 Build 입력을 따릅니다. 시작 카드·게이지·사전 버프를 지정하는 입력은 지원하지 않습니다.",
+        "기본 드로우 가중치는 균등한 임시 가정이며 실제 확률이 아닙니다. 카드별 관측 빈도와 손패 조건을 검증하기 전 카드 운·세팅 우열을 판정할 수 없습니다.",
+        "카드 게이지는 스킬 분류·타수별 임시값입니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.",
+        "마나 소모·회복·고갈은 미모델이며 마나 부족으로 시전을 멈추지 않습니다. 별의 마나 효과와 삼두사의 평타·스택·게이지 효과도 미반영입니다. 두 카드는 사용 횟수와 카드 사용 연동 효과에는 포함되므로, 현재 DPS로 마나 유지율이나 평타 운용의 이득을 판단할 수 없습니다.",
+        "특화·패시브 게이지 증가는 합산하고 풍요는 별도로 곱하는 임시 모델입니다. 조합별 실제 연산은 미검증입니다.",
+        "환희는 사용마다 한 번 50%를 판정해 대상의 남은 쿨을 함께 15% 또는 30% 줄입니다. 서버의 공통 판정 단위와 체인 도중 추가 쿨감은 미검증이며, 체인 중 환희의 관측 예외는 아직 반영하지 않습니다.",
+        "인피니티 덱 17P는 해석한 카드별 조건만 반영합니다. 심판의 지연 쿨감은 남은 시간 기준이며 연속 사용은 독립 예약하는 후보입니다. 실제 감소 기준·중복 예약·동일 프레임 순서는 미검증입니다. 균형의 루인 피해 버프는 사용 시 갱신합니다.",
+        "뒤틀린 운명의 꽝 확률 25%와 나머지 10/20/40%의 균등 분포는 임시 가정입니다. 페이탈 핸드의 확률 감소 문구로 정확한 확률을 알 수 없으며 관측 2/100도 확정값이 아닙니다.",
+        "루인 게이지는 스택 수·폭발·눈속임을 구분하지 않습니다. 평시·심판 및 트라이포드별 카드 수급 비교는 미검증입니다."
+      ],
+      "summary": [
+        "FixtureCharacter26 (1,750.00, 황후)  치명 526 / 특화 1735 / 신속 227",
+        "공격력: 기본 158137 / 상시 재구성 171683.8255 / API 표시 171684 (표시 오차 범위 일치)",
+        "스킬: 운명의 부름 Lv10[S2], 스크래치 딜러 Lv10[S2], 스파이럴 엣지 Lv10[S2], 스트림 오브 엣지 Lv10[S3], 셀레스티얼 레인 Lv14[R], 포 카드 Lv14[R], 세렌디피티 Lv14[R], 시크릿 가든 Lv14[R], 더 데빌 Lv1[H]",
+        "코어: 질서의 해 코어 : 인피니티 덱(17) | 질서의 달 코어 : 엣지 콤보(17) | 질서의 별 코어 : 스트림 오브 엣지(18) | 혼돈의 해 코어 : 현란한 공격(18) | 혼돈의 달 코어 : 불타는 일격(17) | 혼돈의 별 코어 : 공격(17)",
+        "각인: 원한(유물4), 돌격대장(유물0), 저주받은 인형(유물4), 질량 증가(유물0), 아드레날린(유물4)   보석 효과 0개",
+        "상시 수정치 54개, 운명 드로우 O, 뭉가 O"
+      ]
+    }
+  ],
+  "unchangedResponses": 16,
+  "unchangedConversions": 2,
+  "newSimulationRuns": 0,
+  "inheritedValidation": {
+    "unit": "S344",
+    "passedTests": 2882,
+    "files": 152,
+    "rerun": false
+  },
+  "boundary": "공식 API의 원자적 동시점 스냅샷이 아니라 캐릭터별8종을 순차 조회한 결과입니다. 응답 본문·현재 변환 결과는 이전과 같지만 게임 내 변경이 없었다거나 실측 피해가 정확하다는 뜻은 아닙니다. 클라이언트 검증은 저장 응답 재생이며 새 네트워크 조회가 아닙니다.",
+  "inputs": [
+    {
+      "path": "docs/audit/2026-10-14-snake-duration-sources.json",
+      "sha256": "ba1a6a81ca5f73c8927248017f631d66cd55ae27a3784971484961e9b03b7829"
+    },
+    {
+      "path": "data/cards.json",
+      "sha256": "799277ef825fd994a02b6eaa8ac22284ce502d4d98cd4450d7b093d015f9a8ef"
+    },
+    {
+      "path": "docs/audit/2026-10-14-evolution-cooldown-regression.json",
+      "sha256": "e64f1c20b0a34363c75de0cb237ff400d3b5b20692f4e54a38188d6462f92b4f"
+    },
+    {
+      "path": "docs/audit/2026-10-13-identity-cards.json",
+      "sha256": "09d010983e535f81528f5bf48cf513e00698db732af143aaa1249b0dfeb07281"
+    },
+    {
+      "path": "scripts/audit_snake_duration.ts",
+      "sha256": "5d5d45aa51a39150e914174d717caba6dd4c88a2d521809d3a575a1b966a2dee"
+    },
+    {
+      "path": "src/engine/armory.ts",
+      "sha256": "60d1172fa47d062d96d5d4f8e4962904bf7f7ddd14b44e0182432503368c1371"
+    },
+    {
+      "path": "src/engine/buffs.ts",
+      "sha256": "def514d875bb5a1e25da4c013bc9d181a904c1adb3e556b017c154caf2d356a7"
+    },
+    {
+      "path": "src/engine/cards.ts",
+      "sha256": "c4e4b845b9a0175b2b44eb158d7784ed940ed2bb61bf05b76f0b3d0909c2c781"
+    },
+    {
+      "path": "src/engine/damage.ts",
+      "sha256": "75f06a9e72cea0d6fdf41de1d327d865f9914f8c251690e3813b1a11a186dc0a"
+    },
+    {
+      "path": "src/engine/deck.ts",
+      "sha256": "8d07f600c36f97a518908524a3172b3e550c1819ea76b29c49cc1945d6849d54"
+    },
+    {
+      "path": "src/engine/index.ts",
+      "sha256": "977f4c5e14645298bfec5440815f9290edf3e498235d40211862fa7daca73f39"
+    },
+    {
+      "path": "src/engine/presets.ts",
+      "sha256": "d37e316b6d60c52e781e3a7d5ea4956bb62fc06a6eb5842c1f2b46b8de2b4696"
+    },
+    {
+      "path": "src/engine/rng.ts",
+      "sha256": "5e08480450f501a4f9ecd1f908568a84c8bb01cd338a58a9e0d4af3d95841cdf"
+    },
+    {
+      "path": "src/engine/rotation.ts",
+      "sha256": "f2fe29de5c229f9c91dcb83e2516ec5a2ab258b79d24ecbb9a213bc168799bf4"
+    },
+    {
+      "path": "src/engine/sim.ts",
+      "sha256": "26f648e329011aaa2779e3f18cb3a10d5f45e3666bc493b2d362adbc5a53b9ed"
+    },
+    {
+      "path": "src/engine/skilldata.ts",
+      "sha256": "4087804e687e728490a3dbb56d719e60e9136589a3d74c2433267b26ced5b8a0"
+    },
+    {
+      "path": "src/engine/stats.ts",
+      "sha256": "63aed63294f76a0010d0143f756fb332c06ca487afca81fbad9dc5182f314ab8"
+    },
+    {
+      "path": "src/engine/tooltip.ts",
+      "sha256": "e3c67ce1d4366583f355e082a7f15b365ce6e2a8c2d502c4f9da98e1270e0f2b"
+    },
+    {
+      "path": "src/engine/types.ts",
+      "sha256": "ba3af7467c69fc5864ff6ea8fb5d6bd5bda354b8a7b3b128b8f6647d9c7270ee"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "0b3518765f77645ffdfddcdbbaa5b6b9a4a58ed4be07e70f7c19c4a8c1d51585"
+    },
+    {
+      "path": "src/worker.ts",
+      "sha256": "7fc24d329eee923fb6744885f29e4a6ba07e39a8127cb8e608c7b36f5a178116"
+    },
+    {
+      "path": "data/arkpassive.json",
+      "sha256": "581c36c957617b6d82f157e71f9179f8eee598ce1211ee5974c8df9a3cacbcb0"
+    },
+    {
+      "path": "data/engravings.json",
+      "sha256": "3827e7e9c433742413e29d3a45ec12ba294df3cf66e00f29b8e7c05902cdad83"
+    },
+    {
+      "path": "docs/audit/2026-10-17-remaining-engraving-sources.json",
+      "sha256": "1da990883622782006ae9f1eadd6d2ecbb45ae4dee7d6d6ebbf5799b4467c0fe"
+    },
+    {
+      "path": "scripts/run_sim.ts",
+      "sha256": "ca91c0b013a517d87bd65f2d63a6644c1aa27f9e8273535c1e63064386e33b4d"
+    },
+    {
+      "path": "scripts/build_from_raw.ts",
+      "sha256": "d390a0285a2f28c88d0996b3f179e0a9448476ffae0b7c9ea5c3e246fb2daa67"
+    },
+    {
+      "path": "docs/audit/2026-10-17-cli-display-fixture/profiles.json",
+      "sha256": "c167ee5329581b4526bab4dbd68cbd77f863e48c5f19191c81aa082f61d7674d"
+    },
+    {
+      "path": "docs/audit/2026-10-17-cli-display-fixture/combat-skills.json",
+      "sha256": "bca57fdead644e5f455cb09e8227228873a30ae56bd03c79668b905f3cbbb251"
+    },
+    {
+      "path": "docs/audit/2026-10-17-cli-display-fixture/equipment.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "docs/audit/2026-10-17-cli-display-fixture/arkpassive.json",
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "docs/audit/2026-10-17-cli-display-fixture/arkgrid.json",
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "docs/audit/2026-10-17-cli-display-fixture/engravings.json",
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "docs/audit/2026-10-17-cli-display-fixture/gems.json",
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "docs/audit/2026-10-17-grid-gem-guide.json",
+      "sha256": "a500f6cc8175e346ec5d6694c8406d1fbcca2cfefd76e346c301cf1cb77f0218"
+    },
+    {
+      "path": "data/raw/FixtureCharacter26/equipment.json",
+      "sha256": "b1b5519158f29bb9ffefdeece56aaf7f70fc75cfba1ae7f4f18171860b3362d8"
+    },
+    {
+      "path": "docs/audit/2026-10-17-bracelet-boundary-source.json",
+      "sha256": "3bbc58a8cbc1e72f106dc42d2fb7f2aca3449a5522efb374e610757c1626cce1"
+    },
+    {
+      "path": "docs/audit/2026-10-17-passive-limits-catalog-before.json",
+      "sha256": "02eb9e2c6a1b469e5faba52d69dee1b5bf52f58c54cd8f72a3f2bd32bb1c8bf7"
+    },
+    {
+      "path": "docs/audit/2026-10-17-passive-limits-sources.json",
+      "sha256": "13caec295e5c16a9bb0ab269e35d4546d81b5c827ef8fa84d54348e4991b96d0"
+    },
+    {
+      "path": "docs/audit/2026-10-17-passive-limits-1.png",
+      "sha256": "1461ec571b271b7c7983aae70feeca4d7c1ddabf319ca681c20dae53803b50c4"
+    },
+    {
+      "path": "docs/audit/2026-10-17-passive-limits-2.png",
+      "sha256": "69c79a6c0a3a1c9e1fbe53a08c687de0776a96f2cdaa09bd77644444bd00a143"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-catalog-before.json",
+      "sha256": "0dc5794487a5c939bc50ffebf828cb9d6c5c10e34cda7e706d41c609b0aca050"
+    },
+    {
+      "path": "docs/audit/2026-10-13-emperor-import-sources.json",
+      "sha256": "fe3b55dee2446e3f0330227815aea0a1f3d6940d9bb6f7f39cedceb5e481dc83"
+    },
+    {
+      "path": "data/raw/FixtureCharacter26/arkpassive.json",
+      "sha256": "bc809174b2f1923fee1a42e6a05579efdfb9c469aac8da0acf2c3a8e24d07c6c"
+    },
+    {
+      "path": "docs/audit/2026-10-13-sun-nodes-details.json",
+      "sha256": "b37f75f4cf53791cbf0cbbefc150e46036ced3018f68289116f789dc900001e4"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-source.json",
+      "sha256": "50a214bd1326ff9ce5b654936834923830eab300d170cfe5fec2dfbc8f592323"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-images.json",
+      "sha256": "303d01a78d70e1bbbf0dffb35ce98bef35a956b77fbdfbadfb346fa15551ea6b"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-icons.json",
+      "sha256": "bbcfde0e0a5ff917fa3382304232f7ee20d5ca6817998d77d4f2bdc5077934ee"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-1.png",
+      "sha256": "c9b8c771bcb0e8f1218816b7555a2040a5363896ec4adb80fe1b198c1a634dc4"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-2.png",
+      "sha256": "be14be5a7dcbbfa16b5b3cfdd7470b76c7355b379aec4cbd6c5676dbcdaf1939"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-3.png",
+      "sha256": "b80ec7dc7fb0b3b67bd9e32c732cdb2d0b1e4fd0ad4027977d1f36e6f4e70b71"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-icon-1.png",
+      "sha256": "ef069e41aec0696bea7a5a5dc376e40d70af5f346e7283ab1386adbccf006c2b"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-icon-2.png",
+      "sha256": "d302e74b1bb1bb996f404fe90b99f2460ac621e0f155a78235ae7e815a6101b5"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-icon-3.png",
+      "sha256": "2cc1f45628f1e114ce0b1c1786ae3b8f5fb1f46f8488c0e048db325d7a2910ce"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-icon-4.png",
+      "sha256": "580742c1a88daaa4f8551aef5aa174b9e1e9b707eeede3f400f5e964f5814882"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-icon-5.png",
+      "sha256": "56bdf85008b49f3aea5af6215c63401e58bc5380068490bb9ac282798eec9b45"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-cost-icon-6.png",
+      "sha256": "d19721075807c52611fa89118efdff2c712e6fa509dda867bf2e0c6f0809f632"
+    },
+    {
+      "path": "docs/audit/2026-10-17-leap-lower-catalog-before.json",
+      "sha256": "a33c276f551ccde4b2cac50e7174ecfd50e490d661b0cb78cfbac000dcaee3b5"
+    },
+    {
+      "path": "docs/audit/2026-10-17-leap-lower-sources.json",
+      "sha256": "c1a52907b33d1bee0ac3af5427590793da490707b52fca01de25aa02b1c8ca47"
+    },
+    {
+      "path": "docs/audit/2026-10-17-leap-lower-followup-sources.json",
+      "sha256": "d68d35d55dcca7e4e4e3f12c1c12f8fbcd9c0fe633273164206963b52b8b6066"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-levels-catalog-before.json",
+      "sha256": "3d392b1eaacc40e122fa18f4bd5c3cec9c7a23209ee1c61aff2b4d6b361ef9b8"
+    },
+    {
+      "path": "docs/audit/2026-10-17-enlightenment-levels-sources.json",
+      "sha256": "71e53cb6de2b60d36a1ae3352651f156feb40469f6af1c350c9e2d839fd2c97b"
+    },
+    {
+      "path": "docs/audit/2026-10-17-chariot-sources.json",
+      "sha256": "6071b9f77937555d965581db05f4f38385ba7f6ad91bd0e0c76f85ba55bf4d57"
+    },
+    {
+      "path": "docs/audit/2026-10-17-timing-mastery-sources.json",
+      "sha256": "be595f7edadfb70277f7453e84e5095a6794c8b90d33ab2debf7dd5d3db5101e"
+    },
+    {
+      "path": "docs/audit/2026-10-17-timing-mastery-followup-sources.json",
+      "sha256": "bd2d2b324c99e65725b21fb024195bf0b10c70e1431eafe33b77d8fdbf0de9ea"
+    },
+    {
+      "path": "docs/audit/2026-10-13-hit-buff-sources.json",
+      "sha256": "09614320343cf4d2c009c0d2370d71dfd9466deb2b820e21fa13bec6539e0fa0"
+    },
+    {
+      "path": "docs/audit/2026-10-17-infighting-sources.json",
+      "sha256": "7498a8cf2df79569c14b5143ca974b6b49b58271c50cdd1a075c41928db91ef1"
+    },
+    {
+      "path": "src/api.ts",
+      "sha256": "ef56b35102dd05491db06dfeb5c8e92f80ce16ec98a792c47889d931ee0aa0ec"
+    },
+    {
+      "path": "scripts/fetch_armory.mjs",
+      "sha256": "521c934471e7e78aa92bf87c0b0ff9de99afe2628a55e8aafea483a6c4d5d6d9"
+    },
+    {
+      "path": "docs/audit/2026-10-17-card-set-sources.json",
+      "sha256": "c34b48aeb356719800a455c6320af16ed8c9aa1f8680b4fb9f9068c372572a47"
+    },
+    {
+      "path": "docs/audit/2026-10-17-quads-level-one-sources.json",
+      "sha256": "3926833840ef6afcea69c9ad6ffd5a20a4da75b5f2070103c607a2948ca27efe"
+    },
+    {
+      "path": "docs/audit/2026-10-17-quads-level-one-followup-sources.json",
+      "sha256": "6f06fd41454d0df1caaa3d280b50107b7254dad12a83eed0235e48a8cde0a4e8"
+    },
+    {
+      "path": "docs/audit/2026-10-17-sonic-break-sources.json",
+      "sha256": "4b70cc61a78d70df86a6f4488bea057f840d0e5878ea8a2162bac40f2aa7f38a"
+    },
+    {
+      "path": "docs/audit/2026-10-17-armory-collection-before.mjs",
+      "sha256": "7c68f99ba79d9f42bf636de6ecb497b5197879d5bfd8cd3e085c96b6240e2521"
+    },
+    {
+      "path": "docs/audit/2026-10-17-armory-collection-tests-before.txt",
+      "sha256": "96b9987d04445391843777998c5962b01e8a1bf8a8e91b0aaa71fc9805f33c77"
+    },
+    {
+      "path": "docs/audit/2026-10-17-armory-collection-tests-after.txt",
+      "sha256": "930420b6fe55124e0421607883174625dcc556fb96fbfd673182ddcd5aff30fd"
+    },
+    {
+      "path": "scripts/fetch_armory.test.mjs",
+      "sha256": "e281b436f96f00d219762aa85d7851292e130186747eb2b78cbb39019c179967"
+    },
+    {
+      "path": "docs/audit/2026-10-17-fresh-armory-sources.json",
+      "sha256": "dd497fe73a5c98de11c97ed6d436e0143102b6921aea08aa252b3876a2c71823"
+    },
+    {
+      "path": "scripts/parse_armory.mjs",
+      "sha256": "3f35de75bbf6a0b194fa4b6a64adf93822e0252e019c0a8e61985b46694659d7"
+    },
+    {
+      "path": "scripts/parse_armory.test.mjs",
+      "sha256": "edfcbf0d6496e22fdbf61931098a12d49a505d96a09589bf28a30d250c7de882"
+    },
+    {
+      "path": "src/engine/__tests__/nullable-armory.test.ts",
+      "sha256": "422f84c94fc6c10b73fe3015bdba023a2688e091d60d1139150e17334ea69043"
+    },
+    {
+      "path": "src/engine/__tests__/rune-section-validation.test.ts",
+      "sha256": "019619415379657dbb7b615df83ad616bed8fa8775e37e8ce50abcace593071f"
+    },
+    {
+      "path": "src/engine/__tests__/equipment-damage-conditions.test.ts",
+      "sha256": "c658aecc7066c3cf3a298a2d898431e4894805883363407b13fd547fe82d50a4"
+    },
+    {
+      "path": "src/engine/__tests__/equipment-damage.test.ts",
+      "sha256": "889f44d58dd738d9ea98aa544a40df949b11356982ddd861f50cb81c5bafd98e"
+    },
+    {
+      "path": "src/engine/__tests__/serendipity-input-validation.test.ts",
+      "sha256": "ce2f9e4b8987fe480f362adc1a2f65f9af6a4e8d0e29f45f042707e01db1d8e3"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-poison-input.test.ts",
+      "sha256": "843975448f0a858219dbe09b7458d6168cadefd36467731914f6c434c4b6bc05"
+    },
+    {
+      "path": "src/engine/__tests__/tripod-cooldown-input.test.ts",
+      "sha256": "f5f660c6fc4ae3cd271677fcd85a275c3869b32409b50ac6a3b605f7424ff452"
+    },
+    {
+      "path": "src/engine/__tests__/variant-tripod-numbers.test.ts",
+      "sha256": "88b733af09b30729b19c576d2b620b5404b0477cddfae846530e0d7fd7f89539"
+    },
+    {
+      "path": "src/engine/__tests__/movement-tripod-input.test.ts",
+      "sha256": "6e7957f9ebc01294cb74b225e74d21c0fcda316084db6fcdbcb2b3b62ea5fdf0"
+    },
+    {
+      "path": "scripts/audit_tripod_corpus.ts",
+      "sha256": "bdccb9347ac72fd234de183c4629869b121e9280cd06c0d47f025d777da6b47c"
+    },
+    {
+      "path": "src/engine/__tests__/call-defense-ignore.test.ts",
+      "sha256": "f733a1e96bc07f9605801f38b03e5285fca448201a66d62533b7c8791a28ae1d"
+    },
+    {
+      "path": "src/engine/__tests__/unmodeled-tripods.test.ts",
+      "sha256": "10dd6951c81411c7cee10181e1e1f79b19485f4e60ed39cb2aebfff08dda174f"
+    },
+    {
+      "path": "docs/audit/2026-10-17-tripod-corpus-inventory.json",
+      "sha256": "edb06982acc352d911993ec13da72d1e9eb2e98dd19330b1735d9fcdc7b106c1"
+    },
+    {
+      "path": "src/engine/__tests__/rain-weakpoint-input.test.ts",
+      "sha256": "d8c2518433b5b68c7e6aae6352b91f31bdf8d5fa9bba558b6cb9e91d2171705a"
+    },
+    {
+      "path": "src/engine/__tests__/darkness-garden.test.ts",
+      "sha256": "805ee87a70bcc225be464a2723623551f96b6e9a3f5d8334ab2dd21607d7ce29"
+    },
+    {
+      "path": "src/engine/__tests__/secret-garden-input.test.ts",
+      "sha256": "ebf95e564ad76968e687aca732b6d06d41b7aef860f9c521e729dfa045d3e65e"
+    },
+    {
+      "path": "src/engine/__tests__/storm-garden.test.ts",
+      "sha256": "d2dce4e80af67396e47c04e9c4fafefc0187fd5d78a95356503b1261c8591435"
+    },
+    {
+      "path": "src/engine/__tests__/back-flush-variants.test.ts",
+      "sha256": "3859a7e3f40c573425d51b994543e7bea0d4956998dd5c604c87c99d8ca2da77"
+    },
+    {
+      "path": "src/engine/__tests__/serendipity-strong-strike.test.ts",
+      "sha256": "1562afb06c0a359205c71c894f4841b1a441f6f656f998f7eb0c5b6bb8769f64"
+    },
+    {
+      "path": "src/engine/__tests__/unsupported-combo-scope.test.ts",
+      "sha256": "c4d34ef1a2a20b86d32663fc976759c89e7a6cf6b5b680854d01ccf56ab5ca02"
+    },
+    {
+      "path": "src/engine/__tests__/quadra-card-increase.test.ts",
+      "sha256": "1db996589f8c6d8d3f70f8d015fc84e68f2c887d307ecb6967560992aed7513e"
+    },
+    {
+      "path": "src/engine/__tests__/ruin-damage-tripod-input.test.ts",
+      "sha256": "6b8b2f8cadcd6dac79bf4c425993658e12d3064b598f24d19fd5a15c193f4e38"
+    },
+    {
+      "path": "src/engine/__tests__/simple-tripod-input.test.ts",
+      "sha256": "e72d0e81926e0af798c45841948290285985d23951eecbd5b057b24427506b5a"
+    },
+    {
+      "path": "src/engine/__tests__/conditional-tripod-input.test.ts",
+      "sha256": "487a1b66b6cc18d9e8e7012ce8b71f8403dbfd93cf4f6e814e26fe6839b57abd"
+    },
+    {
+      "path": "src/engine/__tests__/stack-count-tripod-input.test.ts",
+      "sha256": "bfe6d628fad30d9b42f76bcb27acc8d1806e27e96694b6263c3dd83d153bbf4f"
+    },
+    {
+      "path": "src/engine/__tests__/unknown-tripod-fallback.test.ts",
+      "sha256": "c8d649e590eaf261a86a463f46989d603130490cdbeec3a92c05fc92e37803d4"
+    },
+    {
+      "path": "docs/audit/2026-10-17-conditional-tripod-input-after.json",
+      "sha256": "34803b6674ccfe10fb82b213d7d3081e950b5e72b36b3a7b9d8c07837eb9c264"
+    },
+    {
+      "path": "src/engine/__tests__/simulation-seed-range.test.ts",
+      "sha256": "32e7a516047bc78f9a179915aebbc5cb2bc94ffa7a11caf79dc3038e2ef953a2"
+    },
+    {
+      "path": "src/engine/__tests__/armory-class-validation.test.ts",
+      "sha256": "ee65144ff9fda57b76b29d5c0c3c3458a609410fe687d70437a6d70ffa62b464"
+    },
+    {
+      "path": "src/main.test.ts",
+      "sha256": "8d61d4bcfa02d1d2393889954604f5727a2da9a2d72ea92ff5296b9e72efc42d"
+    },
+    {
+      "path": "src/engine/__tests__/profile-number-validation.test.ts",
+      "sha256": "eaf3f994146f26f644c2b004b6b9b3ffa515f468b30384da202bda8eed60ffd0"
+    },
+    {
+      "path": "src/engine/__tests__/quick-recharge-warning.test.ts",
+      "sha256": "d83b4b36006a62ba85ed4c57f5e68c79e964974e6d2ea1ede7815eddb896cc9d"
+    },
+    {
+      "path": "src/worker.test.ts",
+      "sha256": "fd021db7efa83b244ba4f5fccf007b65f79ccba79dd028bce5608a77cf31491a"
+    },
+    {
+      "path": "src/api.test.ts",
+      "sha256": "872fce01ece1b87a16359da83654beaff2e480a9481e450070f6893961cf7bac"
+    },
+    {
+      "path": "src/compare.ts",
+      "sha256": "7e07f6de72ffb9666d5aa80c956da8cb3e4945e02a521426f0cfb3b502605631"
+    },
+    {
+      "path": "src/compare.test.ts",
+      "sha256": "71dc10af04325639169b4c6179987b8c9645e1765d81b9b06750786327de8226"
+    },
+    {
+      "path": "scripts/compare_builds.ts",
+      "sha256": "8d5575ff9e64b5836344640fa356ba5ea4c41c8b1b7384070ff20cdb0fc4476a"
+    },
+    {
+      "path": "scripts/build_from_raw.test.mjs",
+      "sha256": "f0fc007604b74e5626c19dea4c58c2d9e2ea2bd7d770ab76fc3925920cb1f037"
+    },
+    {
+      "path": "src/engine/__tests__/conditional-dot-warning.test.ts",
+      "sha256": "c736d2ade303ec563e04ec7335cce162413b35b381001c2d05e13b8f748c5da2"
+    },
+    {
+      "path": "src/engine/__tests__/card-dot-warning.test.ts",
+      "sha256": "f78e49af92aa648f5ff446b4fb373650fd17cd6c9c33edd3285855b7574fc61a"
+    },
+    {
+      "path": "src/resultComparison.ts",
+      "sha256": "e22b282909b878a050d7e1284e93c89e63f9c7f972c54d7d569e9fda18253577"
+    },
+    {
+      "path": "src/resultComparison.test.ts",
+      "sha256": "28d19fe040a290a960ae125403efb187e4441e6b9bea9468ca1157da821db3e2"
+    },
+    {
+      "path": "scripts/compare_results.ts",
+      "sha256": "c56ea4adbb2fe7336ccc2b9d30e5b80d0ebb020e1a4290b90b4d1b1c11e4ae7e"
+    },
+    {
+      "path": "scripts/audit_result_comparison.ts",
+      "sha256": "34f10080c8885490bd3ba8fac358078c22bc25066fcabb2d4c4352aa03098bb7"
+    },
+    {
+      "path": "scripts/audit_ui_result_comparison.ts",
+      "sha256": "afe01e11d848efd132177b59d7726d57e0e8e762012fe182c69c1e1f479670bc"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "df788a503d3236d60842d3bea45d4312492b5dd1e344ece71960a3e0724130bf"
+    },
+    {
+      "path": "scripts/model_identity.ts",
+      "sha256": "c089054862f9e1a017c814c3c774c4f321efe04af1de6419af1183611e41c529"
+    },
+    {
+      "path": "src/modelIdentity.d.ts",
+      "sha256": "d6c30427808b0aed863f2e6039cf5144362f09a07dd23ab0e814e1f2a8f8542f"
+    },
+    {
+      "path": "src/modelIdentity.test.ts",
+      "sha256": "9d1081c2dcb0ac016f0f132107b980ac2e23932fa6dad2be8dc9707fdc733fe0"
+    },
+    {
+      "path": "scripts/audit_model_identity.ts",
+      "sha256": "6c6bfb6e5e9aa2b4e030807176b829c8fe4af60d9bb3c15f5fc7fb1599a69439"
+    },
+    {
+      "path": "scripts/replay_result.ts",
+      "sha256": "95bfab00fdcec3e6c0525fd14143e9121c616e32d3f4361289cd509ac9448d93"
+    },
+    {
+      "path": "src/replayResult.test.ts",
+      "sha256": "c23eb0a0774d55fb06248f2d18fe741d4331f2d0785ab9b88d91c253d14ebaa8"
+    },
+    {
+      "path": "scripts/audit_result_replay.ts",
+      "sha256": "26af3d8bd9807d3cdeb4f99113f8b91726883ca1e366fdbd77d535898e63deec"
+    },
+    {
+      "path": "scripts/run_saved_build.ts",
+      "sha256": "9e32d431b0c342c99572d27ba12f277573fa9aaaab73bbe0e2d935953f169b6d"
+    },
+    {
+      "path": "scripts/saved_build_worker.ts",
+      "sha256": "b7da2ea2fd2bb9a173b366b055c08f07ac6dbaaca05618cb87432c3d3ea9cb87"
+    },
+    {
+      "path": "scripts/simulate_build.ts",
+      "sha256": "a012bf88548582c80beadd0079c0e4af844ebcb2d013e88605a34badb509c44b"
+    },
+    {
+      "path": "src/simulateBuild.test.ts",
+      "sha256": "51bf9baa87a08baaf2668e2f3b19f9693191fdd59dd6750ee113c26ec7df8850"
+    },
+    {
+      "path": "scripts/audit_saved_build_run.ts",
+      "sha256": "908be24a2ee6a0e9e41e9aa50be2b3939e08355006711c7ea7dc135217c74d99"
+    },
+    {
+      "path": "src/engine/__tests__/checkmate.test.ts",
+      "sha256": "e8ed4543c3e9de19a6cabaa79e66b1740d6d4e3247df38eea709ad5b0c1e6414"
+    },
+    {
+      "path": "src/engine/__tests__/initial-state.test.ts",
+      "sha256": "4734b16057500eb6a20d34b95d8d5cec8d32f1783e78514de2faa97fdaf29f14"
+    },
+    {
+      "path": "data/remaining_direct_effects.json",
+      "sha256": "d93e9fe3ca569ebf72a29b843aafb9f72a274f722a48d6ad4523988c8a87394e"
+    },
+    {
+      "path": "src/engine/__tests__/remaining-direct.test.ts",
+      "sha256": "e27f20b1cd02cc5e8ef12ad6e31bfa11c1ef01ddede7961e0a38d71bf1b8681d"
+    },
+    {
+      "path": "data/skills.json",
+      "sha256": "3da6dddadf56832b4263d4a571ec860a68dfec005f02bed23922448b7c71a2e6"
+    },
+    {
+      "path": "src/engine/__tests__/stampede-focus.test.ts",
+      "sha256": "87b42c6d9b9152c952a98d15703c2b7da6753652cf19bc07e2d7a665c1bfcd69"
+    },
+    {
+      "path": "src/engine/__tests__/aggregate-critical.test.ts",
+      "sha256": "e66aeeed3aaa7f6e21e6dc1f3a403c9a4d500b831177f56c7cdb112ea7713f37"
+    },
+    {
+      "path": "src/engine/__tests__/hit-sequence-input.test.ts",
+      "sha256": "9c5b6c51055455821cd0ace8ff810da4f968c05759d715e4bebbfb1ae5b91dc1"
+    },
+    {
+      "path": "src/engine/__tests__/delayed-hit-input.test.ts",
+      "sha256": "3bce32c9b750c5d493d5272ea03bb3c46bfbf92ec6b5e3ac271a309e4d2460e7"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-time-input.test.ts",
+      "sha256": "545bd5384c86ed7eec2d9ceb40a31d774630081271cf16fe7bd71b2b56732c60"
+    },
+    {
+      "path": "src/engine/__tests__/cast-speed-input.test.ts",
+      "sha256": "2c579a7bc9f7b6ad4e8ebfacd6a5225faf66a752f3a60d7703c09faf7bf3d9cb"
+    },
+    {
+      "path": "src/engine/__tests__/dot-time-input.test.ts",
+      "sha256": "da6e3996d57789ab5d547e5d2a6a7fdf4bfdccba6f5c5ff1e7093b952e81f296"
+    },
+    {
+      "path": "src/engine/__tests__/dot-time-progress.test.ts",
+      "sha256": "de4f95b1983f7ccb069d223d2668b57d6372583b01b9322c006fcaccb048349d"
+    },
+    {
+      "path": "src/engine/__tests__/duplicate-skill-id.test.ts",
+      "sha256": "41f17f429a65f739293675ee6b3a7da7592c1fd66dd24ca3bc54f35ab4ee4200"
+    },
+    {
+      "path": "src/engine/__tests__/cooldown-time-input.test.ts",
+      "sha256": "4ab7affb72cd3534acc66f32d2b7efa135c372b1042e0862ad1fbb90cf81c5fd"
+    },
+    {
+      "path": "src/engine/__tests__/remaining-cooldown-input.test.ts",
+      "sha256": "dff73bf5bf784dbb8a73f7f8cf52b3c716e66f1a5036e082d66e5c2d1a55f76e"
+    },
+    {
+      "path": "src/engine/__tests__/infinity-delay-input.test.ts",
+      "sha256": "9d82a7e815de7818f1620d101f56b4a600c87d506f6bcce1b0ad53446356914a"
+    }
+  ],
+  "evidenceInputs": [
+    {
+      "path": "docs/audit/2026-10-19-infinity-delay-input-after.json",
+      "sha256": "22a86f18821962c86262e50744b5008e6a413f817cd473bf5b3a136fd2ae0c1e"
+    },
+    {
+      "path": "docs/audit/2026-10-17-fresh-armory-sources.json",
+      "sha256": "dd497fe73a5c98de11c97ed6d436e0143102b6921aea08aa252b3876a2c71823"
+    },
+    {
+      "path": "docs/audit/2026-10-19-aggregate-critical-after-final.json",
+      "sha256": "992377fd4fe942c5353fd671fb4f6bd4e5b86259ba55f96741ae42d9ed567bc1"
+    },
+    {
+      "path": "docs/audit/2026-10-19-infinity-delay-input-tests-final.json",
+      "sha256": "7a450133c54264c6fc05e0e1403543aa5e3b8e37f54af3c1e46ac1237bcc4c4a"
+    },
+    {
+      "path": "docs/audit/2026-10-19-armory-refresh-sources.json",
+      "sha256": "0f4c6a84eb3e7d0ae66c2518f4bf2edc4ae1dbcf1b601c8463191a021f4b58ec"
+    },
+    {
+      "path": "docs/audit/2026-10-19-armory-refresh-capture.txt",
+      "sha256": "57ccd9fbe2003b059b6915399f5d429689627363a1851e1a589d70e08d2f722c"
+    },
+    {
+      "path": "docs/audit/2026-10-19-armory-refresh-capture-final.txt",
+      "sha256": "11696d8b4eaa17d0e2ffca5dbb74da67868828ba0b320265f953b7632e11b18b"
+    },
+    {
+      "path": "docs/audit/2026-10-19-armory-refresh-authorization.json",
+      "sha256": "f457a062c75437496009a6eb7306b599781fa75ebd428ee0ef7e4c949dca3dc7"
+    },
+    {
+      "path": "scripts/audit_armory_refresh_sources.mjs",
+      "sha256": "6d2d2a301d7e3648a0bcec2ca30b23b653c7c7143f1d4b32d18bf7d293b9fcb0"
+    },
+    {
+      "path": "scripts/audit_armory_refresh.ts",
+      "sha256": "9c98250ae4c6e9255a984d91a9cab6fb57f94f927151eb11cc32b566f7420e07"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "officialApi": {
+    "path": "docs/audit/2026-10-12-quick-draw-sources.json",
+    "fileSha256": "9232aea1a48e1de3ed974cc839670e05f64151a01f8090846930e4c446104d9e",
+    "checkedAt": "2026-10-12T12:57:10.188Z",
+    "skill": {
+      "name": "이보크",
+      "level": 1,
+      "tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"이보크\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#00ADEC'>체인</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_1.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 110 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 2\"\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 40\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 149 소모\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }",
+      "tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "빠른 준비",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>8.0</FONT>초 감소한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "정신 강화",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "퀵 드로",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적중 시 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "집속 마법진",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "마나 중독",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#ff9999'>30.0%</FONT> 감소하고, 더 이상 공중으로 띄우지 않지만 <FONT COLOR='#ffff99'>3.0</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>40.0%</FONT> 감소시키고 매 초마다 <FONT COLOR='#00ccff'>605,378</FONT>의 중독 피해를 주며 최대 <FONT COLOR='#ffff99'>3</FONT>회 중첩이 가능하다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "치명적 공격",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "분할 마법진",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>더 이상 원하는 타이밍에 터트리지 못하지만, <FONT COLOR='#ffff99'>3.0</FONT>초 동안 이보크를 <FONT COLOR='#ffff99'>2</FONT>회 사용할 수 있다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "중첩 마법진",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#ffff99'>3</FONT>회로 증가하지만, <FONT COLOR='#ffff99'>2</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>50.0%</FONT>, <FONT COLOR='#ffff99'>3</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>75.0%</FONT> 감소한다.</font>"
+        }
+      ]
+    }
+  },
+  "searches": [
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/List?noticetype=all&page=1&searchtype=3&searchtext=%EC%9D%B4%EB%B3%B4%ED%81%AC",
+      "checkedAt": "2026-10-12T13:11:00.347Z",
+      "sha256": "8b14d9eb59e5ce1e43e84d8e90a061221831ef41a7d891a504bf3df4f1a5adb1",
+      "rows": [
+        {
+          "href": "/News/Notice/NoticeViews/13564?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "알려진 이슈를 안내해 드립니다. (10/9 수정)",
+          "publishedAt": "2026-10-07T00:59:52Z"
+        },
+        {
+          "href": "/News/Notice/NoticeViews/840?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "악성코드 감염 예방을 위한 보안 수칙 안내",
+          "publishedAt": "2020-02-26T08:52:11Z"
+        },
+        {
+          "href": "/News/Notice/NoticeViews/58?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "모험가 여러분의 계정 보호를 위한 안내",
+          "publishedAt": "2018-11-05T07:55:03Z"
+        },
+        {
+          "href": "/News/Notice/Views/13004?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "1월 8일(수) 업데이트 내역 안내 (내용 추가)",
+          "publishedAt": "2025-01-08T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/12717?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "3월 6일(수) 업데이트 내역 안내 (내용 수정)",
+          "publishedAt": "2024-03-06T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/2263?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "1월 18일(수) 업데이트 내역 안내 (내용추가)",
+          "publishedAt": "2023-01-18T00:59:57Z"
+        },
+        {
+          "href": "/News/Notice/Views/2149?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "10월 12일(수) 업데이트 내역 안내",
+          "publishedAt": "2022-10-12T00:59:48Z"
+        },
+        {
+          "href": "/News/Notice/Views/2127?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "9월 28일(수) 업데이트 내역 안내 (내용추가)",
+          "publishedAt": "2022-09-28T01:00:20Z"
+        },
+        {
+          "href": "/News/Notice/Views/2067?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "8월 10일(수) 업데이트 내역 안내",
+          "publishedAt": "2022-08-10T01:00:04Z"
+        },
+        {
+          "href": "/News/Notice/Views/1868?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "2월 23일(수) 업데이트 내역 안내 (내용추가)",
+          "publishedAt": "2022-02-23T01:00:03Z"
+        },
+        {
+          "href": "/News/Notice/Views/1788?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "유료 확률형 아이템 정보 안내 (2024/01/17 10:00 수정)",
+          "publishedAt": "2021-12-29T00:59:48Z"
+        },
+        {
+          "href": "/News/Notice/Views/1662?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "9월 29일(수) 업데이트 내역 안내 (9/30 내용 추가)",
+          "publishedAt": "2021-09-29T01:00:16Z"
+        },
+        {
+          "href": "/News/Notice/Views/1444?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "5월 4일(화) 업데이트 내역 안내",
+          "publishedAt": "2021-05-04T01:00:08Z"
+        },
+        {
+          "href": "/News/Notice/Views/1428?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "4월 28일(수) 업데이트 내역 안내 (4/30 내용 추가)",
+          "publishedAt": "2021-04-28T01:00:20Z"
+        },
+        {
+          "href": "/News/Notice/Views/1256?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "12월 30일(수) 업데이트 내역 안내",
+          "publishedAt": "2020-12-30T01:00:28Z"
+        },
+        {
+          "href": "/News/Notice/Views/588?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "8월 14일(수) 업데이트 내역 안내",
+          "publishedAt": "2019-08-14T00:55:01Z"
+        },
+        {
+          "href": "/News/Notice/Views/479?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "​6월 5일(수) 업데이트 내역 안내 (내용수정)",
+          "publishedAt": "2019-06-05T00:54:44Z"
+        },
+        {
+          "href": "/News/Notice/Views/401?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "4월 10일(수) 업데이트 내역 안내 (수정)",
+          "publishedAt": "2019-04-10T01:00:17Z"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/12717",
+      "checkedAt": "2026-10-12T13:11:00.415Z",
+      "sha256": "97a914d91431045375772314c7f1dbd226690710b3858fc717d53169ee159daf"
+    },
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/13004",
+      "checkedAt": "2026-10-12T13:11:00.410Z",
+      "sha256": "c9180b40505c4fa35d35d45acd7608568de1a941b8007bd3a50b6e0d9255459e"
+    },
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/2067",
+      "checkedAt": "2026-10-12T13:11:00.431Z",
+      "sha256": "b579ed94022e778c26418a71d4f29a8fa6f625a3d3a699f8e2ca359fa1d7068f"
+    }
+  ],
+  "community": {
+    "url": "https://www.inven.co.kr/board/lostark/5346/109820",
+    "checkedAt": "2026-10-12T13:11:00.711Z",
+    "sha256": "25493a570ba9129c10619780534dfbef7b6290873fc06c66bc1c1fdbccda3da5"
+  },
+  "publicMotions": {
+    "url": "https://lostarksim.com/api/game-data/motions/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+    "checkedAt": "2026-10-12T13:11:02.999Z",
+    "sha256": "e9ced5a1c62aa74fe736364aeccd0edb664487d26d04c3c7a24b8d850fbf599c",
+    "rows": [
+      {
+        "id": 442,
+        "gameSkillId": 19030,
+        "stageId": 0,
+        "durationMs": 1300,
+        "animName": "SK_Evoke",
+        "hits": [],
+        "trapSpawns": [
+          {
+            "slots": [
+              "00",
+              "04",
+              "05",
+              "06"
+            ],
+            "time_ms": 321,
+            "trigger": "manual_recast",
+            "slot_traps": {
+              "00": 190300,
+              "04": 190302,
+              "05": 190304,
+              "06": 190306
+            },
+            "slot_effects": {
+              "00": 190300,
+              "04": 190308,
+              "05": 190311,
+              "06": 190313
+            },
+            "slot_trigger_effects": {
+              "00": 190301,
+              "04": 190309,
+              "05": 190312,
+              "06": 190314
+            }
+          }
+        ],
+        "projectileSpawns": [],
+        "inputWindowsMs": [],
+        "superArmorAtMs": null,
+        "createdAt": "2026-10-02T09:58:16.502Z",
+        "updatedAt": "2026-10-02T09:58:16.502Z"
+      },
+      {
+        "id": 443,
+        "gameSkillId": 19030,
+        "stageId": 1,
+        "durationMs": 1300,
+        "animName": "SK_Evoke",
+        "hits": [],
+        "trapSpawns": [
+          {
+            "slots": [
+              "00",
+              "04",
+              "05",
+              "06"
+            ],
+            "time_ms": 338,
+            "trigger": "manual_recast",
+            "slot_traps": {
+              "00": 190308,
+              "04": 190308,
+              "05": 190310,
+              "06": 190312
+            },
+            "slot_effects": {
+              "00": 190315,
+              "04": 190315,
+              "05": 190317,
+              "06": 190319
+            },
+            "slot_projectiles": {
+              "00": 190316,
+              "04": 190316,
+              "05": 190318,
+              "06": 190320
+            },
+            "projectile_effects": {
+              "190316": [
+                {
+                  "hit_id": "overlapping_circle_hit_1",
+                  "after_ms": 0,
+                  "effect_id": 190331,
+                  "ultimate_point": 23
+                },
+                {
+                  "hit_id": "overlapping_circle_hit_2",
+                  "after_ms": 500,
+                  "effect_id": 190327,
+                  "ultimate_point": 12
+                },
+                {
+                  "hit_id": "overlapping_circle_hit_3",
+                  "after_ms": 1000,
+                  "effect_id": 190328,
+                  "ultimate_point": 6
+                }
+              ],
+              "190318": [
+                {
+                  "hit_id": "overlapping_circle_hit_1",
+                  "after_ms": 0,
+                  "effect_id": 190332,
+                  "ultimate_point": 23
+                },
+                {
+                  "hit_id": "overlapping_circle_hit_2",
+                  "after_ms": 500,
+                  "effect_id": 190334,
+                  "ultimate_point": 12
+                },
+                {
+                  "hit_id": "overlapping_circle_hit_3",
+                  "after_ms": 1000,
+                  "effect_id": 190335,
+                  "ultimate_point": 6
+                }
+              ],
+              "190320": [
+                {
+                  "hit_id": "overlapping_circle_hit_1",
+                  "after_ms": 0,
+                  "effect_id": 190333,
+                  "ultimate_point": 23
+                },
+                {
+                  "hit_id": "overlapping_circle_hit_2",
+                  "after_ms": 500,
+                  "effect_id": 190336,
+                  "ultimate_point": 12
+                },
+                {
+                  "hit_id": "overlapping_circle_hit_3",
+                  "after_ms": 1000,
+                  "effect_id": 190337,
+                  "ultimate_point": 6
+                }
+              ]
+            }
+          }
+        ],
+        "projectileSpawns": [],
+        "inputWindowsMs": [],
+        "superArmorAtMs": null,
+        "createdAt": "2026-10-02T09:58:16.502Z",
+        "updatedAt": "2026-10-02T09:58:16.502Z"
+      },
+      {
+        "id": 444,
+        "gameSkillId": 19030,
+        "stageId": 2,
+        "durationMs": 1300,
+        "animName": "SK_Evoke",
+        "hits": [],
+        "trapSpawns": [],
+        "projectileSpawns": [
+          {
+            "slots": [
+              "04",
+              "05",
+              "06"
+            ],
+            "time_ms": 326,
+            "followup": {
+              "time_ms": 326,
+              "skill_id": 19300,
+              "slot_effects": {
+                "04": 193000,
+                "05": 193002,
+                "06": 193004
+              },
+              "available_for_ms": 3000,
+              "slot_projectiles": {
+                "04": 190302,
+                "05": 190304,
+                "06": 190306
+              }
+            },
+            "slot_effects": {
+              "04": 190302,
+              "05": 190304,
+              "06": 190306
+            },
+            "slot_projectiles": {
+              "04": 190302,
+              "05": 190304,
+              "06": 190306
+            },
+            "projectile_routes": {
+              "190302": {
+                "steps": [
+                  {
+                    "effect_id": 190303,
+                    "effect_key": 2,
+                    "ultimate_point": 23
+                  }
+                ],
+                "projectile_id": 190302
+              },
+              "190304": {
+                "steps": [
+                  {
+                    "effect_id": 190305,
+                    "effect_key": 2,
+                    "ultimate_point": 23
+                  }
+                ],
+                "projectile_id": 190304
+              },
+              "190306": {
+                "steps": [
+                  {
+                    "effect_id": 190307,
+                    "effect_key": 2,
+                    "ultimate_point": 23
+                  }
+                ],
+                "projectile_id": 190306
+              }
+            },
+            "projectile_effects": {
+              "190302": [
+                {
+                  "hit_id": "split_circle_explosion",
+                  "after_ms": 2000,
+                  "effect_id": 190303,
+                  "ultimate_point": 23
+                }
+              ],
+              "190304": [
+                {
+                  "hit_id": "split_circle_explosion",
+                  "after_ms": 2000,
+                  "effect_id": 190305,
+                  "ultimate_point": 23
+                }
+              ],
+              "190306": [
+                {
+                  "hit_id": "split_circle_explosion",
+                  "after_ms": 2000,
+                  "effect_id": 190307,
+                  "ultimate_point": 23
+                }
+              ]
+            }
+          }
+        ],
+        "inputWindowsMs": [],
+        "superArmorAtMs": null,
+        "createdAt": "2026-10-02T09:58:16.502Z",
+        "updatedAt": "2026-10-02T09:58:16.502Z"
+      }
+    ],
+    "separateFollowupMotionFound": false
+  },
+  "adopted": {
+    "delaySec": 2,
+    "windowSec": 3,
+    "candidateDurationSec": 1.3,
+    "candidatePlacementSec": 0.326
+  },
+  "limit": "공식 검색 첫 페이지와 지정 본문만 확인했습니다. 공개 모션은 후보이며 두 번째 설치 모션·체인 만료 쿨·현재 서버 후딜을 실측한 자료가 아닙니다. 외부 코드는 이식하거나 실행하지 않았습니다."
+}

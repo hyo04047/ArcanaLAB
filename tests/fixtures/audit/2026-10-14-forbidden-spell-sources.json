@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "character": "FixtureCharacter21",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter21",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter21/arkpassive",
+      "checkedAt": "2026-10-14T12:33:27.284Z",
+      "sha256": "9d24a45dc70e88bfd975aceb22598f62c51bc14b0be3b5cf2e9611da7471bd13",
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>금단의 주문 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_12.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"금단의 주문\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_12.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>5.0% </font>증가, 마나 스킬의 진화형 피해는 <FONT COLOR='#99ff99'>5.0% </font>더 증가하고, 마나 소모량이 <FONT COLOR='#99ff99'>6.0% </font>감소합니다.||<BR>\"}}"
+      },
+      "limit": "공통 노드의 실제 선택 레벨 문구만 확인합니다. 미선택 레벨이나 피해 실측을 추정하지 않습니다."
+    },
+    {
+      "character": "FixtureCharacter2",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter2",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter2/arkpassive",
+      "checkedAt": "2026-10-14T12:33:27.789Z",
+      "sha256": "2c59699c7bb95eef6c1b9072ffcfb235911df7fb10057fa9c3422f15dbb4f352",
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>금단의 주문 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_12.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"금단의 주문\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_12.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>10.0% </font>증가, 마나 스킬의 진화형 피해는 <FONT COLOR='#99ff99'>10.0% </font>더 증가하고, 마나 소모량이 <FONT COLOR='#99ff99'>12.0% </font>감소합니다.||<BR>\"}}"
+      },
+      "limit": "공통 노드의 실제 선택 레벨 문구만 확인합니다. 미선택 레벨이나 피해 실측을 추정하지 않습니다."
+    }
+  ]
+}

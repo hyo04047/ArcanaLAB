@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "description": "아크 패시브. evolution(진화, 공통) / enlightenment(깨달음, 아르카나) / leap(도약). 수치는 레벨 순 배열.",
+    "sources": ["S3", "S4", "S9", "S10", "S18", "S71", "S72", "S177", "S201", "S202", "S204", "S205"],
+    "verified_at": "2026-10-11",
+    "last_partial_audit": "2026-10-17: S201 진화 한도, S202 깨달음12노드 티어, S204 도약 하위 레벨, S205 기사Lv2·4/황제 심판Lv2 공식 응답 대조; 전체 카탈로그 재검증 아님",
+    "todo": ["쿼즈 Lv1 현행 API 수치 대조", "깨달음 노드별 포인트 비용"]
+  },
+  "evolution": {
+    "tier1": { "costPerLevel": 1, "nodes": ["치명", "특화", "제압", "신속", "인내", "숙련"], "statPerLevel": 50, "maxLevel": 30, "maxPoints": 40 },
+    "tier2": { "costPerLevel": 10, "maxPoints": 30, "nodes": [
+      { "id": "endless_mana", "name": "끝없는 마나", "max": 2, "effects": { "manaSkillCooldownPct": [-7, -14], "manaCostPct": [-10, -20] } },
+      { "id": "forbidden_spell", "name": "금단의 주문", "max": 2, "effects": { "evoDmgPct": [5, 10], "manaSkillEvoDmgPct": [5, 10], "manaCostPct": [-6, -12] } },
+      { "id": "keen_sense", "name": "예리한 감각", "max": 2, "effects": { "critRatePct": [4, 8], "evoDmgPct": [5, 10] } },
+      { "id": "limit_break", "name": "한계 돌파", "max": 3, "effects": { "evoDmgPct": [10, 20, 30] } },
+      { "id": "optimized_training", "name": "최적화 훈련", "max": 2, "effects": { "cooldownPctAdditive": [-4, -8], "evoDmgPct": [5, 10] } },
+      { "id": "goddess_blessing", "name": "축복의 여신", "max": 3, "effects": { "partyAtkMoveSpeedPct": [3, 6, 9] } }
+    ] },
+    "tier3": { "costPerLevel": 10, "maxPoints": 20, "nodes": [
+      { "id": "infinite_magick", "name": "무한한 마력", "max": 2, "effects": { "evoDmgPct": [8, 16], "manaSkillCooldownPct": [-7, -14], "manaCostPct": [-8, -16] } },
+      { "id": "all_out_strike", "name": "혼신의 강타", "max": 2, "effects": { "critRatePct": [12, 24], "evoDmgPct": [2, 4] } },
+      { "id": "single_strike", "name": "일격", "max": 2, "effects": { "critRatePct": [10, 20], "directionalCritDmgPct": [16, 32] } },
+      { "id": "chariot", "name": "파괴 전차", "max": 2, "effects": { "evoDmgPct": [12, 24], "atkSpeedPct": [4, 8] } },
+      { "id": "timing_mastery", "name": "타이밍 지배", "max": 2, "effects": { "cooldownPctAdditive": [-5, -10], "evoDmgPct": [8, 16] } },
+      { "id": "passionate_dance", "name": "정열의 춤사위", "max": 2, "effects": { "identityGainPct": [10, 20], "partyEvoDmgPct": [6, 12] }, "requires": "축복의 여신 3" }
+    ] },
+    "tier4": { "costPerNode": 10, "maxNodes": 2, "maxPoints": 20, "nodes": [
+      { "id": "critical_insight", "name": "회심", "effects": { "critHitDmgPct": 12, "dmgTakenPct": -4 } },
+      { "id": "master", "name": "달인", "effects": { "perStack": { "critRatePct": 1.4, "addDmgPct": 1.7 }, "maxStacks": 5, "stackDuration": 10, "trigger": "이동·기상기 제외 스킬 사용", "lostOnHit": false, "dmgTakenPct": -4 } },
+      { "id": "crush", "name": "분쇄", "effects": { "evoDmgPct": 20, "dmgTakenPct": -4 } },
+      { "id": "pioneer", "name": "선각자", "role": "support" },
+      { "id": "march", "name": "진군", "role": "support" },
+      { "id": "origin", "name": "기원", "role": "support" }
+    ] },
+    "tier5": { "costPerLevel": 15, "maxPoints": 30, "nodes": [
+      { "id": "blunt_thorn", "name": "뭉툭한 가시", "max": 2, "effects": { "evoDmgPct": [7.5, 15], "critCapPct": 80, "excessCritToEvoRatio": [1.25, 1.5], "convertedEvoCapPct": [52.5, 75] }, "patched": "2025-12-10 (120/140→125/150, 50/70→52.5/75)" },
+      { "id": "sonic_break", "name": "음속 돌파", "max": 2, "effects": { "speedToEvoRatio": [0.05, 0.10], "bonusWhenBothCapped": [4, 8], "excessRatio": [0.15, 0.30], "capPct": [12, 24] } },
+      { "id": "infighting", "name": "인파이팅", "max": 2, "effects": { "evoDmgPct": [9, 18], "duration": 10, "internalCooldown": 5 } },
+      { "id": "standing_striker", "name": "입식 타격가", "max": 2, "effects": { "evoDmgPct": [6, 12], "brandPct": [4, 8], "perStackEvoDmgPct": [0.75, 1.5], "maxStacks": 6, "lossOnDebuff": 3, "regenEvery": 2 } },
+      { "id": "mana_furnace", "name": "마나 용광로", "max": 2 },
+      { "id": "stable_manager", "name": "안정된 관리자", "max": 2 }
+    ] }
+  },
+  "enlightenment": {
+    "empress": [
+      { "id": "empress_grace", "name": "황후의 은총", "tier": 1, "main": true, "effects": { "ruinManaRefundPct": [20, 35, 50] } },
+      { "id": "empress_scheme", "name": "황후의 계략", "tier": 2, "effects": { "cullDurationBonus": 2, "judgmentDurationBonus": [0, 2] } },
+      { "id": "empress_greed", "name": "황후의 탐욕", "tier": 3, "effects": { "ruinDmgPct": [0.9, 1.8, 2.7, 3.6, 4.5], "deckGaugeGainPct": [4, 8, 12, 16, 20], "normalSkillDeckGaugePct": -50 } },
+      { "id": "empress_banquet", "name": "황후의 연회", "tier": 3, "effects": { "ruinDmgAt4StacksPct": [8, 17, 26] }, "patched": "2026-07-22 (7/14/22→8/17/26)" },
+      { "id": "empress_knight", "name": "황후의 기사", "tier": 4, "effects": { "addsCard": "empress_knight", "cardDmgPct": [0, 100, 200, 300, 400] }, "source": "S78 공식 API Lv1·5 (2026-10-13), S205 공식 API Lv2 두 표본·Lv4 (2026-10-17)", "todo": "Lv3의 현행 API 및 기본 피해 계수는 미확인입니다. Lv3의 200%는 기존 카탈로그 값이며 이번 공식 확인 대상이 아닙니다." },
+      { "id": "empress_whisper", "name": "황후의 속삭임", "tier": 4, "main": true, "effects": { "ruinDmgPct": [6, 13, 20], "normalStackCooldownPct": [-2, -4, -6], "atkSpeedOnRuin4Stack": { "pct": 8, "duration": 6 } } }
+    ],
+    "emperor": [
+      { "id": "emperor_order", "name": "황제의 칙령", "tier": 1, "main": true, "effects": { "addsCard": "emperor", "emperorCardDmgPct": [0, 40, 80] } },
+      { "id": "emperor_gift", "name": "황제의 하사품", "tier": 2, "effects": { "replaceBalanceWith": "chancellor", "replaceJudgmentWithAtLv2": "sovereign" } },
+      { "id": "emperor_feast", "name": "황제의 만찬", "tier": 3, "effects": { "manaOnNormalPct": [0.7, 1.4, 2.1], "normalSkillDmgPct": [27, 37, 47] }, "patched": "2025-10-22 → 30/40/50, 2025-12-10 → 27/37/47" },
+      { "id": "emperor_mercy", "name": "황제의 자비", "tier": 3, "effects": { "dmgToEnemyOnCardUsePct": [1.2, 2.4, 3.6, 4.8, 6.0], "duration": 8, "dashCooldownReduceSec": 1 }, "note": "황후도 1Lv 채용" },
+      { "id": "another_emperor", "name": "또 다른 황제", "tier": 4, "main": true, "effects": { "dmgToEnemyPct": [2, 9, 16], "emperorProcOnOtherCardPct": 20, "emperorCardDmgBonusPct": [0, 20, 40] }, "patched": "2026-07-22 (적주피 2/7/12→2/9/16, 황제 추가 0/40/80→0/20/40)" },
+      { "id": "emperor_judgment", "name": "황제의 심판", "tier": 4, "main": false, "effects": { "ruinDmgPct": [-2, -4, null, null, null], "normalStackDmgPct": [2, 4, null, null, null] }, "source": "S71 공식 API Lv1 (2026-10-13), S205 공식 API 푸른여자 Lv2 (2026-10-17)", "todo": "Lv3~5 현행 API 수치 및 도트 적용 범위 미확인. 엔진은 입력 툴팁의 두 증가율을 해석합니다." }
+    ]
+  },
+  "leap": {
+    "common": [
+      { "id": "transcendent_power", "name": "초월적인 힘", "max": 5, "costPerLevel": 4, "effects": { "hyperAwakeningDmgPct": [10, 20, 30, 40, 50] } },
+      { "id": "charged_rage", "name": "충전된 분노", "max": 5, "costPerLevel": 4 },
+      { "id": "awakening_amp", "name": "각성 증폭기", "max": 3, "costPerLevel": 2 },
+      { "id": "unleashed_power", "name": "풀려난 힘", "max": 5, "costPerLevel": 4, "effects": { "hyperAwakeningDmgToEnemyPct": [3, 6, 9, 12, 15] } },
+      { "id": "potential_release", "name": "잠재력 해방", "max": 5, "costPerLevel": 4, "effects": { "hyperAwakeningCooldownPct": [-2, -4, -6, -8, -10] } },
+      { "id": "instant_spell", "name": "즉각적인 주문", "max": 3, "costPerLevel": 2, "effects": { "hyperCastSpeedPct": [4, 8, 12], "hyperManaCostPct": [-30, -60, -90] } }
+    ],
+    "arcana": [
+      { "id": "quads", "name": "쿼즈", "max": 3, "effects": { "skillId": "the_devil", "skillDmgPct": [null, 13, 20], "stackEffectDmgPct": [null, 13, 20], "stackEffectMinStacks": 4 }, "source": "S18 공식 API Lv3 (2026-10-11), S204 공식 API FixtureCharacter5 Lv2 (2026-10-17)", "todo": "Lv1 현행 API 수치 미확인. 미확인 레벨은 null이며 0이 아닙니다." },
+      { "id": "false_deal", "name": "폴스 딜", "effects": { "skillId": "the_sun", "skillDmgPct": [12, 26, 40], "critDmgPct": [10, 20, 30] }, "source": "S71 공식 API Lv3 (2026-10-13), S204 공식 API FixtureCharacter23 Lv1·FixtureCharacter13 Lv2 (2026-10-17)", "note": "다른 스킬에 치명타 피해를 적용하지 않습니다. 공식 문구 확인과 실제 게임 피해 검증은 별개입니다." },
+      { "id": "hidden_hand", "name": "숨겨진 패", "effects": { "skillId": "the_sun", "skillDmgPct": [13, 26, 39], "cardDrawChancePct": [30, 60, 100], "cardsDrawn": 1, "trigger": "마지막 타격 적중" }, "source": "S71 공식 API Lv3 (2026-10-13), S204 공식 API FixtureCharacter15 Lv1·티캐보 Lv2·추가2명 Lv3 (2026-10-17)", "note": "S72의 2025-05-07 공지와 공식 Lv1~3 표본이 일치합니다. 시전 시작이나 종료에서 지급하지 않습니다. 현행 실제 판정 시각·빈도는 미검증입니다." }
+    ]
+  }
+}

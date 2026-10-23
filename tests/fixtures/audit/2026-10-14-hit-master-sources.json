@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "character": "FixtureCharacter2",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter2",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter2/engravings",
+      "checkedAt": "2026-10-14T13:22:44.287Z",
+      "sha256": "c481666e148c46761cf15b21e3aec1c15803d8a5f3b1f17cfc4a05c011e26f4b",
+      "effects": [
+        {
+          "AbilityStoneLevel": 2,
+          "Grade": "유물",
+          "Level": 4,
+          "Name": "타격의 대가",
+          "Description": "공격 타입이 백 어택 및 헤드 어택에 해당되지 않는 공격의 피해가 <FONT COLOR='#99ff99'>20.75%</FONT> 증가한다. 각성기는 해당 효과가 적용되지 않는다."
+        }
+      ],
+      "limit": "공식 각인 문구 확인입니다. 아르카나 피해별 적용이나 도트 실측이 아닙니다."
+    },
+    {
+      "character": "FixtureCharacter14",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter14",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter14/engravings",
+      "checkedAt": "2026-10-14T13:22:44.551Z",
+      "sha256": "28051b83c1213f4344c8107ea2ebdbbb91eb8fed0a8e6c920cf37e021f753381",
+      "effects": [
+        {
+          "AbilityStoneLevel": 3,
+          "Grade": "유물",
+          "Level": 4,
+          "Name": "타격의 대가",
+          "Description": "공격 타입이 백 어택 및 헤드 어택에 해당되지 않는 공격의 피해가 <FONT COLOR='#99ff99'>22.25%</FONT> 증가한다. 각성기는 해당 효과가 적용되지 않는다."
+        }
+      ],
+      "limit": "공식 각인 문구 확인입니다. 아르카나 피해별 적용이나 도트 실측이 아닙니다."
+    }
+  ]
+}

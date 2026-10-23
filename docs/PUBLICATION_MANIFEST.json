@@ -1,0 +1,1500 @@
+{
+  "scope": "Git-normalized public files; manifest excludes itself",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 126,
+      "sha256": "b6f5a65dc1b67462998c553e87eac52cfd64fb7562d5556890af62b2abf05b97"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 257,
+      "sha256": "06c866a85cd0a1c3d033f0d3774ae43993506bca4984d095de7e6ab53cac95c6"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 783,
+      "sha256": "52807cd639857c7410633b90858d4e8ffd0684ba8e49538d28b27d51f0f0bb71"
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "bytes": 672,
+      "sha256": "8c4215be086bf3882508e12c0197d5747f41b064eb04f5613e8d1833008d52d8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 156,
+      "sha256": "642bacac247d15248f954e7c162ac0b2eba7ffe1c6277d2a8a0693caa4a7a2e7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3316,
+      "sha256": "b57be2b9838130195908fc3480f82748217da4d4feecb7ffdd4c0b86ba28787f"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1889,
+      "sha256": "901a596ae50c38cf1c9b5aeeb650c545a1b873de76802369212080be1de2b39e"
+    },
+    {
+      "path": "data/arkgrid.json",
+      "bytes": 8411,
+      "sha256": "eecd9d79da55a25a8fef98d90dd4928166c7771623fd1b11fd79abb7a0b05915"
+    },
+    {
+      "path": "data/arkpassive.json",
+      "bytes": 9453,
+      "sha256": "4df8de79b82e77e175ddbc4a108130d821b0f83f4d0c38ff6aa9033e3ff4a1a4"
+    },
+    {
+      "path": "data/call_of_destiny_effects.json",
+      "bytes": 3683,
+      "sha256": "569b5712df999a83aa74ce4edf0a7a48f911995f7bff56f493aa838a75354aad"
+    },
+    {
+      "path": "data/cards.json",
+      "bytes": 5099,
+      "sha256": "799277ef825fd994a02b6eaa8ac22284ce502d4d98cd4450d7b093d015f9a8ef"
+    },
+    {
+      "path": "data/checkmate_effects.json",
+      "bytes": 4509,
+      "sha256": "88de431ddb85cf6312c69e571cf5a22f4ae5257ffdf5e6c344c4ff20041797f1"
+    },
+    {
+      "path": "data/combat_stats.json",
+      "bytes": 2059,
+      "sha256": "7a8025e814d5032f8ba6acdb38312993c6704941920d22041d93465749100c87"
+    },
+    {
+      "path": "data/dark_resurrection_effects.json",
+      "bytes": 4511,
+      "sha256": "9b6a42e6b031488fb7057e164a311a5fdf68c32dfb818b98a1dee66797d4d8ae"
+    },
+    {
+      "path": "data/emperor_base_effects.json",
+      "bytes": 11508,
+      "sha256": "d5d916f174c0e94bd8e02dffff689f1562fe7270c338ec03914479683725c7ec"
+    },
+    {
+      "path": "data/engravings.json",
+      "bytes": 2751,
+      "sha256": "3827e7e9c433742413e29d3a45ec12ba294df3cf66e00f29b8e7c05902cdad83"
+    },
+    {
+      "path": "data/evoke_effects.json",
+      "bytes": 3235,
+      "sha256": "007bf8c226b449afaa8e2c1afc93b264b08e9ffa7dedcd466140e77c29e9ab0e"
+    },
+    {
+      "path": "data/remaining_direct_effects.json",
+      "bytes": 4884,
+      "sha256": "d93e9fe3ca569ebf72a29b843aafb9f72a274f722a48d6ad4523988c8a87394e"
+    },
+    {
+      "path": "data/return_hits.json",
+      "bytes": 1003,
+      "sha256": "0cfe80e74e50a9f1615507661bd5ed17bf58c86053cd4fb60a1ad4f6af78a98a"
+    },
+    {
+      "path": "data/ruin_coefficients.json",
+      "bytes": 2011,
+      "sha256": "85c647778cd7756c1055f6f24d3cdbb3cf893bbc37f761bc28f4cc37273c1315"
+    },
+    {
+      "path": "data/ruin_direct_coefficients.json",
+      "bytes": 7363,
+      "sha256": "e50caea45c1a6787a1c5c0460178ffb005736d2d2eedb8f21b64cd3f4839c91f"
+    },
+    {
+      "path": "data/scratch_effects.json",
+      "bytes": 2596,
+      "sha256": "739bd1b10ec41d0f99574053bc086643b1ea215dc1aee6108a8b2b4fbbd68a14"
+    },
+    {
+      "path": "data/serendipity_hits.json",
+      "bytes": 947,
+      "sha256": "780621c2ed811ebc995000f3855d06366fd94af6ae46921c559f0a5d51902f25"
+    },
+    {
+      "path": "data/shuffle_effects.json",
+      "bytes": 3551,
+      "sha256": "0e9206300c074c79a8974983db586ff5724b7be6a43c883dcb18c43961c6b527"
+    },
+    {
+      "path": "data/skill_coefficients.json",
+      "bytes": 1805,
+      "sha256": "43264ce82c7afba0fd9a9acafe19b56fb4bbe389d892ec4518823f6fddba0bee"
+    },
+    {
+      "path": "data/skills.json",
+      "bytes": 64838,
+      "sha256": "a43cb871aeac65414a0f54e4c2cb4430a0fc07765a626b40e16f9f5dd4edabb7"
+    },
+    {
+      "path": "data/spiral_effects.json",
+      "bytes": 1677,
+      "sha256": "1b960a658e64eb41ddf48c587077eec5d9dd393763fd86c61dab40a85789ac34"
+    },
+    {
+      "path": "data/stream_hits.json",
+      "bytes": 646,
+      "sha256": "c942abda96897bcc167779990a059e82713bd4fe001945baeea813391409a8c9"
+    },
+    {
+      "path": "data/sun_effects.json",
+      "bytes": 3219,
+      "sha256": "4124018c41d3584a17caae65c01dba93cf4f4a4d4bc3b525a9b5d45b89e9139e"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2877,
+      "sha256": "7f239639a892d457589444c980bb7b22f425613a7af03690cb9f897fa9392b33"
+    },
+    {
+      "path": "docs/DATA_POLICY.md",
+      "bytes": 2215,
+      "sha256": "9159975e2afb8e2ae95f0f38a002ccdda52bbfc0e7e2964531eb955e0760365a"
+    },
+    {
+      "path": "docs/GETTING_STARTED.md",
+      "bytes": 3175,
+      "sha256": "4cb50b4b46a8de623e082fdd532969b230833247c762885df8d083ffd57a9963"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "bytes": 1903,
+      "sha256": "3a378af86bdebd20608bbc84c44bcbd5a9dc43c1f6ea8774e1929792625c20a1"
+    },
+    {
+      "path": "docs/PUBLICATION_CHECKS.json",
+      "bytes": 940,
+      "sha256": "c67f698a0802f9b7a1cda3df25aa5434a57d654e39b436e16dcf87b4ab2ca82a"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1969,
+      "sha256": "dd892c633da6572768d78604c24ecaead69203148bc05a8b72c923b3939332c5"
+    },
+    {
+      "path": "docs/wiki/Design-and-results.md",
+      "bytes": 812,
+      "sha256": "380196e2ed42e8df187d0954aeb8d92d50718e13f2d3fcc3366f3fccafca4f5f"
+    },
+    {
+      "path": "docs/wiki/Getting-started.md",
+      "bytes": 663,
+      "sha256": "38a0092f27698718ecd2f0a5bf1d4003fa9c1051084ba53df3be24a3529c072e"
+    },
+    {
+      "path": "docs/wiki/Home.md",
+      "bytes": 1101,
+      "sha256": "cc3568617eba916efde36ffe2deafc5355027d6c5fd64d71b72a3d0dc930ddb9"
+    },
+    {
+      "path": "docs/wiki/Security-and-data.md",
+      "bytes": 719,
+      "sha256": "75e7dbe628d6f1338eea293bcd72d104f650b567efbfd6d7bcc0bf91a2d385dc"
+    },
+    {
+      "path": "docs/wiki/Validation-and-limits.md",
+      "bytes": 770,
+      "sha256": "ebcf48963e8f24673efb58782dd6780008dc44e649df0bacb2f7f83e6271425f"
+    },
+    {
+      "path": "docs/wiki/_Sidebar.md",
+      "bytes": 481,
+      "sha256": "58819b71f1deee9dff8b1da6541355ebb824f19a59b10d9d2a59ab7a693fafa8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 294,
+      "sha256": "4347791501d2485f9471907441fc9f6e34d173f14a63324e78d021bceaf8a8e9"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 52539,
+      "sha256": "caeba35c77ad0058a43aa910bb6af8aae6eb6cfd8cbd6799bdef8e2c65387315"
+    },
+    {
+      "path": "package.json",
+      "bytes": 697,
+      "sha256": "b920ee430a116219b5fc3b84b4ff36b6da37ecac5a1b9143d9605d5cb6a52e65"
+    },
+    {
+      "path": "scripts/build_from_raw.ts",
+      "bytes": 2798,
+      "sha256": "e9faddd45a68c4f0d3ee82f6458067b62a626cc2f0189c2b2b11e86d440cd665"
+    },
+    {
+      "path": "scripts/check_publication.mjs",
+      "bytes": 1248,
+      "sha256": "4dd1d81e47ad7aabbcfdc776e531feec1f2e596cc97aecdf06fad30711600930"
+    },
+    {
+      "path": "scripts/compare_builds.ts",
+      "bytes": 1690,
+      "sha256": "6745c4dcec06f2a81dbefc1922375277299ad9cba136ab19f108ea2d90303f4b"
+    },
+    {
+      "path": "scripts/compare_results.ts",
+      "bytes": 1094,
+      "sha256": "c7a97a5c6d70d197d35282c1fbcb29066586af501532031837ff6becdb1bee14"
+    },
+    {
+      "path": "scripts/fetch_armory.mjs",
+      "bytes": 2961,
+      "sha256": "e59964bae3fcd4c7239c4ef4d9800a5ddd5e2cd15e37d87d5a02c20f96b755ae"
+    },
+    {
+      "path": "scripts/local_api.ts",
+      "bytes": 1771,
+      "sha256": "da765aaf9539ca56ef82eec6f37cb3750aa1ecec644712f7731ec0d1d9034167"
+    },
+    {
+      "path": "scripts/model_identity.ts",
+      "bytes": 2570,
+      "sha256": "c089054862f9e1a017c814c3c774c4f321efe04af1de6419af1183611e41c529"
+    },
+    {
+      "path": "scripts/parse_armory.mjs",
+      "bytes": 5334,
+      "sha256": "572a88e0ede986f6007324b405f1b310b9f4db9e87048068b340a4d5a0c33e71"
+    },
+    {
+      "path": "scripts/parse_armory.test.mjs",
+      "bytes": 3643,
+      "sha256": "ff36b237f53261acabe3d36fa7e0621210cd9fce1ded5ac97c8e9dd3718da59c"
+    },
+    {
+      "path": "scripts/replay_result.ts",
+      "bytes": 2253,
+      "sha256": "95bfab00fdcec3e6c0525fd14143e9121c616e32d3f4361289cd509ac9448d93"
+    },
+    {
+      "path": "scripts/run_saved_build.ts",
+      "bytes": 2061,
+      "sha256": "bd949f5cb9a92b42ec54b22df8ca167e823f276a25fc219eda5c5cfdb1ba0ced"
+    },
+    {
+      "path": "scripts/run_sim.ts",
+      "bytes": 1904,
+      "sha256": "ca91c0b013a517d87bd65f2d63a6644c1aa27f9e8273535c1e63064386e33b4d"
+    },
+    {
+      "path": "scripts/saved_build_worker.ts",
+      "bytes": 1074,
+      "sha256": "b7da2ea2fd2bb9a173b366b055c08f07ac6dbaaca05618cb87432c3d3ea9cb87"
+    },
+    {
+      "path": "scripts/security.test.mjs",
+      "bytes": 2925,
+      "sha256": "3638a1b0db7031bec3882257ff53b386915ed481455c33cfede65118112634e6"
+    },
+    {
+      "path": "scripts/simulate_build.ts",
+      "bytes": 1701,
+      "sha256": "e6d3effacc7239e925011fa50697790ad71582d5da335e81a8dcd2cb31fbae1c"
+    },
+    {
+      "path": "src/api.test.ts",
+      "bytes": 3230,
+      "sha256": "872fce01ece1b87a16359da83654beaff2e480a9481e450070f6893961cf7bac"
+    },
+    {
+      "path": "src/api.ts",
+      "bytes": 1625,
+      "sha256": "ef56b35102dd05491db06dfeb5c8e92f80ce16ec98a792c47889d931ee0aa0ec"
+    },
+    {
+      "path": "src/buildDifferenceDescriptions.test.ts",
+      "bytes": 2687,
+      "sha256": "ea61926a1e4cbddbd57b906a3cc19670f8346c668e9bd286ab7ac9c3ba15317b"
+    },
+    {
+      "path": "src/buildDifferenceDescriptions.ts",
+      "bytes": 3414,
+      "sha256": "2c27b8e8154808e59fa525d530ff3a3b0a3da723ad08061c9c550aa94f1e9806"
+    },
+    {
+      "path": "src/compare.test.ts",
+      "bytes": 5224,
+      "sha256": "71dc10af04325639169b4c6179987b8c9645e1765d81b9b06750786327de8226"
+    },
+    {
+      "path": "src/compare.ts",
+      "bytes": 2905,
+      "sha256": "7e07f6de72ffb9666d5aa80c956da8cb3e4945e02a521426f0cfb3b502605631"
+    },
+    {
+      "path": "src/engine/__tests__/aggregate-critical.test.ts",
+      "bytes": 2743,
+      "sha256": "e66aeeed3aaa7f6e21e6dc1f3a403c9a4d500b831177f56c7cdb112ea7713f37"
+    },
+    {
+      "path": "src/engine/__tests__/another-emperor-level-one.test.ts",
+      "bytes": 4667,
+      "sha256": "5e207d4d6d3111f276e37c51f8e0854f554bef252c9e50ae400182dbd5bf0d89"
+    },
+    {
+      "path": "src/engine/__tests__/another-emperor.test.ts",
+      "bytes": 7502,
+      "sha256": "3dbe5771596f6711ce09a28ef9d9114306580fc5c4328e493d9fba24e3c83195"
+    },
+    {
+      "path": "src/engine/__tests__/armory-class-validation.test.ts",
+      "bytes": 1136,
+      "sha256": "d5a708a8a0e6b0928b35fe425778f87a75ebab7fad4afe6c92a07becd370b317"
+    },
+    {
+      "path": "src/engine/__tests__/armory.test.ts",
+      "bytes": 9336,
+      "sha256": "f4f85fcf467720b87ceca9834cca0698d686f98ee41ea7339765a2991121a064"
+    },
+    {
+      "path": "src/engine/__tests__/attack-power.test.ts",
+      "bytes": 5712,
+      "sha256": "90c4f4755142dd640589c39bc386f6f4cdb8b8aeb95f87e6a541bcdd1f614720"
+    },
+    {
+      "path": "src/engine/__tests__/attack-speed.test.ts",
+      "bytes": 4812,
+      "sha256": "52441ea86175551ba3371f769356215a5978bc2d3683f4a54a8ae18f2ade05e0"
+    },
+    {
+      "path": "src/engine/__tests__/back-flush-variants.test.ts",
+      "bytes": 5349,
+      "sha256": "c8a7c4134494b2dcb6f9712932b5e9ab653d7ac6f13fad0a28b11b8748d18f12"
+    },
+    {
+      "path": "src/engine/__tests__/buff-reapplication.test.ts",
+      "bytes": 1403,
+      "sha256": "bceedb8d99d92d0e782bd16f5cfbc7325533f702a25d48033aca02d1e26c51ae"
+    },
+    {
+      "path": "src/engine/__tests__/build-variant-validation.test.ts",
+      "bytes": 2062,
+      "sha256": "9c209502e4eda48d2dff927b287c664d54cd63b8e28c888b6cedbb1c4b3fa7c5"
+    },
+    {
+      "path": "src/engine/__tests__/call-defense-ignore.test.ts",
+      "bytes": 3365,
+      "sha256": "ee2c0342c17a0bd73caeb27ce983bac8ac27d65119e15061b841cb98d6cbd2c7"
+    },
+    {
+      "path": "src/engine/__tests__/call-of-destiny.test.ts",
+      "bytes": 4817,
+      "sha256": "5bb03877ffbaaa9adce0ec242c822039ba826e4332a7758ad56ba22b712b03c9"
+    },
+    {
+      "path": "src/engine/__tests__/card-dot-warning.test.ts",
+      "bytes": 2566,
+      "sha256": "f78e49af92aa648f5ff446b4fb373650fd17cd6c9c33edd3285855b7574fc61a"
+    },
+    {
+      "path": "src/engine/__tests__/card-set-boundary.test.ts",
+      "bytes": 1953,
+      "sha256": "26534b0e525c71f92f5a3af13981553106df2aa692f14391b82a270e0dbad788"
+    },
+    {
+      "path": "src/engine/__tests__/card-supply.test.ts",
+      "bytes": 5284,
+      "sha256": "304065f2cba273c4a4708cf978b348258979837b5d1de07474ecd2131e90762c"
+    },
+    {
+      "path": "src/engine/__tests__/card-usage.test.ts",
+      "bytes": 4159,
+      "sha256": "1f77bbe74364db8582d37c0352255a722fae079cdb23d7ee1dfe575c56dda687"
+    },
+    {
+      "path": "src/engine/__tests__/cast-speed-input.test.ts",
+      "bytes": 3902,
+      "sha256": "2c579a7bc9f7b6ad4e8ebfacd6a5225faf66a752f3a60d7703c09faf7bf3d9cb"
+    },
+    {
+      "path": "src/engine/__tests__/chain-draw.test.ts",
+      "bytes": 6210,
+      "sha256": "9d6bd7a96d820b5f81477e0db91d1c2258a5bebea1478f9250eacba907a2bed5"
+    },
+    {
+      "path": "src/engine/__tests__/chariot.test.ts",
+      "bytes": 5058,
+      "sha256": "499e70690df9df121f939f23994ffb88015e0c5dfdb8eb3a7620564310a74d5d"
+    },
+    {
+      "path": "src/engine/__tests__/checkmate.test.ts",
+      "bytes": 4142,
+      "sha256": "7f8ed91ab7b1014d83c3eaec8c623b26600f143b824bda59f6ca04ed833b22d3"
+    },
+    {
+      "path": "src/engine/__tests__/common-passive.test.ts",
+      "bytes": 4767,
+      "sha256": "ed5135c40be532d55b28cc6a2c7563179f4de3a7c3d89345e36f08a7e80dd473"
+    },
+    {
+      "path": "src/engine/__tests__/conditional-dot-warning.test.ts",
+      "bytes": 2686,
+      "sha256": "d8cff9aa63f2b77114cc9caca75c7679837d21cfbb20c7552f73d3e706047b4f"
+    },
+    {
+      "path": "src/engine/__tests__/conditional-tripod-input.test.ts",
+      "bytes": 4114,
+      "sha256": "8778c6e3604473868d8cbf1b3c5c8f830321213acd6bb1754e5ae1ee9c271380"
+    },
+    {
+      "path": "src/engine/__tests__/cooldown-time-input.test.ts",
+      "bytes": 3686,
+      "sha256": "3362f37c0cda19d115d48083b24df21db5c4d719a25b4774106eadc92ea9e83f"
+    },
+    {
+      "path": "src/engine/__tests__/core-eligibility.test.ts",
+      "bytes": 5043,
+      "sha256": "c9445a5174ed740d5545e26233036c8656b179098f4917aecd79038ced461999"
+    },
+    {
+      "path": "src/engine/__tests__/core-fixture.ts",
+      "bytes": 859,
+      "sha256": "906714671b6a879ca2cdbc62b15a8dfa9bd3038ed64cf4aaca31a2c6bb99d98b"
+    },
+    {
+      "path": "src/engine/__tests__/core-point-validation.test.ts",
+      "bytes": 2466,
+      "sha256": "f3939112c531d4773fafbdf1b8ee96a578960896211934bcfd261e90f057325a"
+    },
+    {
+      "path": "src/engine/__tests__/damage.test.ts",
+      "bytes": 2883,
+      "sha256": "914efeab789cdb9cee0be9915c9d90704068aaf1baf03c368fafcf5c8676371b"
+    },
+    {
+      "path": "src/engine/__tests__/dark-collection.test.ts",
+      "bytes": 4003,
+      "sha256": "7b1bcfa43eddeb676f487cf7bb4dee4659853a0734737381d2bb69683a507301"
+    },
+    {
+      "path": "src/engine/__tests__/dark-resurrection.test.ts",
+      "bytes": 9461,
+      "sha256": "cc7555a79f4289a82fd8d91a74e5c36322c27fe16edc9c174bde58343aff3920"
+    },
+    {
+      "path": "src/engine/__tests__/darkness-garden.test.ts",
+      "bytes": 3344,
+      "sha256": "755854cb8350f5d91717d9d8444b17753acddc9500ffcdbfbc9af4584657bc7c"
+    },
+    {
+      "path": "src/engine/__tests__/deck-passive-validation.test.ts",
+      "bytes": 3886,
+      "sha256": "b2626c1c9fb92b8ff31c1f806a625484318cb26a5b393cbbbbe4e98ccb51271c"
+    },
+    {
+      "path": "src/engine/__tests__/deck.test.ts",
+      "bytes": 1647,
+      "sha256": "c343eb8eb103ef195ee6837948851b12ea0ff83a928bd24d097b0e9a4261fa87"
+    },
+    {
+      "path": "src/engine/__tests__/delayed-hit-input.test.ts",
+      "bytes": 3816,
+      "sha256": "3bce32c9b750c5d493d5272ea03bb3c46bfbf92ec6b5e3ac271a309e4d2460e7"
+    },
+    {
+      "path": "src/engine/__tests__/dot-time-input.test.ts",
+      "bytes": 3564,
+      "sha256": "da6e3996d57789ab5d547e5d2a6a7fdf4bfdccba6f5c5ff1e7093b952e81f296"
+    },
+    {
+      "path": "src/engine/__tests__/dot-time-progress.test.ts",
+      "bytes": 2050,
+      "sha256": "922fe567a44f20ae736e5ba1046584645a29aff0707b1240b9c7d1106220e28f"
+    },
+    {
+      "path": "src/engine/__tests__/duplicate-skill-id.test.ts",
+      "bytes": 2231,
+      "sha256": "20d44f66c8b8072d37b8b1ebb25353cf4ce9289c68a1d9b666caee6f426a7a6b"
+    },
+    {
+      "path": "src/engine/__tests__/effect-scope.test.ts",
+      "bytes": 11466,
+      "sha256": "c44d1a1129588a1e9e0387ce32194b037885668a3fc7c05fb331e089ac51d2f8"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-base.test.ts",
+      "bytes": 3889,
+      "sha256": "3bc877c647b21add656a21c5fe080072e96b381fa9add2c84f1259242b6059df"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-card-bonus.test.ts",
+      "bytes": 4414,
+      "sha256": "080038ca81f644ff02a2dea62e2bd3179c38d132e2c2c42b968ab4618e899bbc"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-card-policy.test.ts",
+      "bytes": 8125,
+      "sha256": "0b79f92ce08a4595775b43f90b55bbd14b463b823b61cc44d30b8e071566a158"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-edict.test.ts",
+      "bytes": 2651,
+      "sha256": "97eee5e86f65f09fbc89e7a67c332588b468a9832a65486c8fc604a3afff44c7"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-gift.test.ts",
+      "bytes": 4214,
+      "sha256": "3ff5051a80eddc0a769e085b2f3b0689b42e242e231403c1eda655b2217a8c1f"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-heart-trigger.test.ts",
+      "bytes": 6918,
+      "sha256": "26c076129d968632fa664828c6d0027f0d491cd1479f147be0fd97b907674789"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-heart.test.ts",
+      "bytes": 4101,
+      "sha256": "ad09850af724e03833351afa211e57b2f1e60d2280cb25803bfb117ee43c3871"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-import.test.ts",
+      "bytes": 8646,
+      "sha256": "7d95d98bf51844a8660d5659a18cbc14b0607ffafe621fc21e7b876a33d777dc"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-judgment.test.ts",
+      "bytes": 4842,
+      "sha256": "4eb0e52efb61f174ee9c6ed76e9c1f34559119f439c7b32f3a64f3a2a5382d33"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-passive-validation.test.ts",
+      "bytes": 3680,
+      "sha256": "546486ca434cdf1e39fcd682290ed5109883fcf2715739d00cf8e51bcd6447f5"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-return-refresh.test.ts",
+      "bytes": 3383,
+      "sha256": "9b2ba677e55f85f13d90c39d63167515ec0867c53e7bec112fe7fb5a4e7f7f6e"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-setup.test.ts",
+      "bytes": 3036,
+      "sha256": "148c28e4322f1c03b619827b08c00b6d646d92af33112de32cfcce58c8a49278"
+    },
+    {
+      "path": "src/engine/__tests__/emperor-stream-setup.test.ts",
+      "bytes": 3947,
+      "sha256": "44a43b64963539aebcf4172a823151a19274222f9ef36bf09f8fe72c299dc45a"
+    },
+    {
+      "path": "src/engine/__tests__/empress-passive-validation.test.ts",
+      "bytes": 5470,
+      "sha256": "4eb2eca4555f25a8b1229bac28a5e8a6438bcd0f0f0af6b9329c00ddeee965d7"
+    },
+    {
+      "path": "src/engine/__tests__/engraving-input-validation.test.ts",
+      "bytes": 3823,
+      "sha256": "3a28ad30d1192f8773739b8d078c05be94a465ae69af7429515350063b099e87"
+    },
+    {
+      "path": "src/engine/__tests__/equipment-attack-validation.test.ts",
+      "bytes": 3603,
+      "sha256": "e0c9ad4fe1f6224b9113d28754f74e1e10b2b436c9c91e284311c3dbb9ff1380"
+    },
+    {
+      "path": "src/engine/__tests__/equipment-damage-conditions.test.ts",
+      "bytes": 2346,
+      "sha256": "34ceb90e1340f2bf616d7cf4b421cff813f6f8965d0075b25949d1c68e96273d"
+    },
+    {
+      "path": "src/engine/__tests__/equipment-damage.test.ts",
+      "bytes": 3933,
+      "sha256": "8e37174d7ea52b73e92d8f09fae690678599f58f725c2086a528f150ac9ab242"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-cooldown.test.ts",
+      "bytes": 4222,
+      "sha256": "f888ad485b2c92f0646509eb9d88dda9a703b2fd123d772f2aa7541c2d4c30a1"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-overlap.test.ts",
+      "bytes": 13194,
+      "sha256": "88bdca31d38d0831db9095d6024009d5f535e42de606525ed018bd9b78f8f4aa"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-poison-input.test.ts",
+      "bytes": 2970,
+      "sha256": "9372a493d629c8fda0055ced6f4d78d50cb8d992325a4d9f824bce83cbd0ba24"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-scope.test.ts",
+      "bytes": 6474,
+      "sha256": "cc30e1a335b492bba1b8ea85bbf8ff6fd88d779672b5f1d81744cc104213121c"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-time-input.test.ts",
+      "bytes": 4188,
+      "sha256": "545bd5384c86ed7eec2d9ceb40a31d774630081271cf16fe7bd71b2b56732c60"
+    },
+    {
+      "path": "src/engine/__tests__/evoke-timing.test.ts",
+      "bytes": 15266,
+      "sha256": "281d0cfc2177391387630c62b91d8addf3086ba8f6fc89f8f118b69c635bbec0"
+    },
+    {
+      "path": "src/engine/__tests__/evolution-cooldown.test.ts",
+      "bytes": 6273,
+      "sha256": "f23477f651264c9bbfda5b940251a6b3b6f5b7759f232fb51bfb5a21804e9bd4"
+    },
+    {
+      "path": "src/engine/__tests__/evolution-effect-validation.test.ts",
+      "bytes": 4275,
+      "sha256": "6c73b8b204b9694c87749892032ccf298c984a2ca8eda038434c8efa702c6476"
+    },
+    {
+      "path": "src/engine/__tests__/evolution-import-validation.test.ts",
+      "bytes": 4483,
+      "sha256": "ae6aef473d9217ecc40d810283480495416b279ebfab88765dbc2107d89be9a2"
+    },
+    {
+      "path": "src/engine/__tests__/fatal-hand.test.ts",
+      "bytes": 6514,
+      "sha256": "41220e7616d40c38ffd3d4426c8d2bc7a7db5c1d8f800fd8addc21fc063afe5d"
+    },
+    {
+      "path": "src/engine/__tests__/flat-ap-damage.test.ts",
+      "bytes": 6509,
+      "sha256": "381215b934507e6724983678d3d4542e9ec7ac3a187a8971985994f152764502"
+    },
+    {
+      "path": "src/engine/__tests__/flower-core.test.ts",
+      "bytes": 2468,
+      "sha256": "d856508f137f31b5e31b58c05b6a6c9f31421dfe83ff5b657f43c413fb5ac277"
+    },
+    {
+      "path": "src/engine/__tests__/flower-fast-return.test.ts",
+      "bytes": 7574,
+      "sha256": "fe97209d9b409a096e00036794b30750de6636920f6b6fc7f924d011ed428e18"
+    },
+    {
+      "path": "src/engine/__tests__/forbidden-spell.test.ts",
+      "bytes": 5108,
+      "sha256": "9a740ce811477a3db3e6f8c6f6d3adae18e7ac6cf196b2ce17e2ba677ec6270d"
+    },
+    {
+      "path": "src/engine/__tests__/full-hand-gauge.test.ts",
+      "bytes": 3796,
+      "sha256": "9696bd643feb3af5a04dce9bda9c7219d62010c45e24772899b18cb01c83225b"
+    },
+    {
+      "path": "src/engine/__tests__/gem-input-validation.test.ts",
+      "bytes": 3361,
+      "sha256": "7a96bb7d0bb9d7d2e8b861efe851df9f3210bb64a3c13c9b69ef0cd7cf846ba2"
+    },
+    {
+      "path": "src/engine/__tests__/grid-gem-effects.test.ts",
+      "bytes": 4153,
+      "sha256": "33062da4d961b50596bedb88f6e7102fe38c632ba78107ebd98c00fd76a427df"
+    },
+    {
+      "path": "src/engine/__tests__/high-tempo.test.ts",
+      "bytes": 6712,
+      "sha256": "6d683a14c7de010b1423f3c03e80431739591bdbdb5a360af595b11a42003b8f"
+    },
+    {
+      "path": "src/engine/__tests__/hit-buff-input-validation.test.ts",
+      "bytes": 3905,
+      "sha256": "9fd38ac2e0535422bac38fde4e5473e0b6d5310621ea343c3fe1f5da96a57f67"
+    },
+    {
+      "path": "src/engine/__tests__/hit-buffs.test.ts",
+      "bytes": 7198,
+      "sha256": "faa840452367e3066ee1b8b4d9c080fdf4c8998ecf9171e69846657b29e589ca"
+    },
+    {
+      "path": "src/engine/__tests__/hit-master.test.ts",
+      "bytes": 5642,
+      "sha256": "c4dc20ba1c775bf5ca288464edad640ecf2468dca30545b1286878444ec295cd"
+    },
+    {
+      "path": "src/engine/__tests__/hit-sequence-input.test.ts",
+      "bytes": 3816,
+      "sha256": "9c5b6c51055455821cd0ace8ff810da4f968c05759d715e4bebbfb1ae5b91dc1"
+    },
+    {
+      "path": "src/engine/__tests__/identity-damage.test.ts",
+      "bytes": 4868,
+      "sha256": "53482b195c37a04d61db170d7db5b2a8c0564ede3713b1797decf798add157b1"
+    },
+    {
+      "path": "src/engine/__tests__/identity-gems.test.ts",
+      "bytes": 3177,
+      "sha256": "beea16f96d45d60e99e11980bd7e68424f49e194ed3696f2606dd971dd24cb1e"
+    },
+    {
+      "path": "src/engine/__tests__/idle-buff-expiry.test.ts",
+      "bytes": 3103,
+      "sha256": "fb71b1f33f9737c59037c4c97cce17aa234efc205dd3f1af2a44a0f56be77593"
+    },
+    {
+      "path": "src/engine/__tests__/idle-cooldown.test.ts",
+      "bytes": 2605,
+      "sha256": "668eec4f71223149a3e4dcf40f61aacf477479b9d088f8b6e960b4d955b16567"
+    },
+    {
+      "path": "src/engine/__tests__/impact-mate.test.ts",
+      "bytes": 5319,
+      "sha256": "c2942ce81d2844f4bf9e0966b84c531ef7d29280466847435b5b8652d33047eb"
+    },
+    {
+      "path": "src/engine/__tests__/infinity-delay-input.test.ts",
+      "bytes": 2340,
+      "sha256": "115c65a4b5634270ef9a2a5270a368bf02df4bff6cb5ae45e980717d3e3ada1b"
+    },
+    {
+      "path": "src/engine/__tests__/infinity.test.ts",
+      "bytes": 7486,
+      "sha256": "6deb2c54ccbcdb47ad68b376fadf32f9b98774cab6219c9f9c494eb1d841f181"
+    },
+    {
+      "path": "src/engine/__tests__/initial-state.test.ts",
+      "bytes": 2507,
+      "sha256": "4734b16057500eb6a20d34b95d8d5cec8d32f1783e78514de2faa97fdaf29f14"
+    },
+    {
+      "path": "src/engine/__tests__/instant-spell.test.ts",
+      "bytes": 5908,
+      "sha256": "aad98c594d8b20b2cb5630cce4d00964ced330d117eeb474499b729938c8e09d"
+    },
+    {
+      "path": "src/engine/__tests__/joy.test.ts",
+      "bytes": 4578,
+      "sha256": "551983a4c46afe403d8ba50d9a45108ce39870ec3209a886c74e0ddb471edda9"
+    },
+    {
+      "path": "src/engine/__tests__/judgment-rune.test.ts",
+      "bytes": 10285,
+      "sha256": "303f122b7ab7618af7ae8883eece4a3943cfcbe9ad88a0da27605d8d7535b269"
+    },
+    {
+      "path": "src/engine/__tests__/knight-passive.test.ts",
+      "bytes": 4449,
+      "sha256": "f46533290e5f4c8213e68bd45a5d97bfad853d7c261113cef185e31c1dc000ff"
+    },
+    {
+      "path": "src/engine/__tests__/leap-input-validation.test.ts",
+      "bytes": 4359,
+      "sha256": "e7a0eb07583a4eae396e7d1ecae57d5e593a49a2948b521b779e6e73a86528c6"
+    },
+    {
+      "path": "src/engine/__tests__/master-crush.test.ts",
+      "bytes": 6469,
+      "sha256": "36cacaf9b80022c858bb17651a22c3c93b965370795e4f8abea4b4651714f9ad"
+    },
+    {
+      "path": "src/engine/__tests__/mayhem.test.ts",
+      "bytes": 3593,
+      "sha256": "f03ac67c15b56bb43229a02bd9d447e59bfc25ad234b119268e4fe924c4b1645"
+    },
+    {
+      "path": "src/engine/__tests__/movement-tripod-input.test.ts",
+      "bytes": 3214,
+      "sha256": "7b2083aff9dce96a3092dbae84e4c88ca82194534013481e1282ac1b51062e0b"
+    },
+    {
+      "path": "src/engine/__tests__/nullable-armory.test.ts",
+      "bytes": 1983,
+      "sha256": "31bcf95455fea266b9e036d596cfc8344c52d4f7e3eafa2aa37649f7805d7c1e"
+    },
+    {
+      "path": "src/engine/__tests__/partitioned-rng.test.ts",
+      "bytes": 6556,
+      "sha256": "a61d5c84dfd2f0f87d180871c204dc52bf9aa4b00771351cc9d95b776002f2fd"
+    },
+    {
+      "path": "src/engine/__tests__/profile-number-validation.test.ts",
+      "bytes": 3073,
+      "sha256": "abc37f5010559ca6877a3e4b9a62ff18e961edd142ea4bc991c3f37db964c2e9"
+    },
+    {
+      "path": "src/engine/__tests__/profile-stat-effects.test.ts",
+      "bytes": 4023,
+      "sha256": "caa9995f9e515a48c5373733c3e948093be75b88178c78743cb976a9400b43ca"
+    },
+    {
+      "path": "src/engine/__tests__/quadra-card-increase.test.ts",
+      "bytes": 3354,
+      "sha256": "58fac38c49efbad898dc61d7355c65dacc3da11e9c5102a86a8354af30f6b846"
+    },
+    {
+      "path": "src/engine/__tests__/quick-draw.test.ts",
+      "bytes": 7521,
+      "sha256": "c278e5ace0b501fab3879aa19504d21c93148428bf287e70ed2d1a6d2b96962f"
+    },
+    {
+      "path": "src/engine/__tests__/quick-recharge-warning.test.ts",
+      "bytes": 2034,
+      "sha256": "d83b4b36006a62ba85ed4c57f5e68c79e964974e6d2ea1ede7815eddb896cc9d"
+    },
+    {
+      "path": "src/engine/__tests__/raid-captain.test.ts",
+      "bytes": 6362,
+      "sha256": "f668fc40a312fe83daf552563b3a1d450efcd270f515e0c5dfeb5096d06d2f10"
+    },
+    {
+      "path": "src/engine/__tests__/rain-weakpoint-input.test.ts",
+      "bytes": 2627,
+      "sha256": "f918f39ade64ce44c79678c6f872a85736f77d1108abc2c5d1ad9e186bd12a0b"
+    },
+    {
+      "path": "src/engine/__tests__/remaining-cooldown-input.test.ts",
+      "bytes": 2818,
+      "sha256": "0285af41fa2270a049740f880845c81906c11a7567e1f135741f8e3034b47aba"
+    },
+    {
+      "path": "src/engine/__tests__/remaining-direct.test.ts",
+      "bytes": 3409,
+      "sha256": "d34851b75d66c434dff6409c18220a8611c1a9b1a609bc21d37e9af58b40ee09"
+    },
+    {
+      "path": "src/engine/__tests__/remaining-engraving-validation.test.ts",
+      "bytes": 4150,
+      "sha256": "0477e4f011c2b1740bda771d8b0610e4b7020d34e26bc295cfd240a2b7633d68"
+    },
+    {
+      "path": "src/engine/__tests__/return-policy.test.ts",
+      "bytes": 4062,
+      "sha256": "ea1b2424120833cf48059241835504127875bda400abf5974e60b3331b9509b2"
+    },
+    {
+      "path": "src/engine/__tests__/ruin-coefficients.test.ts",
+      "bytes": 7296,
+      "sha256": "3c99cd5641a79a02935362b8bf20a9dcfe9ab7dacc72bb9bc1113578f4aee24f"
+    },
+    {
+      "path": "src/engine/__tests__/ruin-damage-tripod-input.test.ts",
+      "bytes": 3942,
+      "sha256": "496b6d5b0b2d72926fc412c3a6746b909edcabb8f315b8e5a77e687ea2a2efe9"
+    },
+    {
+      "path": "src/engine/__tests__/ruin-direct.test.ts",
+      "bytes": 5964,
+      "sha256": "7d7daafc14333b3729ba474cd41d87784038034cebf9d08f6539fb38aff7672b"
+    },
+    {
+      "path": "src/engine/__tests__/ruin-fullset.test.ts",
+      "bytes": 7252,
+      "sha256": "eef151e7ed20265a4ec04384a62c9edbf0701a7d1f6c7e056834d48c9e7e20ae"
+    },
+    {
+      "path": "src/engine/__tests__/ruin-minorset.test.ts",
+      "bytes": 6340,
+      "sha256": "6158fc5f9dc3986727bab462faef0cead59f7def493a9df3bc191700e8463829"
+    },
+    {
+      "path": "src/engine/__tests__/rune-import-validation.test.ts",
+      "bytes": 3576,
+      "sha256": "3fc0b048ab5ca215328435f03e2c5a42ab615949a06510811a2342e6049eb282"
+    },
+    {
+      "path": "src/engine/__tests__/rune-section-validation.test.ts",
+      "bytes": 2689,
+      "sha256": "61abc1d08dc8d585f4ba44ce764f84db1e8d772fefff502b2c5802294ea56c3d"
+    },
+    {
+      "path": "src/engine/__tests__/scratch.test.ts",
+      "bytes": 4311,
+      "sha256": "36c93f6861c21dd364d2e2d714ba09c90434047a7f622130b16c3e59957e41d5"
+    },
+    {
+      "path": "src/engine/__tests__/secret-garden-input.test.ts",
+      "bytes": 4286,
+      "sha256": "a693f5ad185bb3463c14d288e8820e511a7416a2afba6012284886259063d7c0"
+    },
+    {
+      "path": "src/engine/__tests__/serendipity-input-validation.test.ts",
+      "bytes": 3112,
+      "sha256": "78234510204a30529d40ca611a2fe0904f0cb8e09a3d01c70dc25a290f954c2c"
+    },
+    {
+      "path": "src/engine/__tests__/serendipity-policy.test.ts",
+      "bytes": 6593,
+      "sha256": "009f12df8c41ed67af271a814c6ca82d081867f8582c3d827f46834119ff59e8"
+    },
+    {
+      "path": "src/engine/__tests__/serendipity-strong-strike.test.ts",
+      "bytes": 2595,
+      "sha256": "fdde1888654c09df5e9067f171f3aa9651591e4dc835f34a66db80f473ada6c8"
+    },
+    {
+      "path": "src/engine/__tests__/serendipity.test.ts",
+      "bytes": 11023,
+      "sha256": "ef93e2029d87dfa8da3374c2e57b37f916988a6b2451d548ff7cff6cbcd6085c"
+    },
+    {
+      "path": "src/engine/__tests__/shuffle.test.ts",
+      "bytes": 5864,
+      "sha256": "b3f809305c696e29d0e36157f8019248cec82a3a8e5e5da1ece0499cfe003f6e"
+    },
+    {
+      "path": "src/engine/__tests__/sim-config.test.ts",
+      "bytes": 1549,
+      "sha256": "7b88ff996af7883505cd716ed04a951f063f25d4b5c374099270b9c309e3ac38"
+    },
+    {
+      "path": "src/engine/__tests__/sim.test.ts",
+      "bytes": 1785,
+      "sha256": "03506c1342527b7746c2179b981d12ee01f02ce86e3a33fb0ba52c319f398f8c"
+    },
+    {
+      "path": "src/engine/__tests__/simple-tripod-input.test.ts",
+      "bytes": 3608,
+      "sha256": "f24e93646d276c768f43ed0aac070263be76fabfff0a70138e35b355bf2b866e"
+    },
+    {
+      "path": "src/engine/__tests__/simulation-seed-range.test.ts",
+      "bytes": 1417,
+      "sha256": "32e7a516047bc78f9a179915aebbc5cb2bc94ffa7a11caf79dc3038e2ef953a2"
+    },
+    {
+      "path": "src/engine/__tests__/skill-damage.test.ts",
+      "bytes": 5630,
+      "sha256": "5789fc8f95e76fa7413d58514eafea4aedfa0a84a1642f5dec671a6cae34bbad"
+    },
+    {
+      "path": "src/engine/__tests__/spiral.test.ts",
+      "bytes": 3939,
+      "sha256": "d8e8b75aeae3561cfb2a4d4d8f41ef89583b9b75e3038fa90a5b82dc3a9983c4"
+    },
+    {
+      "path": "src/engine/__tests__/stack-count-tripod-input.test.ts",
+      "bytes": 2774,
+      "sha256": "fb4b84802c71be90394ba527b72c87dcb0d3cfcf2710961ff41109f4ff2af6c0"
+    },
+    {
+      "path": "src/engine/__tests__/stack-hold.test.ts",
+      "bytes": 8962,
+      "sha256": "43faeda6cc6b92c5c2615c5cea7c9aee3b4b073b6ddb5a55d8291446980a48dc"
+    },
+    {
+      "path": "src/engine/__tests__/stampede-focus.test.ts",
+      "bytes": 4994,
+      "sha256": "66c335bf364b9bac6f6b72e2eb554dcac6966d58e0c3ee6803c6c636bc4384d6"
+    },
+    {
+      "path": "src/engine/__tests__/standing-striker.test.ts",
+      "bytes": 4492,
+      "sha256": "06e4ace690493503ecb441976eb94eae93fa6163304154741b750a6e6bbce253"
+    },
+    {
+      "path": "src/engine/__tests__/state-transitions.test.ts",
+      "bytes": 15126,
+      "sha256": "dc5c5c335e97c370c9f0d777632be8e127513879b824256855c4a44c03500b65"
+    },
+    {
+      "path": "src/engine/__tests__/storm-garden.test.ts",
+      "bytes": 3161,
+      "sha256": "31d9fa8fd147c955dcaf7a5040c400506ad08a3bbe914b98b62c20f91b88c3dc"
+    },
+    {
+      "path": "src/engine/__tests__/stream-charges.test.ts",
+      "bytes": 7931,
+      "sha256": "6e6a42e64d627f13579aa1c4cdecfa32563053053c2117111ddc897e719a2665"
+    },
+    {
+      "path": "src/engine/__tests__/stream-core.test.ts",
+      "bytes": 4890,
+      "sha256": "2d2263b32c4b643f9d2b44f4dd503fddd95bfab846218f0639b1bc1cc3a604d8"
+    },
+    {
+      "path": "src/engine/__tests__/stream.test.ts",
+      "bytes": 7589,
+      "sha256": "3e7186860e861602a1f2dd2201560c1e27f6cf6ee8567bb9ed29aa93c7f606ea"
+    },
+    {
+      "path": "src/engine/__tests__/strike.test.ts",
+      "bytes": 5665,
+      "sha256": "d7e6099b2a12cb626f266224d1f561d45cde248978a86034cec564094da31d5f"
+    },
+    {
+      "path": "src/engine/__tests__/sun-nodes.test.ts",
+      "bytes": 8228,
+      "sha256": "9298dcddb34de470a20ac5e76f74cb105f8a99e00bb9b6cd46e2ce3944c21dfc"
+    },
+    {
+      "path": "src/engine/__tests__/the-sun.test.ts",
+      "bytes": 6227,
+      "sha256": "89529a0d37ffb5ece56130286474634fa91db5a73bd084e96631ba1d2a61b522"
+    },
+    {
+      "path": "src/engine/__tests__/tooltip-seconds.test.ts",
+      "bytes": 1343,
+      "sha256": "66aea4536e254a6c4995c128f7cb0ff2acc300504eeb7ce970774137370a82e8"
+    },
+    {
+      "path": "src/engine/__tests__/training-grammar.test.ts",
+      "bytes": 2674,
+      "sha256": "c21e5fc89265b47bdb8515feab9751ae77a6737bcc9e608fbccc46e268f88dc4"
+    },
+    {
+      "path": "src/engine/__tests__/tripod-cooldown-input.test.ts",
+      "bytes": 3050,
+      "sha256": "e4e104a8dbb68940d42da7755d26ecd39cb51ef00e36f812c452865d011920ce"
+    },
+    {
+      "path": "src/engine/__tests__/unknown-passive.test.ts",
+      "bytes": 3917,
+      "sha256": "3151f2efb53cca19cf6209b29b47573817a183adc9e64af922a8abe136823215"
+    },
+    {
+      "path": "src/engine/__tests__/unknown-tripod-fallback.test.ts",
+      "bytes": 2224,
+      "sha256": "e2df4651b16fd511e3181e47bfee5c71504c7e2438abfb4eb650cab1830bd53d"
+    },
+    {
+      "path": "src/engine/__tests__/unmodeled-tripods.test.ts",
+      "bytes": 2175,
+      "sha256": "5bbc3247c8ae9a34bc8e8877b6b364d0a4de86dd981d3703c8574f6a56f174e8"
+    },
+    {
+      "path": "src/engine/__tests__/unsupported-combo-scope.test.ts",
+      "bytes": 2640,
+      "sha256": "2f0016d26232f86f9e1d61451e20ca55b916f091a52e7fe5d941b09952413896"
+    },
+    {
+      "path": "src/engine/__tests__/variant-tripod-numbers.test.ts",
+      "bytes": 2711,
+      "sha256": "4bac33ab03e867bc71f7348fb2d3d1c5f5f2cd43c09a6bb4d9334d738f11c922"
+    },
+    {
+      "path": "src/engine/armory.ts",
+      "bytes": 109641,
+      "sha256": "c4ed88591d6c7db66d2380ece922ec3da0d2af3adf7e783d7778ff66601eb0e7"
+    },
+    {
+      "path": "src/engine/buffs.ts",
+      "bytes": 1783,
+      "sha256": "0aea62030490fe79bcc00f46a154cd99255f4d1dfc5390e3d54546691e8a38d1"
+    },
+    {
+      "path": "src/engine/cards.ts",
+      "bytes": 14204,
+      "sha256": "5629e176902c9e9e6e6775b8dca0196ca7fd8065c5587c3ec469332e80403441"
+    },
+    {
+      "path": "src/engine/damage.ts",
+      "bytes": 4863,
+      "sha256": "75f06a9e72cea0d6fdf41de1d327d865f9914f8c251690e3813b1a11a186dc0a"
+    },
+    {
+      "path": "src/engine/deck.ts",
+      "bytes": 2200,
+      "sha256": "8d07f600c36f97a518908524a3172b3e550c1819ea76b29c49cc1945d6849d54"
+    },
+    {
+      "path": "src/engine/index.ts",
+      "bytes": 242,
+      "sha256": "977f4c5e14645298bfec5440815f9290edf3e498235d40211862fa7daca73f39"
+    },
+    {
+      "path": "src/engine/presets.ts",
+      "bytes": 13259,
+      "sha256": "962b44b858795967ecbd6b1938de4476b0f80e36e3191eeb018519a0587ad1b8"
+    },
+    {
+      "path": "src/engine/rng.ts",
+      "bytes": 2047,
+      "sha256": "0238d052ca7ceb401932e79f8114d0f43ef34d171b90fa6469b5ed2b0e050ca6"
+    },
+    {
+      "path": "src/engine/rotation.ts",
+      "bytes": 2506,
+      "sha256": "f2fe29de5c229f9c91dcb83e2516ec5a2ab258b79d24ecbb9a213bc168799bf4"
+    },
+    {
+      "path": "src/engine/sim.ts",
+      "bytes": 38347,
+      "sha256": "23df8ab548fb9bee888d6d397b91caa680966e990df8309964d0cb4c03266909"
+    },
+    {
+      "path": "src/engine/skilldata.ts",
+      "bytes": 33682,
+      "sha256": "4087804e687e728490a3dbb56d719e60e9136589a3d74c2433267b26ced5b8a0"
+    },
+    {
+      "path": "src/engine/stats.ts",
+      "bytes": 776,
+      "sha256": "63aed63294f76a0010d0143f756fb332c06ca487afca81fbad9dc5182f314ab8"
+    },
+    {
+      "path": "src/engine/tooltip.ts",
+      "bytes": 1184,
+      "sha256": "e3c67ce1d4366583f355e082a7f15b365ce6e2a8c2d502c4f9da98e1270e0f2b"
+    },
+    {
+      "path": "src/engine/types.ts",
+      "bytes": 15057,
+      "sha256": "95b12dc66e42899143d6fa48fb5a2c433255121058336ff91e713f9f926c074c"
+    },
+    {
+      "path": "src/localApi.test.ts",
+      "bytes": 1834,
+      "sha256": "35ef41f08ba6274e35ef3d600af5cc54e45fa69597b0e1c4253db49ac7a0617f"
+    },
+    {
+      "path": "src/main.test.ts",
+      "bytes": 40734,
+      "sha256": "0bc54d113c6001ee16b401fd2955857340cb20a04a8c8de644548072b79df82b"
+    },
+    {
+      "path": "src/main.ts",
+      "bytes": 17718,
+      "sha256": "f8c8db24562ccb9be903f947a55803f6e0797a1de85143494630a078e58c8207"
+    },
+    {
+      "path": "src/modelIdentity.d.ts",
+      "bytes": 96,
+      "sha256": "d6c30427808b0aed863f2e6039cf5144362f09a07dd23ab0e814e1f2a8f8542f"
+    },
+    {
+      "path": "src/modelIdentity.test.ts",
+      "bytes": 3468,
+      "sha256": "9d1081c2dcb0ac016f0f132107b980ac2e23932fa6dad2be8dc9707fdc733fe0"
+    },
+    {
+      "path": "src/pairedComparison.test.ts",
+      "bytes": 3356,
+      "sha256": "8e0e4bc828aa18e8ba23068797658c1ed0cb2e96f19a63380192f8fddfe06835"
+    },
+    {
+      "path": "src/randomMode.test.ts",
+      "bytes": 1798,
+      "sha256": "6f91a5ce1115d3932661134e64967a338f1a2092b954a94870142ae9e827738a"
+    },
+    {
+      "path": "src/replayResult.test.ts",
+      "bytes": 6865,
+      "sha256": "2673acfe720280de0cc2ca35c2aca3dada64301c11ea49332020b49fba2fce20"
+    },
+    {
+      "path": "src/resultComparison.test.ts",
+      "bytes": 6113,
+      "sha256": "94fee60c3825907030727d07284cbbf8684653b329c7e180b0d53b98ba347a3e"
+    },
+    {
+      "path": "src/resultComparison.ts",
+      "bytes": 9354,
+      "sha256": "b3e2870cf0649a133515b2b878b18334bdca17a3fe683d3eaa0438c43c11d368"
+    },
+    {
+      "path": "src/simulateBuild.test.ts",
+      "bytes": 3267,
+      "sha256": "1d7e6513f8cc9bd7757a7265d5e48e4bb39d6d2669e93ec51d946fe0a9318fa5"
+    },
+    {
+      "path": "src/worker.test.ts",
+      "bytes": 2788,
+      "sha256": "fd021db7efa83b244ba4f5fccf007b65f79ccba79dd028bce5608a77cf31491a"
+    },
+    {
+      "path": "src/worker.ts",
+      "bytes": 987,
+      "sha256": "7fc24d329eee923fb6744885f29e4a6ba07e39a8127cb8e608c7b36f5a178116"
+    },
+    {
+      "path": "tests/fixtures/armory/FixtureCharacter26/arkgrid.json",
+      "bytes": 105853,
+      "sha256": "0168a956680d695d0f24dc7a00ab8feac3e4e6520773d18a3494855ae36eb80d"
+    },
+    {
+      "path": "tests/fixtures/armory/FixtureCharacter26/arkpassive.json",
+      "bytes": 20931,
+      "sha256": "bc809174b2f1923fee1a42e6a05579efdfb9c469aac8da0acf2c3a8e24d07c6c"
+    },
+    {
+      "path": "tests/fixtures/armory/FixtureCharacter26/combat-skills.json",
+      "bytes": 149883,
+      "sha256": "2a94521714dab47c114602537a4fa8679e7cbaf4bc4a68872a9e1b7f47cdd11c"
+    },
+    {
+      "path": "tests/fixtures/armory/FixtureCharacter26/engravings.json",
+      "bytes": 1833,
+      "sha256": "76585c454eb4981e553c149a97058bfaf38dfdd120654018d1930edbaf46655a"
+    },
+    {
+      "path": "tests/fixtures/armory/FixtureCharacter26/equipment.json",
+      "bytes": 64140,
+      "sha256": "74af7f6509a05780a59b35e5c41f0fe03bdff18ad33bb3815b43ffb31ab0811b"
+    },
+    {
+      "path": "tests/fixtures/armory/FixtureCharacter26/gems.json",
+      "bytes": 78,
+      "sha256": "94f6e8970277d6e00db0fea3625f5b598fd3761ad9455ced19b8d1a596e45403"
+    },
+    {
+      "path": "tests/fixtures/armory/FixtureCharacter26/profiles.json",
+      "bytes": 7849,
+      "sha256": "48b002f73d400ba2bf0e30b1521540eab2d00cccb3b50882dd899d0e23a8d338"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-12-evoke-sources.json",
+      "bytes": 19759,
+      "sha256": "b34b98b49f65a630bdf6f83f8bfcacc127c0978689f0744fcec21b74430a0ea4"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-12-quick-draw-sources.json",
+      "bytes": 37794,
+      "sha256": "ea3cc43abce37fb14a763ca69ace6a8360118b8687f81ca0e2f5b2899e56f4bb"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-another-emperor-sources.json",
+      "bytes": 7345,
+      "sha256": "c54196d46eecc99aa6805ae768f8d1db857fb8cc111f07d61eef0318a12d2823"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-chain-draw-sources.json",
+      "bytes": 1585,
+      "sha256": "a20b514d46b0b2a8b5588922c9634f23e2a866673c491fcec6a581e2b57fe022"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-emperor-damage-sources.json",
+      "bytes": 177170,
+      "sha256": "7a97662865dd49df71fee4fb086de5f3bef358455c1de94331ac76f2c75b9015"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-emperor-heart-sources.json",
+      "bytes": 19734,
+      "sha256": "a3872d6c8eb8a33efcad07603709d3cfb8217ce36408e71b336f981b383c2426"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-emperor-import-sources.json",
+      "bytes": 448148,
+      "sha256": "e10a51b7e4b0606af5beb45186ce096951b027d54208967d2e7b1fac6a9c1554"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-evoke-overlap-sources.json",
+      "bytes": 38135,
+      "sha256": "64b2bd4bcf644403126602a4a179285505c8449fa67739e0d1b3ae9e8692321a"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-fatal-hand-sources.json",
+      "bytes": 5727,
+      "sha256": "a3d4098a63559d99ca7419127912f287941731f2d4ecb650bd18c90b7c1f1bfb"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-high-tempo-sources.json",
+      "bytes": 137499,
+      "sha256": "3de372548f04234f3a227684bfd4f282a0310d7b4ccaabdf4392fd38332ec80d"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-hit-buff-sources.json",
+      "bytes": 223209,
+      "sha256": "51b0af684c88eae6c22365905ccea8ef5a87a1b331f3dd5a08b8abc3c48b4d2d"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-identity-gems-sources.json",
+      "bytes": 170146,
+      "sha256": "df6727a015b4f686683f74187bd84e33ea0c5721e20cba9510e17d192768e1f7"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-impact-mate-sources.json",
+      "bytes": 94868,
+      "sha256": "3886d6a03492c608f85b2bb84bd8cd41e262eb5bcf2bd6dedb130d9dcfca6410"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-infinity-sources.json",
+      "bytes": 18754,
+      "sha256": "be551719900512abf7a7e4e890c9cdccec6a272ff63f388a31568495b25ad231"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-knight-passive-sources.json",
+      "bytes": 40531,
+      "sha256": "80521f172394ddd439715d9d282cb474e5a5c888e85a94c6167f98c085c6fef9"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-raid-captain-sources.json",
+      "bytes": 161822,
+      "sha256": "88ef3e256d5254a41b3927722a8810b8838e427689948b9c20ebb0c002d25dda"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-ruin-minorset-sources.json",
+      "bytes": 118347,
+      "sha256": "59ffd26b6d5ca0a18f10d111c989b5570f3008281df0582e6ac8d7249fe09f33"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-rune-sources.json",
+      "bytes": 18490,
+      "sha256": "5a068e1e6dfedccaabf10962856d2ca91ea331da89becf30874595523786f183"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-stack-hold-sources.json",
+      "bytes": 44627,
+      "sha256": "67dfbe25186cb809aa7adc58f452c12d2fd97a200dbed85f45d3f8672c57d69b"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-stack-skill-sources.json",
+      "bytes": 113631,
+      "sha256": "98206435adf65fc5e58784de0b32543d6add64231ffb3e06bfb12c61fb808a89"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-stream-core-sources.json",
+      "bytes": 18136,
+      "sha256": "1a5b8aa61d78f0cbea8a1df6cb17fc5dd35b26b58915aed54e8a581a5dd187c1"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-sun-nodes-details.json",
+      "bytes": 20819,
+      "sha256": "a51620ed55f55bde749df0adcd80e9398a8da642b7802581936228fae7d8c553"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-13-sun-nodes-sources.json",
+      "bytes": 22867,
+      "sha256": "13ee7067cc521bcb8c435faae102feb7f041c62b6d6d811e6519266ad7c53f32"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-14-conditional-evolution-sources.json",
+      "bytes": 10556,
+      "sha256": "8b3e512d4c9b8239678b5d71d169f0555a000b8b02c7a315dcb5baf18799cbe6"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-14-emperor-heart-trigger-sources.json",
+      "bytes": 107921,
+      "sha256": "53d4b1f3f3e81cca4d0bd15de99aea3d5d392b37ed39def1a6a27d547671b8bb"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-14-flower-return.json",
+      "bytes": 17079,
+      "sha256": "545da48aa3c576bb2e735cd13167e717872ef740b6f9c073279327ab86b26d1d"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-14-forbidden-spell-sources.json",
+      "bytes": 3164,
+      "sha256": "98aedc7fcc5c5d7b207349efd379d08fb19be49c207d2763759fd55709eec127"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-14-hit-master-sources.json",
+      "bytes": 1781,
+      "sha256": "e0e684330310378c1fe853b90f7d04e42267bbeadc51c1cedb3bb072c54a1cd4"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-card-set-sources.json",
+      "bytes": 23701,
+      "sha256": "504ff0fb6a6223028113bfdc1ee102acef3eb1d30c80f9f666d51051724fd2b2"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-chariot-sources.json",
+      "bytes": 29060,
+      "sha256": "ee1bdde2a371aee5461e930cf81578ebb54beede3028fe3481dd7d966cda1710"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+      "bytes": 85510,
+      "sha256": "bed1fd0a8779783b11d432b4a594c60e6be4167e1d423eb1f6146a706fcc28d6"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+      "bytes": 873307,
+      "sha256": "9566644aab63b67c65a2132f3d7719b19fa8f69927649cdacbe38f3784d12667"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-infighting-sources.json",
+      "bytes": 39195,
+      "sha256": "e5264c1eb2dfad67c81027ec400ca33709cbc4f11f3ad315a7ca4e2efaf1e900"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-leap-lower-sources.json",
+      "bytes": 123215,
+      "sha256": "36de31d88725ed4fb4a0bd01fddf4c0ae48554271542a1043e30c04ce641ecfa"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-multi-setting-diff-after.json",
+      "bytes": 37418,
+      "sha256": "4d0586ee5c0e3b69f0526cdf928d2fcef29d4cd353337aae68388050335201c7"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-multi-setting-diff-before.json",
+      "bytes": 37490,
+      "sha256": "1aee2433db42a05ab46f3ea32dd87f555924d30ce163734f6a19e1aa7f48914a"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-remaining-engraving-sources.json",
+      "bytes": 8099,
+      "sha256": "2e67948d1465e17f2dd7c340829080e591d5d8c1ea544f725666b65b49f56ffe"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-timing-mastery-followup-sources.json",
+      "bytes": 18880,
+      "sha256": "2f72d0863a54e9218f297bba8946872d22730903ee22218d81e2acf5628fc112"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-timing-mastery-sources.json",
+      "bytes": 41327,
+      "sha256": "4c6a687393691bb6caf81f7b6e49ce360f9b5fdb32125b0c8c73a28671421f44"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-tripod-corpus-inventory.json",
+      "bytes": 754907,
+      "sha256": "a5f5189c97912de64c1652f7b1fd4b4bf37ad18a3a362df95894c95fb91768c2"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-17-ui-result-export-downloaded.json",
+      "bytes": 50751,
+      "sha256": "919e2e50337d58be8c2a762477b3b7d4a933134e41a5b9c1111f417829872ac2"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-18-result-comparison-after.json",
+      "bytes": 463759,
+      "sha256": "f10cbc73bc2cbd0e426805b7671fe43d90c391c338bcf3d23c5baf28480b9c15"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-18-saved-build-run-42-0.json",
+      "bytes": 59102,
+      "sha256": "78dab2b74d830ed125975ca4922b391d083678fbc0022f273d80927102dc013d"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-18-saved-build-run-raw-input.json",
+      "bytes": 24065,
+      "sha256": "49c646406c0bc05549b1e304f57a7e0463e48f256f108e1ce9f7f724cf2dfcee"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-19-armory-refresh.json",
+      "bytes": 124370,
+      "sha256": "3566cb4da45ffa3e4207cdbfbf3799b8a1dddfc884f076351969622c5026767b"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-19-cooldown-time-input-before.json",
+      "bytes": 21925,
+      "sha256": "d897d0023ebbb7b3dabfcc52ff2037e261dbf3741e7bead1ceb91e254f4c0e28"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-19-dot-time-progress-before.json",
+      "bytes": 5080,
+      "sha256": "ebd4847d5285a90c0afcc235602b419e60dfeacee242b3cb72ea26cf48267b48"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-19-duplicate-skill-id-before.json",
+      "bytes": 14481,
+      "sha256": "8c313fc23c84a96d68de8c767b82dec75c9d5c0012b35178d2310ae9ecfd8d47"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-19-infinity-delay-input-before.json",
+      "bytes": 15320,
+      "sha256": "10e846f1b495600ab8eec2d826fd19f921181a34cca0f305393802151bd95653"
+    },
+    {
+      "path": "tests/fixtures/audit/2026-10-19-remaining-cooldown-input-before.json",
+      "bytes": 22775,
+      "sha256": "ef1a39e7302348bb4707f4e9869b3909847f660bee9f54163facaf03bafa793a"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 404,
+      "sha256": "a9401bc120786224ec2a7983ec5ab3dbf97f2f2a22f1e44e60c27b52d4ffdc62"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 1598,
+      "sha256": "98e9af5aaf3848c5f4e1d77f744e541641c1c6a29c6db5e87c2e6c8002ad4bd3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "source": "S108",
+    "status": "public-motion-candidate",
+    "verifiedAgainstInGameMeasurements": false,
+    "gamePatch": null,
+    "extractedAt": "2026-10-13T13:58:32.704Z",
+    "evidenceFile": "docs/audit/2026-10-13-emperor-base-sources.json",
+    "evidenceSha256": "68f4bdefa7d02d9196a06f897535024e04afb585dcc3b56aeb960960833a6167",
+    "url": "https://lostarksim.com/api/game-data/motions/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+    "note": "기본/노출된 어둠 첫 입력만 분리합니다. duration은 다음 행동 실측이 아닌 전체 첫 모션 후보입니다. 콤보 창 종료·실제 쿨 시작과 추가 입력은 미검증입니다."
+  },
+  "profiles": {
+    "basic": {
+      "stageId": 0,
+      "effectId": 192600,
+      "routedEffectId": 192600,
+      "duration": 0.708,
+      "at": 0.301
+    },
+    "exposedDarkness": {
+      "stageId": 5,
+      "effectId": 192600,
+      "routedEffectId": 192606,
+      "duration": 0.708,
+      "at": 0.3
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Engravings": null,
+  "Effects": null,
+  "ArkPassiveEffects": [
+    {
+      "AbilityStoneLevel": 3,
+      "Grade": "유물",
+      "Level": 4,
+      "Name": "원한",
+      "Description": "보스 및 레이드 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>26.25%</FONT> 증가하지만, 받는 피해가 <FONT COLOR='#ff9999'>20.00%</FONT> 증가한다."
+    },
+    {
+      "AbilityStoneLevel": null,
+      "Grade": "유물",
+      "Level": 0,
+      "Name": "돌격대장",
+      "Description": "이동속도 증가량의 <FONT COLOR='#99ff99'>40.00%</FONT> 만큼 적에게 주는 피해량이 증가한다."
+    },
+    {
+      "AbilityStoneLevel": null,
+      "Grade": "유물",
+      "Level": 4,
+      "Name": "저주받은 인형",
+      "Description": "적에게 주는 피해가 <FONT COLOR='#99ff99'>17.00%</FONT> 증가하지만, 받는 모든 회복 효과가 <FONT COLOR='#ff9999'>25.00%</FONT> 감소한다."
+    },
+    {
+      "AbilityStoneLevel": 2,
+      "Grade": "유물",
+      "Level": 0,
+      "Name": "질량 증가",
+      "Description": "공격속도가 <FONT COLOR='#ff9999'>10.00%</FONT> 감소하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>19.75%</FONT> 증가한다."
+    },
+    {
+      "AbilityStoneLevel": null,
+      "Grade": "유물",
+      "Level": 4,
+      "Name": "아드레날린",
+      "Description": "이동기 및 기본공격을 제외한 스킬 사용 후 <FONT COLOR='#ffff99'>6</FONT>초 동안 공격력이 <FONT COLOR='#99ff99'>0.90%</FONT> 증가하며 (최대 <FONT COLOR='#ffff99'>6</FONT>중첩) 해당 효과가 최대 중첩 도달 시 치명타 적중률이 추가로 <FONT COLOR='#99ff99'>20.00%</FONT> 증가한다. 해당 효과는 스킬 취소에 따른 재사용 대기시간 감소가 적용되는 경우, 스킬 종료 후 적용된다."
+    }
+  ]
+}

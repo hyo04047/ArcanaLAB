@@ -1,0 +1,220 @@
+{
+  "config": {
+    "durationSec": 2,
+    "iterations": 1,
+    "seed": 1
+  },
+  "rows": [
+    {
+      "key": "manaPoison",
+      "build": {
+        "name": "황후 인콤스 440 (참고 캐릭터)",
+        "combatLevel": 70,
+        "variant": "emperor",
+        "stats": {
+          "crit": 526,
+          "spec": 1735,
+          "swift": 227
+        },
+        "passiveMods": [],
+        "cardDurationBonus": {
+          "cull": 2,
+          "judgment": 2
+        },
+        "skills": [
+          {
+            "id": "control",
+            "name": "도트 시간 통제",
+            "kind": "normal",
+            "cooldown": 10,
+            "castTime": 0.25,
+            "directCoef": 1,
+            "directFlat": 0,
+            "hits": 1,
+            "manaPoison": {
+              "coef": 0.1,
+              "flat": 1,
+              "duration": 2,
+              "maxStacks": 1,
+              "firstTick": 0.5,
+              "interval": 2.7755575615628914e-17
+            }
+          }
+        ],
+        "rotation": {
+          "ruinPriority": [],
+          "stackPriority": [],
+          "fillers": [
+            "control"
+          ]
+        },
+        "onDestiny": [],
+        "infinityDeck": {
+          "judgment": {
+            "delay": 6,
+            "fraction": 0.15
+          },
+          "balance": {
+            "id": "infinity_balance",
+            "duration": 30,
+            "mod": {
+              "bucket": "skillDmg",
+              "value": 0.02,
+              "filter": {
+                "kinds": [
+                  "ruin"
+                ]
+              },
+              "source": "인피니티 덱 17P"
+            }
+          }
+        },
+        "onRuinAt4": [],
+        "params": {
+          "stackEffectCoefPerStack": 600,
+          "gaugePerHit": {
+            "normal": 0,
+            "stack": 0.03,
+            "ruin": 0.03,
+            "hyper_awakening": 0.05,
+            "awakening": 0
+          },
+          "gaugeGainBonus": 0.6605293276108727,
+          "normalGaugePenalty": -0.5,
+          "atkBase": 10,
+          "raidCaptainRatio": 0,
+          "twistedFateZeroChance": 0.25,
+          "fatalHandCull": false,
+          "corrosionValue": 0.1,
+          "cardDamageCoef": {},
+          "stackEffectScale": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "onCardUse": []
+      },
+      "chanceTimes": [
+        0.25,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "auditStopped": true
+    },
+    {
+      "key": "fearOfDeath",
+      "build": {
+        "name": "황후 인콤스 440 (참고 캐릭터)",
+        "combatLevel": 70,
+        "variant": "emperor",
+        "stats": {
+          "crit": 526,
+          "spec": 1735,
+          "swift": 227
+        },
+        "passiveMods": [],
+        "cardDurationBonus": {
+          "cull": 2,
+          "judgment": 2
+        },
+        "skills": [
+          {
+            "id": "control",
+            "name": "도트 시간 통제",
+            "kind": "normal",
+            "cooldown": 10,
+            "castTime": 0.25,
+            "directCoef": 1,
+            "directFlat": 0,
+            "hits": 1,
+            "fearOfDeath": {
+              "coef": 0.1,
+              "flat": 1,
+              "duration": 2,
+              "maxStacks": 1,
+              "firstTick": 0.5,
+              "interval": 2.7755575615628914e-17
+            }
+          }
+        ],
+        "rotation": {
+          "ruinPriority": [],
+          "stackPriority": [],
+          "fillers": [
+            "control"
+          ]
+        },
+        "onDestiny": [],
+        "infinityDeck": {
+          "judgment": {
+            "delay": 6,
+            "fraction": 0.15
+          },
+          "balance": {
+            "id": "infinity_balance",
+            "duration": 30,
+            "mod": {
+              "bucket": "skillDmg",
+              "value": 0.02,
+              "filter": {
+                "kinds": [
+                  "ruin"
+                ]
+              },
+              "source": "인피니티 덱 17P"
+            }
+          }
+        },
+        "onRuinAt4": [],
+        "params": {
+          "stackEffectCoefPerStack": 600,
+          "gaugePerHit": {
+            "normal": 0,
+            "stack": 0.03,
+            "ruin": 0.03,
+            "hyper_awakening": 0.05,
+            "awakening": 0
+          },
+          "gaugeGainBonus": 0.6605293276108727,
+          "normalGaugePenalty": -0.5,
+          "atkBase": 10,
+          "raidCaptainRatio": 0,
+          "twistedFateZeroChance": 0.25,
+          "fatalHandCull": false,
+          "corrosionValue": 0.1,
+          "cardDamageCoef": {},
+          "stackEffectScale": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "onCardUse": []
+      },
+      "chanceTimes": [
+        0.25,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "auditStopped": true
+    }
+  ],
+  "chanceBudget": 9
+}

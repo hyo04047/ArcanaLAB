@@ -1,0 +1,63 @@
+{
+  "extractedAt": "2026-10-13T13:38:10.657Z",
+  "inputs": [
+    {
+      "path": "docs/audit/2026-10-13-emperor-import-sources.json",
+      "sha256": "fe3b55dee2446e3f0330227815aea0a1f3d6940d9bb6f7f39cedceb5e481dc83"
+    },
+    {
+      "path": "docs/audit/2026-10-13-emperor-passive-sources.json",
+      "sha256": "00c8fc31cd206ff16c1b1180dc0b93b23a65efd8146aac98edda480182c8a452"
+    }
+  ],
+  "official": {
+    "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter12/arkpassive",
+    "checkedAt": "2026-10-13T13:14:24.138Z",
+    "responseSha256": "15143c3e5a24b68c3cfbc7a1adc7b5c638c3c5e243bbea9c5f19118a10c8b906",
+    "node": {
+      "Name": "깨달음",
+      "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>또 다른 황제 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_8.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"또 다른 황제\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_8.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"적에게 주는 피해가 <FONT COLOR='#99ff99'>16.0%</FONT> 증가하며, 황제 카드의 효과가 다른 카드를 사용시 <FONT COLOR='#ffff99'>20.0%</FONT> 확률로 발생하며, 황제카드의 피해량이 추가로 <FONT COLOR='#99ff99'>40.0%</FONT> 더해진다.||<BR>\"}}"
+    }
+  },
+  "notices": [
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/13496?page=1&searchtype=3&searchtext=%EB%98%90%20%EB%8B%A4%EB%A5%B8%20%ED%99%A9%EC%A0%9C&noticetype=all",
+      "checkedAt": "2026-10-13T10:05:02.972Z",
+      "sha256": "2690463e80915d6bb21812db2fedd372a5d78fcb1c8056100baf89e1d4933f60",
+      "context": [
+        "상의 루인 피해량이 7.0/14.0/22.0% 증가한다. 변경 : 4스택 이상의 루인 피해량이 8.0/17.0/26.0% 증가한다. '또 다른 황제' 패시브를 다음과 같이 변경하였습니다. 기존 : 적에게 주는 피해가 2.0/7.0/12.0% 증가하며, 황제 카드의 효과가 다른 카드를 사용 시 20.0% 확률로 발생하며, 황제카드의 피해량이 추가로 0/40.0/80.0% 더해진다. 변경 : 적에게 주는 피해가 2.0/9.0/16.0% 증가하며, 황제 카드의 효과가 다른 카드를 사용 시 20.0% 확률로 발생하며, 황제카드의 피해량이 추가로 0/20.0/40.0% 더해진다. 아크 그리드 질서의 해 코어 엣지 오브 페이트 17P 효과를 다음과 같이 변경하였습니다. 기존 : '운명: 엣지 오브 페이트' 효과 획득량을 5중첩으로 변경하고, 루인 스킬의 피해 증가량을 10.0/11.0%로 변경한다. 변경 : '운명: 엣지 오브 페이트' 효과 획득량을 5중첩으로 변경하고, 루인 스킬의 피해 증가량을 13.0/14.5% 로 변경한다. 질서의 달 코어 루인 풀셋 17P 효과를 다음과 같이 변경하였습니다. 기"
+      ]
+    },
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/13192?page=1&searchtype=3&searchtext=%EB%98%90%20%EB%8B%A4%EB%A5%B8%20%ED%99%A9%EC%A0%9C&noticetype=all",
+      "checkedAt": "2026-10-13T10:05:03.042Z",
+      "sha256": "e3f9d9cbac1eef092f0f8fcc499ad103f352bc26294237a5fb2826318da1bc33",
+      "context": [
+        "0/15.0%, 적에게 주는 피해가 33.0/39.0/45.0% 증가하는 효과를 9초동안 획득한다. [아르카나] 아크 패시브 깨달음 '또 다른 황제' 패시브를 다음과 같이 변경하였습니다. 기존 : 적에게 주는 피해가 0.0/4.5/9.0% 증가하며, 황제 카드의 효과가 다른 카드를 사용 시 20.0% 확률로 발생하며, 황제 카드의 피해량이 추가로 0.0/40.0/80.0% 더해진다. 변경 : 적에게 주는 피해가 2.0/7.0/12.0% 증가하며, 황제 카드의 효과가 다른 카드를 사용 시 20.0% 확률로 발생하며, 황제 카드의 피해량이 추가로 0.0/40.0/80.0% 더해진다. [서머너] 아크 패시브 깨달음 '정령의 교감' 패시브를 다음과 같이 변경하였습니다. 기존 : 마리린, 파우루, 엘씨드, 슈르디, 이그나, 켈시온의 기본 공격의 성능이 강화되고, 소환 스킬이 적에게 주는 피해량이 16.0/24.0/32.0% 증가한다. 변경 : 마리린, 파우루, 엘씨드, 슈르디, 이그나, 켈시온의 기본 공격의 성능이 강화되고, 소환 스킬이 적에게 주는 피해량이 20.0/28.0/36.0% 증가한다. ["
+      ]
+    },
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/12865?page=1&searchtype=3&searchtext=%EB%98%90%20%EB%8B%A4%EB%A5%B8%20%ED%99%A9%EC%A0%9C&noticetype=all",
+      "checkedAt": "2026-10-13T10:05:03.106Z",
+      "sha256": "7da3d0c9fc2356bc381ffc4d541c5171be0801fc1f99fab2f568c87bb72156cb",
+      "context": [
+        "링어 각성기 '황혼의 눈' 사용 시작 시 캐릭터가 착용한 무기가 핸드건으로 보이도록 변경하였습니다. 아르카나 '깨달음' 아크 패시브 '또 다른 황제' 패시브 효과에 보석 및 일부 각인의 효과가 적용되도록 변경하였습니다. 아르카나 '깨달음' 아크 패시브 '황후의 속삭임' 패시브 툴팁에 누락된 일반 스킬 재사용 대기시간 감소 효과 문구를 추가하였습니다. 바드 아이덴티티 스킬 '용맹의 세레나데'가 의도치 않게 연속 사용되지 않도록 재사용 대기시간을 1초 &rarr; 2초 로 변경하였습니다. 도화가 각성기 '절기 : 진경산수' 적중 시 적에게 출력되는 텍스트가 파티원에게도 노출되도록 변경하였습니다. [레이드/던전] FixtureLabel12 레이드 '서막 : 붉어진 백야의 나선' 1관문에서 '붉은 재앙, 다르키엘'이 스킬 사용 시 부여되는 '도발 면역' 버프 아이콘을 다른 도발 면역 버프 아이콘과 구분되도록 변경하였습니다. 군단장 레이드 '몽환군단장 FixtureLabel7' 하드 난이도 4관문 네 방향에서 운석이 등장하는 패턴 중, 'FixtureLabel7'에게 임의의 캐릭터가 잡힌 상태로 'FixtureLabel7'의 보호막을 모두 제거하는 경우, 잡힌"
+      ]
+    }
+  ],
+  "decision": {
+    "trigger": "다른 카드를 실제 사용한 경우 20% 확률로 황제 효과를 발생시킵니다. 획득이나 추가 피해 자체는 사용이 아닙니다.",
+    "damageBonus": "현행 40% 문구는 확인했으나 직접 사용/추가 발동 범위와 칙령 합연산/곱연산을 확정하지 못해 미반영합니다.",
+    "order": "카드 고유 효과와 자비 다음, 사용에 따른 운명 이전에 피해를 계산하는 후보이며 실제 프레임 순서·지연은 미검증입니다."
+  },
+  "rejectedEvidence": [
+    {
+      "url": "https://www.inven.co.kr/board/lostark/5346/152429",
+      "author": "FixtureLabel10알카",
+      "publishedAt": "2024-07-31",
+      "reason": "서로 다른 가정의 계산입니다. 2024-08-28 보석·일부 각인 적용 수정 이전 자료여서 현행 피해 배율 근거로 쓰지 않습니다."
+    }
+  ]
+}

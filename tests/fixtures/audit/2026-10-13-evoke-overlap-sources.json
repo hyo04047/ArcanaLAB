@@ -1,0 +1,1004 @@
+{
+  "official": {
+    "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter26/combat-skills",
+    "checkedAt": "2026-10-13T07:30:54.186Z",
+    "sha256": "b5f9f0f21200ec728eceb0178816947fb72dc42822d091be9bb50a0429abc024",
+    "skill": {
+      "Name": "이보크",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_1.png",
+      "Level": 1,
+      "Type": "체인",
+      "SkillType": 0,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "빠른 준비",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>8.0</FONT>초 감소한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "정신 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "퀵 드로",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_66.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적중 시 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "집속 마법진",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "마나 중독",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_45.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#ff9999'>30.0%</FONT> 감소하고, 더 이상 공중으로 띄우지 않지만 <FONT COLOR='#ffff99'>3.0</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>40.0%</FONT> 감소시키고 매 초마다 <FONT COLOR='#00ccff'>605,378</FONT>의 중독 피해를 주며 최대 <FONT COLOR='#ffff99'>3</FONT>회 중첩이 가능하다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "치명적 공격",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "분할 마법진",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>더 이상 원하는 타이밍에 터트리지 못하지만, <FONT COLOR='#ffff99'>3.0</FONT>초 동안 이보크를 <FONT COLOR='#ffff99'>2</FONT>회 사용할 수 있다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "중첩 마법진",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_8.png",
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#ffff99'>3</FONT>회로 증가하지만, <FONT COLOR='#ffff99'>2</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>50.0%</FONT>, <FONT COLOR='#ffff99'>3</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>75.0%</FONT> 감소한다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"이보크\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#00ADEC'>체인</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_1.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 110 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 2\"\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 40\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 149 소모\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }"
+    }
+  },
+  "publicRows": {
+    "skills": {
+      "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+      "checkedAt": "2026-10-13T07:30:53.093Z",
+      "sha256": "824a19e8d3c7142963cfc2b99b16f44305d395a86e3a231d9620619bfae9c565",
+      "rows": [
+        {
+          "id": 118,
+          "gameSkillId": 19030,
+          "name": "이보크",
+          "className": "아르카나",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_1.png",
+          "controlType": "체인",
+          "skillSlot": "일반 스킬",
+          "cooldownMs": 24000,
+          "identityCategory": 28,
+          "maxPhase": 2,
+          "phaseTimeoutMs": 10000,
+          "rangeMin": 0,
+          "rangeMax": 500,
+          "isIdentity": false,
+          "isUltimate": false,
+          "enhancedFrom": null,
+          "description": "지정한 위치에 <FONT COLOR='#ffff99'>10</FONT>초간 마법진을 설치해 스킬을 한번 더 사용시 {1}의 피해를 준다.",
+          "properties": {
+            "skill_group_ids": [
+              2190905,
+              2190906
+            ]
+          },
+          "cost": {
+            "mp": 569,
+            "mp_by_level": [
+              110,
+              149,
+              180,
+              218,
+              278,
+              322,
+              396,
+              424,
+              508,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569
+            ]
+          },
+          "gain": {
+            "community_card_gauge": {
+              "cases": [
+                {
+                  "note": "특화 1800·영웅 풍요에서 약 0.9 게이지",
+                  "base_total": 4211.68909419562,
+                  "required_rune": {
+                    "name": "풍요",
+                    "grade": "영웅"
+                  },
+                  "measured_total": 9000,
+                  "required_tripods": [
+                    "퀵 드로",
+                    "마나 중독",
+                    "중첩 마법진"
+                  ]
+                },
+                {
+                  "note": "특화 1800·전설 풍요에서 약 1.1 게이지",
+                  "base_total": 4779.93286087281,
+                  "required_rune": {
+                    "name": "풍요",
+                    "grade": "전설"
+                  },
+                  "measured_total": 11000,
+                  "required_tripods": [
+                    "빠른 준비",
+                    "분할 마법진"
+                  ],
+                  "required_any_tripods": [
+                    "집속 마법진",
+                    "치명적 공격"
+                  ]
+                }
+              ],
+              "source": "https://www.inven.co.kr/board/lostark/5346/161784",
+              "evidence": "community_estimate",
+              "source_date": "2025-05-27",
+              "reference_specialization": 1800
+            },
+            "cardGaugePerUltimatePoint": 52
+          },
+          "damage": {
+            "hits": 1,
+            "type": "raw_effect",
+            "review_status": "confirmed",
+            "tooltip_effects": [
+              {
+                "hits": 1,
+                "name": "마법진 폭발",
+                "phase": 1,
+                "hit_id": "magic_circle_explosion",
+                "ap_coeff": 33.609,
+                "flat_max": 3997,
+                "flat_min": 3270,
+                "effect_id": 190301,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 7,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 23,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  15.255,
+                  16.75,
+                  17.543,
+                  18.11,
+                  18.548,
+                  18.9,
+                  19.191,
+                  19.437,
+                  19.648,
+                  19.831,
+                  21.573,
+                  22.647,
+                  23.487,
+                  24.234,
+                  25.44,
+                  27.675,
+                  28.035,
+                  28.399,
+                  30.895,
+                  33.609
+                ],
+                "flat_max_by_level": [
+                  1007,
+                  1795,
+                  2299,
+                  2702,
+                  3021,
+                  3273,
+                  3492,
+                  3694,
+                  3845,
+                  3997,
+                  3997,
+                  3997,
+                  3997,
+                  3997,
+                  3997,
+                  3997,
+                  3997,
+                  3997,
+                  3997,
+                  3997
+                ],
+                "flat_min_by_level": [
+                  824,
+                  1469,
+                  1881,
+                  2211,
+                  2472,
+                  2678,
+                  2857,
+                  3022,
+                  3146,
+                  3270,
+                  3270,
+                  3270,
+                  3270,
+                  3270,
+                  3270,
+                  3270,
+                  3270,
+                  3270,
+                  3270,
+                  3270
+                ],
+                "multi_hit_interval_ms": 0
+              }
+            ],
+            "damage_event_count": 1
+          },
+          "createdAt": "2026-10-02T09:58:16.072Z",
+          "updatedAt": "2026-10-02T09:58:16.072Z"
+        }
+      ]
+    },
+    "tripods": {
+      "url": "https://lostarksim.com/api/game-data/tripods/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+      "checkedAt": "2026-10-13T07:30:53.401Z",
+      "sha256": "383f96a7552e34f2e2a60f2b77f7786b6bbc2d4808dbcd038d35f39fb7c7a07a",
+      "rows": [
+        {
+          "id": 681,
+          "gameSkillId": 19030,
+          "tier": 0,
+          "slot": 1,
+          "name": "빠른 준비",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+          "description": "재사용 대기시간이 <FONT COLOR='#99ff99'>8</FONT>초 감소한다.",
+          "effects": [
+            {
+              "kind": "cooldown_change",
+              "deltaMs": -8000,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        },
+        {
+          "id": 682,
+          "gameSkillId": 19030,
+          "tier": 0,
+          "slot": 2,
+          "name": "정신 강화",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+          "description": "마나 소모량이 <FONT COLOR='#99ff99'>67%</FONT> 감소한다.",
+          "effects": [
+            {
+              "kind": "mp_cost_change",
+              "percent": -67,
+              "evidence": "direct",
+              "displayedReductionPercent": 67
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        },
+        {
+          "id": 683,
+          "gameSkillId": 19030,
+          "tier": 0,
+          "slot": 3,
+          "name": "퀵 드로",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_66.png",
+          "description": "적중 시 <FONT COLOR='#99ff99'>20%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.",
+          "effects": [
+            {
+              "kind": "gain_identity_card_on_hit",
+              "evidence": "direct",
+              "cardCount": 1,
+              "chancePercent": 20,
+              "targetEffectIds": [
+                190301,
+                190303,
+                190305,
+                190307,
+                190309,
+                190312,
+                190314,
+                190327,
+                190328,
+                190331,
+                190332,
+                190333,
+                190334,
+                190335,
+                190336,
+                190337
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        },
+        {
+          "id": 684,
+          "gameSkillId": 19030,
+          "tier": 1,
+          "slot": 4,
+          "name": "집속 마법진",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+          "description": "적에게 주는 피해가 <FONT COLOR='#99ff99'>50%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "damage_increase",
+              "percent": 50,
+              "evidence": "direct",
+              "targetEffectIds": [
+                190309,
+                190303,
+                190331,
+                190327,
+                190328
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        },
+        {
+          "id": 685,
+          "gameSkillId": 19030,
+          "tier": 1,
+          "slot": 5,
+          "name": "마나 중독",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_45.png",
+          "description": "적에게 주는 피해가 <FONT COLOR='#ff9999'>30.0%</FONT> 감소하고, 더 이상 공중으로 띄우지 않지만 <FONT COLOR='#ffff99'>3.0</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>40.0%</FONT> 감소시키고 매 초마다 <FONT COLOR='#00ccff'>{tripod:2}</FONT>의 중독 피해를 주며 최대 <FONT COLOR='#ffff99'>3</FONT>회 중첩이 가능하다.",
+          "effects": [
+            {
+              "kind": "damage_change",
+              "percent": -30,
+              "evidence": "direct"
+            },
+            {
+              "kind": "damage_over_time_on_hit",
+              "name": "마나 중독 피해",
+              "hitId": "mana_addiction_tick",
+              "buffId": 190330,
+              "evidence": "direct",
+              "maxStacks": 3,
+              "tickCount": 3,
+              "durationMs": 3000,
+              "intervalMs": 1000,
+              "nameEvidence": "manual_label",
+              "apCoeffByLevel": [
+                2.288,
+                2.512,
+                2.631,
+                2.716,
+                2.782,
+                2.835,
+                2.879,
+                2.916,
+                2.948,
+                2.975,
+                3.236,
+                3.397,
+                3.523,
+                3.635,
+                3.816,
+                4.151,
+                4.205,
+                4.26,
+                4.634,
+                5.041
+              ],
+              "flatMaxByLevel": [
+                152,
+                270,
+                346,
+                407,
+                455,
+                493,
+                526,
+                556,
+                579,
+                603,
+                603,
+                603,
+                603,
+                603,
+                603,
+                603,
+                603,
+                603,
+                603,
+                603
+              ],
+              "flatMinByLevel": [
+                124,
+                221,
+                283,
+                333,
+                372,
+                403,
+                430,
+                455,
+                474,
+                493,
+                493,
+                493,
+                493,
+                493,
+                493,
+                493,
+                493,
+                493,
+                493,
+                493
+              ],
+              "firstIntervalMs": 500,
+              "targetEffectIds": [
+                190312,
+                190305,
+                190332,
+                190334,
+                190335
+              ],
+              "damageIncreasePercent": 72
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        },
+        {
+          "id": 686,
+          "gameSkillId": 19030,
+          "tier": 1,
+          "slot": 6,
+          "name": "치명적 공격",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+          "description": "치명타 적중률이 <FONT COLOR='#99ff99'>60%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "critical_rate_increase",
+              "percent": 60,
+              "evidence": "direct",
+              "targetEffectIds": [
+                190314,
+                190307,
+                190333,
+                190336,
+                190337
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        },
+        {
+          "id": 687,
+          "gameSkillId": 19030,
+          "tier": 2,
+          "slot": 7,
+          "name": "분할 마법진",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+          "description": "더 이상 원하는 타이밍에 터트리지 못하지만, <FONT COLOR='#ffff99'>3.0</FONT>초 동안 이보크를 <FONT COLOR='#ffff99'>2</FONT>회 사용할 수 있다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "animName": "SK_Evoke",
+              "evidence": "direct",
+              "actionLayer": 2
+            },
+            {
+              "kind": "grant_followup_skill",
+              "skillId": 19300,
+              "evidence": "direct",
+              "additionalUses": 1,
+              "availableForMs": 3000
+            },
+            {
+              "kind": "manual_trigger_removed",
+              "evidence": "tooltip_literal"
+            },
+            {
+              "kind": "projectile_detonation_delay",
+              "delayMs": 2000,
+              "evidence": "direct",
+              "projectileIds": [
+                190302,
+                190304,
+                190306
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        },
+        {
+          "id": 688,
+          "gameSkillId": 19030,
+          "tier": 2,
+          "slot": 8,
+          "name": "중첩 마법진",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_8.png",
+          "description": "공격 횟수가 <FONT COLOR='#ffff99'>3</FONT>회로 증가하지만, <FONT COLOR='#ffff99'>2</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>50.0%</FONT>, <FONT COLOR='#ffff99'>3</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>75.0%</FONT> 감소한다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "animName": "SK_Evoke",
+              "evidence": "direct",
+              "actionLayer": 1
+            },
+            {
+              "kind": "attack_count_change",
+              "count": 3,
+              "evidence": "direct",
+              "areaRanges": [
+                200,
+                100,
+                50
+              ],
+              "damageRatios": [
+                1,
+                0.5,
+                0.25
+              ],
+              "effectTimesSeconds": [
+                0,
+                0.5,
+                1
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "이보크",
+          "className": "아르카나"
+        }
+      ]
+    },
+    "motions": {
+      "url": "https://lostarksim.com/api/game-data/motions/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+      "checkedAt": "2026-10-13T07:30:53.703Z",
+      "sha256": "e9ced5a1c62aa74fe736364aeccd0edb664487d26d04c3c7a24b8d850fbf599c",
+      "rows": [
+        {
+          "id": 442,
+          "gameSkillId": 19030,
+          "stageId": 0,
+          "durationMs": 1300,
+          "animName": "SK_Evoke",
+          "hits": [],
+          "trapSpawns": [
+            {
+              "slots": [
+                "00",
+                "04",
+                "05",
+                "06"
+              ],
+              "time_ms": 321,
+              "trigger": "manual_recast",
+              "slot_traps": {
+                "00": 190300,
+                "04": 190302,
+                "05": 190304,
+                "06": 190306
+              },
+              "slot_effects": {
+                "00": 190300,
+                "04": 190308,
+                "05": 190311,
+                "06": 190313
+              },
+              "slot_trigger_effects": {
+                "00": 190301,
+                "04": 190309,
+                "05": 190312,
+                "06": 190314
+              }
+            }
+          ],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 443,
+          "gameSkillId": 19030,
+          "stageId": 1,
+          "durationMs": 1300,
+          "animName": "SK_Evoke",
+          "hits": [],
+          "trapSpawns": [
+            {
+              "slots": [
+                "00",
+                "04",
+                "05",
+                "06"
+              ],
+              "time_ms": 338,
+              "trigger": "manual_recast",
+              "slot_traps": {
+                "00": 190308,
+                "04": 190308,
+                "05": 190310,
+                "06": 190312
+              },
+              "slot_effects": {
+                "00": 190315,
+                "04": 190315,
+                "05": 190317,
+                "06": 190319
+              },
+              "slot_projectiles": {
+                "00": 190316,
+                "04": 190316,
+                "05": 190318,
+                "06": 190320
+              },
+              "projectile_effects": {
+                "190316": [
+                  {
+                    "hit_id": "overlapping_circle_hit_1",
+                    "after_ms": 0,
+                    "effect_id": 190331,
+                    "ultimate_point": 23
+                  },
+                  {
+                    "hit_id": "overlapping_circle_hit_2",
+                    "after_ms": 500,
+                    "effect_id": 190327,
+                    "ultimate_point": 12
+                  },
+                  {
+                    "hit_id": "overlapping_circle_hit_3",
+                    "after_ms": 1000,
+                    "effect_id": 190328,
+                    "ultimate_point": 6
+                  }
+                ],
+                "190318": [
+                  {
+                    "hit_id": "overlapping_circle_hit_1",
+                    "after_ms": 0,
+                    "effect_id": 190332,
+                    "ultimate_point": 23
+                  },
+                  {
+                    "hit_id": "overlapping_circle_hit_2",
+                    "after_ms": 500,
+                    "effect_id": 190334,
+                    "ultimate_point": 12
+                  },
+                  {
+                    "hit_id": "overlapping_circle_hit_3",
+                    "after_ms": 1000,
+                    "effect_id": 190335,
+                    "ultimate_point": 6
+                  }
+                ],
+                "190320": [
+                  {
+                    "hit_id": "overlapping_circle_hit_1",
+                    "after_ms": 0,
+                    "effect_id": 190333,
+                    "ultimate_point": 23
+                  },
+                  {
+                    "hit_id": "overlapping_circle_hit_2",
+                    "after_ms": 500,
+                    "effect_id": 190336,
+                    "ultimate_point": 12
+                  },
+                  {
+                    "hit_id": "overlapping_circle_hit_3",
+                    "after_ms": 1000,
+                    "effect_id": 190337,
+                    "ultimate_point": 6
+                  }
+                ]
+              }
+            }
+          ],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 444,
+          "gameSkillId": 19030,
+          "stageId": 2,
+          "durationMs": 1300,
+          "animName": "SK_Evoke",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "04",
+                "05",
+                "06"
+              ],
+              "time_ms": 326,
+              "followup": {
+                "time_ms": 326,
+                "skill_id": 19300,
+                "slot_effects": {
+                  "04": 193000,
+                  "05": 193002,
+                  "06": 193004
+                },
+                "available_for_ms": 3000,
+                "slot_projectiles": {
+                  "04": 190302,
+                  "05": 190304,
+                  "06": 190306
+                }
+              },
+              "slot_effects": {
+                "04": 190302,
+                "05": 190304,
+                "06": 190306
+              },
+              "slot_projectiles": {
+                "04": 190302,
+                "05": 190304,
+                "06": 190306
+              },
+              "projectile_routes": {
+                "190302": {
+                  "steps": [
+                    {
+                      "effect_id": 190303,
+                      "effect_key": 2,
+                      "ultimate_point": 23
+                    }
+                  ],
+                  "projectile_id": 190302
+                },
+                "190304": {
+                  "steps": [
+                    {
+                      "effect_id": 190305,
+                      "effect_key": 2,
+                      "ultimate_point": 23
+                    }
+                  ],
+                  "projectile_id": 190304
+                },
+                "190306": {
+                  "steps": [
+                    {
+                      "effect_id": 190307,
+                      "effect_key": 2,
+                      "ultimate_point": 23
+                    }
+                  ],
+                  "projectile_id": 190306
+                }
+              },
+              "projectile_effects": {
+                "190302": [
+                  {
+                    "hit_id": "split_circle_explosion",
+                    "after_ms": 2000,
+                    "effect_id": 190303,
+                    "ultimate_point": 23
+                  }
+                ],
+                "190304": [
+                  {
+                    "hit_id": "split_circle_explosion",
+                    "after_ms": 2000,
+                    "effect_id": 190305,
+                    "ultimate_point": 23
+                  }
+                ],
+                "190306": [
+                  {
+                    "hit_id": "split_circle_explosion",
+                    "after_ms": 2000,
+                    "effect_id": 190307,
+                    "ultimate_point": 23
+                  }
+                ]
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        }
+      ]
+    }
+  },
+  "references": [
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/2067",
+      "checkedAt": "2026-10-13T07:30:54.266Z",
+      "sha256": "d7e2ade3d352e143a920110d666530722bdd3d9c95f336c9faacae90c0a200dd"
+    },
+    {
+      "url": "https://www.inven.co.kr/board/lostark/5346/109820",
+      "checkedAt": "2026-10-13T07:30:54.455Z",
+      "sha256": "dab82299d4c67ee6c9476410f01193d389c3e0c1d4cebca42525c894a6462494"
+    },
+    {
+      "url": "https://www.inven.co.kr/board/lostark/5346/159625",
+      "checkedAt": "2026-10-13T07:30:54.441Z",
+      "sha256": "32726b0b6e9526d4af9167de187c9da5af80174d00da69431de7de8c02af3c5b"
+    },
+    {
+      "url": "https://www.inven.co.kr/board/lostark/5346/161784",
+      "checkedAt": "2026-10-13T07:30:54.438Z",
+      "sha256": "bdb9b14d3e0c307d4d4ed7e39f1bbac0361d199aa23e25c08caefacb01f02c56"
+    },
+    {
+      "url": "https://www.inven.co.kr/board/lostark/5346/166212",
+      "checkedAt": "2026-10-13T07:30:54.398Z",
+      "sha256": "378640ca5d79a61b79d0966ce9e04653687e3248b5940af414ca35a906e91ddc"
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/List?noticetype=all&page=1&searchtype=3&searchtext=%EC%9D%B4%EB%B3%B4%ED%81%AC",
+      "checkedAt": "2026-10-13T07:30:54.660Z",
+      "sha256": "efe1ed8e779916ad9acd9ada9bb5248f88342517201677c3b3f1fb344207ea7f",
+      "rows": [
+        {
+          "href": "/News/Notice/NoticeViews/13564?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "알려진 이슈를 안내해 드립니다. (10/9 수정)",
+          "publishedAt": "2026-10-07T00:59:52Z"
+        },
+        {
+          "href": "/News/Notice/NoticeViews/840?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "악성코드 감염 예방을 위한 보안 수칙 안내",
+          "publishedAt": "2020-02-26T08:52:11Z"
+        },
+        {
+          "href": "/News/Notice/NoticeViews/58?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "모험가 여러분의 계정 보호를 위한 안내",
+          "publishedAt": "2018-11-05T07:55:03Z"
+        },
+        {
+          "href": "/News/Notice/Views/13004?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "1월 8일(수) 업데이트 내역 안내 (내용 추가)",
+          "publishedAt": "2025-01-08T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/12717?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "3월 6일(수) 업데이트 내역 안내 (내용 수정)",
+          "publishedAt": "2024-03-06T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/2263?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "1월 18일(수) 업데이트 내역 안내 (내용추가)",
+          "publishedAt": "2023-01-18T00:59:57Z"
+        },
+        {
+          "href": "/News/Notice/Views/2149?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "10월 12일(수) 업데이트 내역 안내",
+          "publishedAt": "2022-10-12T00:59:48Z"
+        },
+        {
+          "href": "/News/Notice/Views/2127?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "9월 28일(수) 업데이트 내역 안내 (내용추가)",
+          "publishedAt": "2022-09-28T01:00:20Z"
+        },
+        {
+          "href": "/News/Notice/Views/2067?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "8월 10일(수) 업데이트 내역 안내",
+          "publishedAt": "2022-08-10T01:00:04Z"
+        },
+        {
+          "href": "/News/Notice/Views/1868?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "2월 23일(수) 업데이트 내역 안내 (내용추가)",
+          "publishedAt": "2022-02-23T01:00:03Z"
+        },
+        {
+          "href": "/News/Notice/Views/1788?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "유료 확률형 아이템 정보 안내 (2024/01/17 10:00 수정)",
+          "publishedAt": "2021-12-29T00:59:48Z"
+        },
+        {
+          "href": "/News/Notice/Views/1662?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "9월 29일(수) 업데이트 내역 안내 (9/30 내용 추가)",
+          "publishedAt": "2021-09-29T01:00:16Z"
+        },
+        {
+          "href": "/News/Notice/Views/1444?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "5월 4일(화) 업데이트 내역 안내",
+          "publishedAt": "2021-05-04T01:00:08Z"
+        },
+        {
+          "href": "/News/Notice/Views/1428?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "4월 28일(수) 업데이트 내역 안내 (4/30 내용 추가)",
+          "publishedAt": "2021-04-28T01:00:20Z"
+        },
+        {
+          "href": "/News/Notice/Views/1256?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "12월 30일(수) 업데이트 내역 안내",
+          "publishedAt": "2020-12-30T01:00:28Z"
+        },
+        {
+          "href": "/News/Notice/Views/588?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "8월 14일(수) 업데이트 내역 안내",
+          "publishedAt": "2019-08-14T00:55:01Z"
+        },
+        {
+          "href": "/News/Notice/Views/479?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "​6월 5일(수) 업데이트 내역 안내 (내용수정)",
+          "publishedAt": "2019-06-05T00:54:44Z"
+        },
+        {
+          "href": "/News/Notice/Views/401?page=1&searchtype=3&searchtext=이보크&noticetype=all",
+          "title": "4월 10일(수) 업데이트 내역 안내 (수정)",
+          "publishedAt": "2019-04-10T01:00:17Z"
+        }
+      ]
+    }
+  ],
+  "limit": "공식 본문 검색 첫 페이지와 명시한 자료만 확인했습니다. 도트 첫 간격·타격 간격·트포 피해 증가율은 공개 후보이며 현행 서버 실측이 아닙니다. API 키는 저장하지 않습니다."
+}

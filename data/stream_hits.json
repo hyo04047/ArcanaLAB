@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "sourcePath": "docs/audit/2026-10-13-stream-sources.json",
+    "reference": "https://www.inven.co.kr/board/lostark/5346/152947",
+    "status": "candidate",
+    "assumptions": [
+      "카드 증가·다크니스 엣지·퍼펙트 스트림에만 적용",
+      "설치 후 첫 적중 0.3초는 후보",
+      "작성자 1.5초 간격을 5·10·15번째 타격에 대응",
+      "기존 총 피해를 15등분하며 현행 서버의 타격별 배분은 미검증"
+    ]
+  },
+  "duration": 1.133,
+  "spawnAt": 0.299,
+  "firstHitAfter": 0.3,
+  "interval": 0.3,
+  "hitCount": 15,
+  "stackHitNumbers": [
+    5,
+    10,
+    15
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "officialApi": {
+    "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter26/combat-skills",
+    "checkedAt": "2026-10-12T12:57:10.188Z",
+    "sha256": "b5f9f0f21200ec728eceb0178816947fb72dc42822d091be9bb50a0429abc024",
+    "skills": [
+      {
+        "name": "운명의 부름",
+        "level": 10,
+        "tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"운명의 부름\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 8초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_10.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 10\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 349 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>27.0%</FONT> 증가한다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>날렵한 움직임</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_6.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<font color='#FFFDE7'>[암] 속성으로 변경되고, 적에게 주는 피해가 <FONT COLOR='#99ff99'>15.0%</FONT> 증가한다. 공격 적중 시 <FONT COLOR='#ffff99'>5.0</FONT>초간 적에게 주는 치명타 피해가 <FONT COLOR='#99ff99'>77.5%</FONT> 증가한다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>어두운 운명</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_53.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<font color='#FFFDE7'><FONT COLOR='#8181F7'>[스택트 스킬]</FONT> 형태로 변경되어 스택트 중첩이 <FONT COLOR='#ffff99'>2</FONT>회 부여되고 간결한 움직임으로 카드를 날려 시전 시간이 <FONT COLOR='#ffff99'>0.3</FONT>초 짧아지며, 공격이 <FONT COLOR='#ffff99'>1</FONT>회로 변경되지만 적중된 적을 바로 공중에 띄워올리며 <FONT COLOR='#99ff99'>45.0%</FONT> 증가된 피해를 준다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>페이크 플립</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_68.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"ItemPartBox\",\r\n        \"value\": {\r\n          \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n          \"Element_001\": \"[<FONT COLOR='#F99200'>속행</FONT>] 스킬 사용 시 일정 확률로 전체 재사용 대기 시간이 16% 감소\"\r\n        }\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 11\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 55\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>6\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 349 소모\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_014\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }",
+        "tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "정신 강화",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "꿰뚫는 일격",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "날렵한 움직임",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>27.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "퀵 드로",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적중 시 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "약점 포착",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "어두운 운명",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 적에게 주는 피해가 <FONT COLOR='#99ff99'>15.0%</FONT> 증가한다. 공격 적중 시 <FONT COLOR='#ffff99'>5.0</FONT>초간 적에게 주는 치명타 피해가 <FONT COLOR='#99ff99'>77.5%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "연속 공격",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>카드를 빠르게 <FONT COLOR='#99ff99'>2</FONT>회 날려 적중된 적을 공중으로 띄우는 형태로 변경되며, 총 <FONT COLOR='#99ff99'>70.8%</FONT>증가된 피해를 준다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "페이크 플립",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'><FONT COLOR='#8181F7'>[스택트 스킬]</FONT> 형태로 변경되어 스택트 중첩이 <FONT COLOR='#ffff99'>2</FONT>회 부여되고 간결한 움직임으로 카드를 날려 시전 시간이 <FONT COLOR='#ffff99'>0.3</FONT>초 짧아지며, 공격이 <FONT COLOR='#ffff99'>1</FONT>회로 변경되지만 적중된 적을 바로 공중에 띄워올리며 <FONT COLOR='#99ff99'>45.0%</FONT> 증가된 피해를 준다.</font>"
+          }
+        ]
+      },
+      {
+        "name": "언리미티드 셔플",
+        "level": 1,
+        "tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"언리미티드 셔플\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_8.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 110 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 2\"\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 14\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 149 소모\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }",
+        "tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "파멸의 셔플",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>언리미티드 셔플 사용 중 아르카나 주변으로 카드가 휘몰아쳐 기본 피해량의 <FONT COLOR='#99ff99'>45.0%</FONT>에 해당하는 피해를 준다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "빠른 준비",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>5.0</FONT>초 감소한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "퀵 드로",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마지막 공격 적중 시 <FONT COLOR='#99ff99'>30.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장 획득한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "무한의 뇌격",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 더 이상 피격이상을 시키지 않지만, 마지막 공격에 적중된 적을 <FONT COLOR='#ffff99'>5.0</FONT>초간 감전상태로 만든다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "어둠의 핵",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경된다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가하고, 치명타 피해량이  <FONT COLOR='#99ff99'>42.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "얼티밋 셔플",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>언리미티드 셔플의 지속시간이 <FONT COLOR='#ffff99'>0.6</FONT>초 더 증가하고, 카드가 더욱 더 빠르게 날아다녀 판정횟수가 <FONT COLOR='#99ff99'>3</FONT>회 증가하여 최대 <FONT COLOR='#99ff99'>65.4%</FONT> 증가된 피해를 준다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "예견된 죽음",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>판정 범위가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하고, 원형 마법진이 추가로 생성돼, 원형 마법진 위에 있는 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "파멸의 폭풍",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>더욱 간결한 동작으로 지정한 위치에 <FONT COLOR='#99ff99'>3</FONT>회의 피해를 주고 적을 공중에 띄워 <FONT COLOR='#99ff99'>105.0%</FONT> 증가된 피해를 준다.</font>"
+          }
+        ]
+      },
+      {
+        "name": "신비한 쇄도",
+        "level": 1,
+        "tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"신비한 쇄도\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 14초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_17.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 85 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 2\"\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 28\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 116 소모\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }",
+        "tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "정신 강화",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "부위파괴 강화",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>부위파괴 레벨이 <FONT COLOR='#99ff99'>1</FONT>만큼 증가한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "퀵 드로",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>첫 번째 공격 적중 시 <FONT COLOR='#99ff99'>30.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "회피의 달인",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 회피율이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "쇄도 집중",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>매 판정마다 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> 씩 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "기동성 약화",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>신비한 쇄도에 적중 된 적의 이동속도를 <FONT COLOR='#ffff99'>4.0</FONT>초간 <FONT COLOR='#99ff99'>69.0%</FONT> 감소시킨다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "신비한 전략",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>스택 가능하게 변경되며, 최대 <FONT COLOR='#ffff99'>2</FONT>회 스택이 가능하다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "연속 공격",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#99ff99'>3</FONT>회로 증가하고, 마지막 공격은 적을 멀리 밀어낸다. 부위파괴 강화를 적용할 경우 <FONT COLOR='#ffff99'>2</FONT>번째와 <FONT COLOR='#ffff99'>3</FONT>번째 공격에 각각 <FONT COLOR='#99ff99'>1</FONT>레벨의 부위파괴 공격이 적용된다.</font>"
+          }
+        ]
+      },
+      {
+        "name": "다크 리저렉션",
+        "level": 1,
+        "tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"다크 리저렉션\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 27초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_4.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 116 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 2\"\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 32\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 158 소모\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }",
+        "tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "날렵한 움직임",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>18.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "꿰뚫는 일격",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "정신 강화",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "퀵 드로",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마지막 공격에 적중 시 <FONT COLOR='#99ff99'>40.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "치명적 카드",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "강렬한 카드",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "죽음의 공포",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>더 이상 점프하지 않고 빠른 속도로 공격해, 마지막 공격에 적중 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 매 초마다 <FONT COLOR='#00ccff'>660,101</FONT>의 중독 피해를 준다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "분노의 일격",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>더 이상 공포를 걸지 않지만, 치명타 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가하고, 마지막 공격이 지면을 강타해 적중된 적을 가운데로 모아 넘어뜨리며, <FONT COLOR='#99ff99'>70.0%</FONT> 증가된 피해를 준다.</font>"
+          }
+        ]
+      },
+      {
+        "name": "이보크",
+        "level": 1,
+        "tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"이보크\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#00ADEC'>체인</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_1.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 110 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 2\"\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 40\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 149 소모\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }",
+        "tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "빠른 준비",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>8.0</FONT>초 감소한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "정신 강화",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "퀵 드로",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적중 시 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "집속 마법진",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "마나 중독",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#ff9999'>30.0%</FONT> 감소하고, 더 이상 공중으로 띄우지 않지만 <FONT COLOR='#ffff99'>3.0</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>40.0%</FONT> 감소시키고 매 초마다 <FONT COLOR='#00ccff'>605,378</FONT>의 중독 피해를 주며 최대 <FONT COLOR='#ffff99'>3</FONT>회 중첩이 가능하다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "치명적 공격",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "분할 마법진",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>더 이상 원하는 타이밍에 터트리지 못하지만, <FONT COLOR='#ffff99'>3.0</FONT>초 동안 이보크를 <FONT COLOR='#ffff99'>2</FONT>회 사용할 수 있다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "중첩 마법진",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#ffff99'>3</FONT>회로 증가하지만, <FONT COLOR='#ffff99'>2</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>50.0%</FONT>, <FONT COLOR='#ffff99'>3</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>75.0%</FONT> 감소한다.</font>"
+          }
+        ]
+      }
+    ]
+  },
+  "searches": [
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/List?noticetype=all&page=1&searchtype=3&searchtext=%ED%80%B5%20%EB%93%9C%EB%A1%9C",
+      "checkedAt": "2026-10-12T12:57:10.253Z",
+      "sha256": "0f6b496bba80e965d2bcb3174c2daa0e8202ea4b63414f38a034c9ec37b86ee7",
+      "keyword": "퀵 드로",
+      "rows": [
+        {
+          "href": "/News/Notice/Views/2067?page=1&searchtype=3&searchtext=퀵 드로&noticetype=all",
+          "title": "8월 10일(수) 업데이트 내역 안내",
+          "publishedAt": "2022-08-10T01:00:04Z"
+        },
+        {
+          "href": "/News/Notice/Views/588?page=1&searchtype=3&searchtext=퀵 드로&noticetype=all",
+          "title": "8월 14일(수) 업데이트 내역 안내",
+          "publishedAt": "2019-08-14T00:55:01Z"
+        },
+        {
+          "href": "/News/Notice/Views/401?page=1&searchtype=3&searchtext=퀵 드로&noticetype=all",
+          "title": "4월 10일(수) 업데이트 내역 안내 (수정)",
+          "publishedAt": "2019-04-10T01:00:17Z"
+        },
+        {
+          "href": "/News/Notice/Views/344?page=1&searchtype=3&searchtext=퀵 드로&noticetype=all",
+          "title": "3월 13일(수) 업데이트 내역 안내(내용추가)",
+          "publishedAt": "2019-03-13T00:58:29Z"
+        }
+      ]
+    },
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/List?noticetype=all&page=1&searchtype=3&searchtext=%ED%80%B5%EB%93%9C%EB%A1%9C",
+      "checkedAt": "2026-10-12T12:57:10.281Z",
+      "sha256": "ea6a0904706c73aafba03930778cc50b282505dd4ff8bb31628516af1c551b01",
+      "keyword": "퀵드로",
+      "rows": [
+        {
+          "href": "/News/Notice/Views/2067?page=1&searchtype=3&searchtext=퀵드로&noticetype=all",
+          "title": "8월 10일(수) 업데이트 내역 안내",
+          "publishedAt": "2022-08-10T01:00:04Z"
+        },
+        {
+          "href": "/News/Notice/Views/588?page=1&searchtype=3&searchtext=퀵드로&noticetype=all",
+          "title": "8월 14일(수) 업데이트 내역 안내",
+          "publishedAt": "2019-08-14T00:55:01Z"
+        },
+        {
+          "href": "/News/Notice/Views/401?page=1&searchtype=3&searchtext=퀵드로&noticetype=all",
+          "title": "4월 10일(수) 업데이트 내역 안내 (수정)",
+          "publishedAt": "2019-04-10T01:00:17Z"
+        },
+        {
+          "href": "/News/Notice/Views/344?page=1&searchtype=3&searchtext=퀵드로&noticetype=all",
+          "title": "3월 13일(수) 업데이트 내역 안내(내용추가)",
+          "publishedAt": "2019-03-13T00:58:29Z"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://lostark.game.onstove.com/News/Notice/Views/2067",
+      "checkedAt": "2026-10-12T12:57:10.320Z",
+      "sha256": "bf9f9f5cdd1c8e70fae3d7c2c0035e101785ffb68de76dbce5d9ed1cf5ed316d"
+    },
+    {
+      "url": "https://www.inven.co.kr/board/lostark/5346/105035",
+      "checkedAt": "2026-10-12T12:57:10.663Z",
+      "sha256": "f8c75ce349372cecd61d6c917f1854c96d96b0ac9aafe80a8145d5473b7d691c"
+    },
+    {
+      "url": "https://www.inven.co.kr/board/lostark/5346/159625",
+      "checkedAt": "2026-10-12T12:57:10.540Z",
+      "sha256": "a4892dfe7387a3c1ff364d98338219a62b18cabebe0ac65403d85a4243c27dde"
+    }
+  ],
+  "patchChanceByLevel": {
+    "call_of_destiny": [
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "evoke": [
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "unlimited_shuffle": [
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "mysterious_stampede": [
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "dark_resurrection": [
+      24,
+      28,
+      32,
+      36,
+      40
+    ]
+  },
+  "patchTableDate": "2022-08-10",
+  "patchTableUse": "공식 공지의 역사적 레벨별 표입니다. 현재 API 표시값은 각 배열의 최댓값과 일치합니다. 엔진은 선택한 API 툴팁값을 직접 사용하며 레벨을 역추정하지 않습니다.",
+  "limit": "공식 검색 첫 페이지와 캐릭터 1명의 툴팁입니다. 검색 부재는 변경 부재의 증명이 아닙니다. 미선택 트포도 포함하며 레벨별 확률표를 가정하지 않습니다."
+}

@@ -1,0 +1,92 @@
+{
+  "names": [
+    "일격",
+    "최적화 훈련",
+    "입식 타격가",
+    "마나 용광로"
+  ],
+  "records": [
+    {
+      "character": "FixtureCharacter6",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter6",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter6/arkpassive",
+      "checkedAt": "2026-10-14T13:03:38.146Z",
+      "sha256": "d1614d3d9153e0440f26ab08e6ea565badb5ecf844535859a6ec396fd926abb5",
+      "effects": [
+        {
+          "Name": "진화",
+          "Description": "<FONT color='#F1D594'>진화</FONT> 5티어 <FONT color='#F1D594'>입식 타격가 Lv.2</FONT>",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png",
+          "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"입식 타격가\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>12.0%</font>, 낙인력이 <FONT COLOR='#99ff99'>8.0%</font> 증가합니다. <BR>전투 시작 후, '입식 타격 II' 효과를 최대로 얻습니다. 피격 이상 시 중첩을 3회 잃습니다. 이후 2초가 지날 때마다 효과를 1중첩 회복합니다.<BR> 입식 타격 II :  진화형 피해 <FONT COLOR='#99ff99'>+1.5% </font> / 낙인력 <FONT COLOR='#99ff99'>+2.0% </font>, 최대 6중첩||<BR>\"}}"
+        }
+      ],
+      "limit": "선택된 공통 노드의 공식 문구만 확인합니다. 아르카나 실측이나 미선택 레벨 검증이 아닙니다."
+    },
+    {
+      "character": "FixtureCharacter25",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter25",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter25/arkpassive",
+      "checkedAt": "2026-10-14T13:03:37.795Z",
+      "sha256": "65709ded5f67de12da4d912e053508f6db586c6ff7ad38008479307181d18a17",
+      "effects": [
+        {
+          "Name": "깨달음",
+          "Description": "<FONT color='#83E9FF'>깨달음</FONT> 1티어 <FONT color='#83E9FF'>신속한 일격 Lv.1</FONT>",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_bl/ark_passive_bl_4.png",
+          "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"신속한 일격\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_bl/ark_passive_bl_4.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"블레이드 버스트 스킬의 피해량이 <FONT COLOR='#ff9999'>30.0%</FONT> 감소하지만, 아츠 발동 시 즉시 블레이드 오브를 소모하여 블레이드 버스트를 사용할 수 있게 된다. 블레이드 오브 소모 개수에 따라  강화된 버스트가 발동한다.||<BR>\"}}"
+        },
+        {
+          "Name": "진화",
+          "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>일격 Lv.2</FONT>",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_32.png",
+          "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"일격\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_32.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"치명타 적중률이 <FONT COLOR='#99ff99'>20.0% </font>증가하고, 방향성 공격 스킬의 치명타 피해가 <FONT COLOR='#99ff99'>32.0% </font>증가합니다.||<BR>\"}}"
+        },
+        {
+          "Name": "진화",
+          "Description": "<FONT color='#F1D594'>진화</FONT> 5티어 <FONT color='#F1D594'>입식 타격가 Lv.2</FONT>",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png",
+          "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"입식 타격가\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>12.0%</font>, 낙인력이 <FONT COLOR='#99ff99'>8.0%</font> 증가합니다. <BR>전투 시작 후, '입식 타격 II' 효과를 최대로 얻습니다. 피격 이상 시 중첩을 3회 잃습니다. 이후 2초가 지날 때마다 효과를 1중첩 회복합니다.<BR> 입식 타격 II :  진화형 피해 <FONT COLOR='#99ff99'>+1.5% </font> / 낙인력 <FONT COLOR='#99ff99'>+2.0% </font>, 최대 6중첩||<BR>\"}}"
+        }
+      ],
+      "limit": "선택된 공통 노드의 공식 문구만 확인합니다. 아르카나 실측이나 미선택 레벨 검증이 아닙니다."
+    },
+    {
+      "character": "FixtureCharacter3",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter3",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter3/arkpassive",
+      "checkedAt": "2026-10-14T13:03:38.151Z",
+      "sha256": "0e11c937fd309e866e66cd925121a64baac0699ec2db3312f54181305882e01d",
+      "effects": [
+        {
+          "Name": "진화",
+          "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>최적화 훈련 Lv.1</FONT>",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_22.png",
+          "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"최적화 훈련\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_22.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"각성기, 이동 및 기상기를 제외한 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>4.0% </font>감소하고, 진화형 피해가 <FONT COLOR='#99ff99'>5.0% </font>증가합니다.||<BR>\"}}"
+        },
+        {
+          "Name": "진화",
+          "Description": "<FONT color='#F1D594'>진화</FONT> 5티어 <FONT color='#F1D594'>입식 타격가 Lv.2</FONT>",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png",
+          "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"입식 타격가\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>12.0%</font>, 낙인력이 <FONT COLOR='#99ff99'>8.0%</font> 증가합니다. <BR>전투 시작 후, '입식 타격 II' 효과를 최대로 얻습니다. 피격 이상 시 중첩을 3회 잃습니다. 이후 2초가 지날 때마다 효과를 1중첩 회복합니다.<BR> 입식 타격 II :  진화형 피해 <FONT COLOR='#99ff99'>+1.5% </font> / 낙인력 <FONT COLOR='#99ff99'>+2.0% </font>, 최대 6중첩||<BR>\"}}"
+        }
+      ],
+      "limit": "선택된 공통 노드의 공식 문구만 확인합니다. 아르카나 실측이나 미선택 레벨 검증이 아닙니다."
+    },
+    {
+      "character": "FixtureCharacter7",
+      "discoveredAt": "https://lozzang.com/character/FixtureCharacter7",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter7/arkpassive",
+      "checkedAt": "2026-10-14T13:03:37.760Z",
+      "sha256": "7d3157ad3945532b472369d534743bac4ff563fac2a5ce00419c25eede348c1e",
+      "effects": [
+        {
+          "Name": "진화",
+          "Description": "<FONT color='#F1D594'>진화</FONT> 5티어 <FONT color='#F1D594'>마나 용광로 Lv.2</FONT>",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_24.png",
+          "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"마나 용광로\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_24.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"낙인력이 <FONT COLOR='#99ff99'>20.0% </font>증가합니다. 마나를 소모하는 스킬 사용 시, 최대 마나의 <FONT COLOR='#ff9999'>2.0%</font>가 추가로 소모됩니다.<BR>해당 스킬로 피해를 줄 경우, 스킬의 증감 전 기본 마나 소모량에 비례하여 진화형 피해가 증가합니다. (기본 마나 소모량 10 당, 진화형 피해 <FONT COLOR='#99ff99'>0.5%</font> 증가, 최대 <FONT COLOR='#99ff99'>24.0%</font>)||<BR>\"}}"
+        }
+      ],
+      "limit": "선택된 공통 노드의 공식 문구만 확인합니다. 아르카나 실측이나 미선택 레벨 검증이 아닙니다."
+    }
+  ]
+}

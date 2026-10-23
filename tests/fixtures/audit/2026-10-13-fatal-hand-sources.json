@@ -1,0 +1,158 @@
+{
+  "db": {
+    "url": "https://lostark.inven.co.kr/dataninfo/item/?code=673021314",
+    "checkedAt": "2026-10-13T12:49:33.674Z",
+    "sha256": "0ffe42dfab9ee9269f740d5832de1892f30d1f8fcc265fc2cd5770f9e6db8d6c",
+    "grade": "전설",
+    "options": "[10P] 뒤틀린 운명 카드 사용 시 스킬 피해가 증가하지 않을 확률이 대폭 감소하고, 지속 시간이 2.0 초 증가한다. [14P] 도태 카드의 치명타 피해량 증가 효과가 20.0% 증가한다."
+  },
+  "relicDb": {
+    "url": "https://lostark.inven.co.kr/dataninfo/item/?code=673021315",
+    "checkedAt": "2026-10-13T12:49:33.499Z",
+    "sha256": "7b42efa27caf02a0b0002126474ed9fe4b0c79d9335c50ef8c1523ebb85c75d8",
+    "grade": "유물",
+    "options": "[10P] 뒤틀린 운명 카드 사용 시 스킬 피해가 증가하지 않을 확률이 대폭 감소하고, 지속 시간이 2.0 초 증가한다. [14P] 도태 카드의 치명타 피해량 증가 효과가 20.0% 증가한다. [17P] 부식 카드 효과로 적에게 부여하는 자신에게 받는 피해 증가량을 12.0% 로 변경한다. [18P] 루인 스킬의 피해량이 0.15% 증가한다. [19P] 루인 스킬의 피해량이 0.15% 증가한다. [20P] 루인 스킬의 피해량이 0.15% 증가한다."
+  },
+  "publicData": {
+    "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/ark-grid.json",
+    "checkedAt": "2026-10-13T12:49:33.208Z",
+    "sha256": "7c1118f03ad8f58e0b91fe9b48809fb0b4656c63ccbe402ddfb23dabef04bec4",
+    "data": {
+      "grade": "relic",
+      "name": "페이탈 핸드",
+      "raw_core_id": 673021315,
+      "raw_group_id": 673021313,
+      "options": [
+        {
+          "pointRequirement": 10,
+          "description": "뒤틀린 운명 카드의 피해 미증가 확률이 대폭 감소하고 지속 시간이 2초 증가한다.",
+          "rawOptionId": 3196500,
+          "rawAddonOptions": [
+            {
+              "type": 32,
+              "index": 3196500,
+              "value": 0
+            }
+          ],
+          "runtimeEffects": [
+            {
+              "kind": "twisted_fate_override",
+              "cardId": 19091,
+              "durationMs": 6000
+            }
+          ]
+        },
+        {
+          "pointRequirement": 14,
+          "description": "도태 카드의 치명타 피해량 증가 효과가 20% 증가한다.",
+          "rawOptionId": 3196600,
+          "rawAddonOptions": [
+            {
+              "type": 32,
+              "index": 3196600,
+              "value": 0
+            }
+          ],
+          "runtimeEffects": [
+            {
+              "kind": "card_crit_damage_bonus",
+              "cardId": 19281,
+              "valuePercent": 20
+            }
+          ]
+        },
+        {
+          "pointRequirement": 17,
+          "description": "부식 카드의 자신에게 받는 피해 증가량을 12%로 변경한다.",
+          "rawOptionId": 3196700,
+          "rawAddonOptions": [
+            {
+              "type": 32,
+              "index": 3196700,
+              "value": 0
+            }
+          ],
+          "runtimeEffects": [
+            {
+              "kind": "card_target_damage_override",
+              "cardId": 19093,
+              "targetBuffId": "190931",
+              "valuePercent": 12
+            }
+          ]
+        },
+        {
+          "pointRequirement": 18,
+          "description": "루인 스킬의 피해량이 0.15% 증가한다.",
+          "rawOptionId": 3196900,
+          "rawAddonOptions": [
+            {
+              "type": 4,
+              "index": 3196900,
+              "value": 0
+            }
+          ],
+          "runtimeEffects": [
+            {
+              "kind": "static_skill_group_damage",
+              "skillGroupId": 2190402,
+              "valuePercent": 0.15
+            }
+          ]
+        },
+        {
+          "pointRequirement": 19,
+          "description": "루인 스킬의 피해량이 0.15% 증가한다.",
+          "rawOptionId": 3196901,
+          "rawAddonOptions": [
+            {
+              "type": 4,
+              "index": 3196901,
+              "value": 0
+            }
+          ],
+          "runtimeEffects": [
+            {
+              "kind": "static_skill_group_damage",
+              "skillGroupId": 2190402,
+              "valuePercent": 0.15
+            }
+          ]
+        },
+        {
+          "pointRequirement": 20,
+          "description": "루인 스킬의 피해량이 0.15% 증가한다.",
+          "rawOptionId": 3196902,
+          "rawAddonOptions": [
+            {
+              "type": 4,
+              "index": 3196902,
+              "value": 0
+            }
+          ],
+          "runtimeEffects": [
+            {
+              "kind": "static_skill_group_damage",
+              "skillGroupId": 2190402,
+              "valuePercent": 0.15
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "experiment": {
+    "url": "https://www.inven.co.kr/board/lostark/5346/167082",
+    "checkedAt": "2026-10-13T12:49:33.540Z",
+    "sha256": "2de3713342a14ceab0955176a1d1f908781de104624b5363b40b5c4e8d9e021e",
+    "excerpt": "뒤운 100회 시행 결과 40% : 32회 20% or 10% : 66회 0% : 2회",
+    "count": {
+      "total": 100,
+      "forty": 32,
+      "tenOrTwenty": 66,
+      "zero": 2
+    },
+    "limit": "필문의 원 관측이며 10%와 20%를 분리하지 않았습니다. 0% 확률의 정확한 모수나 변경 후 현행 재현을 확정하지 않습니다."
+  },
+  "limit": "공개 숫자 데이터만 읽었으며 외부 엔진 코드는 읽거나 실행하지 않았습니다. 현재 공식 장착 페이탈 핸드 응답은 확보하지 못했습니다."
+}

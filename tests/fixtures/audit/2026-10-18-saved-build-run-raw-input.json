@@ -1,0 +1,1082 @@
+{
+  "name": "FixtureCharacter26 (1,750.00, 황후)",
+  "combatLevel": 70,
+  "attackPower": {
+    "base": 158137,
+    "displayed": 171684,
+    "increase": 13547,
+    "flat": 3600,
+    "percent": 0.0615,
+    "reconstructed": 171683.8255,
+    "difference": -0.17449999999371357,
+    "status": "matched-display"
+  },
+  "variant": "empress",
+  "stats": {
+    "crit": 526,
+    "spec": 1735,
+    "swift": 227
+  },
+  "passiveMods": [
+    {
+      "bucket": "critRate",
+      "value": 0.1882,
+      "source": "치명"
+    },
+    {
+      "bucket": "atkSpeed",
+      "value": 0.038900000000000004,
+      "source": "신속"
+    },
+    {
+      "bucket": "moveSpeed",
+      "value": 0.038900000000000004,
+      "source": "신속"
+    },
+    {
+      "bucket": "cooldown",
+      "value": 0.0487,
+      "source": "신속"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.8687,
+      "filter": {
+        "kinds": [
+          "ruin"
+        ]
+      },
+      "source": "특화(루인)"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.37920000000000004,
+      "filter": {
+        "kinds": [
+          "awakening"
+        ]
+      },
+      "source": "특화(각성)"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.009000000000000001,
+      "filter": {
+        "kinds": [
+          "ruin"
+        ]
+      },
+      "source": "황후의 탐욕 Lv1"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.26,
+      "filter": {
+        "kinds": [
+          "ruin"
+        ],
+        "minStacks": 4
+      },
+      "source": "황후의 연회 Lv3"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.2,
+      "filter": {
+        "kinds": [
+          "ruin"
+        ]
+      },
+      "source": "황후의 속삭임 Lv3"
+    },
+    {
+      "bucket": "cooldown",
+      "value": 0.06,
+      "filter": {
+        "kinds": [
+          "normal",
+          "stack"
+        ]
+      },
+      "source": "황후의 속삭임 Lv3"
+    },
+    {
+      "bucket": "cooldown",
+      "value": 0.14,
+      "filter": {
+        "usesMana": true
+      },
+      "source": "끝없는 마나 Lv2",
+      "cooldownGroup": "manaEvolution"
+    },
+    {
+      "bucket": "evoDmg",
+      "value": 0.05,
+      "source": "최적화 훈련 Lv1"
+    },
+    {
+      "bucket": "cooldown",
+      "value": 0.04,
+      "filter": {
+        "excludeKinds": [
+          "awakening"
+        ]
+      },
+      "source": "최적화 훈련 Lv1",
+      "cooldownGroup": "nonAwakeningEvolution"
+    },
+    {
+      "bucket": "evoDmg",
+      "value": 0.16,
+      "source": "무한한 마력 Lv2"
+    },
+    {
+      "bucket": "cooldown",
+      "value": 0.14,
+      "filter": {
+        "usesMana": true
+      },
+      "source": "무한한 마력 Lv2",
+      "cooldownGroup": "manaEvolution"
+    },
+    {
+      "bucket": "critHitDmg",
+      "value": 0.12,
+      "source": "회심 Lv1"
+    },
+    {
+      "bucket": "evoDmg",
+      "value": 0.2,
+      "source": "분쇄 Lv1"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.15,
+      "filter": {
+        "kinds": [
+          "hyper_awakening"
+        ]
+      },
+      "source": "풀려난 힘 Lv5"
+    },
+    {
+      "bucket": "cooldown",
+      "value": 0.06,
+      "filter": {
+        "kinds": [
+          "hyper_awakening"
+        ]
+      },
+      "source": "잠재력 해방 Lv3"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.2,
+      "filter": {
+        "ids": [
+          "the_devil"
+        ]
+      },
+      "source": "쿼즈 Lv3"
+    },
+    {
+      "bucket": "stackEffectDmg",
+      "value": 0.2,
+      "filter": {
+        "ids": [
+          "the_devil"
+        ],
+        "minStacks": 4
+      },
+      "source": "쿼즈 Lv3(4중첩)"
+    },
+    {
+      "bucket": "atk",
+      "value": 0.020499999999999997,
+      "source": "젬 공격력 합산"
+    },
+    {
+      "bucket": "addDmg",
+      "value": 0.042,
+      "source": "젬 추가 피해 합산"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.0108,
+      "source": "젬 보스 피해 합산"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.016,
+      "filter": {
+        "kinds": [
+          "ruin"
+        ]
+      },
+      "source": "인피니티 덱 10P"
+    },
+    {
+      "bucket": "critHitDmg",
+      "value": 0.02,
+      "source": "엣지 콤보 10P"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.08,
+      "filter": {
+        "ids": [
+          "celestial_rain"
+        ]
+      },
+      "source": "스트림 오브 엣지 14P"
+    },
+    {
+      "bucket": "skillDmg",
+      "value": 0.008,
+      "filter": {
+        "ids": [
+          "celestial_rain"
+        ]
+      },
+      "source": "스트림 오브 엣지 18P"
+    },
+    {
+      "bucket": "critHitDmg",
+      "value": 0.0055000000000000005,
+      "source": "현란한 공격 10P"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.005,
+      "source": "현란한 공격 14P"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.01,
+      "source": "현란한 공격 17P"
+    },
+    {
+      "bucket": "critHitDmg",
+      "value": 0.0055000000000000005,
+      "source": "현란한 공격 17P"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.0016,
+      "source": "현란한 공격 18P"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.005,
+      "source": "불타는 일격 14P"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.02,
+      "source": "불타는 일격 17P"
+    },
+    {
+      "bucket": "atkFlat",
+      "value": 900,
+      "source": "공격 10P"
+    },
+    {
+      "bucket": "atk",
+      "value": 0.0055000000000000005,
+      "source": "공격 14P"
+    },
+    {
+      "bucket": "atk",
+      "value": 0.0165,
+      "source": "공격 17P"
+    },
+    {
+      "bucket": "atkFlat",
+      "value": 2700,
+      "source": "공격 17P"
+    },
+    {
+      "bucket": "atk",
+      "value": 0.0095,
+      "source": "장신구 귀걸이"
+    },
+    {
+      "bucket": "atk",
+      "value": 0.0095,
+      "source": "장신구 귀걸이"
+    },
+    {
+      "bucket": "addDmg",
+      "value": 0.2882,
+      "source": "장비 무기 추가 효과"
+    },
+    {
+      "bucket": "addDmg",
+      "value": 0.016,
+      "source": "장비 목걸이 연마 효과"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.012,
+      "source": "장비 목걸이 연마 효과"
+    },
+    {
+      "bucket": "critDmg",
+      "value": 0.024,
+      "source": "장비 반지 연마 효과"
+    },
+    {
+      "bucket": "critRate",
+      "value": 0.0095,
+      "source": "장비 반지 연마 효과"
+    },
+    {
+      "bucket": "critRate",
+      "value": 0.0095,
+      "source": "장비 반지 연마 효과"
+    },
+    {
+      "bucket": "critDmg",
+      "value": 0.024,
+      "source": "장비 반지 연마 효과"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.2625,
+      "source": "원한(유물4)"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.17,
+      "source": "저주받은 인형(유물4)"
+    },
+    {
+      "bucket": "dmgToEnemy",
+      "value": 0.1975,
+      "source": "질량 증가(유물0)"
+    },
+    {
+      "bucket": "atkSpeed",
+      "value": -0.1,
+      "source": "질량 증가(유물0)"
+    },
+    {
+      "bucket": "atk",
+      "value": 0.054000000000000006,
+      "source": "아드레날린(유물4)(6중첩 상시)"
+    },
+    {
+      "bucket": "critRate",
+      "value": 0.2,
+      "source": "아드레날린(유물4)"
+    }
+  ],
+  "bluntThorn": {
+    "base": 0.15,
+    "ratio": 1.5,
+    "cap": 0.75
+  },
+  "cardDurationBonus": {
+    "cull": 2,
+    "judgment": 2
+  },
+  "skills": [
+    {
+      "id": "call_of_destiny",
+      "name": "운명의 부름",
+      "kind": "stack",
+      "cooldown": 8,
+      "level": 10,
+      "directCoef": 2.703,
+      "directFlat": 494.5,
+      "hits": 1,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 10,
+        "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+        "effectIds": [
+          191823
+        ]
+      },
+      "castTime": 0.5511811023622046,
+      "mods": [
+        {
+          "bucket": "skillDmg",
+          "value": 0.15,
+          "filter": {
+            "ids": [
+              "call_of_destiny"
+            ],
+            "component": "direct"
+          },
+          "source": "어두운 운명"
+        },
+        {
+          "bucket": "skillDmg",
+          "value": 0.45,
+          "filter": {
+            "ids": [
+              "call_of_destiny"
+            ],
+            "component": "direct"
+          },
+          "source": "페이크 플립"
+        }
+      ],
+      "onCast": [],
+      "stacksGranted": 2,
+      "onHit": [
+        {
+          "id": "arcana_crit_damage",
+          "duration": 5,
+          "mod": {
+            "bucket": "critDmg",
+            "value": 0.775,
+            "source": "어두운 운명"
+          }
+        }
+      ],
+      "runeCdReduce": {
+        "chance": 0.2,
+        "fraction": 0.16
+      },
+      "usesMana": true
+    },
+    {
+      "id": "scratch_dealer",
+      "name": "스크래치 딜러",
+      "kind": "stack",
+      "cooldown": 10,
+      "level": 10,
+      "directCoef": 3.941,
+      "directFlat": 724.5,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 10,
+        "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+        "effectIds": [
+          193200,
+          193202
+        ]
+      },
+      "castTime": 0.6140350877192982,
+      "hits": 2,
+      "mods": [
+        {
+          "bucket": "skillDmg",
+          "value": 0.7,
+          "filter": {
+            "ids": [
+              "scratch_dealer"
+            ]
+          },
+          "source": "약점 공격(피면)"
+        }
+      ],
+      "onCast": [
+        {
+          "id": "scratch_dealer_안전 장치_as",
+          "duration": 5,
+          "mod": {
+            "bucket": "atkSpeed",
+            "value": 0.192,
+            "source": "안전 장치"
+          }
+        },
+        {
+          "id": "scratch_dealer_안전 장치_ms",
+          "duration": 5,
+          "mod": {
+            "bucket": "moveSpeed",
+            "value": 0.3,
+            "source": "안전 장치"
+          }
+        }
+      ],
+      "stacksGranted": 2,
+      "onHit": [
+        {
+          "id": "arcana_crit_resistance",
+          "duration": 10,
+          "mod": {
+            "bucket": "critRate",
+            "value": 0.1,
+            "source": "급소 노출"
+          }
+        }
+      ],
+      "usesMana": true
+    },
+    {
+      "id": "spiral_edge",
+      "name": "스파이럴 엣지",
+      "kind": "stack",
+      "cooldown": 9,
+      "level": 10,
+      "directCoef": 2.78,
+      "directFlat": 505.5,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 10,
+        "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+        "effectIds": [
+          191902
+        ]
+      },
+      "castTime": 0.6140350877192982,
+      "hits": 2,
+      "mods": [
+        {
+          "bucket": "skillDmg",
+          "value": 0.46,
+          "filter": {
+            "ids": [
+              "spiral_edge"
+            ],
+            "component": "direct"
+          },
+          "source": "무자비한 사격"
+        }
+      ],
+      "onCast": [
+        {
+          "id": "spiral_edge_가벼운 발걸음_ms",
+          "duration": 2,
+          "mod": {
+            "bucket": "moveSpeed",
+            "value": 0.4,
+            "source": "가벼운 발걸음"
+          }
+        }
+      ],
+      "stacksGranted": 2,
+      "usesMana": true
+    },
+    {
+      "id": "stream_of_edge",
+      "name": "스트림 오브 엣지",
+      "kind": "stack",
+      "cooldown": 24,
+      "level": 10,
+      "directCoef": 0.469,
+      "directFlat": 88,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 10,
+        "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+        "effectIds": [
+          191501
+        ]
+      },
+      "castTime": 1.133,
+      "hits": 15,
+      "delayedHits": {
+        "duration": 1.133,
+        "spawnAt": 0.299,
+        "hits": [
+          {
+            "after": 0.3,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 0.6,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 0.9,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 1.2,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 1.5,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 1
+          },
+          {
+            "after": 1.8,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 2.1,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 2.4,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 2.7,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 3,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 1
+          },
+          {
+            "after": 3.3,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 3.6,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 3.9,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 4.2,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 0
+          },
+          {
+            "after": 4.5,
+            "directCoef": 0.031266666666666665,
+            "directFlat": 5.866666666666666,
+            "stacksGranted": 1
+          }
+        ]
+      },
+      "mods": [],
+      "onCast": [
+        {
+          "id": "edge_combo",
+          "duration": 8,
+          "mod": {
+            "bucket": "skillDmg",
+            "value": 0.06,
+            "filter": {
+              "kinds": [
+                "ruin"
+              ]
+            },
+            "source": "엣지 콤보 17P"
+          }
+        },
+        {
+          "id": "soe_as",
+          "duration": 8,
+          "mod": {
+            "bucket": "atkSpeed",
+            "value": 0.08,
+            "source": "스트림 오브 엣지 10P"
+          }
+        }
+      ],
+      "stacksGranted": 3,
+      "onHit": [
+        {
+          "id": "darkness_edge",
+          "duration": 3,
+          "maxStacks": 5,
+          "mod": {
+            "bucket": "critRate",
+            "value": 0.055200000000000006,
+            "source": "다크니스 엣지"
+          }
+        },
+        {
+          "id": "darkness_edge_core",
+          "duration": 3,
+          "maxStacks": 5,
+          "mod": {
+            "bucket": "critDmg",
+            "value": 0.016,
+            "source": "스트림 오브 엣지 17P"
+          }
+        }
+      ],
+      "usesMana": true,
+      "tags": [
+        "destiny"
+      ],
+      "maxCharges": 2
+    },
+    {
+      "id": "celestial_rain",
+      "name": "셀레스티얼 레인",
+      "kind": "ruin",
+      "cooldown": 17,
+      "level": 14,
+      "directCoef": 4.718,
+      "directFlat": 705.5,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 14,
+        "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+        "effectIds": [
+          191401
+        ]
+      },
+      "castTime": 0.7,
+      "hits": 1,
+      "mods": [
+        {
+          "bucket": "critRate",
+          "value": 0.45,
+          "filter": {
+            "ids": [
+              "celestial_rain"
+            ]
+          },
+          "source": "급소 타격"
+        },
+        {
+          "bucket": "skillDmg",
+          "value": 0.6,
+          "filter": {
+            "ids": [
+              "celestial_rain"
+            ]
+          },
+          "source": "강화된 일격"
+        },
+        {
+          "bucket": "stackEffectDmg",
+          "value": 1.76,
+          "filter": {
+            "ids": [
+              "celestial_rain"
+            ],
+            "minStacks": 4
+          },
+          "source": "약점 포착(4중첩)"
+        }
+      ],
+      "onCast": [],
+      "usesMana": true
+    },
+    {
+      "id": "four_of_a_kind",
+      "name": "포 카드",
+      "kind": "ruin",
+      "cooldown": 16,
+      "level": 14,
+      "directCoef": 4.243,
+      "directFlat": 636.5,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 14,
+        "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+        "effectIds": [
+          191600
+        ]
+      },
+      "castTime": 0.7,
+      "hits": 1,
+      "mods": [
+        {
+          "bucket": "skillDmg",
+          "value": 0.75,
+          "filter": {
+            "ids": [
+              "four_of_a_kind"
+            ]
+          },
+          "source": "카드 강화"
+        },
+        {
+          "bucket": "critRate",
+          "value": 0.44,
+          "filter": {
+            "ids": [
+              "four_of_a_kind"
+            ]
+          },
+          "source": "풀 하우스"
+        },
+        {
+          "bucket": "skillDmg",
+          "value": 0.36,
+          "filter": {
+            "ids": [
+              "four_of_a_kind"
+            ]
+          },
+          "source": "풀 하우스(피면)"
+        }
+      ],
+      "onCast": [],
+      "cdResetChance": 0.55,
+      "gaugeMultiplier": 1.4,
+      "usesMana": true
+    },
+    {
+      "id": "serendipity",
+      "name": "세렌디피티",
+      "kind": "ruin",
+      "cooldown": 16,
+      "level": 14,
+      "directCoef": 6.743,
+      "directFlat": 1015.5,
+      "castTime": 2.5598214285714285,
+      "hits": 3,
+      "hitSequence": {
+        "duration": 2.867,
+        "firstHitEnd": 1.8,
+        "hits": [
+          {
+            "at": 0.293,
+            "directCoef": 1.927,
+            "directFlat": 291
+          },
+          {
+            "at": 1.093,
+            "directCoef": 1.927,
+            "directFlat": 291
+          },
+          {
+            "at": 2.199,
+            "directCoef": 2.889,
+            "directFlat": 433.5
+          }
+        ]
+      },
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 14,
+        "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+        "effectIds": [
+          192400,
+          192401
+        ]
+      },
+      "mods": [
+        {
+          "bucket": "skillDmg",
+          "value": 0.21999999999999997,
+          "filter": {
+            "ids": [
+              "serendipity"
+            ],
+            "component": "direct"
+          },
+          "source": "연속된 어둠"
+        }
+      ],
+      "onCast": [],
+      "defenseIgnore": {
+        "chance": 0.5,
+        "fraction": 0.8
+      },
+      "procCritDmg": {
+        "chancePerStack": 0.2,
+        "value": 5.04
+      },
+      "usesMana": true
+    },
+    {
+      "id": "secret_garden",
+      "name": "시크릿 가든",
+      "kind": "ruin",
+      "cooldown": 8,
+      "level": 14,
+      "directCoef": 2,
+      "directFlat": 299,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 14,
+        "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+        "effectIds": [
+          193100
+        ]
+      },
+      "castTime": 0.7,
+      "hits": 1,
+      "mods": [
+        {
+          "bucket": "critRate",
+          "value": 0.4,
+          "filter": {
+            "ids": [
+              "secret_garden"
+            ]
+          },
+          "source": "급소 타격"
+        },
+        {
+          "bucket": "stackEffectDmg",
+          "value": 0.8,
+          "filter": {
+            "ids": [
+              "secret_garden"
+            ],
+            "minStacks": 4
+          },
+          "source": "완전한 비밀"
+        },
+        {
+          "bucket": "stackEffectDmg",
+          "value": 0.95,
+          "filter": {
+            "ids": [
+              "secret_garden"
+            ]
+          },
+          "source": "시크릿 찬스"
+        }
+      ],
+      "onCast": [],
+      "runeCdReduce": {
+        "chance": 0.2,
+        "fraction": 0.12
+      },
+      "usesMana": true
+    },
+    {
+      "id": "the_devil",
+      "name": "더 데빌",
+      "kind": "hyper_awakening",
+      "cooldown": 60,
+      "level": 1,
+      "directCoef": 70.245,
+      "directFlat": 4215.5,
+      "damageReference": {
+        "source": "public-coefficient-candidate",
+        "level": 1,
+        "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+        "effectIds": [
+          193501
+        ]
+      },
+      "castTime": 1.3392857142857142,
+      "hits": 1,
+      "mods": [],
+      "onCast": [],
+      "usesMana": true,
+      "tags": [
+        "ruin"
+      ]
+    }
+  ],
+  "rotation": {
+    "ruinPriority": [
+      "the_devil",
+      "celestial_rain",
+      "secret_garden",
+      "four_of_a_kind",
+      "serendipity"
+    ],
+    "cullRuinPriority": [
+      "the_devil",
+      "serendipity",
+      "celestial_rain",
+      "secret_garden",
+      "four_of_a_kind"
+    ],
+    "stackPriority": [
+      "stream_of_edge",
+      "spiral_edge",
+      "scratch_dealer"
+    ],
+    "finisher": "call_of_destiny",
+    "fishing": [
+      "four_of_a_kind"
+    ],
+    "wheelTargets": [
+      "celestial_rain",
+      "the_devil",
+      "serendipity"
+    ],
+    "fillers": []
+  },
+  "onCardUse": [
+    {
+      "id": "mercy",
+      "duration": 8,
+      "mod": {
+        "bucket": "dmgToEnemy",
+        "value": 0.012,
+        "source": "황제의 자비 Lv1"
+      }
+    }
+  ],
+  "infinityDeck": {
+    "judgment": {
+      "delay": 6,
+      "fraction": 0.15
+    },
+    "balance": {
+      "id": "infinity_balance",
+      "duration": 30,
+      "mod": {
+        "bucket": "skillDmg",
+        "value": 0.02,
+        "filter": {
+          "kinds": [
+            "ruin"
+          ]
+        },
+        "source": "인피니티 덱 17P"
+      }
+    }
+  },
+  "onDestiny": [
+    "drawCard"
+  ],
+  "onRuinAt4": [
+    {
+      "id": "whisper_as",
+      "duration": 6,
+      "mod": {
+        "bucket": "atkSpeed",
+        "value": 0.08,
+        "source": "황후의 속삭임 Lv3"
+      }
+    }
+  ],
+  "params": {
+    "stackEffectCoefPerStack": 600,
+    "gaugePerHit": {
+      "normal": 0.04,
+      "stack": 0.03,
+      "ruin": 0.03,
+      "hyper_awakening": 0.05,
+      "awakening": 0
+    },
+    "gaugeGainBonus": 0.6605,
+    "normalGaugePenalty": -0.5,
+    "atkBase": 158137,
+    "raidCaptainRatio": 0.4,
+    "twistedFateZeroChance": 0.25,
+    "fatalHandCull": false,
+    "corrosionValue": 0.1,
+    "cardDamageCoef": {},
+    "stackEffectScale": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

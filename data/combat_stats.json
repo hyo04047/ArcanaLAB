@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "sources": ["S18 (Open API profiles Stats 툴팁, 캐릭터 FixtureCharacter26 2026-10-11)", "S13", "S14", "S32 (특화 적용 범위 도표)", "S33 (2022년 특화 비교 실험)", "S198 (저장 Lv70 공식 프로필2개 교차 확인, 2026-10-17)"],
+    "verified_at": "2026-10-17",
+    "status": "아래 환산 계수는 근사이며 정확한 공식 계수가 아닙니다. 두 프로필의 표시값과 불일치를 확인했습니다. API 변환은 툴팁 효과 표시값을 우선 사용하고, 이 계수는 수동 프리셋 또는 툴팁 해석 실패 시 경고와 함께 사용합니다.",
+    "formula": "효과(%) = coefPer699 × 특성값 / 699",
+    "observed": { "치명": { "value": 526, "critRatePct": 18.82 }, "특화": { "value": 1735, "ruinDmgPct": 86.87, "cardGaugeGainPct": 62.05, "awakeningDmgPct": 37.92 }, "신속": { "value": 227, "atkSpeedPct": 3.89, "moveSpeedPct": 3.89, "cooldownPct": 4.87 } }
+  },
+  "crit": { "coefPer699": 25.0, "effect": "치명타 적중률 %", "verified": false },
+  "swiftness": { "atkMoveSpeed": { "coefPer699": 12.0, "verified": false }, "cooldown": { "coefPer699": 15.0, "verified": false } },
+  "specialization": {
+    "arcana": {
+      "ruinDmg": { "coefPer699": 35.0, "verified": false, "note": "환산 계수는 근사입니다. 직접 피해·스택 폭발 모두 적용은 S33의 2022년 수치 실험과 S32의 2025년 도표가 지지합니다. 현재 패치·전투 Lv70에서의 적용 범위는 미검증입니다. docs/audit/2026-10-12-lv70-ruin.md 참조." },
+      "cardGaugeGain": { "coefPer699": 25.0, "verified": false },
+      "awakeningDmg": { "coefPer699": 15.28, "verified": false, "note": "단일 표본 역산 근사. 정확한 계수와 숨은 소수부는 미확인입니다." }
+    }
+  },
+  "evolutionTier1StatPerLevel": 50,
+  "critBaseDamageMultiplier": 2.0,
+  "backAttack": { "dmgToEnemyPct": 5, "critRatePct": 10 },
+  "headAttack": { "dmgToEnemyPct": 20 },
+  "defense": { "reductionFormula": "def / (def + 6500)", "assumedBossDefense": [5850, 6000] }
+}

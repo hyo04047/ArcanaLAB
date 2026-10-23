@@ -1,0 +1,26 @@
+{
+  "name": "arcanalab",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Lost Ark Arcana build simulator / comparison tool (Monte Carlo)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:parser": "node --test scripts/parse_armory.test.mjs",
+    "check:publication": "node scripts/check_publication.mjs",
+    "test:security": "node --test scripts/security.test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^5.6.0",
+    "vite": "6.4.4",
+    "vite-node": "3.2.4",
+    "vitest": "4.1.12"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

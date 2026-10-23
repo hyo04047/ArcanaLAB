@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-23",
+  "scope": "Public snapshot only; no live game API calls",
+  "environment": {
+    "os": "Windows",
+    "node": "v24.15.0"
+  },
+  "unitTests": {
+    "passed": 2947,
+    "failed": 0,
+    "skipped": 0,
+    "files": 158
+  },
+  "parserTests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "httpSecurityTests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "typecheckAndBuild": "passed",
+  "npmAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "gitleaksFiles": {
+    "version": "8.30.1",
+    "findings": 0
+  },
+  "fixtureFiles": 57,
+  "privacy": {
+    "pseudonymizedCharacters": 29,
+    "removedProfileImages": 4,
+    "rawArchivesPublished": false
+  },
+  "limitations": [
+    "No guarantee against all vulnerabilities",
+    "No current-game coefficient or timing certification",
+    "Full historical 72-condition research is not reproduced by this snapshot"
+  ]
+}

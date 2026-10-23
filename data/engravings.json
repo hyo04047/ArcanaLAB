@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sources": ["S18 (Open API engravings ArkPassiveEffects, 2026-10-11)", "S2", "S188 (Open API engravings, 2026-10-17)"],
+    "verified_at": "2026-10-17",
+    "status": "observed 항목은 API 툴팁 그대로(유물 각인서 레벨 Lv0~4 + 어빌리티 스톤 레벨 반영값). 다른 레벨 수치는 미확인",
+    "note": "API 의 Level 은 유물 각인서 레벨(0~4), AbilityStoneLevel 은 돌 레벨. 효과 수치는 둘의 합산 결과"
+  },
+  "engravings": [
+    { "id": "grudge", "name": "원한", "observed": { "grade": "유물", "level": 4, "stone": 3, "bossDmgPct": 26.25, "dmgTakenPct": 20 }, "bucket": "dmgToEnemy", "required": true },
+    { "id": "adrenaline", "name": "아드레날린", "observed": { "grade": "유물", "level": 4, "stone": null, "atkPerStackPct": 0.9, "maxStacks": 6, "duration": 6, "critRateAtMaxPct": 20 }, "bucket": "attackPower+critRate", "required": true },
+    { "id": "raid_captain", "name": "돌격대장", "observed": { "grade": "유물", "level": 0, "stone": null, "moveSpeedToDmgRatio": 0.40 }, "bucket": "dmgToEnemy", "note": "커뮤니티 48%는 상위 레벨 값으로 추정" },
+    { "id": "cursed_doll", "name": "저주받은 인형", "observed": { "grade": "유물", "level": 4, "stone": null, "dmgToEnemyPct": 17, "healingPct": -25 }, "bucket": "dmgToEnemy" },
+    { "id": "mass_increase", "name": "질량 증가", "observed": { "grade": "유물", "level": 0, "stone": 2, "dmgToEnemyPct": 19.75, "atkSpeedPct": -10 }, "bucket": "dmgToEnemy", "note": "황제 필수" },
+    { "id": "mp_efficiency", "name": "마나 효율 증가", "observed": { "grade": "유물", "level": 4, "stone": 2, "manaRecoverySpeedPct": 20, "manaSkillDmgPct": 19.75, "verified_at": "2026-10-17", "source": "S188" }, "community": "마나 사용 스킬 피해 +16%", "bucket": "skillDmg", "note": "공식 선택 표본1개. 마나 회복·고갈은 미모델" },
+    { "id": "hit_master", "name": "타격의 대가", "observed": { "grade": "유물", "level": 4, "stone": 2, "skillDmgPct": 20.75, "excludesAwakening": true, "verified_at": "2026-10-14", "source": "S147" }, "community": "비방향성 스킬 피해 +17%", "note": "공식 돌3 응답은22.25%. 공격 타입 조건과 각성기 제외를 적용하며 도트·카드의 현행 실측은 미확인. 세팅 우열은 미검증" },
+    { "id": "keen_blunt", "name": "예리한 둔기", "observed": { "grade": "유물", "level": 4, "stone": null, "critDmgPct": 52, "penaltyDmgPct": -20, "penaltyChance": null, "verified_at": "2026-10-17", "source": "S188" }, "community": "치피 +52%, 일정 확률 피해 −20%", "note": "공식 돌2 표본은 치피61.4%. 감소 발동 확률은 공식 설명에 없으며 엔진의10%는 가정" }
+  ]
+}

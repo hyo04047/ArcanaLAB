@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "description": "아르카나 아이덴티티 카드. duration 초, 0은 즉시형, null은 지속 개념 없음. drawWeight는 균등 가정(미확인).",
+    "sources": ["S1", "S15", "S16", "S8", "S10", "S20", "S21", "S22"],
+    "verified_at": "2026-10-11",
+    "assumptions": ["드로우 확률 균등은 엔진 임시 가정이며 게임 규칙이 아닙니다. 2024-03-06 공식 확률 변경과 2026-07 관측이 있으나 조건·원시 로그 검증 전 가중치를 유지합니다."]
+  },
+  "deckRules": {
+    "handSize": 2,
+    "excludeCardsInHand": true,
+    "gaugeFrozenWhenHandFull": true
+  },
+  "cards": [
+    { "id": "three_headed_snake", "name": "삼두사", "duration": 16, "drawWeight": 1, "effect": "기본공격 3방향, 적중 시 스택 +1, 기본공격 피해 +100%", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "mayhem", "name": "광기", "duration": 30, "drawWeight": 1, "effect": "스킬 사용 시 4초간 공격속도 +5%, 최대 3중첩·15% (S73·S97)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "twisted_fate", "name": "뒤틀린 운명", "duration": 4, "drawWeight": 1, "effect": "스킬 피해 0% 또는 최대 +40% (분포 미확인; 페이탈 핸드 10P로 0% 확률 대폭 감소, 지속 +2초)", "verified": false, "availability": ["empress", "emperor"] },
+    { "id": "corrosion", "name": "부식", "duration": 30, "drawWeight": 1, "effect": "공격 시 30% 확률로 대상 5초간 받는 피해 +10% (페이탈 핸드 17P: 12/13%)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "ghost", "name": "유령", "duration": 16, "drawWeight": 1, "effect": "이동속도 +20%, 충돌 무시", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "cull", "name": "도태", "duration": 4, "drawWeight": 1, "effect": "치명타 적중률 +100%, 치명타 피해 +50% (황후의 계략 +2초, 페이탈 핸드 14P +20%p 가산 후보·현행 피해 실측 미검증)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "balance", "name": "균형", "duration": 30, "drawWeight": 1, "effect": "스택트 적중 시 중첩 +1 (S78 황제의 하사품 적용 시 재상으로 교체)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "judgment", "name": "심판", "duration": 4, "drawWeight": 1, "effect": "루인 스킬이 스택 수 무관 4스택 효과 (황후의 계략 Lv2 +2초, S78 황제의 하사품 Lv2 적용 시 제후로 교체)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "moon", "name": "달", "duration": 30, "drawWeight": 1, "effect": "재사용 대기시간 20% 감소", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "star", "name": "별", "duration": 3, "drawWeight": 1, "effect": "3초간 마나 동결·마나 소모 100% 감소, 이후 최대 마나 50% 회복·12초간 마나 회복 속도 20% 증가", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "royal", "name": "로열", "duration": 0, "drawWeight": 1, "effect": "빈 슬롯에 카드 채움 (최대 2장)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "wheel_of_fortune", "name": "운명의 수레바퀴", "duration": 0, "drawWeight": 1, "effect": "다음 사용하는 스킬 재사용 대기시간 100% 감소 (더 데빌·더 썬에도 적용)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "clown", "name": "광대", "duration": 0, "drawWeight": 1, "effect": "직전 사용 카드 1회 더 획득", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "joy", "name": "환희", "duration": 0, "drawWeight": 1, "effect": "각성·이동·기상기 제외 남은 쿨 15% 감소 또는 50% 확률로 30% 감소 (S96·S97, 체인 중 추가 단축 미검증)", "verified": true, "availability": ["empress", "emperor"] },
+    { "id": "chancellor", "name": "재상", "duration": 12, "drawWeight": 1, "effect": "일반 스킬 치명타 적중률 +20% (지속시간 S51 공식 2024-03-06 변경)", "verified": true, "availability": ["emperor"], "replaces": "balance", "requires": "황제의 하사품 Lv1" },
+    { "id": "sovereign", "name": "제후", "duration": 4, "drawWeight": 1, "effect": "일반 스킬 피해 +50%", "verified": true, "availability": ["emperor"], "replaces": "judgment", "requires": "황제의 하사품 Lv2" },
+    { "id": "emperor", "name": "황제", "duration": 0, "drawWeight": 1, "effect": "14m 범위 피해 (기준 피해 4,650 미장착; 황제의 칙령 +0/40/80%, 또 다른 황제 +0/20/40%, 황제의 심장 17P +15/20%, 2025-10-22 PVE +5%)", "baseDamage": 4650, "verified": false, "availability": ["emperor"] },
+    { "id": "empress_knight", "name": "황후의 기사", "duration": 0, "drawWeight": 1, "effect": "6m 전방 피해, 적중 시 카드 1장 획득 (황후의 기사 노드 피해 +0/100/200/300/400%)", "baseDamage": null, "verified": false, "availability": ["empress", "emperor"], "requires": "황후의 기사 노드" }
+  ]
+}

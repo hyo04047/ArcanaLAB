@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "character": "FixtureCharacter6",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter6/engravings",
+      "checkedAt": "2026-10-17T08:40:49.443Z",
+      "status": 200,
+      "sha256": "d4b977901a77d8f9e34039f9e548a21aaabcba0a15c245701a904b30f5929669",
+      "body": "{\"Engravings\":null,\"Effects\":null,\"ArkPassiveEffects\":[{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"원한\",\"Description\":\"보스 및 레이드 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>21.00%</FONT> 증가하지만, 받는 피해가 <FONT COLOR='#ff9999'>20.00%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":2,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"아드레날린\",\"Description\":\"이동기 및 기본공격을 제외한 스킬 사용 후 <FONT COLOR='#ffff99'>6</FONT>초 동안 공격력이 <FONT COLOR='#99ff99'>1.50%</FONT> 증가하며 (최대 <FONT COLOR='#ffff99'>6</FONT>중첩) 해당 효과가 최대 중첩 도달 시 치명타 적중률이 추가로 <FONT COLOR='#99ff99'>20.00%</FONT> 증가한다. 해당 효과는 스킬 취소에 따른 재사용 대기시간 감소가 적용되는 경우, 스킬 종료 후 적용된다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"기습의 대가\",\"Description\":\"적에게 주는 피해가 <FONT COLOR='#99ff99'>7.60%</FONT> 증가하며, 백어택 성공 시 피해량이 추가로 <FONT COLOR='#99ff99'>15.00%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":3,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"돌격대장\",\"Description\":\"이동속도 증가량의 <FONT COLOR='#99ff99'>61.20%</FONT> 만큼 적에게 주는 피해량이 증가한다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"질량 증가\",\"Description\":\"공격속도가 <FONT COLOR='#ff9999'>10.00%</FONT> 감소하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>19.00%</FONT> 증가한다.\"}]}"
+    },
+    {
+      "character": "FixtureCharacter25",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter25/engravings",
+      "checkedAt": "2026-10-17T08:40:49.550Z",
+      "status": 200,
+      "sha256": "7f8317930ac9d0c473e041772f610b1b2897a2026d36ed75cbbfc56ce89f0691",
+      "body": "{\"Engravings\":null,\"Effects\":null,\"ArkPassiveEffects\":[{\"AbilityStoneLevel\":2,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"원한\",\"Description\":\"보스 및 레이드 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>24.75%</FONT> 증가하지만, 받는 피해가 <FONT COLOR='#ff9999'>20.00%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"예리한 둔기\",\"Description\":\"치명타 피해량이 <FONT COLOR='#99ff99'>52.00%</FONT> 증가하지만, 공격 시 일정 확률로 <FONT COLOR='#ff9999'>20.00%</FONT> 감소된 피해를 준다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"기습의 대가\",\"Description\":\"적에게 주는 피해가 <FONT COLOR='#99ff99'>7.60%</FONT> 증가하며, 백어택 성공 시 피해량이 추가로 <FONT COLOR='#99ff99'>15.00%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"돌격대장\",\"Description\":\"이동속도 증가량의 <FONT COLOR='#99ff99'>48.00%</FONT> 만큼 적에게 주는 피해량이 증가한다.\"},{\"AbilityStoneLevel\":3,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"아드레날린\",\"Description\":\"이동기 및 기본공격을 제외한 스킬 사용 후 <FONT COLOR='#ffff99'>6</FONT>초 동안 공격력이 <FONT COLOR='#99ff99'>1.73%</FONT> 증가하며 (최대 <FONT COLOR='#ffff99'>6</FONT>중첩) 해당 효과가 최대 중첩 도달 시 치명타 적중률이 추가로 <FONT COLOR='#99ff99'>20.00%</FONT> 증가한다. 해당 효과는 스킬 취소에 따른 재사용 대기시간 감소가 적용되는 경우, 스킬 종료 후 적용된다.\"}]}"
+    },
+    {
+      "character": "FixtureCharacter3",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter3/engravings",
+      "checkedAt": "2026-10-17T08:40:49.452Z",
+      "status": 200,
+      "sha256": "b65da802987ca6f3119e3e202fc9cba31185aefad7b912ff3e44038a3f554652",
+      "body": "{\"Engravings\":null,\"Effects\":null,\"ArkPassiveEffects\":[{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"원한\",\"Description\":\"보스 및 레이드 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>21.00%</FONT> 증가하지만, 받는 피해가 <FONT COLOR='#ff9999'>20.00%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"바리케이드\",\"Description\":\"실드 효과가 적용되는 동안 적에게 입히는 피해가 <FONT COLOR='#99ff99'>17.00%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":2,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"예리한 둔기\",\"Description\":\"치명타 피해량이 <FONT COLOR='#99ff99'>61.40%</FONT> 증가하지만, 공격 시 일정 확률로 <FONT COLOR='#ff9999'>20.00%</FONT> 감소된 피해를 준다.\"},{\"AbilityStoneLevel\":3,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"아드레날린\",\"Description\":\"이동기 및 기본공격을 제외한 스킬 사용 후 <FONT COLOR='#ffff99'>6</FONT>초 동안 공격력이 <FONT COLOR='#99ff99'>1.73%</FONT> 증가하며 (최대 <FONT COLOR='#ffff99'>6</FONT>중첩) 해당 효과가 최대 중첩 도달 시 치명타 적중률이 추가로 <FONT COLOR='#99ff99'>20.00%</FONT> 증가한다. 해당 효과는 스킬 취소에 따른 재사용 대기시간 감소가 적용되는 경우, 스킬 종료 후 적용된다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"저주받은 인형\",\"Description\":\"적에게 주는 피해가 <FONT COLOR='#99ff99'>17.00%</FONT> 증가하지만, 받는 모든 회복 효과가 <FONT COLOR='#ff9999'>25.00%</FONT> 감소한다.\"}]}"
+    },
+    {
+      "character": "FixtureCharacter7",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter7/engravings",
+      "checkedAt": "2026-10-17T08:40:49.554Z",
+      "status": 200,
+      "sha256": "317b118f870f496ea6fed514c2dbe4acce64b87392c4a0edc427a7b356522f35",
+      "body": "{\"Engravings\":null,\"Effects\":null,\"ArkPassiveEffects\":[{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"원한\",\"Description\":\"보스 및 레이드 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>21.00%</FONT> 증가하지만, 받는 피해가 <FONT COLOR='#ff9999'>20.00%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":2,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"아드레날린\",\"Description\":\"이동기 및 기본공격을 제외한 스킬 사용 후 <FONT COLOR='#ffff99'>6</FONT>초 동안 공격력이 <FONT COLOR='#99ff99'>1.50%</FONT> 증가하며 (최대 <FONT COLOR='#ffff99'>6</FONT>중첩) 해당 효과가 최대 중첩 도달 시 치명타 적중률이 추가로 <FONT COLOR='#99ff99'>20.00%</FONT> 증가한다. 해당 효과는 스킬 취소에 따른 재사용 대기시간 감소가 적용되는 경우, 스킬 종료 후 적용된다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"돌격대장\",\"Description\":\"이동속도 증가량의 <FONT COLOR='#99ff99'>48.00%</FONT> 만큼 적에게 주는 피해량이 증가한다.\"},{\"AbilityStoneLevel\":2,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"마나 효율 증가\",\"Description\":\"마나 회복 속도가 <FONT COLOR='#99ff99'>20.00%</FONT> 증가하며, 마나를 사용하는 스킬이 적에게 주는 피해가 <FONT COLOR='#99ff99'>19.75%</FONT> 증가한다.\"},{\"AbilityStoneLevel\":null,\"Grade\":\"유물\",\"Level\":4,\"Name\":\"타격의 대가\",\"Description\":\"공격 타입이 백 어택 및 헤드 어택에 해당되지 않는 공격의 피해가 <FONT COLOR='#99ff99'>17.00%</FONT> 증가한다. 각성기는 해당 효과가 적용되지 않는다.\"}]}"
+    }
+  ]
+}

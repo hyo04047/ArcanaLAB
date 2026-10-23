@@ -1,0 +1,1164 @@
+{
+  "build": {
+    "name": "황후 인콤스 440 (참고 캐릭터)",
+    "combatLevel": 70,
+    "variant": "empress",
+    "stats": {
+      "crit": 526,
+      "spec": 1735,
+      "swift": 227
+    },
+    "passiveMods": [
+      {
+        "bucket": "critRate",
+        "value": 0.18812589413447783,
+        "source": "치명"
+      },
+      {
+        "bucket": "atkSpeed",
+        "value": 0.03896995708154506,
+        "source": "신속"
+      },
+      {
+        "bucket": "moveSpeed",
+        "value": 0.03896995708154506,
+        "source": "신속"
+      },
+      {
+        "bucket": "cooldown",
+        "value": 0.048712446351931324,
+        "source": "신속"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.8687410586552217,
+        "filter": {
+          "kinds": [
+            "ruin"
+          ]
+        },
+        "source": "특화(루인)"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.37926752503576533,
+        "filter": {
+          "kinds": [
+            "awakening"
+          ]
+        },
+        "source": "특화(각성)"
+      },
+      {
+        "bucket": "dmgToEnemy",
+        "value": 0.2625,
+        "source": "원한"
+      },
+      {
+        "bucket": "dmgToEnemy",
+        "value": 0.17,
+        "source": "저주받은 인형"
+      },
+      {
+        "bucket": "dmgToEnemy",
+        "value": 0.1975,
+        "source": "질량 증가"
+      },
+      {
+        "bucket": "atkSpeed",
+        "value": -0.1,
+        "source": "질량 증가"
+      },
+      {
+        "bucket": "atk",
+        "value": 0.05399999999999999,
+        "source": "아드레날린(6중첩 상시 가정)"
+      },
+      {
+        "bucket": "critRate",
+        "value": 0.2,
+        "source": "아드레날린"
+      },
+      {
+        "bucket": "cooldown",
+        "value": 0.14,
+        "filter": {
+          "usesMana": true
+        },
+        "cooldownGroup": "manaEvolution",
+        "source": "끝없는 마나 2"
+      },
+      {
+        "bucket": "cooldown",
+        "value": 0.04,
+        "filter": {
+          "excludeKinds": [
+            "awakening"
+          ]
+        },
+        "cooldownGroup": "nonAwakeningEvolution",
+        "source": "최적화 훈련 1"
+      },
+      {
+        "bucket": "evoDmg",
+        "value": 0.05,
+        "source": "최적화 훈련 1"
+      },
+      {
+        "bucket": "evoDmg",
+        "value": 0.16,
+        "source": "무한한 마력 2"
+      },
+      {
+        "bucket": "cooldown",
+        "value": 0.14,
+        "filter": {
+          "usesMana": true
+        },
+        "cooldownGroup": "manaEvolution",
+        "source": "무한한 마력 2"
+      },
+      {
+        "bucket": "critHitDmg",
+        "value": 0.12,
+        "source": "회심"
+      },
+      {
+        "bucket": "evoDmg",
+        "value": 0.2,
+        "source": "분쇄"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.009,
+        "filter": {
+          "kinds": [
+            "ruin"
+          ]
+        },
+        "source": "황후의 탐욕 1"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.26,
+        "filter": {
+          "kinds": [
+            "ruin"
+          ],
+          "minStacks": 4
+        },
+        "source": "황후의 연회 3"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.2,
+        "filter": {
+          "kinds": [
+            "ruin"
+          ]
+        },
+        "source": "황후의 속삭임 3"
+      },
+      {
+        "bucket": "cooldown",
+        "value": 0.06,
+        "filter": {
+          "kinds": [
+            "normal",
+            "stack"
+          ]
+        },
+        "source": "황후의 속삭임 3"
+      },
+      {
+        "bucket": "dmgToEnemy",
+        "value": 0.15,
+        "filter": {
+          "kinds": [
+            "hyper_awakening"
+          ]
+        },
+        "source": "풀려난 힘 5"
+      },
+      {
+        "bucket": "cooldown",
+        "value": 0.06,
+        "filter": {
+          "kinds": [
+            "hyper_awakening"
+          ]
+        },
+        "source": "잠재력 해방 3"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.2,
+        "filter": {
+          "ids": [
+            "the_devil"
+          ]
+        },
+        "source": "쿼즈 3"
+      },
+      {
+        "bucket": "stackEffectDmg",
+        "value": 0.2,
+        "filter": {
+          "ids": [
+            "the_devil"
+          ],
+          "minStacks": 4
+        },
+        "source": "쿼즈 3 (4중첩)"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.016,
+        "filter": {
+          "kinds": [
+            "ruin"
+          ]
+        },
+        "source": "인피니티 덱 10P"
+      },
+      {
+        "bucket": "critHitDmg",
+        "value": 0.02,
+        "source": "엣지 콤보 10P"
+      },
+      {
+        "bucket": "skillDmg",
+        "value": 0.088,
+        "filter": {
+          "ids": [
+            "celestial_rain"
+          ]
+        },
+        "source": "스트림 오브 엣지 코어 14P+18P"
+      },
+      {
+        "bucket": "critHitDmg",
+        "value": 0.011,
+        "source": "현란한 공격"
+      },
+      {
+        "bucket": "dmgToEnemy",
+        "value": 0.0166,
+        "source": "현란한 공격"
+      },
+      {
+        "bucket": "dmgToEnemy",
+        "value": 0.025,
+        "source": "불타는 일격(보스)"
+      },
+      {
+        "bucket": "atk",
+        "value": 0.022,
+        "source": "공격 코어"
+      },
+      {
+        "bucket": "addDmg",
+        "value": 0.026,
+        "source": "젬 추가 피해 합"
+      },
+      {
+        "bucket": "atk",
+        "value": 0.016,
+        "source": "젬 공격력 합"
+      }
+    ],
+    "bluntThorn": {
+      "base": 0.15,
+      "ratio": 1.5,
+      "cap": 0.75
+    },
+    "cardDurationBonus": {
+      "cull": 2,
+      "judgment": 2
+    },
+    "skills": [
+      {
+        "id": "call_of_destiny",
+        "name": "운명의 부름",
+        "kind": "stack",
+        "usesMana": true,
+        "cooldown": 8,
+        "castTime": 0.5511811023622046,
+        "hits": 1,
+        "level": 10,
+        "directCoef": 2.703,
+        "directFlat": 494.5,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 10,
+          "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+          "effectIds": [
+            191823
+          ]
+        },
+        "stacksGranted": 2,
+        "mods": [
+          {
+            "bucket": "skillDmg",
+            "value": 0.45,
+            "filter": {
+              "ids": [
+                "call_of_destiny"
+              ]
+            },
+            "source": "페이크 플립"
+          },
+          {
+            "bucket": "dmgToEnemy",
+            "value": 0.15,
+            "filter": {
+              "ids": [
+                "call_of_destiny"
+              ]
+            },
+            "source": "어두운 운명"
+          }
+        ],
+        "onHit": [
+          {
+            "id": "arcana_crit_damage",
+            "duration": 5,
+            "mod": {
+              "bucket": "critDmg",
+              "value": 0.775,
+              "source": "어두운 운명"
+            }
+          }
+        ]
+      },
+      {
+        "id": "scratch_dealer",
+        "name": "스크래치 딜러",
+        "kind": "stack",
+        "usesMana": true,
+        "cooldown": 10,
+        "castTime": 0.7,
+        "hits": 2,
+        "level": 10,
+        "directCoef": 3.941,
+        "directFlat": 724.5,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 10,
+          "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+          "effectIds": [
+            193200,
+            193202
+          ]
+        },
+        "stacksGranted": 2,
+        "onHit": [
+          {
+            "id": "arcana_crit_resistance",
+            "duration": 10,
+            "mod": {
+              "bucket": "critRate",
+              "value": 0.1,
+              "source": "급소 노출"
+            }
+          }
+        ],
+        "onCast": [
+          {
+            "id": "safety",
+            "duration": 5,
+            "mod": {
+              "bucket": "atkSpeed",
+              "value": 0.192,
+              "source": "안전 장치"
+            }
+          },
+          {
+            "id": "safety_move",
+            "duration": 5,
+            "mod": {
+              "bucket": "moveSpeed",
+              "value": 0.3,
+              "source": "안전 장치"
+            }
+          }
+        ]
+      },
+      {
+        "id": "spiral_edge",
+        "name": "스파이럴 엣지",
+        "kind": "stack",
+        "usesMana": true,
+        "cooldown": 9,
+        "castTime": 0.7,
+        "hits": 2,
+        "level": 10,
+        "directCoef": 2.78,
+        "directFlat": 505.5,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 10,
+          "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+          "effectIds": [
+            191902
+          ]
+        },
+        "stacksGranted": 2,
+        "mods": [
+          {
+            "bucket": "skillDmg",
+            "value": 0.46,
+            "filter": {
+              "ids": [
+                "spiral_edge"
+              ],
+              "component": "direct"
+            },
+            "source": "무자비한 사격"
+          }
+        ],
+        "onCast": [
+          {
+            "id": "light_step",
+            "duration": 2,
+            "mod": {
+              "bucket": "moveSpeed",
+              "value": 0.4,
+              "source": "가벼운 발걸음"
+            }
+          }
+        ]
+      },
+      {
+        "id": "stream_of_edge",
+        "name": "스트림 오브 엣지",
+        "kind": "stack",
+        "usesMana": true,
+        "cooldown": 24,
+        "castTime": 1.133,
+        "hits": 15,
+        "level": 10,
+        "directCoef": 0.469,
+        "directFlat": 88,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 10,
+          "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+          "effectIds": [
+            191501
+          ]
+        },
+        "maxCharges": 2,
+        "delayedHits": {
+          "duration": 1.133,
+          "spawnAt": 0.299,
+          "hits": [
+            {
+              "after": 0.3,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 0.6,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 0.9,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 1.2,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 1.5,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 1
+            },
+            {
+              "after": 1.8,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 2.1,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 2.4,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 2.7,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 3,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 1
+            },
+            {
+              "after": 3.3,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 3.6,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 3.9,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 4.2,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 0
+            },
+            {
+              "after": 4.5,
+              "directCoef": 0.031266666666666665,
+              "directFlat": 5.866666666666666,
+              "stacksGranted": 1
+            }
+          ]
+        },
+        "stacksGranted": 3,
+        "tags": [
+          "destiny"
+        ],
+        "onHit": [
+          {
+            "id": "darkness_edge",
+            "duration": 3,
+            "maxStacks": 5,
+            "mod": {
+              "bucket": "critRate",
+              "value": 0.0552,
+              "source": "다크니스 엣지"
+            }
+          },
+          {
+            "id": "darkness_edge_core",
+            "duration": 3,
+            "maxStacks": 5,
+            "mod": {
+              "bucket": "critDmg",
+              "value": 0.016,
+              "source": "스트림 오브 엣지 17P"
+            }
+          }
+        ],
+        "onCast": [
+          {
+            "id": "soe_as",
+            "duration": 8,
+            "mod": {
+              "bucket": "atkSpeed",
+              "value": 0.08,
+              "source": "스트림 코어 10P"
+            }
+          },
+          {
+            "id": "edge_combo",
+            "duration": 8,
+            "mod": {
+              "bucket": "skillDmg",
+              "value": 0.06,
+              "filter": {
+                "kinds": [
+                  "ruin"
+                ]
+              },
+              "source": "엣지 콤보 17P"
+            }
+          }
+        ]
+      },
+      {
+        "id": "celestial_rain",
+        "name": "셀레스티얼 레인",
+        "kind": "ruin",
+        "usesMana": true,
+        "cooldown": 17,
+        "castTime": 0.7,
+        "hits": 1,
+        "level": 14,
+        "directCoef": 4.718,
+        "directFlat": 705.5,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 14,
+          "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+          "effectIds": [
+            191401
+          ]
+        },
+        "mods": [
+          {
+            "bucket": "critRate",
+            "value": 0.45,
+            "filter": {
+              "ids": [
+                "celestial_rain"
+              ]
+            },
+            "source": "급소 타격"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.6,
+            "filter": {
+              "ids": [
+                "celestial_rain"
+              ]
+            },
+            "source": "강화된 일격"
+          },
+          {
+            "bucket": "stackEffectDmg",
+            "value": 1.76,
+            "filter": {
+              "ids": [
+                "celestial_rain"
+              ],
+              "minStacks": 4
+            },
+            "source": "약점 포착(4중첩, 피면 보스 가정)"
+          }
+        ]
+      },
+      {
+        "id": "four_of_a_kind",
+        "name": "포 카드",
+        "kind": "ruin",
+        "usesMana": true,
+        "cooldown": 16,
+        "castTime": 0.7,
+        "hits": 1,
+        "level": 14,
+        "directCoef": 4.243,
+        "directFlat": 636.5,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 14,
+          "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+          "effectIds": [
+            191600
+          ]
+        },
+        "cdResetChance": 0.55,
+        "keepStacksChance": 0,
+        "mods": [
+          {
+            "bucket": "skillDmg",
+            "value": 0.75,
+            "filter": {
+              "ids": [
+                "four_of_a_kind"
+              ]
+            },
+            "source": "카드 강화"
+          },
+          {
+            "bucket": "critRate",
+            "value": 0.44,
+            "filter": {
+              "ids": [
+                "four_of_a_kind"
+              ]
+            },
+            "source": "풀 하우스"
+          },
+          {
+            "bucket": "skillDmg",
+            "value": 0.36,
+            "filter": {
+              "ids": [
+                "four_of_a_kind"
+              ]
+            },
+            "source": "풀 하우스(피면)"
+          }
+        ]
+      },
+      {
+        "id": "serendipity",
+        "name": "세렌디피티",
+        "kind": "ruin",
+        "usesMana": true,
+        "cooldown": 16,
+        "castTime": 2.867,
+        "hits": 3,
+        "level": 14,
+        "directCoef": 6.743,
+        "directFlat": 1015.5,
+        "hitSequence": {
+          "duration": 2.867,
+          "firstHitEnd": 1.8,
+          "hits": [
+            {
+              "at": 0.293,
+              "directCoef": 1.927,
+              "directFlat": 291
+            },
+            {
+              "at": 1.093,
+              "directCoef": 1.927,
+              "directFlat": 291
+            },
+            {
+              "at": 2.199,
+              "directCoef": 2.889,
+              "directFlat": 433.5
+            }
+          ]
+        },
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 14,
+          "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+          "effectIds": [
+            192400,
+            192401
+          ]
+        },
+        "tags": [
+          "continuous_darkness"
+        ],
+        "procCritDmg": {
+          "chancePerStack": 0.2,
+          "value": 5.04
+        },
+        "defenseIgnore": {
+          "chance": 0.5,
+          "fraction": 0.8
+        },
+        "mods": [
+          {
+            "bucket": "skillDmg",
+            "value": 0.22,
+            "filter": {
+              "ids": [
+                "serendipity"
+              ],
+              "component": "direct"
+            },
+            "source": "연속된 어둠"
+          }
+        ]
+      },
+      {
+        "id": "secret_garden",
+        "name": "시크릿 가든",
+        "kind": "ruin",
+        "usesMana": true,
+        "cooldown": 8,
+        "castTime": 0.7,
+        "hits": 1,
+        "level": 14,
+        "directCoef": 2,
+        "directFlat": 299,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 14,
+          "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+          "effectIds": [
+            193100
+          ]
+        },
+        "mods": [
+          {
+            "bucket": "critRate",
+            "value": 0.4,
+            "filter": {
+              "ids": [
+                "secret_garden"
+              ]
+            },
+            "source": "급소 타격"
+          },
+          {
+            "bucket": "stackEffectDmg",
+            "value": 0.8,
+            "filter": {
+              "ids": [
+                "secret_garden"
+              ],
+              "minStacks": 4
+            },
+            "source": "완전한 비밀"
+          },
+          {
+            "bucket": "stackEffectDmg",
+            "value": 0.95,
+            "filter": {
+              "ids": [
+                "secret_garden"
+              ]
+            },
+            "source": "시크릿 찬스"
+          }
+        ]
+      },
+      {
+        "id": "the_devil",
+        "name": "더 데빌",
+        "kind": "hyper_awakening",
+        "usesMana": true,
+        "cooldown": 60,
+        "castTime": 1.3392857142857142,
+        "hits": 1,
+        "level": 1,
+        "directCoef": 70.245,
+        "directFlat": 4215.5,
+        "damageReference": {
+          "source": "public-coefficient-candidate",
+          "level": 1,
+          "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+          "effectIds": [
+            193501
+          ]
+        },
+        "tags": [
+          "ruin"
+        ]
+      }
+    ],
+    "rotation": {
+      "ruinPriority": [
+        "the_devil",
+        "celestial_rain",
+        "secret_garden",
+        "four_of_a_kind",
+        "serendipity"
+      ],
+      "cullRuinPriority": [
+        "the_devil",
+        "serendipity",
+        "celestial_rain",
+        "secret_garden",
+        "four_of_a_kind"
+      ],
+      "stackPriority": [
+        "stream_of_edge",
+        "spiral_edge",
+        "scratch_dealer"
+      ],
+      "finisher": "call_of_destiny",
+      "fishing": [
+        "four_of_a_kind"
+      ],
+      "wheelTargets": [
+        "celestial_rain",
+        "the_devil",
+        "serendipity"
+      ],
+      "fillers": []
+    },
+    "onDestiny": [
+      "drawCard"
+    ],
+    "infinityDeck": {
+      "judgment": {
+        "delay": 6,
+        "fraction": 0.15
+      },
+      "balance": {
+        "id": "infinity_balance",
+        "duration": 30,
+        "mod": {
+          "bucket": "skillDmg",
+          "value": 0.02,
+          "filter": {
+            "kinds": [
+              "ruin"
+            ]
+          },
+          "source": "인피니티 덱 17P"
+        }
+      }
+    },
+    "onRuinAt4": [
+      {
+        "id": "whisper_as",
+        "duration": 6,
+        "mod": {
+          "bucket": "atkSpeed",
+          "value": 0.08,
+          "source": "황후의 속삭임"
+        }
+      }
+    ],
+    "params": {
+      "stackEffectCoefPerStack": 600,
+      "gaugePerHit": {
+        "normal": 0.04,
+        "stack": 0.03,
+        "ruin": 0.03,
+        "hyper_awakening": 0.05,
+        "awakening": 0
+      },
+      "gaugeGainBonus": 0.6605293276108727,
+      "normalGaugePenalty": -0.5,
+      "atkBase": 1,
+      "raidCaptainRatio": 0.4,
+      "twistedFateZeroChance": 0.25,
+      "fatalHandCull": false,
+      "corrosionValue": 0.1,
+      "cardDamageCoef": {},
+      "stackEffectScale": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "warnings": [
+    "손으로 옮긴 프리셋",
+    "피해 기준 미검증: 공개 계수 후보와 정규화되지 않은 임시값이 함께 사용될 수 있습니다. 현재 DPS와 피해 비중으로 세팅 우열을 판단할 수 없습니다.",
+    "일반 각성기와 초각성기의 피해·카드 수급은 자동 입력에서 빠져 있습니다. API 스킬 목록만으로 장착한 각성기를 구분할 수 없으며, 현재 결과는 이 누락을 포함한 부분 모델입니다.",
+    "T 스킬의 표시 Lv1을 공개 피해 배열의 첫 값에 연결한 것은 후보입니다. 표시 레벨·피해 배열 인덱스·전투 레벨의 관계를 확인하지 못했으며, 별도 Lv70 루인 폭발 후보와 구분합니다.",
+    "T 스킬 시전시간과 즉각적인 주문·공속·질풍 조합은 실측 미검증입니다. 새 검색 입력과 참고 프리셋은 즉각적인 주문을 시간 / (1 + 증가율) 후보로 반영하며 마나 감소는 미모델입니다.",
+    "진화 쿨감: 끝없는 마나·무한한 마력 및 최적화 훈련·타이밍 지배는 각각 합산하고 두 묶음을 곱하는 후보입니다. 2024년 공개 측정에 근거하며 현행 서버 실측 미검증입니다.",
+    "적중 버프는 직접 피해 처리 후 시작·갱신합니다. 운부·리턴·엣지의 치피와 급소 노출은 각각 동일 효과 하나로 갱신하며, 서로 다른 트포 레벨의 우선순위·동일 프레임 선후·개별 타격 없는 스킬의 중간 적중·미스는 미검증입니다.",
+    "돌격대장은 피해 발생 시점의 합산 이속 증가분(0~40%)에 적용합니다. 신속·유령·안전 장치·가벼운 발걸음을 반영하며 두 트포의 시작은 최초 시전 기준 가정입니다. 정확한 콤보 입력 시점·서포터와 외부 이속·상한 확장 효과는 미모델입니다.",
+    "운명의 부름: 기본 2타·연속 공격 3타·페이크 플립 대체 1타의 직접 피해 후보를 분리합니다. 비행·적중·후딜은 임시 합산이며 치명·어두운 운명 시작·시전 단축과 현재 계수의 실측 검증은 미완료입니다.",
+    "운명의 부름 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "스크래치 딜러: 기본 이동·내려찍기의 총 피해 후보만 합산합니다. 내부 다단 수를 피해에 다시 곱하지 않습니다. 적중 판정 2회·시전 종료 2스택은 임시 처리이며 콤보 입력·내부 타수·게이지·후딜·트포의 개별 타격 범위는 실측 미검증입니다.",
+    "스크래치 딜러 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "스파이럴 엣지: 도약 한 번의 피해 후보와 기본 1타·무자비한 사격 2타를 합산합니다. 체인 두 번째 입력은 미반영이며 첫 시전 쿨 시작은 임시 처리입니다. 재입력 허용 시간·운수·개별 타격·스택 시점·후딜은 미검증입니다.",
+    "스파이럴 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "스트림 오브 엣지: 2회 저장·순차 충전 후보입니다. 회복 시작 시 쿨감, 진행 중 회복에만 속행, 운수는 해당 사용만 면제하는 가정이며 스트림 직접 실측·동시 이벤트 순서는 미검증입니다. 자동 사용 정책은 최적 사이클을 보장하지 않습니다.",
+    "스트림 132: 설치 후 첫 0.3초부터 15타, 5·10·15번째 1스택과 적중 치적 5중첩 후보입니다. 설치 동작만 공속 적용하며 첫 오프셋·현행 서버 프레임·퍼펙트 범위·부분 적중·게이지는 미검증입니다.",
+    "스트림 오브 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "스트림 오브 엣지: 발사 동작과 이후 개별 적중을 분리한 공개 모션 후보입니다. 거리별 비행·취소 후딜·현행 서버 프레임은 실측하지 않았습니다.",
+    "셀레스티얼 레인 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "포 카드 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "세렌디피티 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "세렌디피티: 평시 1타, 심판 사용 후 시전은 3타. 1타 후 행동 가능 시각·후딜 취소는 미확인으로 첫 모션 종료 1.8초를 임시 대기값으로 사용합니다(공속 적용 전). 심판 콤보 시간도 전체 모션 후보이며 스페이스 자원·시전 중 카드 사용은 미모델입니다.",
+    "세렌디피티 꿰뚫는 일격: 대상 방어력 6500 가정에서 방어 무시 없는 동일 대상 대비 증폭만 적용합니다. 절대 방어 감쇠·별도 보스 뎀감·방깎 시너지는 미모델, 직접 피해·폭발의 독립 추첨은 공개 모델 가정이며 현행 서버 실측 미검증입니다.",
+    "시크릿 가든 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "더 데빌 Lv1: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+    "공격력 입력값 1: 고정·% 공격력 수정치 적용 전 값입니다. 캐릭터의 실제 공격력·정규화 기준과 자동 연결되지 않았습니다.",
+    "스택트 효과 (셀레스티얼 레인, 포 카드, 세렌디피티, 시크릿 가든, 더 데빌): Lv70 공개 계수 후보 사용. 고정 피해·공격력항을 분리하고 스킬 레벨 배율은 적용하지 않습니다. 현재 패치·인게임 실측 미검증이며 직접 피해와의 비율도 미검증입니다.",
+    "기본 드로우 가중치는 균등한 임시 가정이며 실제 확률이 아닙니다. 카드별 관측 빈도와 손패 조건을 검증하기 전 카드 운·세팅 우열을 판정할 수 없습니다.",
+    "카드 게이지는 스킬 분류·타수별 임시값입니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.",
+    "마나 소모·회복·고갈은 미모델이며 마나 부족으로 시전을 멈추지 않습니다. 별의 마나 효과와 삼두사의 평타·스택·게이지 효과도 미반영입니다. 두 카드는 사용 횟수와 카드 사용 연동 효과에는 포함되므로, 현재 DPS로 마나 유지율이나 평타 운용의 이득을 판단할 수 없습니다.",
+    "특화·패시브 게이지 증가는 합산하고 풍요는 별도로 곱하는 임시 모델입니다. 조합별 실제 연산은 미검증입니다.",
+    "환희는 사용마다 한 번 50%를 판정해 대상의 남은 쿨을 함께 15% 또는 30% 줄입니다. 서버의 공통 판정 단위와 체인 도중 추가 쿨감은 미검증이며, 체인 중 환희의 관측 예외는 아직 반영하지 않습니다.",
+    "인피니티 덱 17P는 해석한 카드별 조건만 반영합니다. 심판의 지연 쿨감은 남은 시간 기준이며 연속 사용은 독립 예약하는 후보입니다. 실제 감소 기준·중복 예약·동일 프레임 순서는 미검증입니다. 균형의 루인 피해 버프는 사용 시 갱신합니다.",
+    "뒤틀린 운명의 꽝 확률 25%와 나머지 10/20/40%의 균등 분포는 임시 가정입니다. 페이탈 핸드의 확률 감소 문구로 정확한 확률을 알 수 없으며 관측 2/100도 확정값이 아닙니다.",
+    "루인 게이지는 스택 수·폭발·눈속임을 구분하지 않습니다. 평시·심판 및 트라이포드별 카드 수급 비교는 미검증입니다."
+  ],
+  "config": {
+    "durationSec": 30,
+    "iterations": 10,
+    "seed": 1
+  },
+  "result": {
+    "build": "황후 인콤스 440 (참고 캐릭터)",
+    "damageWarnings": [
+      "피해 기준 미검증: 공개 계수 후보와 정규화되지 않은 임시값이 함께 사용될 수 있습니다. 현재 DPS와 피해 비중으로 세팅 우열을 판단할 수 없습니다.",
+      "일반 각성기와 초각성기의 피해·카드 수급은 자동 입력에서 빠져 있습니다. API 스킬 목록만으로 장착한 각성기를 구분할 수 없으며, 현재 결과는 이 누락을 포함한 부분 모델입니다.",
+      "T 스킬의 표시 Lv1을 공개 피해 배열의 첫 값에 연결한 것은 후보입니다. 표시 레벨·피해 배열 인덱스·전투 레벨의 관계를 확인하지 못했으며, 별도 Lv70 루인 폭발 후보와 구분합니다.",
+      "T 스킬 시전시간과 즉각적인 주문·공속·질풍 조합은 실측 미검증입니다. 새 검색 입력과 참고 프리셋은 즉각적인 주문을 시간 / (1 + 증가율) 후보로 반영하며 마나 감소는 미모델입니다.",
+      "진화 쿨감: 끝없는 마나·무한한 마력 및 최적화 훈련·타이밍 지배는 각각 합산하고 두 묶음을 곱하는 후보입니다. 2024년 공개 측정에 근거하며 현행 서버 실측 미검증입니다.",
+      "적중 버프는 직접 피해 처리 후 시작·갱신합니다. 운부·리턴·엣지의 치피와 급소 노출은 각각 동일 효과 하나로 갱신하며, 서로 다른 트포 레벨의 우선순위·동일 프레임 선후·개별 타격 없는 스킬의 중간 적중·미스는 미검증입니다.",
+      "돌격대장은 피해 발생 시점의 합산 이속 증가분(0~40%)에 적용합니다. 신속·유령·안전 장치·가벼운 발걸음을 반영하며 두 트포의 시작은 최초 시전 기준 가정입니다. 정확한 콤보 입력 시점·서포터와 외부 이속·상한 확장 효과는 미모델입니다.",
+      "운명의 부름: 기본 2타·연속 공격 3타·페이크 플립 대체 1타의 직접 피해 후보를 분리합니다. 비행·적중·후딜은 임시 합산이며 치명·어두운 운명 시작·시전 단축과 현재 계수의 실측 검증은 미완료입니다.",
+      "운명의 부름 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스크래치 딜러: 기본 이동·내려찍기의 총 피해 후보만 합산합니다. 내부 다단 수를 피해에 다시 곱하지 않습니다. 적중 판정 2회·시전 종료 2스택은 임시 처리이며 콤보 입력·내부 타수·게이지·후딜·트포의 개별 타격 범위는 실측 미검증입니다.",
+      "스크래치 딜러 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스파이럴 엣지: 도약 한 번의 피해 후보와 기본 1타·무자비한 사격 2타를 합산합니다. 체인 두 번째 입력은 미반영이며 첫 시전 쿨 시작은 임시 처리입니다. 재입력 허용 시간·운수·개별 타격·스택 시점·후딜은 미검증입니다.",
+      "스파이럴 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스트림 오브 엣지: 2회 저장·순차 충전 후보입니다. 회복 시작 시 쿨감, 진행 중 회복에만 속행, 운수는 해당 사용만 면제하는 가정이며 스트림 직접 실측·동시 이벤트 순서는 미검증입니다. 자동 사용 정책은 최적 사이클을 보장하지 않습니다.",
+      "스트림 132: 설치 후 첫 0.3초부터 15타, 5·10·15번째 1스택과 적중 치적 5중첩 후보입니다. 설치 동작만 공속 적용하며 첫 오프셋·현행 서버 프레임·퍼펙트 범위·부분 적중·게이지는 미검증입니다.",
+      "스트림 오브 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스트림 오브 엣지: 발사 동작과 이후 개별 적중을 분리한 공개 모션 후보입니다. 거리별 비행·취소 후딜·현행 서버 프레임은 실측하지 않았습니다.",
+      "셀레스티얼 레인 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "포 카드 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "세렌디피티 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "세렌디피티: 평시 1타, 심판 사용 후 시전은 3타. 1타 후 행동 가능 시각·후딜 취소는 미확인으로 첫 모션 종료 1.8초를 임시 대기값으로 사용합니다(공속 적용 전). 심판 콤보 시간도 전체 모션 후보이며 스페이스 자원·시전 중 카드 사용은 미모델입니다.",
+      "세렌디피티 꿰뚫는 일격: 대상 방어력 6500 가정에서 방어 무시 없는 동일 대상 대비 증폭만 적용합니다. 절대 방어 감쇠·별도 보스 뎀감·방깎 시너지는 미모델, 직접 피해·폭발의 독립 추첨은 공개 모델 가정이며 현행 서버 실측 미검증입니다.",
+      "시크릿 가든 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "더 데빌 Lv1: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "공격력 입력값 1: 고정·% 공격력 수정치 적용 전 값입니다. 캐릭터의 실제 공격력·정규화 기준과 자동 연결되지 않았습니다.",
+      "스택트 효과 (셀레스티얼 레인, 포 카드, 세렌디피티, 시크릿 가든, 더 데빌): Lv70 공개 계수 후보 사용. 고정 피해·공격력항을 분리하고 스킬 레벨 배율은 적용하지 않습니다. 현재 패치·인게임 실측 미검증이며 직접 피해와의 비율도 미검증입니다."
+    ],
+    "cardSupplyWarnings": [
+      "기본 드로우 가중치는 균등한 임시 가정이며 실제 확률이 아닙니다. 카드별 관측 빈도와 손패 조건을 검증하기 전 카드 운·세팅 우열을 판정할 수 없습니다.",
+      "카드 게이지는 스킬 분류·타수별 임시값입니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.",
+      "마나 소모·회복·고갈은 미모델이며 마나 부족으로 시전을 멈추지 않습니다. 별의 마나 효과와 삼두사의 평타·스택·게이지 효과도 미반영입니다. 두 카드는 사용 횟수와 카드 사용 연동 효과에는 포함되므로, 현재 DPS로 마나 유지율이나 평타 운용의 이득을 판단할 수 없습니다.",
+      "특화·패시브 게이지 증가는 합산하고 풍요는 별도로 곱하는 임시 모델입니다. 조합별 실제 연산은 미검증입니다.",
+      "환희는 사용마다 한 번 50%를 판정해 대상의 남은 쿨을 함께 15% 또는 30% 줄입니다. 서버의 공통 판정 단위와 체인 도중 추가 쿨감은 미검증이며, 체인 중 환희의 관측 예외는 아직 반영하지 않습니다.",
+      "인피니티 덱 17P는 해석한 카드별 조건만 반영합니다. 심판의 지연 쿨감은 남은 시간 기준이며 연속 사용은 독립 예약하는 후보입니다. 실제 감소 기준·중복 예약·동일 프레임 순서는 미검증입니다. 균형의 루인 피해 버프는 사용 시 갱신합니다.",
+      "뒤틀린 운명의 꽝 확률 25%와 나머지 10/20/40%의 균등 분포는 임시 가정입니다. 페이탈 핸드의 확률 감소 문구로 정확한 확률을 알 수 없으며 관측 2/100도 확정값이 아닙니다.",
+      "루인 게이지는 스택 수·폭발·눈속임을 구분하지 않습니다. 평시·심판 및 트라이포드별 카드 수급 비교는 미검증입니다."
+    ],
+    "iterations": 10,
+    "durationSec": 30,
+    "dps": {
+      "mean": 218647.65189324584,
+      "median": 221536.62267104577,
+      "p10": 155575.79032457116,
+      "p90": 275978.24478504923,
+      "min": 151030.8429308974,
+      "max": 289252.54214495205,
+      "stdev": 48749.541410115075
+    },
+    "cardsPerMin": 17.8,
+    "cardsUsedPerMin": 16.6,
+    "cardsHeldAtEnd": 0.6,
+    "cardsPerMinBySource": {
+      "gauge": 7.2,
+      "quickDraw": 0,
+      "hiddenHand": 0,
+      "flowerThorn": 0,
+      "destiny": 8,
+      "royal": 2,
+      "clown": 0.6,
+      "empressKnight": 0,
+      "manual": 0
+    },
+    "ruinAt4Rate": 0.7591240875912408,
+    "breakdown": [
+      {
+        "id": "the_devil",
+        "name": "더 데빌",
+        "casts": 1.4,
+        "direct": 233662.9759709097,
+        "stackEffect": 2777870.0083671757
+      },
+      {
+        "id": "celestial_rain",
+        "name": "셀레스티얼 레인",
+        "casts": 2.7,
+        "direct": 135317.6896167454,
+        "stackEffect": 1170435.5669732648
+      },
+      {
+        "id": "secret_garden",
+        "name": "시크릿 가든",
+        "casts": 3.2,
+        "direct": 32388.13849069733,
+        "stackEffect": 950504.4488103309
+      },
+      {
+        "id": "serendipity",
+        "name": "세렌디피티",
+        "casts": 1.9,
+        "direct": 52827.45848949351,
+        "stackEffect": 627348.7118700951
+      },
+      {
+        "id": "four_of_a_kind",
+        "name": "포 카드",
+        "casts": 4.7,
+        "direct": 224926.213904689,
+        "stackEffect": 266961.59145110287
+      },
+      {
+        "id": "call_of_destiny",
+        "name": "운명의 부름",
+        "casts": 5.3,
+        "direct": 30793.175871705636,
+        "stackEffect": 0
+      },
+      {
+        "id": "spiral_edge",
+        "name": "스파이럴 엣지",
+        "casts": 5,
+        "direct": 28765.918483826877,
+        "stackEffect": 0
+      },
+      {
+        "id": "scratch_dealer",
+        "name": "스크래치 딜러",
+        "casts": 4.2,
+        "direct": 25016.372046814216,
+        "stackEffect": 0
+      },
+      {
+        "id": "stream_of_edge",
+        "name": "스트림 오브 엣지",
+        "casts": 4,
+        "direct": 2611.2864505250254,
+        "stackEffect": 0
+      }
+    ],
+    "samples": [
+      151030.8429308974,
+      204370.28760582267,
+      170664.01721839796,
+      274503.3228561711,
+      225682.1214358662,
+      217391.12390622532,
+      289252.54214495205,
+      156080.78447942378,
+      263368.8993352278,
+      234132.5770194745
+    ],
+    "inputWarnings": [
+      "손으로 옮긴 프리셋",
+      "피해 기준 미검증: 공개 계수 후보와 정규화되지 않은 임시값이 함께 사용될 수 있습니다. 현재 DPS와 피해 비중으로 세팅 우열을 판단할 수 없습니다.",
+      "일반 각성기와 초각성기의 피해·카드 수급은 자동 입력에서 빠져 있습니다. API 스킬 목록만으로 장착한 각성기를 구분할 수 없으며, 현재 결과는 이 누락을 포함한 부분 모델입니다.",
+      "T 스킬의 표시 Lv1을 공개 피해 배열의 첫 값에 연결한 것은 후보입니다. 표시 레벨·피해 배열 인덱스·전투 레벨의 관계를 확인하지 못했으며, 별도 Lv70 루인 폭발 후보와 구분합니다.",
+      "T 스킬 시전시간과 즉각적인 주문·공속·질풍 조합은 실측 미검증입니다. 새 검색 입력과 참고 프리셋은 즉각적인 주문을 시간 / (1 + 증가율) 후보로 반영하며 마나 감소는 미모델입니다.",
+      "진화 쿨감: 끝없는 마나·무한한 마력 및 최적화 훈련·타이밍 지배는 각각 합산하고 두 묶음을 곱하는 후보입니다. 2024년 공개 측정에 근거하며 현행 서버 실측 미검증입니다.",
+      "적중 버프는 직접 피해 처리 후 시작·갱신합니다. 운부·리턴·엣지의 치피와 급소 노출은 각각 동일 효과 하나로 갱신하며, 서로 다른 트포 레벨의 우선순위·동일 프레임 선후·개별 타격 없는 스킬의 중간 적중·미스는 미검증입니다.",
+      "돌격대장은 피해 발생 시점의 합산 이속 증가분(0~40%)에 적용합니다. 신속·유령·안전 장치·가벼운 발걸음을 반영하며 두 트포의 시작은 최초 시전 기준 가정입니다. 정확한 콤보 입력 시점·서포터와 외부 이속·상한 확장 효과는 미모델입니다.",
+      "운명의 부름: 기본 2타·연속 공격 3타·페이크 플립 대체 1타의 직접 피해 후보를 분리합니다. 비행·적중·후딜은 임시 합산이며 치명·어두운 운명 시작·시전 단축과 현재 계수의 실측 검증은 미완료입니다.",
+      "운명의 부름 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스크래치 딜러: 기본 이동·내려찍기의 총 피해 후보만 합산합니다. 내부 다단 수를 피해에 다시 곱하지 않습니다. 적중 판정 2회·시전 종료 2스택은 임시 처리이며 콤보 입력·내부 타수·게이지·후딜·트포의 개별 타격 범위는 실측 미검증입니다.",
+      "스크래치 딜러 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스파이럴 엣지: 도약 한 번의 피해 후보와 기본 1타·무자비한 사격 2타를 합산합니다. 체인 두 번째 입력은 미반영이며 첫 시전 쿨 시작은 임시 처리입니다. 재입력 허용 시간·운수·개별 타격·스택 시점·후딜은 미검증입니다.",
+      "스파이럴 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스트림 오브 엣지: 2회 저장·순차 충전 후보입니다. 회복 시작 시 쿨감, 진행 중 회복에만 속행, 운수는 해당 사용만 면제하는 가정이며 스트림 직접 실측·동시 이벤트 순서는 미검증입니다. 자동 사용 정책은 최적 사이클을 보장하지 않습니다.",
+      "스트림 132: 설치 후 첫 0.3초부터 15타, 5·10·15번째 1스택과 적중 치적 5중첩 후보입니다. 설치 동작만 공속 적용하며 첫 오프셋·현행 서버 프레임·퍼펙트 범위·부분 적중·게이지는 미검증입니다.",
+      "스트림 오브 엣지 Lv10: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "스트림 오브 엣지: 발사 동작과 이후 개별 적중을 분리한 공개 모션 후보입니다. 거리별 비행·취소 후딜·현행 서버 프레임은 실측하지 않았습니다.",
+      "셀레스티얼 레인 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "포 카드 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "세렌디피티 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "세렌디피티: 평시 1타, 심판 사용 후 시전은 3타. 1타 후 행동 가능 시각·후딜 취소는 미확인으로 첫 모션 종료 1.8초를 임시 대기값으로 사용합니다(공속 적용 전). 심판 콤보 시간도 전체 모션 후보이며 스페이스 자원·시전 중 카드 사용은 미모델입니다.",
+      "세렌디피티 꿰뚫는 일격: 대상 방어력 6500 가정에서 방어 무시 없는 동일 대상 대비 증폭만 적용합니다. 절대 방어 감쇠·별도 보스 뎀감·방깎 시너지는 미모델, 직접 피해·폭발의 독립 추첨은 공개 모델 가정이며 현행 서버 실측 미검증입니다.",
+      "시크릿 가든 Lv14: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "더 데빌 Lv1: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.",
+      "공격력 입력값 1: 고정·% 공격력 수정치 적용 전 값입니다. 캐릭터의 실제 공격력·정규화 기준과 자동 연결되지 않았습니다.",
+      "스택트 효과 (셀레스티얼 레인, 포 카드, 세렌디피티, 시크릿 가든, 더 데빌): Lv70 공개 계수 후보 사용. 고정 피해·공격력항을 분리하고 스킬 레벨 배율은 적용하지 않습니다. 현재 패치·인게임 실측 미검증이며 직접 피해와의 비율도 미검증입니다.",
+      "기본 드로우 가중치는 균등한 임시 가정이며 실제 확률이 아닙니다. 카드별 관측 빈도와 손패 조건을 검증하기 전 카드 운·세팅 우열을 판정할 수 없습니다.",
+      "카드 게이지는 스킬 분류·타수별 임시값입니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.",
+      "마나 소모·회복·고갈은 미모델이며 마나 부족으로 시전을 멈추지 않습니다. 별의 마나 효과와 삼두사의 평타·스택·게이지 효과도 미반영입니다. 두 카드는 사용 횟수와 카드 사용 연동 효과에는 포함되므로, 현재 DPS로 마나 유지율이나 평타 운용의 이득을 판단할 수 없습니다.",
+      "특화·패시브 게이지 증가는 합산하고 풍요는 별도로 곱하는 임시 모델입니다. 조합별 실제 연산은 미검증입니다.",
+      "환희는 사용마다 한 번 50%를 판정해 대상의 남은 쿨을 함께 15% 또는 30% 줄입니다. 서버의 공통 판정 단위와 체인 도중 추가 쿨감은 미검증이며, 체인 중 환희의 관측 예외는 아직 반영하지 않습니다.",
+      "인피니티 덱 17P는 해석한 카드별 조건만 반영합니다. 심판의 지연 쿨감은 남은 시간 기준이며 연속 사용은 독립 예약하는 후보입니다. 실제 감소 기준·중복 예약·동일 프레임 순서는 미검증입니다. 균형의 루인 피해 버프는 사용 시 갱신합니다.",
+      "뒤틀린 운명의 꽝 확률 25%와 나머지 10/20/40%의 균등 분포는 임시 가정입니다. 페이탈 핸드의 확률 감소 문구로 정확한 확률을 알 수 없으며 관측 2/100도 확정값이 아닙니다.",
+      "루인 게이지는 스택 수·폭발·눈속임을 구분하지 않습니다. 평시·심판 및 트라이포드별 카드 수급 비교는 미검증입니다."
+    ]
+  }
+}

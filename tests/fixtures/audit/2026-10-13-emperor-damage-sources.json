@@ -1,0 +1,5294 @@
+{
+  "official": {
+    "data": [
+      {
+        "Name": "언리미티드 셔플",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_8.png",
+        "Level": 14,
+        "Type": "지점",
+        "SkillType": 0,
+        "Tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "파멸의 셔플",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_8.png",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>언리미티드 셔플 사용 중 아르카나 주변으로 카드가 휘몰아쳐 기본 피해량의 <FONT COLOR='#99ff99'>45.0%</FONT>에 해당하는 피해를 준다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "빠른 준비",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>5.0</FONT>초 감소한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "퀵 드로",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_66.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마지막 공격 적중 시 <FONT COLOR='#99ff99'>30.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장 획득한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "무한의 뇌격",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_17.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 더 이상 피격이상을 시키지 않지만, 마지막 공격에 적중된 적을 <FONT COLOR='#ffff99'>5.0</FONT>초간 감전상태로 만든다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "어둠의 핵",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경된다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가하고, 치명타 피해량이  <FONT COLOR='#99ff99'>42.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "얼티밋 셔플",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_40.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>언리미티드 셔플의 지속시간이 <FONT COLOR='#ffff99'>0.6</FONT>초 더 증가하고, 카드가 더욱 더 빠르게 날아다녀 판정횟수가 <FONT COLOR='#99ff99'>3</FONT>회 증가하여 최대 <FONT COLOR='#99ff99'>65.4%</FONT> 증가된 피해를 준다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "예견된 죽음",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>판정 범위가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하고, 원형 마법진이 추가로 생성돼, 원형 마법진 위에 있는 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "파멸의 폭풍",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_41.png",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>더욱 간결한 동작으로 지정한 위치에 <FONT COLOR='#99ff99'>3</FONT>회의 피해를 주고 적을 공중에 띄워 <FONT COLOR='#99ff99'>105.0%</FONT> 증가된 피해를 준다.</font>"
+          }
+        ],
+        "Rune": {
+          "Name": "질풍",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+          "Grade": "전설",
+          "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 14% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 시험 7단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 8단계</font>\"}}"
+        },
+        "Tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"언리미티드 셔플\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_8.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 14\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 569 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<font color='#FFFDE7'>언리미티드 셔플 사용 중 아르카나 주변으로 카드가 휘몰아쳐 기본 피해량의 <FONT COLOR='#99ff99'>45.0%</FONT>에 해당하는 피해를 준다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>파멸의 셔플</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_8.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<font color='#FFFDE7'>[암] 속성으로 변경된다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가하고, 치명타 피해량이  <FONT COLOR='#99ff99'>42.0%</FONT> 증가한다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>어둠의 핵</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<font color='#FFFDE7'>더욱 간결한 동작으로 지정한 위치에 <FONT COLOR='#99ff99'>3</FONT>회의 피해를 주고 적을 공중에 띄워 <FONT COLOR='#99ff99'>105.0%</FONT> 증가된 피해를 준다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>파멸의 폭풍</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_41.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"ItemPartBox\",\r\n        \"value\": {\r\n          \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n          \"Element_001\": \"[<FONT COLOR='#F99200'>질풍</FONT>] 스킬 시전 속도가 14% 증가\"\r\n        }\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"ItemPartBox\",\r\n        \"value\": {\r\n          \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n          \"Element_001\": \"[아르카나] <FONT COLOR='#FFD200'>언리미티드 셔플</FONT> 피해 44.00% 증가 <BR>[아르카나] <FONT COLOR='#FFD200'>언리미티드 셔플</FONT> 재사용 대기시간 24.00% 감소 \"\r\n        }\r\n      }\r\n    }"
+      },
+      {
+        "Name": "다크 리저렉션",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_4.png",
+        "Level": 14,
+        "Type": "지점",
+        "SkillType": 0,
+        "Tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "날렵한 움직임",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>18.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "꿰뚫는 일격",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_3.png",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "정신 강화",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "퀵 드로",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_66.png",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>마지막 공격에 적중 시 <FONT COLOR='#99ff99'>40.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "치명적 카드",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "강렬한 카드",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "죽음의 공포",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_45.png",
+            "IsSelected": true,
+            "Tooltip": "<font color='#FFFDE7'>더 이상 점프하지 않고 빠른 속도로 공격해, 마지막 공격에 적중 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 매 초마다 <FONT COLOR='#00ccff'>1,286,200</FONT>의 중독 피해를 준다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "분노의 일격",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_53.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>더 이상 공포를 걸지 않지만, 치명타 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가하고, 마지막 공격이 지면을 강타해 적중된 적을 가운데로 모아 넘어뜨리며, <FONT COLOR='#99ff99'>70.0%</FONT> 증가된 피해를 준다.</font>"
+          }
+        ],
+        "Rune": {
+          "Name": "중독",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_213.png",
+          "Grade": "전설",
+          "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>중독</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_213.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 적을 6초간 '중독' 상태로 만듦\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[필드 보스] 쿠르잔 북부 - 세베크 아툰</font>\"}}"
+        },
+        "Tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"다크 리저렉션\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 27초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_4.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 14\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 603 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<font color='#FFFDE7'>적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>꿰뚫는 일격</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_3.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<font color='#FFFDE7'>마지막 공격에 적중 시 <FONT COLOR='#99ff99'>40.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>퀵 드로</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_66.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<font color='#FFFDE7'>더 이상 점프하지 않고 빠른 속도로 공격해, 마지막 공격에 적중 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 매 초마다 <FONT COLOR='#00ccff'>1,286,200</FONT>의 중독 피해를 준다.</font>\",\r\n            \"lock\": false,\r\n            \"name\": \"<font color='#FFBB63'>죽음의 공포</font>\",\r\n            \"slotData\": {\r\n              \"iconGrade\": 10,\r\n              \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_45.png\",\r\n              \"imagePath\": \"\"\r\n            }\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"ItemPartBox\",\r\n        \"value\": {\r\n          \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n          \"Element_001\": \"[<FONT COLOR='#F99200'>중독</FONT>] 스킬 적중 시 적을 6초간 '중독' 상태로 만듦\"\r\n        }\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"ItemPartBox\",\r\n        \"value\": {\r\n          \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n          \"Element_001\": \"[아르카나] <FONT COLOR='#FFD200'>다크 리저렉션</FONT> 피해 44.00% 증가 <BR>[아르카나] <FONT COLOR='#FFD200'>다크 리저렉션</FONT> 재사용 대기시간 20.00% 감소 \"\r\n        }\r\n      }\r\n    }"
+      },
+      {
+        "Name": "체크메이트",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_3.png",
+        "Level": 1,
+        "Type": "홀딩",
+        "SkillType": 0,
+        "Tripods": [
+          {
+            "Tier": 0,
+            "Slot": 1,
+            "Name": "꿰뚫는 일격",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_58.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>카드를 날릴 때 마다 적에게 주는 피해가 <FONT COLOR='#99ff99'>10.0%</FONT>씩 최대 <FONT COLOR='#99ff99'>160.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 2,
+            "Name": "급소 타격",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 0,
+            "Slot": 3,
+            "Name": "카드 증가",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_67.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>체크메이트로 쌓을 수 있는 최대 스택트 중첩수가 <FONT COLOR='#ffff99'>3</FONT>에서 <FONT COLOR='#99ff99'>4</FONT>로 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 1,
+            "Name": "썬더 메이트",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_17.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경된 카드를 더 빠르게 날려보낸다. 공격 횟수가 <FONT COLOR='#ffff99'>4</FONT>회 증가하여, 총 피해가 <FONT COLOR='#99ff99'>33.0%</FONT> 증가하고, 짧은 시간 내 <FONT COLOR='#ffff99'>6</FONT>회 적중 시 대상을 <FONT COLOR='#ffff99'>4.0</FONT>초간 감전 상태로 만든다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 2,
+            "Name": "집중된 어둠",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 치명타 피해를 줄 때마다 체크메이트의 피해가 <FONT COLOR='#99ff99'>16.0%</FONT>씩 최대 <FONT COLOR='#99ff99'>160.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 1,
+            "Slot": 3,
+            "Name": "약점 포착",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>무력화 단계가 [중]으로 상승하고, 피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 1,
+            "Name": "카드의 파도",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>카드를 직선방향이 아닌 <FONT COLOR='#ffff99'>4</FONT>방향의 부채꼴 형태로 날려보낸다.</font>"
+          },
+          {
+            "Tier": 2,
+            "Slot": 2,
+            "Name": "데드라인",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+            "IsSelected": false,
+            "Tooltip": "<font color='#FFFDE7'>홀딩을 <FONT COLOR='#ffff99'>0.5</FONT>초 이상 유지할 경우 홀딩 종료 시 관통하는 카드를 날려 적에게 기본 피해량의 <FONT COLOR='#99ff99'>80.0%</FONT> 피해를 주고 넘어뜨린다.</font>"
+          }
+        ],
+        "Rune": null,
+        "Tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"체크메이트\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#8181F7'>[스택트 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#40E15F'>홀딩</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_3.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 110 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_006\": {\r\n        \"type\": \"TripodSkillCustom\",\r\n        \"value\": {\r\n          \"Element_000\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_001\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          },\r\n          \"Element_002\": {\r\n            \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n            \"lock\": true,\r\n            \"name\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_007\": {\r\n        \"type\": \"BlinkLineStart\",\r\n        \"value\": true\r\n      },\r\n      \"Element_008\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"다음 스킬 레벨 2\"\r\n      },\r\n      \"Element_009\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 16\"\r\n      },\r\n      \"Element_010\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n      },\r\n      \"Element_011\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"마나 149 소모\"\r\n      },\r\n      \"Element_012\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      },\r\n      \"Element_013\": {\r\n        \"type\": \"BlinkLineEnd\",\r\n        \"value\": true\r\n      }\r\n    }"
+      },
+      {
+        "Name": "더 썬",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_46.png",
+        "Level": 1,
+        "Type": "지점",
+        "SkillType": 1,
+        "Tripods": [],
+        "Rune": null,
+        "Tooltip": "{\r\n      \"Element_000\": {\r\n        \"type\": \"NameTagBox\",\r\n        \"value\": \"더 썬\"\r\n      },\r\n      \"Element_001\": {\r\n        \"type\": \"CommonSkillTitle\",\r\n        \"value\": {\r\n          \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 1분 20초</FONT>\",\r\n          \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT></FONT></FONT>\",\r\n          \"middleText\": \"\",\r\n          \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n          \"slotData\": {\r\n            \"iconGrade\": 0,\r\n            \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_46.png\",\r\n            \"imagePath\": \"\"\r\n          }\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n      },\r\n      \"Element_003\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"스킬 레벨 1 (최대)\"\r\n      },\r\n      \"Element_004\": {\r\n        \"type\": \"MultiTextBox\",\r\n        \"value\": \"마나 915 소모|\"\r\n      },\r\n      \"Element_005\": {\r\n        \"type\": \"SingleTextBox\",\r\n        \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'></FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n      }\r\n    }"
+      }
+    ],
+    "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter12/combat-skills",
+    "checkedAt": "2026-10-13T08:22:28.366Z",
+    "sha256": "8c64a42131524c40a22332161421efecfbd8deb3aad4d4fe66df450e1537fd3e"
+  },
+  "publicRows": {
+    "skills": {
+      "data": [
+        {
+          "id": 119,
+          "gameSkillId": 19040,
+          "name": "체크메이트",
+          "className": "아르카나",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_3.png",
+          "controlType": "홀딩",
+          "skillSlot": "일반 스킬",
+          "cooldownMs": 24000,
+          "identityCategory": 29,
+          "maxPhase": 1,
+          "phaseTimeoutMs": 0,
+          "rangeMin": 0,
+          "rangeMax": 1200,
+          "isIdentity": false,
+          "isUltimate": false,
+          "enhancedFrom": null,
+          "description": "마우스 방향으로 카드를 빠르게 날려 매 판정마다 {1}의 피해를 주어, 최대 {1:total}의 피해를 준다.",
+          "properties": {
+            "skill_group_ids": [
+              2190905
+            ]
+          },
+          "cost": {
+            "mp": 569,
+            "mp_by_level": [
+              110,
+              149,
+              180,
+              218,
+              278,
+              322,
+              396,
+              424,
+              508,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569
+            ]
+          },
+          "gain": {
+            "cardGaugePerUltimatePoint": 52
+          },
+          "damage": {
+            "hits": 12,
+            "type": "raw_effect",
+            "review_status": "confirmed",
+            "tooltip_totals": [
+              {
+                "hits": 12,
+                "evidence": "GameMsg tooltip formula multiplies SkillEffect 190401 by 12",
+                "effect_id": 190401
+              }
+            ],
+            "raw_action_note": "툴팁은 최대 피해를 190401 공식 × 12로 명시한다. Action의 400/1200/2400/3600ms 네 판정은 각각 최초 타격과 내부 추가타 2회로 총 12타다. 네 판정은 홀딩 한 시전의 phase 0에서 모두 실행한다. 시뮬레이션 피해 타수에서는 10ms의 190429~190432를 제외하며 raw 항목은 motions.json에 보존한다.",
+            "tooltip_effects": [
+              {
+                "hits": 1,
+                "name": "1차 판정 카드 타격",
+                "phase": 0,
+                "hit_id": "card_barrage_judgement_1",
+                "ap_coeff": 3.305,
+                "flat_max": 389,
+                "flat_min": 318,
+                "effect_id": 190401,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 2,
+                  "area_range": 450,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 14,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 3,
+                "multi_hit_count": 3,
+                "ap_coeff_by_level": [
+                  1.499,
+                  1.646,
+                  1.724,
+                  1.78,
+                  1.823,
+                  1.858,
+                  1.887,
+                  1.911,
+                  1.932,
+                  1.95,
+                  2.121,
+                  2.227,
+                  2.31,
+                  2.383,
+                  2.502,
+                  2.722,
+                  2.757,
+                  2.793,
+                  3.038,
+                  3.305
+                ],
+                "flat_max_by_level": [
+                  99,
+                  176,
+                  225,
+                  264,
+                  295,
+                  319,
+                  340,
+                  359,
+                  374,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389
+                ],
+                "flat_min_by_level": [
+                  81,
+                  144,
+                  184,
+                  216,
+                  241,
+                  261,
+                  278,
+                  294,
+                  306,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318
+                ],
+                "multi_hit_interval_ms": 200,
+                "target_buff_stack_gain": {
+                  "stacks": 1,
+                  "buff_id": "arcana_ruin_stack",
+                  "max_stacks": 3,
+                  "duration_ms": 10000
+                }
+              },
+              {
+                "hits": 1,
+                "name": "2차 판정 카드 타격",
+                "phase": 0,
+                "hit_id": "card_barrage_judgement_2",
+                "ap_coeff": 3.305,
+                "flat_max": 389,
+                "flat_min": 318,
+                "effect_id": 190411,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 2,
+                  "area_range": 450,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 14,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 3,
+                "multi_hit_count": 3,
+                "ap_coeff_by_level": [
+                  1.499,
+                  1.646,
+                  1.724,
+                  1.78,
+                  1.823,
+                  1.858,
+                  1.887,
+                  1.911,
+                  1.932,
+                  1.95,
+                  2.121,
+                  2.227,
+                  2.31,
+                  2.383,
+                  2.502,
+                  2.722,
+                  2.757,
+                  2.793,
+                  3.038,
+                  3.305
+                ],
+                "flat_max_by_level": [
+                  99,
+                  176,
+                  225,
+                  264,
+                  295,
+                  319,
+                  340,
+                  359,
+                  374,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389
+                ],
+                "flat_min_by_level": [
+                  81,
+                  144,
+                  184,
+                  216,
+                  241,
+                  261,
+                  278,
+                  294,
+                  306,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318
+                ],
+                "multi_hit_interval_ms": 200,
+                "target_buff_stack_gain": {
+                  "stacks": 1,
+                  "buff_id": "arcana_ruin_stack",
+                  "max_stacks": 3,
+                  "duration_ms": 10000
+                }
+              },
+              {
+                "hits": 1,
+                "name": "3차 판정 카드 타격",
+                "phase": 0,
+                "hit_id": "card_barrage_judgement_3",
+                "ap_coeff": 3.305,
+                "flat_max": 389,
+                "flat_min": 318,
+                "effect_id": 190413,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 2,
+                  "area_range": 450,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 14,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 3,
+                "multi_hit_count": 3,
+                "ap_coeff_by_level": [
+                  1.499,
+                  1.646,
+                  1.724,
+                  1.78,
+                  1.823,
+                  1.858,
+                  1.887,
+                  1.911,
+                  1.932,
+                  1.95,
+                  2.121,
+                  2.227,
+                  2.31,
+                  2.383,
+                  2.502,
+                  2.722,
+                  2.757,
+                  2.793,
+                  3.038,
+                  3.305
+                ],
+                "flat_max_by_level": [
+                  99,
+                  176,
+                  225,
+                  264,
+                  295,
+                  319,
+                  340,
+                  359,
+                  374,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389
+                ],
+                "flat_min_by_level": [
+                  81,
+                  144,
+                  184,
+                  216,
+                  241,
+                  261,
+                  278,
+                  294,
+                  306,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318
+                ],
+                "multi_hit_interval_ms": 200,
+                "target_buff_stack_gain": {
+                  "stacks": 1,
+                  "buff_id": "arcana_ruin_stack",
+                  "max_stacks": 3,
+                  "duration_ms": 10000
+                }
+              },
+              {
+                "hits": 1,
+                "name": "4차 판정 카드 타격",
+                "phase": 0,
+                "hit_id": "card_barrage_judgement_4",
+                "ap_coeff": 3.305,
+                "flat_max": 389,
+                "flat_min": 318,
+                "effect_id": 190415,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 2,
+                  "area_range": 450,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 14,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 3,
+                "multi_hit_count": 3,
+                "ap_coeff_by_level": [
+                  1.499,
+                  1.646,
+                  1.724,
+                  1.78,
+                  1.823,
+                  1.858,
+                  1.887,
+                  1.911,
+                  1.932,
+                  1.95,
+                  2.121,
+                  2.227,
+                  2.31,
+                  2.383,
+                  2.502,
+                  2.722,
+                  2.757,
+                  2.793,
+                  3.038,
+                  3.305
+                ],
+                "flat_max_by_level": [
+                  99,
+                  176,
+                  225,
+                  264,
+                  295,
+                  319,
+                  340,
+                  359,
+                  374,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389,
+                  389
+                ],
+                "flat_min_by_level": [
+                  81,
+                  144,
+                  184,
+                  216,
+                  241,
+                  261,
+                  278,
+                  294,
+                  306,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318,
+                  318
+                ],
+                "multi_hit_interval_ms": 200,
+                "target_buff_stack_gain": {
+                  "stacks": 1,
+                  "buff_id": "arcana_ruin_stack",
+                  "max_stacks": 3,
+                  "duration_ms": 10000
+                }
+              }
+            ],
+            "full_hold_release": {
+              "evidence": "08InputTiming=0.5011s; full hold uses Start 167ms + Loop 4700ms before Custom release Action",
+              "minimum_hold_ms": 500,
+              "required_tripod": "데드라인",
+              "release_after_ms": 4867,
+              "simulation_policy": "full_hold",
+              "motion_stage_by_action_layer": {
+                "1": 101,
+                "2": 102,
+                "3": 103
+              }
+            },
+            "damage_event_count": 13,
+            "conditional_effects": [
+              {
+                "hits": 1,
+                "name": "데드라인 홀딩 해제 타격",
+                "phase": 0,
+                "hit_id": "deadline_release_hit",
+                "ap_coeff": 19.815,
+                "flat_max": 2356,
+                "flat_min": 1928,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 6,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 14,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "tripod_and_projectile_route",
+                "multi_hit_count": 1,
+                "required_tripod": "데드라인",
+                "ap_coeff_by_level": [
+                  8.993,
+                  9.874,
+                  10.342,
+                  10.677,
+                  10.935,
+                  11.143,
+                  11.315,
+                  11.46,
+                  11.584,
+                  11.692,
+                  12.719,
+                  13.352,
+                  13.847,
+                  14.287,
+                  14.998,
+                  16.316,
+                  16.528,
+                  16.743,
+                  18.215,
+                  19.815
+                ],
+                "flat_max_by_level": [
+                  594,
+                  1060,
+                  1357,
+                  1594,
+                  1782,
+                  1931,
+                  2059,
+                  2178,
+                  2267,
+                  2356,
+                  2356,
+                  2356,
+                  2356,
+                  2356,
+                  2356,
+                  2356,
+                  2356,
+                  2356,
+                  2356,
+                  2356
+                ],
+                "flat_min_by_level": [
+                  486,
+                  867,
+                  1110,
+                  1304,
+                  1458,
+                  1580,
+                  1685,
+                  1782,
+                  1855,
+                  1928,
+                  1928,
+                  1928,
+                  1928,
+                  1928,
+                  1928,
+                  1928,
+                  1928,
+                  1928,
+                  1928,
+                  1928
+                ],
+                "multi_hit_interval_ms": 0,
+                "required_action_layers": [
+                  1,
+                  2,
+                  3
+                ],
+                "effect_id_by_action_layer": {
+                  "1": 190405,
+                  "2": 190407,
+                  "3": 190409
+                }
+              }
+            ],
+            "tooltip_damage_event_count": 12
+          },
+          "createdAt": "2026-10-02T09:58:16.072Z",
+          "updatedAt": "2026-10-02T09:58:16.072Z"
+        },
+        {
+          "id": 120,
+          "gameSkillId": 19050,
+          "name": "다크 리저렉션",
+          "className": "아르카나",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_4.png",
+          "controlType": "지점",
+          "skillSlot": "일반 스킬",
+          "cooldownMs": 27000,
+          "identityCategory": 28,
+          "maxPhase": 1,
+          "phaseTimeoutMs": 0,
+          "rangeMin": 0,
+          "rangeMax": 500,
+          "isIdentity": false,
+          "isUltimate": false,
+          "enhancedFrom": null,
+          "description": "지정한 위치에 카드를 던져 마법진을 소환해 {1}, {1}, {3}의 [암] 속성 피해를 주고 3초간 공포를 건다.",
+          "properties": {
+            "skill_group_ids": [
+              2190905
+            ]
+          },
+          "cost": {
+            "mp": 603,
+            "mp_by_level": [
+              116,
+              158,
+              191,
+              231,
+              295,
+              341,
+              420,
+              449,
+              539,
+              603,
+              603,
+              603,
+              603,
+              603,
+              603,
+              603,
+              603,
+              603,
+              603,
+              603
+            ]
+          },
+          "gain": {
+            "cardGaugePerUltimatePoint": 52
+          },
+          "damage": {
+            "hits": 3,
+            "type": "raw_effect",
+            "review_status": "raw_effect_and_route_attached",
+            "tooltip_effects": [
+              {
+                "hits": 1,
+                "name": "마법진 1타",
+                "phase": 0,
+                "hit_id": "magic_circle_hit_1",
+                "ap_coeff": 3.418,
+                "flat_max": 409,
+                "flat_min": 335,
+                "effect_id": 190502,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "fixed_delay_ms": 0,
+                "ultimate_point": 2,
+                "action_delay_ms": 1000,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  1.55,
+                  1.702,
+                  1.783,
+                  1.841,
+                  1.886,
+                  1.922,
+                  1.952,
+                  1.977,
+                  1.998,
+                  2.017,
+                  2.194,
+                  2.303,
+                  2.388,
+                  2.464,
+                  2.587,
+                  2.814,
+                  2.851,
+                  2.888,
+                  3.142,
+                  3.418
+                ],
+                "flat_max_by_level": [
+                  103,
+                  183,
+                  235,
+                  276,
+                  309,
+                  335,
+                  357,
+                  378,
+                  394,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409
+                ],
+                "flat_min_by_level": [
+                  84,
+                  150,
+                  192,
+                  226,
+                  253,
+                  274,
+                  292,
+                  309,
+                  322,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335
+                ],
+                "multi_hit_interval_ms": 0
+              },
+              {
+                "hits": 1,
+                "name": "마법진 2타",
+                "phase": 0,
+                "hit_id": "magic_circle_hit_2",
+                "ap_coeff": 3.418,
+                "flat_max": 409,
+                "flat_min": 335,
+                "effect_id": 190502,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "fixed_delay_ms": 1100,
+                "ultimate_point": 2,
+                "action_delay_ms": 1000,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  1.55,
+                  1.702,
+                  1.783,
+                  1.841,
+                  1.886,
+                  1.922,
+                  1.952,
+                  1.977,
+                  1.998,
+                  2.017,
+                  2.194,
+                  2.303,
+                  2.388,
+                  2.464,
+                  2.587,
+                  2.814,
+                  2.851,
+                  2.888,
+                  3.142,
+                  3.418
+                ],
+                "flat_max_by_level": [
+                  103,
+                  183,
+                  235,
+                  276,
+                  309,
+                  335,
+                  357,
+                  378,
+                  394,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409,
+                  409
+                ],
+                "flat_min_by_level": [
+                  84,
+                  150,
+                  192,
+                  226,
+                  253,
+                  274,
+                  292,
+                  309,
+                  322,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335,
+                  335
+                ],
+                "multi_hit_interval_ms": 0
+              },
+              {
+                "hits": 1,
+                "name": "마법진 마지막 타격",
+                "phase": 0,
+                "hit_id": "magic_circle_final_hit",
+                "ap_coeff": 27.312,
+                "flat_max": 3250,
+                "flat_min": 2659,
+                "effect_id": 190503,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "fixed_delay_ms": 1300,
+                "ultimate_point": 19,
+                "action_delay_ms": 1000,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  12.396,
+                  13.611,
+                  14.256,
+                  14.717,
+                  15.073,
+                  15.359,
+                  15.596,
+                  15.796,
+                  15.967,
+                  16.116,
+                  17.532,
+                  18.405,
+                  19.088,
+                  19.695,
+                  20.675,
+                  22.491,
+                  22.783,
+                  23.079,
+                  25.107,
+                  27.312
+                ],
+                "flat_max_by_level": [
+                  819,
+                  1461,
+                  1870,
+                  2198,
+                  2457,
+                  2662,
+                  2839,
+                  3003,
+                  3126,
+                  3250,
+                  3250,
+                  3250,
+                  3250,
+                  3250,
+                  3250,
+                  3250,
+                  3250,
+                  3250,
+                  3250,
+                  3250
+                ],
+                "flat_min_by_level": [
+                  670,
+                  1195,
+                  1530,
+                  1798,
+                  2010,
+                  2178,
+                  2323,
+                  2457,
+                  2558,
+                  2659,
+                  2659,
+                  2659,
+                  2659,
+                  2659,
+                  2659,
+                  2659,
+                  2659,
+                  2659,
+                  2659,
+                  2659
+                ],
+                "multi_hit_interval_ms": 0
+              }
+            ],
+            "damage_event_count": 3,
+            "tooltip_buff_durations": [
+              {
+                "buff_id": 190501,
+                "evidence": "EFTable_SkillBuff.db SkillBuff[190501,1].Duration=3000",
+                "duration_ms": 3000
+              }
+            ]
+          },
+          "createdAt": "2026-10-02T09:58:16.072Z",
+          "updatedAt": "2026-10-02T09:58:16.072Z"
+        },
+        {
+          "id": 121,
+          "gameSkillId": 19120,
+          "name": "언리미티드 셔플",
+          "className": "아르카나",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_8.png",
+          "controlType": "지점",
+          "skillSlot": "일반 스킬",
+          "cooldownMs": 24000,
+          "identityCategory": 28,
+          "maxPhase": 1,
+          "phaseTimeoutMs": 0,
+          "rangeMin": 0,
+          "rangeMax": 500,
+          "isIdentity": false,
+          "isUltimate": false,
+          "enhancedFrom": null,
+          "description": "지정한 위치에 여러 장의 카드가 날아다녀 {1}의 피해를 총 <FONT COLOR='#ffff99'>6</FONT>회 주고 적을 공중에 띄우며 {2} 피해를 주고 땅으로 내려찍으며 {3}의 피해를 준다.",
+          "properties": {
+            "skill_group_ids": [
+              2190905
+            ]
+          },
+          "cost": {
+            "mp": 569,
+            "mp_by_level": [
+              110,
+              149,
+              180,
+              218,
+              278,
+              322,
+              396,
+              424,
+              508,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569,
+              569
+            ]
+          },
+          "gain": {
+            "cardGaugePerUltimatePoint": 52
+          },
+          "damage": {
+            "hits": 8,
+            "type": "raw_effect",
+            "review_status": "raw_effect_and_route_attached",
+            "tooltip_effects": [
+              {
+                "hits": 6,
+                "name": "카드 난무 타격",
+                "phase": 0,
+                "hit_id": "card_barrage_hit",
+                "ap_coeff": 3.906,
+                "flat_max": 463,
+                "flat_min": 379,
+                "effect_id": 191200,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 3,
+                "action_delay_ms": 381,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  1.773,
+                  1.947,
+                  2.039,
+                  2.105,
+                  2.156,
+                  2.197,
+                  2.231,
+                  2.26,
+                  2.284,
+                  2.305,
+                  2.507,
+                  2.632,
+                  2.73,
+                  2.817,
+                  2.957,
+                  3.217,
+                  3.259,
+                  3.301,
+                  3.591,
+                  3.906
+                ],
+                "flat_max_by_level": [
+                  117,
+                  209,
+                  268,
+                  314,
+                  351,
+                  380,
+                  406,
+                  429,
+                  446,
+                  463,
+                  463,
+                  463,
+                  463,
+                  463,
+                  463,
+                  463,
+                  463,
+                  463,
+                  463,
+                  463
+                ],
+                "flat_min_by_level": [
+                  96,
+                  171,
+                  219,
+                  257,
+                  287,
+                  311,
+                  332,
+                  351,
+                  365,
+                  379,
+                  379,
+                  379,
+                  379,
+                  379,
+                  379,
+                  379,
+                  379,
+                  379,
+                  379,
+                  379
+                ],
+                "motion_effect_ids": [
+                  191200,
+                  191203
+                ],
+                "multi_hit_interval_ms": 0,
+                "excluded_action_layers": [
+                  3,
+                  4,
+                  5
+                ]
+              },
+              {
+                "hits": 1,
+                "name": "띄우기 타격",
+                "phase": 0,
+                "hit_id": "airborne_hit",
+                "ap_coeff": 1.672,
+                "flat_max": 197,
+                "flat_min": 161,
+                "effect_id": 191202,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 7,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 1,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  0.76,
+                  0.834,
+                  0.873,
+                  0.901,
+                  0.923,
+                  0.941,
+                  0.956,
+                  0.968,
+                  0.978,
+                  0.987,
+                  1.074,
+                  1.127,
+                  1.169,
+                  1.206,
+                  1.266,
+                  1.377,
+                  1.395,
+                  1.413,
+                  1.537,
+                  1.672
+                ],
+                "flat_max_by_level": [
+                  50,
+                  89,
+                  114,
+                  133,
+                  149,
+                  161,
+                  172,
+                  182,
+                  189,
+                  197,
+                  197,
+                  197,
+                  197,
+                  197,
+                  197,
+                  197,
+                  197,
+                  197,
+                  197,
+                  197
+                ],
+                "flat_min_by_level": [
+                  41,
+                  73,
+                  93,
+                  109,
+                  122,
+                  132,
+                  141,
+                  149,
+                  155,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161
+                ],
+                "motion_effect_ids": [
+                  191202,
+                  191205
+                ],
+                "multi_hit_interval_ms": 0
+              },
+              {
+                "hits": 1,
+                "name": "내려찍기 타격",
+                "phase": 0,
+                "hit_id": "slam_hit",
+                "ap_coeff": 8.371,
+                "flat_max": 995,
+                "flat_min": 814,
+                "effect_id": 191201,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 8,
+                  "area_type": 1,
+                  "area_range": 200,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 1,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 6,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  3.799,
+                  4.171,
+                  4.369,
+                  4.51,
+                  4.619,
+                  4.707,
+                  4.78,
+                  4.841,
+                  4.893,
+                  4.939,
+                  5.373,
+                  5.64,
+                  5.849,
+                  6.035,
+                  6.335,
+                  6.892,
+                  6.982,
+                  7.073,
+                  7.695,
+                  8.371
+                ],
+                "flat_max_by_level": [
+                  251,
+                  447,
+                  573,
+                  673,
+                  753,
+                  815,
+                  869,
+                  919,
+                  957,
+                  995,
+                  995,
+                  995,
+                  995,
+                  995,
+                  995,
+                  995,
+                  995,
+                  995,
+                  995,
+                  995
+                ],
+                "flat_min_by_level": [
+                  205,
+                  366,
+                  469,
+                  551,
+                  616,
+                  667,
+                  711,
+                  752,
+                  783,
+                  814,
+                  814,
+                  814,
+                  814,
+                  814,
+                  814,
+                  814,
+                  814,
+                  814,
+                  814,
+                  814
+                ],
+                "motion_effect_ids": [
+                  191201,
+                  191204
+                ],
+                "multi_hit_interval_ms": 0
+              }
+            ],
+            "damage_event_count": 8,
+            "conditional_effects": [
+              {
+                "hits": 1,
+                "name": "파멸의 셔플 휘몰이 총 피해",
+                "phase": 0,
+                "hit_id": "destructive_shuffle_whirl_hit",
+                "evidence": "corroborated",
+                "effect_id": 191213,
+                "name_evidence": "manual_label",
+                "ultimate_point": 1,
+                "action_delay_ms": 381,
+                "required_tripod": "파멸의 셔플",
+                "ap_coeff_by_level": [
+                  0.276,
+                  0.303,
+                  0.317,
+                  0.327,
+                  0.335,
+                  0.341,
+                  0.346,
+                  0.35,
+                  0.354,
+                  0.357,
+                  0.388,
+                  0.407,
+                  0.422,
+                  0.435,
+                  0.457,
+                  0.497,
+                  0.503,
+                  0.51,
+                  0.555,
+                  0.604
+                ],
+                "flat_max_by_level": [
+                  18,
+                  33,
+                  43,
+                  50,
+                  56,
+                  61,
+                  65,
+                  68,
+                  71,
+                  73,
+                  73,
+                  73,
+                  73,
+                  73,
+                  73,
+                  73,
+                  73,
+                  73,
+                  73,
+                  73
+                ],
+                "flat_min_by_level": [
+                  15,
+                  27,
+                  35,
+                  41,
+                  46,
+                  50,
+                  53,
+                  56,
+                  58,
+                  60,
+                  60,
+                  60,
+                  60,
+                  60,
+                  60,
+                  60,
+                  60,
+                  60,
+                  60,
+                  60
+                ],
+                "required_action_layers": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "skip_motion_assignment": true,
+                "damage_source_multiplier": 11
+              },
+              {
+                "hits": 1,
+                "name": "파멸의 셔플 폭풍 총 피해",
+                "phase": 0,
+                "hit_id": "destructive_shuffle_storm_hit",
+                "evidence": "corroborated",
+                "effect_id": 191281,
+                "name_evidence": "manual_label",
+                "ultimate_point": 1,
+                "action_delay_ms": 381,
+                "required_tripod": "파멸의 셔플",
+                "ap_coeff_by_level": [
+                  0.507,
+                  0.557,
+                  0.583,
+                  0.602,
+                  0.617,
+                  0.629,
+                  0.639,
+                  0.647,
+                  0.654,
+                  0.66,
+                  0.718,
+                  0.754,
+                  0.782,
+                  0.807,
+                  0.847,
+                  0.921,
+                  0.933,
+                  0.945,
+                  1.028,
+                  1.118
+                ],
+                "flat_max_by_level": [
+                  33,
+                  59,
+                  75,
+                  88,
+                  98,
+                  106,
+                  114,
+                  120,
+                  125,
+                  130,
+                  130,
+                  130,
+                  130,
+                  130,
+                  130,
+                  130,
+                  130,
+                  130,
+                  130,
+                  130
+                ],
+                "flat_min_by_level": [
+                  27,
+                  48,
+                  61,
+                  72,
+                  80,
+                  87,
+                  93,
+                  98,
+                  102,
+                  106,
+                  106,
+                  106,
+                  106,
+                  106,
+                  106,
+                  106,
+                  106,
+                  106,
+                  106,
+                  106
+                ],
+                "required_action_layers": [
+                  4
+                ],
+                "skip_motion_assignment": true,
+                "damage_source_multiplier": 6
+              },
+              {
+                "hits": 1,
+                "name": "얼티밋 파멸의 셔플 폭풍 총 피해",
+                "phase": 0,
+                "hit_id": "ultimate_destructive_shuffle_storm_hit",
+                "evidence": "corroborated",
+                "effect_id": 191282,
+                "name_evidence": "manual_label",
+                "ultimate_point": 1,
+                "action_delay_ms": 381,
+                "required_tripod": "파멸의 셔플",
+                "ap_coeff_by_level": [
+                  0.38,
+                  0.417,
+                  0.437,
+                  0.451,
+                  0.462,
+                  0.471,
+                  0.478,
+                  0.484,
+                  0.489,
+                  0.494,
+                  0.537,
+                  0.564,
+                  0.585,
+                  0.604,
+                  0.634,
+                  0.69,
+                  0.699,
+                  0.708,
+                  0.77,
+                  0.838
+                ],
+                "flat_max_by_level": [
+                  26,
+                  45,
+                  57,
+                  67,
+                  75,
+                  81,
+                  86,
+                  90,
+                  94,
+                  98,
+                  98,
+                  98,
+                  98,
+                  98,
+                  98,
+                  98,
+                  98,
+                  98,
+                  98,
+                  98
+                ],
+                "flat_min_by_level": [
+                  21,
+                  37,
+                  47,
+                  55,
+                  61,
+                  66,
+                  70,
+                  74,
+                  77,
+                  80,
+                  80,
+                  80,
+                  80,
+                  80,
+                  80,
+                  80,
+                  80,
+                  80,
+                  80,
+                  80
+                ],
+                "required_action_layers": [
+                  5
+                ],
+                "skip_motion_assignment": true,
+                "damage_source_multiplier": 8
+              },
+              {
+                "hits": 1,
+                "name": "예견된 죽음 마법진 총 피해",
+                "phase": 0,
+                "hit_id": "foretold_death_magic_circle_hit",
+                "evidence": "corroborated",
+                "effect_id": 191206,
+                "name_evidence": "manual_label",
+                "ultimate_point": 1,
+                "multi_hit_count": 3,
+                "required_tripod": "예견된 죽음",
+                "ap_coeff_by_level": [
+                  0.608,
+                  0.668,
+                  0.7,
+                  0.723,
+                  0.74,
+                  0.754,
+                  0.766,
+                  0.776,
+                  0.784,
+                  0.791,
+                  0.86,
+                  0.903,
+                  0.937,
+                  0.967,
+                  1.015,
+                  1.104,
+                  1.118,
+                  1.133,
+                  1.233,
+                  1.341
+                ],
+                "flat_max_by_level": [
+                  40,
+                  72,
+                  93,
+                  109,
+                  122,
+                  132,
+                  141,
+                  149,
+                  155,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161,
+                  161
+                ],
+                "flat_min_by_level": [
+                  33,
+                  59,
+                  76,
+                  89,
+                  100,
+                  108,
+                  115,
+                  122,
+                  127,
+                  132,
+                  132,
+                  132,
+                  132,
+                  132,
+                  132,
+                  132,
+                  132,
+                  132,
+                  132,
+                  132
+                ],
+                "damage_distribution": "split_total",
+                "multi_hit_interval_ms": 200,
+                "damage_source_multiplier": 10
+              },
+              {
+                "hits": 9,
+                "name": "얼티밋 셔플 카드 난무 타격",
+                "phase": 0,
+                "hit_id": "ultimate_shuffle_card_barrage_hit",
+                "evidence": "corroborated",
+                "effect_id": 191200,
+                "name_evidence": "manual_label",
+                "ultimate_point": 3,
+                "damage_from_effect_id": 191200,
+                "required_action_layers": [
+                  3
+                ]
+              },
+              {
+                "hits": 1,
+                "name": "파멸의 폭풍 카드 타격",
+                "phase": 0,
+                "hit_id": "destruction_storm_card_hit",
+                "evidence": "direct",
+                "effect_id": 191280,
+                "name_evidence": "manual_label",
+                "ultimate_point": 5,
+                "ap_coeff_by_level": [
+                  3.546,
+                  3.894,
+                  4.078,
+                  4.21,
+                  4.312,
+                  4.394,
+                  4.462,
+                  4.519,
+                  4.568,
+                  4.611,
+                  5.016,
+                  5.266,
+                  5.461,
+                  5.635,
+                  5.915,
+                  6.435,
+                  6.519,
+                  6.604,
+                  7.184,
+                  7.815
+                ],
+                "flat_max_by_level": [
+                  235,
+                  418,
+                  535,
+                  629,
+                  704,
+                  763,
+                  814,
+                  860,
+                  896,
+                  931,
+                  931,
+                  931,
+                  931,
+                  931,
+                  931,
+                  931,
+                  931,
+                  931,
+                  931,
+                  931
+                ],
+                "flat_min_by_level": [
+                  192,
+                  342,
+                  438,
+                  515,
+                  576,
+                  624,
+                  666,
+                  704,
+                  733,
+                  762,
+                  762,
+                  762,
+                  762,
+                  762,
+                  762,
+                  762,
+                  762,
+                  762,
+                  762,
+                  762
+                ],
+                "damage_from_effect_id": 191200,
+                "required_action_layers": [
+                  4
+                ]
+              },
+              {
+                "hits": 1,
+                "name": "얼티밋 파멸의 폭풍 카드 타격",
+                "phase": 0,
+                "hit_id": "ultimate_destruction_storm_card_hit",
+                "evidence": "direct",
+                "effect_id": 191283,
+                "name_evidence": "manual_label",
+                "ultimate_point": 4,
+                "ap_coeff_by_level": [
+                  2.659,
+                  2.92,
+                  3.058,
+                  3.157,
+                  3.233,
+                  3.294,
+                  3.345,
+                  3.388,
+                  3.425,
+                  3.457,
+                  3.761,
+                  3.948,
+                  4.094,
+                  4.224,
+                  4.434,
+                  4.824,
+                  4.887,
+                  4.951,
+                  5.386,
+                  5.859
+                ],
+                "flat_max_by_level": [
+                  176,
+                  314,
+                  402,
+                  473,
+                  529,
+                  573,
+                  611,
+                  647,
+                  673,
+                  700,
+                  700,
+                  700,
+                  700,
+                  700,
+                  700,
+                  700,
+                  700,
+                  700,
+                  700,
+                  700
+                ],
+                "flat_min_by_level": [
+                  144,
+                  257,
+                  329,
+                  387,
+                  433,
+                  469,
+                  500,
+                  529,
+                  551,
+                  573,
+                  573,
+                  573,
+                  573,
+                  573,
+                  573,
+                  573,
+                  573,
+                  573,
+                  573,
+                  573
+                ],
+                "damage_from_effect_id": 191200,
+                "required_action_layers": [
+                  5
+                ]
+              }
+            ]
+          },
+          "createdAt": "2026-10-02T09:58:16.072Z",
+          "updatedAt": "2026-10-02T09:58:16.072Z"
+        },
+        {
+          "id": 137,
+          "gameSkillId": 19340,
+          "name": "더 썬",
+          "className": "아르카나",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ac_skill/ac_skill_01_46.png",
+          "controlType": "지점",
+          "skillSlot": "초각성 스킬",
+          "cooldownMs": 80000,
+          "identityCategory": 28,
+          "maxPhase": 1,
+          "phaseTimeoutMs": 0,
+          "rangeMin": 0,
+          "rangeMax": 500,
+          "isIdentity": false,
+          "isUltimate": false,
+          "enhancedFrom": null,
+          "description": "<FONT COLOR='#ffff99'>10m</FONT> 이내 지정된 위치에 태양의 힘을 담은 카드를 소환한다. 전방에 카드를 날려 소환된 카드를 태양으로 변화시키고, 태양은 주변의 적들을 당기며 {1}의 피해를 <FONT COLOR='#ffff99'>4</FONT>회 주고 폭발하여 {2}의 피해를 주고 적들을 띄운다.",
+          "properties": {
+            "stagger": "상",
+            "part_break": 1,
+            "super_armor": "경직면역",
+            "skill_group_ids": [
+              2190905
+            ]
+          },
+          "cost": {
+            "mp": 915
+          },
+          "gain": {
+            "cardGaugePerUltimatePoint": 52
+          },
+          "damage": {
+            "hits": 5,
+            "type": "raw_effect",
+            "review_status": "raw_effect_and_projectile_attached",
+            "tooltip_effects": [
+              {
+                "hits": 4,
+                "name": "태양 집중 타격",
+                "phase": 0,
+                "hit_id": "sun_pull_hit",
+                "ap_coeff": 35.678,
+                "flat_max": 5880,
+                "flat_min": 4811,
+                "effect_id": 193401,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 4,
+                  "area_type": 1,
+                  "area_range": 250,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 0,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 15,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  22.457,
+                  24.658,
+                  25.826,
+                  26.661,
+                  27.306,
+                  27.825,
+                  28.254,
+                  28.616,
+                  28.926,
+                  29.195,
+                  31.76,
+                  33.341,
+                  34.578,
+                  35.678,
+                  37.453,
+                  40.743,
+                  41.272,
+                  41.808,
+                  45.482,
+                  49.477
+                ],
+                "flat_max_by_level": [
+                  1483,
+                  2644,
+                  3384,
+                  3977,
+                  4446,
+                  4817,
+                  5138,
+                  5435,
+                  5658,
+                  5880,
+                  5880,
+                  5880,
+                  5880,
+                  5880,
+                  5880,
+                  5880,
+                  5880,
+                  5880,
+                  5880,
+                  5880
+                ],
+                "flat_min_by_level": [
+                  1213,
+                  2163,
+                  2769,
+                  3254,
+                  3638,
+                  3941,
+                  4204,
+                  4447,
+                  4629,
+                  4811,
+                  4811,
+                  4811,
+                  4811,
+                  4811,
+                  4811,
+                  4811,
+                  4811,
+                  4811,
+                  4811,
+                  4811
+                ],
+                "multi_hit_interval_ms": 0
+              },
+              {
+                "hits": 1,
+                "name": "태양 폭발 타격",
+                "phase": 0,
+                "hit_id": "sun_explosion_hit",
+                "ap_coeff": 95.137,
+                "flat_max": 15680,
+                "flat_min": 12829,
+                "effect_id": 193402,
+                "effect_meta": {
+                  "key": 2,
+                  "hit_type": 7,
+                  "area_type": 1,
+                  "area_range": 300,
+                  "back_attack": 0,
+                  "identity_key": 13,
+                  "identity2_key": 0,
+                  "counter_attack": 0,
+                  "parts_attack_level": 1,
+                  "directional_attack_mask": 0
+                },
+                "name_evidence": "manual_label",
+                "ultimate_point": 41,
+                "multi_hit_count": 1,
+                "ap_coeff_by_level": [
+                  59.886,
+                  65.755,
+                  68.869,
+                  71.097,
+                  72.816,
+                  74.199,
+                  75.343,
+                  76.307,
+                  77.133,
+                  77.852,
+                  84.691,
+                  88.907,
+                  92.205,
+                  95.137,
+                  99.871,
+                  108.645,
+                  110.056,
+                  111.486,
+                  121.284,
+                  131.938
+                ],
+                "flat_max_by_level": [
+                  3953,
+                  7049,
+                  9025,
+                  10606,
+                  11858,
+                  12847,
+                  13704,
+                  14494,
+                  15087,
+                  15680,
+                  15680,
+                  15680,
+                  15680,
+                  15680,
+                  15680,
+                  15680,
+                  15680,
+                  15680,
+                  15680,
+                  15680
+                ],
+                "flat_min_by_level": [
+                  3234,
+                  5767,
+                  7384,
+                  8678,
+                  9702,
+                  10511,
+                  11212,
+                  11859,
+                  12344,
+                  12829,
+                  12829,
+                  12829,
+                  12829,
+                  12829,
+                  12829,
+                  12829,
+                  12829,
+                  12829,
+                  12829,
+                  12829
+                ],
+                "multi_hit_interval_ms": 0
+              }
+            ],
+            "damage_event_count": 5
+          },
+          "createdAt": "2026-10-02T09:58:16.072Z",
+          "updatedAt": "2026-10-02T09:58:16.072Z"
+        }
+      ],
+      "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+      "checkedAt": "2026-10-13T08:22:27.315Z",
+      "sha256": "824a19e8d3c7142963cfc2b99b16f44305d395a86e3a231d9620619bfae9c565"
+    },
+    "tripods": {
+      "data": [
+        {
+          "id": 689,
+          "gameSkillId": 19040,
+          "tier": 0,
+          "slot": 1,
+          "name": "꿰뚫는 일격",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_58.png",
+          "description": "카드를 날릴 때 마다 적에게 주는 피해가 <FONT COLOR='#99ff99'>10%</FONT>씩 최대 <FONT COLOR='#99ff99'>160%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "stacking_damage_increase",
+              "buffId": 190414,
+              "evidence": "direct",
+              "maxStacks": 16,
+              "durationMs": 2500,
+              "maxPercent": 160,
+              "percentPerStack": 10,
+              "triggerEffectIds": [
+                190401,
+                190411,
+                190413,
+                190415
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 690,
+          "gameSkillId": 19040,
+          "tier": 0,
+          "slot": 2,
+          "name": "급소 타격",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+          "description": "치명타 적중률이 <FONT COLOR='#99ff99'>40%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "critical_rate_increase",
+              "percent": 40,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 691,
+          "gameSkillId": 19040,
+          "tier": 0,
+          "slot": 3,
+          "name": "카드 증가",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_67.png",
+          "description": "체크메이트로 쌓을 수 있는 최대 스택트 중첩수가 <FONT COLOR='#ffff99'>3</FONT>에서 <FONT COLOR='#99ff99'>4</FONT>로 증가한다.",
+          "effects": [
+            {
+              "to": 4,
+              "from": 3,
+              "kind": "max_stack_count_change",
+              "evidence": "direct",
+              "targetEffectIds": [
+                190415,
+                190426,
+                190427,
+                190428
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 692,
+          "gameSkillId": 19040,
+          "tier": 1,
+          "slot": 4,
+          "name": "썬더 메이트",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_17.png",
+          "description": "[뇌] 속성으로 변경된 카드를 더 빠르게 날려보낸다. 공격 횟수가 <FONT COLOR='#ffff99'>4</FONT>회 증가하여, 총 피해가 <FONT COLOR='#99ff99'>33.0%</FONT> 증가하고, 짧은 시간 내 <FONT COLOR='#ffff99'>6</FONT>회 적중 시 대상을 <FONT COLOR='#ffff99'>4</FONT>초간 감전 상태로 만든다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "evidence": "direct",
+              "actionLayer": 1
+            },
+            {
+              "kind": "element_change",
+              "element": "lightning",
+              "evidence": "direct"
+            },
+            {
+              "kind": "attack_count_change",
+              "delta": 4,
+              "evidence": "tooltip_literal",
+              "simulationPolicy": "total_damage_only_until_hit_timing_confirmed",
+              "totalDamageIncreasePercent": 33
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 693,
+          "gameSkillId": 19040,
+          "tier": 1,
+          "slot": 5,
+          "name": "집중된 어둠",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+          "description": "[암] 속성으로 변경되고, 치명타 피해를 줄 때마다 체크메이트의 피해가 <FONT COLOR='#99ff99'>16%</FONT>씩 최대 <FONT COLOR='#99ff99'>160%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "evidence": "direct",
+              "actionLayer": 2
+            },
+            {
+              "kind": "element_change",
+              "element": "dark",
+              "evidence": "direct"
+            },
+            {
+              "kind": "critical_hit_stacking_damage_increase",
+              "buffId": 190410,
+              "evidence": "direct",
+              "maxStacks": 10,
+              "durationMs": 6000,
+              "maxPercent": 160,
+              "percentPerStack": 16
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 694,
+          "gameSkillId": 19040,
+          "tier": 1,
+          "slot": 6,
+          "name": "약점 포착",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+          "description": "무력화 단계가 [중]으로 상승하고, 피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>80%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "evidence": "direct",
+              "actionLayer": 3
+            },
+            {
+              "kind": "conditional_damage_increase",
+              "formula": "50 + 50 * 60 / 100",
+              "percent": 80,
+              "evidence": "calculated",
+              "condition": "target_has_push_immunity",
+              "combatEffectId": 190402
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 695,
+          "gameSkillId": 19040,
+          "tier": 2,
+          "slot": 7,
+          "name": "카드의 파도",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+          "description": "카드를 직선방향이 아닌 <FONT COLOR='#ffff99'>4</FONT>방향의 부채꼴 형태로 날려보낸다.",
+          "effects": [
+            {
+              "kind": "action_effect_slots",
+              "slots": [
+                "07",
+                "17"
+              ],
+              "evidence": "direct"
+            },
+            {
+              "kind": "projectile_pattern_change",
+              "pattern": "four_direction_fan",
+              "evidence": "tooltip_literal",
+              "directions": 4
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 696,
+          "gameSkillId": 19040,
+          "tier": 2,
+          "slot": 8,
+          "name": "데드라인",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+          "description": "홀딩을 <FONT COLOR='#ffff99'>0.5</FONT>초 이상 유지할 경우 홀딩 종료 시 관통하는 카드를 날려 적에게 기본 피해량의 <FONT COLOR='#99ff99'>80%</FONT> 피해를 주고 넘어뜨린다.",
+          "effects": [
+            {
+              "kind": "action_input_slot",
+              "slot": "08",
+              "evidence": "direct"
+            },
+            {
+              "kind": "holding_release_projectile",
+              "evidence": "corroborated",
+              "minimumHoldMs": 500,
+              "projectileIds": [
+                190404,
+                190406,
+                190408
+              ],
+              "targetEffectIds": [
+                190405,
+                190407,
+                190409
+              ],
+              "damagePercentOfBase": 80,
+              "effectDamageIncreasePercent": 60
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "체크메이트",
+          "className": "아르카나"
+        },
+        {
+          "id": 697,
+          "gameSkillId": 19050,
+          "tier": 0,
+          "slot": 1,
+          "name": "날렵한 움직임",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png",
+          "description": "공격속도가 <FONT COLOR='#99ff99'>18%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "attack_speed_increase",
+              "percent": 18,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 698,
+          "gameSkillId": 19050,
+          "tier": 0,
+          "slot": 2,
+          "name": "꿰뚫는 일격",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_3.png",
+          "description": "적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>60%</FONT> 무시한다.",
+          "effects": [
+            {
+              "kind": "defense_ignore",
+              "formula": "6000 / 100",
+              "percent": 60,
+              "evidence": "calculated"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 699,
+          "gameSkillId": 19050,
+          "tier": 0,
+          "slot": 3,
+          "name": "정신 강화",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+          "description": "마나 소모량이 <FONT COLOR='#99ff99'>67%</FONT> 감소한다.",
+          "effects": [
+            {
+              "kind": "mp_cost_change",
+              "percent": -67,
+              "evidence": "direct",
+              "displayedReductionPercent": 67
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 700,
+          "gameSkillId": 19050,
+          "tier": 1,
+          "slot": 4,
+          "name": "퀵 드로",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_66.png",
+          "description": "마지막 공격에 적중 시 <FONT COLOR='#99ff99'>40%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.",
+          "effects": [
+            {
+              "kind": "gain_identity_card_on_hit",
+              "evidence": "direct",
+              "cardCount": 1,
+              "chancePercent": 40,
+              "bonusEffectIds": [
+                190519
+              ],
+              "targetEffectIds": [
+                190503,
+                190513
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 701,
+          "gameSkillId": 19050,
+          "tier": 1,
+          "slot": 5,
+          "name": "치명적 카드",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+          "description": "치명타 적중률이 <FONT COLOR='#99ff99'>60%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "action_effect_slot",
+              "slot": "05",
+              "evidence": "direct"
+            },
+            {
+              "kind": "critical_rate_increase",
+              "percent": 60,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 702,
+          "gameSkillId": 19050,
+          "tier": 1,
+          "slot": 6,
+          "name": "강렬한 카드",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+          "description": "적에게 주는 피해가 <FONT COLOR='#99ff99'>50%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "action_effect_slot",
+              "slot": "06",
+              "evidence": "direct"
+            },
+            {
+              "kind": "damage_increase",
+              "percent": 50,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 703,
+          "gameSkillId": 19050,
+          "tier": 2,
+          "slot": 7,
+          "name": "죽음의 공포",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_45.png",
+          "description": "더 이상 점프하지 않고 빠른 속도로 공격해, 마지막 공격에 적중 시 <FONT COLOR='#ffff99'>3</FONT>초 동안 매 초마다 <FONT COLOR='#00ccff'>{tripod:3}</FONT>의 중독 피해를 준다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "animName": "SK_DarkResurrection_Custom_1",
+              "evidence": "direct",
+              "actionLayer": 1
+            },
+            {
+              "kind": "apply_buff_on_hit",
+              "buffId": 190509,
+              "evidence": "direct",
+              "triggerEffectIds": [
+                190503
+              ]
+            },
+            {
+              "kind": "damage_over_time_on_hit",
+              "name": "죽음의 공포 피해",
+              "hitId": "fear_of_death_tick",
+              "buffId": 190509,
+              "evidence": "direct",
+              "tickCount": 3,
+              "durationMs": 3000,
+              "intervalMs": 1000,
+              "nameEvidence": "manual_label",
+              "apCoeffByLevel": [
+                2.585,
+                2.838,
+                2.972,
+                3.068,
+                3.142,
+                3.202,
+                3.251,
+                3.293,
+                3.329,
+                3.36,
+                3.655,
+                3.837,
+                3.979,
+                4.106,
+                4.31,
+                4.689,
+                4.75,
+                4.812,
+                5.235,
+                5.695
+              ],
+              "flatMaxByLevel": [
+                171,
+                306,
+                391,
+                460,
+                513,
+                556,
+                593,
+                627,
+                653,
+                678,
+                678,
+                678,
+                678,
+                678,
+                678,
+                678,
+                678,
+                678,
+                678,
+                678
+              ],
+              "flatMinByLevel": [
+                140,
+                250,
+                320,
+                376,
+                420,
+                455,
+                485,
+                513,
+                534,
+                555,
+                555,
+                555,
+                555,
+                555,
+                555,
+                555,
+                555,
+                555,
+                555,
+                555
+              ],
+              "firstIntervalMs": 500,
+              "targetEffectIds": [
+                190503
+              ],
+              "damageIncreasePercent": 66
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 704,
+          "gameSkillId": 19050,
+          "tier": 2,
+          "slot": 8,
+          "name": "분노의 일격",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_53.png",
+          "description": "더 이상 공포를 걸지 않지만, 치명타 피해가 <FONT COLOR='#99ff99'>80%</FONT> 증가하고, 마지막 공격이 지면을 강타해 적중된 적을 가운데로 모아 넘어뜨리며, <FONT COLOR='#99ff99'>70%</FONT> 증가된 피해를 준다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "animName": "SK_DarkResurrection",
+              "evidence": "direct",
+              "actionLayer": 2
+            },
+            {
+              "kind": "critical_damage_increase",
+              "percent": 80,
+              "evidence": "direct"
+            },
+            {
+              "kind": "damage_increase",
+              "percent": 70,
+              "evidence": "direct",
+              "targetEffectIds": [
+                190513
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "다크 리저렉션",
+          "className": "아르카나"
+        },
+        {
+          "id": 705,
+          "gameSkillId": 19120,
+          "tier": 0,
+          "slot": 1,
+          "name": "파멸의 셔플",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_8.png",
+          "description": "언리미티드 셔플 사용 중 아르카나 주변으로 카드가 휘몰아쳐 기본 피해량의 <FONT COLOR='#99ff99'>45%</FONT>에 해당하는 피해를 준다.",
+          "effects": [
+            {
+              "kind": "action_effect_slot",
+              "slot": "01",
+              "evidence": "direct"
+            },
+            {
+              "kind": "damage_increase",
+              "formula": "20 + 20 * 125 / 100",
+              "percent": 125,
+              "evidence": "calculated",
+              "targetEffectIds": [
+                191213,
+                191281,
+                191282
+              ],
+              "damagePercentOfBase": 45
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        },
+        {
+          "id": 706,
+          "gameSkillId": 19120,
+          "tier": 0,
+          "slot": 2,
+          "name": "빠른 준비",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+          "description": "재사용 대기시간이 <FONT COLOR='#99ff99'>5</FONT>초 감소한다.",
+          "effects": [
+            {
+              "kind": "cooldown_change",
+              "deltaMs": -5000,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        },
+        {
+          "id": 707,
+          "gameSkillId": 19120,
+          "tier": 0,
+          "slot": 3,
+          "name": "퀵 드로",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_66.png",
+          "description": "마지막 공격 적중 시 <FONT COLOR='#99ff99'>30%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장 획득한다.",
+          "effects": [
+            {
+              "kind": "gain_identity_card_on_hit",
+              "evidence": "direct",
+              "cardCount": 1,
+              "chancePercent": 30,
+              "bonusEffectIds": [
+                191222
+              ],
+              "targetEffectIds": [
+                191201,
+                191204
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        },
+        {
+          "id": 708,
+          "gameSkillId": 19120,
+          "tier": 1,
+          "slot": 4,
+          "name": "무한의 뇌격",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_17.png",
+          "description": "[뇌] 속성으로 변경되고, 더 이상 피격이상을 시키지 않지만, 마지막 공격에 적중된 적을 <FONT COLOR='#ffff99'>5</FONT>초간 감전상태로 만든다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "evidence": "direct",
+              "actionLayer": 1
+            },
+            {
+              "kind": "action_effect_slot",
+              "slot": "04",
+              "evidence": "direct"
+            },
+            {
+              "kind": "element_change",
+              "element": "lightning",
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        },
+        {
+          "id": 709,
+          "gameSkillId": 19120,
+          "tier": 1,
+          "slot": 5,
+          "name": "어둠의 핵",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+          "description": "[암] 속성으로 변경된다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>35%</FONT> 증가하고, 치명타 피해량이  <FONT COLOR='#99ff99'>42%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "evidence": "direct",
+              "actionLayer": 2
+            },
+            {
+              "kind": "action_effect_slot",
+              "slot": "05",
+              "evidence": "direct"
+            },
+            {
+              "kind": "element_change",
+              "element": "dark",
+              "evidence": "direct"
+            },
+            {
+              "kind": "damage_increase",
+              "percent": 35,
+              "evidence": "direct"
+            },
+            {
+              "kind": "critical_damage_increase",
+              "percent": 42,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        },
+        {
+          "id": 710,
+          "gameSkillId": 19120,
+          "tier": 1,
+          "slot": 6,
+          "name": "얼티밋 셔플",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_40.png",
+          "description": "언리미티드 셔플의 지속시간이 <FONT COLOR='#ffff99'>0.6</FONT>초 더 증가하고, 카드가 더욱 더 빠르게 날아다녀 판정횟수가 <FONT COLOR='#99ff99'>3</FONT>회 증가하여 최대 <FONT COLOR='#99ff99'>65.45%</FONT> 증가된 피해를 준다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "evidence": "direct",
+              "actionLayer": 3
+            },
+            {
+              "kind": "duration_change",
+              "deltaMs": 600,
+              "evidence": "tooltip_literal"
+            },
+            {
+              "kind": "attack_count_change",
+              "delta": 3,
+              "evidence": "tooltip_literal",
+              "displayedTotalDamageFormula": "(9 * 1.29 + 0.428571 + 2.142857) / (6 + 0.428571 + 2.142857) - 1",
+              "displayedTotalDamageIncreasePercent": 65.45
+            },
+            {
+              "kind": "damage_increase",
+              "percent": 29,
+              "evidence": "direct",
+              "targetEffectIds": [
+                191200,
+                191283
+              ]
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        },
+        {
+          "id": 711,
+          "gameSkillId": 19120,
+          "tier": 2,
+          "slot": 7,
+          "name": "예견된 죽음",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+          "description": "판정 범위가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하고, 원형 마법진이 추가로 생성돼, 원형 마법진 위에 있는 적에게 주는 피해가 <FONT COLOR='#99ff99'>70%</FONT> 증가한다.",
+          "effects": [
+            {
+              "kind": "action_effect_slot",
+              "slot": "07",
+              "evidence": "direct"
+            },
+            {
+              "kind": "damage_increase",
+              "formula": "40 + 40 * 75 / 100",
+              "percent": 75,
+              "evidence": "calculated",
+              "targetEffectIds": [
+                191206,
+                191210,
+                191211
+              ],
+              "damagePercentOfBase": 70
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        },
+        {
+          "id": 712,
+          "gameSkillId": 19120,
+          "tier": 2,
+          "slot": 8,
+          "name": "파멸의 폭풍",
+          "icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_41.png",
+          "description": "더욱 간결한 동작으로 지정한 위치에 <FONT COLOR='#99ff99'>3</FONT>회의 피해를 주고 적을 공중에 띄워 <FONT COLOR='#99ff99'>105%</FONT> 증가된 피해를 준다.",
+          "effects": [
+            {
+              "kind": "action_layer_change",
+              "evidence": "direct",
+              "defaultActionLayer": 4,
+              "actionLayerByTripodSlot": {
+                "6": 5
+              }
+            },
+            {
+              "kind": "attack_count_change",
+              "count": 3,
+              "evidence": "tooltip_literal"
+            },
+            {
+              "kind": "damage_increase",
+              "percent": 105,
+              "evidence": "direct"
+            }
+          ],
+          "createdAt": "2026-10-02T09:58:16.333Z",
+          "updatedAt": "2026-10-02T09:58:16.333Z",
+          "skillName": "언리미티드 셔플",
+          "className": "아르카나"
+        }
+      ],
+      "url": "https://lostarksim.com/api/game-data/tripods/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+      "checkedAt": "2026-10-13T08:22:27.802Z",
+      "sha256": "383f96a7552e34f2e2a60f2b77f7786b6bbc2d4808dbcd038d35f39fb7c7a07a"
+    },
+    "motions": {
+      "data": [
+        {
+          "id": 445,
+          "gameSkillId": 19040,
+          "stageId": 0,
+          "durationMs": 5834,
+          "animName": "SK_Checkmate_Start+Loop+End",
+          "hits": [
+            {
+              "slots": [
+                "00",
+                "01"
+              ],
+              "time_ms": 177,
+              "slot_effects": {
+                "00": 190429,
+                "01": 190429
+              },
+              "slot_effect_entries": {
+                "00": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "01",
+                "00"
+              ],
+              "time_ms": 567,
+              "slot_effects": {
+                "00": 190401,
+                "01": 190401
+              },
+              "slot_effect_entries": {
+                "01": [
+                  {
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "01"
+              ],
+              "time_ms": 1367,
+              "slot_effects": {
+                "00": 190411,
+                "01": 190411
+              },
+              "slot_effect_entries": {
+                "01": [
+                  {
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "01"
+              ],
+              "time_ms": 2567,
+              "slot_effects": {
+                "00": 190413,
+                "01": 190413
+              },
+              "slot_effect_entries": {
+                "01": [
+                  {
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "01"
+              ],
+              "time_ms": 3767,
+              "slot_effects": {
+                "00": 190415,
+                "01": 190415
+              },
+              "slot_effect_entries": {
+                "01": [
+                  {
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ]
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 446,
+          "gameSkillId": 19040,
+          "stageId": 1,
+          "durationMs": 5834,
+          "animName": "SK_Checkmate_Start+Loop+End",
+          "hits": [
+            {
+              "slots": [
+                "00",
+                "07",
+                "17",
+                "01"
+              ],
+              "time_ms": 177,
+              "slot_effects": {
+                "17": 190429,
+                "00": 190429,
+                "01": 190429,
+                "07": 190429
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190430,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190431,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190432,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "00": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190430,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190431,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190432,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "07",
+                "00",
+                "17",
+                "01"
+              ],
+              "time_ms": 567,
+              "slot_effects": {
+                "17": 190401,
+                "00": 190401,
+                "01": 190401,
+                "07": 190401
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190417,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190418,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190419,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190417,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190418,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190419,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07",
+                "17",
+                "01"
+              ],
+              "time_ms": 1467,
+              "slot_effects": {
+                "17": 190411,
+                "00": 190411,
+                "01": 190411,
+                "07": 190411
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190420,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190421,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190422,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190420,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190421,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190422,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07",
+                "17",
+                "01"
+              ],
+              "time_ms": 2667,
+              "slot_effects": {
+                "17": 190413,
+                "00": 190413,
+                "01": 190413,
+                "07": 190413
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190423,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190424,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190425,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190423,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190424,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190425,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07",
+                "17",
+                "01"
+              ],
+              "time_ms": 3867,
+              "slot_effects": {
+                "17": 190415,
+                "00": 190415,
+                "01": 190415,
+                "07": 190415
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190426,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190427,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190428,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190426,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190427,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190428,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 448,
+          "gameSkillId": 19040,
+          "stageId": 2,
+          "durationMs": 5834,
+          "animName": "SK_Checkmate_Start+Loop+End",
+          "hits": [
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 177,
+              "slot_effects": {
+                "17": 190429,
+                "00": 190429,
+                "01": 190429,
+                "07": 190429
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190430,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190431,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190432,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "00": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190430,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190431,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190432,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 567,
+              "slot_effects": {
+                "17": 190401,
+                "00": 190401,
+                "01": 190401,
+                "07": 190401
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190417,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190418,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190419,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190417,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190418,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190419,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "01",
+                "17",
+                "07"
+              ],
+              "time_ms": 1367,
+              "slot_effects": {
+                "17": 190411,
+                "00": 190411,
+                "01": 190411,
+                "07": 190411
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190420,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190421,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190422,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190420,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190421,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190422,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 2567,
+              "slot_effects": {
+                "17": 190413,
+                "00": 190413,
+                "01": 190413,
+                "07": 190413
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190423,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190424,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190425,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190423,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190424,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190425,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 3767,
+              "slot_effects": {
+                "17": 190415,
+                "00": 190415,
+                "01": 190415,
+                "07": 190415
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190426,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190427,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190428,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190426,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190427,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190428,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 450,
+          "gameSkillId": 19040,
+          "stageId": 3,
+          "durationMs": 5834,
+          "animName": "SK_Checkmate_Start+Loop+End",
+          "hits": [
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 177,
+              "slot_effects": {
+                "17": 190429,
+                "00": 190429,
+                "01": 190429,
+                "07": 190429
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190430,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190431,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190432,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "00": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190429,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190430,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190431,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190432,
+                    "raw_entry_mode": [
+                      4,
+                      2
+                    ],
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 567,
+              "slot_effects": {
+                "17": 190401,
+                "00": 190401,
+                "01": 190401,
+                "07": 190401
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190417,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190418,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190419,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190401,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190417,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190418,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190419,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "17",
+                "07",
+                "00",
+                "01"
+              ],
+              "time_ms": 1367,
+              "slot_effects": {
+                "17": 190411,
+                "00": 190411,
+                "01": 190411,
+                "07": 190411
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190420,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190421,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190422,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190411,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190420,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190421,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190422,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 2567,
+              "slot_effects": {
+                "17": 190413,
+                "00": 190413,
+                "01": 190413,
+                "07": 190413
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190423,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190424,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190425,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190413,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190423,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190424,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190425,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "07",
+                "00",
+                "01",
+                "17"
+              ],
+              "time_ms": 3767,
+              "slot_effects": {
+                "17": 190415,
+                "00": 190415,
+                "01": 190415,
+                "07": 190415
+              },
+              "slot_effect_entries": {
+                "17": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190426,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190427,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190428,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "01": [
+                  {
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "effect_id": 190414
+                  }
+                ],
+                "07": [
+                  {
+                    "raw_arg0": 10,
+                    "effect_id": 190415,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 40,
+                    "effect_id": 190426,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 320,
+                    "effect_id": 190427,
+                    "ultimate_point": 3
+                  },
+                  {
+                    "raw_arg0": 350,
+                    "effect_id": 190428,
+                    "ultimate_point": 3
+                  }
+                ]
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 447,
+          "gameSkillId": 19040,
+          "stageId": 101,
+          "durationMs": 1133,
+          "animName": "SK_Checkmate_Custom_1",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "default"
+              ],
+              "time_ms": 575,
+              "slot_effects": {
+                "default": 190404
+              },
+              "slot_projectiles": {
+                "default": 190404
+              },
+              "projectile_routes": {
+                "190404": {
+                  "steps": [
+                    {
+                      "effect_id": 190405,
+                      "effect_key": 2,
+                      "ultimate_point": 17
+                    }
+                  ],
+                  "projectile_id": 190404
+                }
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 449,
+          "gameSkillId": 19040,
+          "stageId": 102,
+          "durationMs": 1133,
+          "animName": "SK_Checkmate_Custom_1",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "default"
+              ],
+              "time_ms": 575,
+              "slot_effects": {
+                "default": 190406
+              },
+              "slot_projectiles": {
+                "default": 190406
+              },
+              "projectile_routes": {
+                "190406": {
+                  "steps": [
+                    {
+                      "effect_id": 190407,
+                      "effect_key": 2,
+                      "ultimate_point": 17
+                    }
+                  ],
+                  "projectile_id": 190406
+                }
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 451,
+          "gameSkillId": 19040,
+          "stageId": 103,
+          "durationMs": 1133,
+          "animName": "SK_Checkmate_Custom_1",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "default"
+              ],
+              "time_ms": 575,
+              "slot_effects": {
+                "default": 190408
+              },
+              "slot_projectiles": {
+                "default": 190408
+              },
+              "projectile_routes": {
+                "190408": {
+                  "steps": [
+                    {
+                      "effect_id": 190409,
+                      "effect_key": 2,
+                      "ultimate_point": 17
+                    }
+                  ],
+                  "projectile_id": 190408
+                }
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 452,
+          "gameSkillId": 19050,
+          "stageId": 0,
+          "durationMs": 1933,
+          "animName": "SK_DarkResurrection",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "00",
+                "05",
+                "06"
+              ],
+              "effects": [
+                {
+                  "hit_id": "magic_circle_hit_1",
+                  "after_ms": 0,
+                  "effect_id": 190502,
+                  "ultimate_point": 2
+                },
+                {
+                  "hit_id": "magic_circle_hit_2",
+                  "after_ms": 1100,
+                  "effect_id": 190502,
+                  "ultimate_point": 2
+                },
+                {
+                  "hit_id": "magic_circle_final_hit",
+                  "after_ms": 1300,
+                  "effect_id": 190503,
+                  "ultimate_point": 19
+                }
+              ],
+              "time_ms": 1000,
+              "slot_projectiles": {
+                "00": 190500,
+                "05": 190517,
+                "06": 190518
+              },
+              "projectile_routes": {
+                "190500": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190503,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190500
+                },
+                "190517": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190503,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190517
+                },
+                "190518": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190503,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190518
+                }
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 453,
+          "gameSkillId": 19050,
+          "stageId": 1,
+          "durationMs": 1400,
+          "animName": "SK_DarkResurrection_Custom_1",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "00",
+                "05",
+                "06"
+              ],
+              "effects": [
+                {
+                  "hit_id": "magic_circle_hit_1",
+                  "after_ms": 0,
+                  "effect_id": 190502,
+                  "ultimate_point": 2
+                },
+                {
+                  "hit_id": "magic_circle_hit_2",
+                  "after_ms": 1100,
+                  "effect_id": 190502,
+                  "ultimate_point": 2
+                },
+                {
+                  "hit_id": "magic_circle_final_hit",
+                  "after_ms": 1300,
+                  "effect_id": 190503,
+                  "ultimate_point": 19
+                }
+              ],
+              "time_ms": 565,
+              "slot_projectiles": {
+                "00": 190514,
+                "05": 190515,
+                "06": 190516
+              },
+              "projectile_routes": {
+                "190514": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190503,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190514
+                },
+                "190515": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190503,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190515
+                },
+                "190516": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190503,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190516
+                }
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 454,
+          "gameSkillId": 19050,
+          "stageId": 2,
+          "durationMs": 1933,
+          "animName": "SK_DarkResurrection",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "00",
+                "05",
+                "06"
+              ],
+              "effects": [
+                {
+                  "hit_id": "magic_circle_hit_1",
+                  "after_ms": 0,
+                  "effect_id": 190502,
+                  "ultimate_point": 2
+                },
+                {
+                  "hit_id": "magic_circle_hit_2",
+                  "after_ms": 1100,
+                  "effect_id": 190502,
+                  "ultimate_point": 2
+                },
+                {
+                  "hit_id": "magic_circle_final_hit",
+                  "after_ms": 1300,
+                  "effect_id": 190513,
+                  "ultimate_point": 19
+                }
+              ],
+              "time_ms": 1002,
+              "slot_projectiles": {
+                "00": 190510,
+                "05": 190511,
+                "06": 190512
+              },
+              "projectile_routes": {
+                "190510": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190513,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190510
+                },
+                "190511": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190513,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190511
+                },
+                "190512": {
+                  "steps": [
+                    {
+                      "effect_id": 190502,
+                      "effect_key": 2,
+                      "ultimate_point": 2
+                    },
+                    {
+                      "effect_id": 190513,
+                      "effect_key": 2,
+                      "ultimate_point": 19
+                    }
+                  ],
+                  "projectile_id": 190512
+                }
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 455,
+          "gameSkillId": 19120,
+          "stageId": 0,
+          "durationMs": 4100,
+          "animName": "SK_UnlimitedShuffle",
+          "hits": [
+            {
+              "slots": [
+                "00",
+                "01"
+              ],
+              "time_ms": 381,
+              "slot_effects": {
+                "00": 191200,
+                "01": 191213
+              }
+            },
+            {
+              "slots": [
+                "00"
+              ],
+              "time_ms": 2711,
+              "slot_effects": {
+                "00": 191202
+              }
+            },
+            {
+              "slots": [
+                "00"
+              ],
+              "time_ms": 3408,
+              "slot_effects": {
+                "00": 191201
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 456,
+          "gameSkillId": 19120,
+          "stageId": 1,
+          "durationMs": 4100,
+          "animName": "SK_UnlimitedShuffle",
+          "hits": [
+            {
+              "slots": [
+                "00",
+                "07",
+                "01"
+              ],
+              "time_ms": 381,
+              "slot_effects": {
+                "00": 191203,
+                "01": 191213,
+                "07": 191206
+              },
+              "slot_effect_entries": {
+                "07": [
+                  {
+                    "effect_id": 191206,
+                    "ultimate_point": 1
+                  },
+                  {
+                    "effect_id": 191210,
+                    "ultimate_point": 1
+                  },
+                  {
+                    "effect_id": 191211,
+                    "ultimate_point": 1
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07"
+              ],
+              "time_ms": 2711,
+              "slot_effects": {
+                "00": 191205,
+                "07": 191205
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07"
+              ],
+              "time_ms": 3408,
+              "slot_effects": {
+                "00": 191204,
+                "07": 191204
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 457,
+          "gameSkillId": 19120,
+          "stageId": 2,
+          "durationMs": 4100,
+          "animName": "SK_UnlimitedShuffle",
+          "hits": [
+            {
+              "slots": [
+                "00",
+                "07",
+                "01"
+              ],
+              "time_ms": 381,
+              "slot_effects": {
+                "00": 191200,
+                "01": 191213,
+                "07": 191206
+              },
+              "slot_effect_entries": {
+                "07": [
+                  {
+                    "effect_id": 191206,
+                    "ultimate_point": 1
+                  },
+                  {
+                    "effect_id": 191210,
+                    "ultimate_point": 1
+                  },
+                  {
+                    "effect_id": 191211,
+                    "ultimate_point": 1
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07"
+              ],
+              "time_ms": 2711,
+              "slot_effects": {
+                "00": 191202,
+                "07": 191202
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07"
+              ],
+              "time_ms": 3408,
+              "slot_effects": {
+                "00": 191201,
+                "07": 191201
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 458,
+          "gameSkillId": 19120,
+          "stageId": 3,
+          "durationMs": 4700,
+          "animName": "SK_UnlimitedShuffle_Custom_1",
+          "hits": [
+            {
+              "slots": [
+                "00",
+                "07",
+                "01"
+              ],
+              "time_ms": 381,
+              "slot_effects": {
+                "00": 191200,
+                "01": 191213,
+                "07": 191206
+              },
+              "slot_effect_entries": {
+                "07": [
+                  {
+                    "effect_id": 191206,
+                    "ultimate_point": 1
+                  },
+                  {
+                    "effect_id": 191210,
+                    "ultimate_point": 1
+                  },
+                  {
+                    "effect_id": 191211,
+                    "ultimate_point": 1
+                  }
+                ]
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07"
+              ],
+              "time_ms": 3303,
+              "slot_effects": {
+                "00": 191202,
+                "07": 191202
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "07"
+              ],
+              "time_ms": 3947,
+              "slot_effects": {
+                "00": 191201,
+                "07": 191201
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 459,
+          "gameSkillId": 19120,
+          "stageId": 4,
+          "durationMs": 2500,
+          "animName": "SK_UnlimitedShuffle_Custom_2",
+          "hits": [
+            {
+              "slots": [
+                "default",
+                "01"
+              ],
+              "time_ms": 381,
+              "slot_effects": {
+                "01": 191281,
+                "default": 191280
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "04"
+              ],
+              "time_ms": 1131,
+              "slot_effects": {
+                "00": 191202,
+                "04": 191205
+              }
+            },
+            {
+              "slots": [
+                "00",
+                "04"
+              ],
+              "time_ms": 1690,
+              "slot_effects": {
+                "00": 191201,
+                "04": 191204
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 460,
+          "gameSkillId": 19120,
+          "stageId": 5,
+          "durationMs": 3100,
+          "animName": "SK_UnlimitedShuffle_Custom_2_1",
+          "hits": [
+            {
+              "slots": [
+                "01",
+                "default"
+              ],
+              "time_ms": 381,
+              "slot_effects": {
+                "01": 191282,
+                "default": 191283
+              }
+            },
+            {
+              "slots": [
+                "default"
+              ],
+              "time_ms": 1822,
+              "slot_effects": {
+                "default": 191202
+              }
+            },
+            {
+              "slots": [
+                "default"
+              ],
+              "time_ms": 2318,
+              "slot_effects": {
+                "default": 191201
+              }
+            }
+          ],
+          "trapSpawns": [],
+          "projectileSpawns": [],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        },
+        {
+          "id": 525,
+          "gameSkillId": 19340,
+          "stageId": 0,
+          "durationMs": 1867,
+          "animName": "SK_TheSun_01 + SK_TheSun_02",
+          "hits": [],
+          "trapSpawns": [],
+          "projectileSpawns": [
+            {
+              "slots": [
+                "00"
+              ],
+              "time_ms": 947,
+              "slot_effects": {
+                "00": 193400
+              },
+              "slot_projectiles": {
+                "00": 193400
+              },
+              "projectile_routes": {
+                "193400": {
+                  "steps": [
+                    {
+                      "after_ms": 300,
+                      "effect_id": 193401,
+                      "effect_key": 2,
+                      "ultimate_point": 15
+                    },
+                    {
+                      "after_ms": 570,
+                      "effect_id": 193401,
+                      "effect_key": 2,
+                      "ultimate_point": 15
+                    },
+                    {
+                      "after_ms": 840,
+                      "effect_id": 193401,
+                      "effect_key": 2,
+                      "ultimate_point": 15
+                    },
+                    {
+                      "after_ms": 1110,
+                      "effect_id": 193401,
+                      "effect_key": 2,
+                      "ultimate_point": 15
+                    },
+                    {
+                      "after_ms": 1500,
+                      "effect_id": 193402,
+                      "effect_key": 2,
+                      "ultimate_point": 41
+                    }
+                  ],
+                  "projectile_id": 193400
+                }
+              }
+            }
+          ],
+          "inputWindowsMs": [],
+          "superArmorAtMs": null,
+          "createdAt": "2026-10-02T09:58:16.502Z",
+          "updatedAt": "2026-10-02T09:58:16.502Z"
+        }
+      ],
+      "url": "https://lostarksim.com/api/game-data/motions/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+      "checkedAt": "2026-10-13T08:22:28.264Z",
+      "sha256": "e9ced5a1c62aa74fe736364aeccd0edb664487d26d04c3c7a24b8d850fbf599c"
+    }
+  },
+  "limit": "공식 응답의 표시 피해는 계수로 사용하지 않습니다. 공개 데이터는 후보이며 confirmed 표기를 게임 실측으로 취급하지 않습니다."
+}

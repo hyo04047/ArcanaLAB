@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "status": "public-coefficient-candidate",
+    "source": "S31",
+    "url": "https://raw.githubusercontent.com/acapzed/lostark-simulator-engine/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/skills.json",
+    "sha256": "725efeb0e2d2c15ca4bd7504a36b5639f5035e4dfe9cea5f8912921b640e3c99",
+    "upstreamLicense": "GPL-3.0-only",
+    "upstreamAuthor": "Minjea Kim",
+    "extractedAt": "2026-10-12",
+    "gamePatch": null,
+    "verifiedAgainstInGameMeasurements": false,
+    "description": "기본 직접 피해 합계의 후보값입니다. 배열 인덱스 0은 자료의 Lv1입니다. 배열의 존재가 인게임 레벨 선택 가능 범위를 뜻하지 않습니다. 고정 피해는 최소·최대의 평균을 사용합니다. 공중 추가타·조건부 추가타·스택 폭발은 제외합니다."
+  },
+  "skills": {
+    "celestial_rain": {
+      "skillId": 19140,
+      "effectId": 191401,
+      "apByLevel": [2.97, 3.261, 3.415, 3.525, 3.61, 3.679, 3.736, 3.784, 3.825, 3.861, 4.2, 4.409, 4.573, 4.718, 4.953, 5.388, 5.458, 5.529, 6.015, 6.543],
+      "flatMinByLevel": [160, 285, 365, 429, 480, 520, 555, 587, 611, 635, 635, 635, 635, 635, 635, 635, 635, 635, 635, 635],
+      "flatMaxByLevel": [196, 348, 446, 524, 587, 636, 678, 717, 747, 776, 776, 776, 776, 776, 776, 776, 776, 776, 776, 776]
+    },
+    "stream_of_edge": {
+      "skillId": 19150,
+      "effectId": 191501,
+      "apByLevel": [0.362, 0.397, 0.416, 0.429, 0.439, 0.447, 0.454, 0.46, 0.465, 0.469, 0.51, 0.535, 0.555, 0.573, 0.602, 0.655, 0.664, 0.673, 0.732, 0.796],
+      "flatMinByLevel": [20, 36, 46, 54, 60, 65, 69, 73, 76, 79, 79, 79, 79, 79, 79, 79, 79, 79, 79, 79],
+      "flatMaxByLevel": [24, 44, 56, 66, 73, 79, 84, 89, 93, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    }
+  }
+}

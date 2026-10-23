@@ -1,0 +1,192 @@
+{
+  "characters": [
+    {
+      "name": "FixtureCharacter12",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureCharacter12/combat-skills",
+      "checkedAt": "2026-10-13T08:52:18.915Z",
+      "sha256": "8c64a42131524c40a22332161421efecfbd8deb3aad4d4fe66df450e1537fd3e",
+      "skills": [
+        {
+          "Name": "운명의 부름",
+          "Level": 10,
+          "Rune": {
+            "Name": "질풍",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+            "Grade": "전설",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 14% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 시험 6단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 7단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 8단계</font>\"}}"
+          }
+        },
+        {
+          "Name": "언리미티드 셔플",
+          "Level": 14,
+          "Rune": {
+            "Name": "질풍",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+            "Grade": "전설",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 14% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 시험 7단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 8단계</font>\"}}"
+          }
+        },
+        {
+          "Name": "리턴",
+          "Level": 10,
+          "Rune": {
+            "Name": "속행",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_196.png",
+            "Grade": "전설",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>속행</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_196.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 사용 시 일정 확률로 전체 재사용 대기 시간이 16% 감소\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[퀘스트] 플레체 - 플레체의 장미</font>\"}}"
+          }
+        },
+        {
+          "Name": "신비한 쇄도",
+          "Level": 10,
+          "Rune": {
+            "Name": "단죄",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_198.png",
+            "Grade": "전설",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>단죄</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_198.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 40% 확률로 자신에게 3초간 지속되는 '단죄' 상태 부여하며 해당 상태 일 때 '심판' 을 통해 추가 효과를 발동\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[물물교환] 원정대 영지 - 상인 요한나</font>\"}}"
+          }
+        },
+        {
+          "Name": "다크 리저렉션",
+          "Level": 14,
+          "Rune": {
+            "Name": "중독",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_213.png",
+            "Grade": "전설",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>중독</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_213.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 적을 6초간 '중독' 상태로 만듦\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[필드 보스] 쿠르잔 북부 - 세베크 아툰</font>\"}}"
+          }
+        },
+        {
+          "Name": "이보크",
+          "Level": 14,
+          "Rune": {
+            "Name": "풍요",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_204.png",
+            "Grade": "전설",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>풍요</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_204.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 아이덴티티 게이지 획득량 40% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[수집품] 오르페우스의 별</font>\"}}"
+          }
+        },
+        {
+          "Name": "댄싱 오브 스파인플라워",
+          "Level": 14,
+          "Rune": {
+            "Name": "질풍",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+            "Grade": "영웅",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":3,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 12% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 시험 4단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 5단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 6단계</font><BR><Font color='#5FD3F1'>그 외에 획득처가 더 존재합니다.</FONT>\"}}"
+          }
+        },
+        {
+          "Name": "스트림 오브 엣지",
+          "Level": 10,
+          "Rune": {
+            "Name": "심판",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_201.png",
+            "Grade": "전설",
+            "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>심판</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_201.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 40% 확률로 자신의 '단죄' 상태를 제거하여 6초간 전투자원 회복량 증가 및 스킬 재사용 대기시간 감소\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[수집품] 위대한 미술품</font>\"}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FixtureLabel10알카",
+      "url": "https://developer-lostark.game.onstove.com/armories/characters/FixtureLabel10%EC%95%8C%EC%B9%B4/combat-skills",
+      "checkedAt": "2026-10-13T08:52:18.953Z",
+      "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "skills": null
+    }
+  ],
+  "searches": [
+    {
+      "keyword": "단죄",
+      "url": "https://lostark.game.onstove.com/News/Notice/List?noticetype=all&page=1&searchtype=3&searchtext=%EB%8B%A8%EC%A3%84",
+      "checkedAt": "2026-10-13T08:52:19.051Z",
+      "sha256": "391d1fa6a8e6331448fa8abdd0d44b27415e3ff88717224c5818b5a6287202fc",
+      "rows": [
+        {
+          "href": "/News/Notice/Views/13472?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "6월 24일(수) 업데이트 내역 안내 (내용 추가)",
+          "publishedAt": "2026-06-24T00:59:54Z"
+        },
+        {
+          "href": "/News/Notice/Views/13369?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "2월 11일(수) 업데이트 내역 안내 (내용 추가)",
+          "publishedAt": "2026-02-11T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/13267?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "10월 22일(수) 업데이트 내역 안내 (내용 수정)",
+          "publishedAt": "2025-10-22T00:59:54Z"
+        },
+        {
+          "href": "/News/Notice/Views/13236?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "9월 10일(수) 업데이트 내역 안내(내용 추가)",
+          "publishedAt": "2025-09-10T00:59:52Z"
+        },
+        {
+          "href": "/News/Notice/Views/13226?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "9월 3일(수) 업데이트 내역 안내",
+          "publishedAt": "2025-09-03T00:59:50Z"
+        },
+        {
+          "href": "/News/Notice/Views/13160?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "7월 2일(수) 업데이트 내역 안내 (내용 수정)",
+          "publishedAt": "2025-07-02T00:59:53Z"
+        },
+        {
+          "href": "/News/Notice/Views/13148?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "6월 25일(수) 업데이트 내역 안내(내용 추가)",
+          "publishedAt": "2025-06-25T00:59:44Z"
+        },
+        {
+          "href": "/News/Notice/Views/12617?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "11월 29일(수) 업데이트 내역 안내(내용 추가)",
+          "publishedAt": "2023-11-29T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/2295?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "2월 15일(수) 업데이트 내역 안내",
+          "publishedAt": "2023-02-15T00:59:52Z"
+        },
+        {
+          "href": "/News/Notice/Views/1935?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "4월 27일(수) 업데이트 내역 안내 (내용추가)",
+          "publishedAt": "2022-04-27T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/1907?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "3월 30일(수) 업데이트 내역 안내",
+          "publishedAt": "2022-03-30T01:00:01Z"
+        },
+        {
+          "href": "/News/Notice/Views/1838?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "1월 26일(수) 업데이트 내역 안내 (내용 추가)",
+          "publishedAt": "2022-01-26T00:59:55Z"
+        },
+        {
+          "href": "/News/Notice/Views/1115?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "9월 16일(수) 업데이트 내역 안내",
+          "publishedAt": "2020-09-16T01:00:04Z"
+        },
+        {
+          "href": "/News/Notice/Views/1099?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "9월 2일(수) 업데이트 내역 안내",
+          "publishedAt": "2020-09-02T01:00:10Z"
+        },
+        {
+          "href": "/News/Notice/Views/802?page=1&searchtype=3&searchtext=단죄&noticetype=all",
+          "title": "1월 29일(수) 업데이트 내역 안내 (내용 수정)",
+          "publishedAt": "2020-01-29T01:00:06Z"
+        }
+      ]
+    },
+    {
+      "keyword": "심판 룬",
+      "url": "https://lostark.game.onstove.com/News/Notice/List?noticetype=all&page=1&searchtype=3&searchtext=%EC%8B%AC%ED%8C%90%20%EB%A3%AC",
+      "checkedAt": "2026-10-13T08:52:19.084Z",
+      "sha256": "158385c440b943038c0466d06d4fbe83f8c23ba94523d6f54bee14979870188d",
+      "rows": []
+    }
+  ],
+  "limit": "공식 공개 캐릭터의 룬 툴팁과 공지 검색 첫 페이지입니다. 검색 부재는 변경 부재가 아닙니다. 게시글 닉네임과 캐릭터의 동일인 여부는 추정하지 않습니다."
+}

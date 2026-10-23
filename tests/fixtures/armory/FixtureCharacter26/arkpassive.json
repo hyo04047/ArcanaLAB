@@ -1,0 +1,146 @@
+{
+  "Title": "황후의 은총",
+  "IsArkPassive": true,
+  "Points": [
+    {
+      "Name": "진화",
+      "Value": 140,
+      "Tooltip": "<img src='emoticon_ark_evolution' width='25' height='28' vspace='-8'></img><FONT COLOR='#ffd200'> 진화 아크 패시브 포인트</font><br><textformat indent='-21' leftMargin='10'><font> </font><img src='emoticon_expedition_dot_Yellow' width='0' height='0' vspace='0'></img> 캐릭터 전투 레벨 상승 및 장착한 장비 아이템을 통해 진화 아크 패시브 포인트를 상승 시킬 수 있습니다.",
+      "Description": "6랭크 26레벨"
+    },
+    {
+      "Name": "깨달음",
+      "Value": 101,
+      "Tooltip": "<img src='emoticon_ark_realization' width='25' height='28' vspace='-8'></img><FONT COLOR='#a2ccf6'> 깨달음 아크 패시브 포인트</font><br><textformat indent='-21' leftMargin='10'><font> </font><img src='emoticon_expedition_dot_Blue' width='0' height='0' vspace='-3'></img> 캐릭터 전투 레벨 상승 및 장착한 악세서리 아이템을 통해 깨달음 아크 패시브 포인트를 상승 시킬 수 있습니다.",
+      "Description": "6랭크 26레벨"
+    },
+    {
+      "Name": "도약",
+      "Value": 70,
+      "Tooltip": "<img src='emoticon_ark_leaf' width='25' height='28' vspace='-8'></img><FONT COLOR='#d4ff88'> 도약 아크 패시브 포인트</font><br><textformat indent='-21' leftMargin='10'><font> </font><img src='emoticon_sign_greenDot' width='0' height='0' vspace='-3'></img> 캐릭터 전투 레벨 상승 및 장착한 팔찌 아이템을 통해 도약 아크 패시브 포인트를 상승 시킬 수 있습니다.",
+      "Description": "6랭크 26레벨"
+    }
+  ],
+  "Effects": [
+    {
+      "Name": "깨달음",
+      "Description": "<FONT color='#83E9FF'>깨달음</FONT> 1티어 <FONT color='#83E9FF'>황후의 은총 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_1.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 은총\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_1.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"루인 스킬 적중 시 적중된 루인 스킬로 소모된 마나의 <FONT COLOR='#99ff99'>50.0%</FONT>를 회복한다.||<BR>\"}}"
+    },
+    {
+      "Name": "깨달음",
+      "Description": "<FONT color='#83E9FF'>깨달음</FONT> 2티어 <FONT color='#83E9FF'>황후의 계략 Lv.2</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_5.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 계략\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_5.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"카드덱에 도태 카드의 지속시간이 <FONT COLOR='#ffff99'>2.0</FONT>초 증가한다.<BR>카드덱에 심판 카드의 지속시간이 <FONT COLOR='#ffff99'>2.0</FONT>초 증가한다.||<BR>\"}}"
+    },
+    {
+      "Name": "깨달음",
+      "Description": "<FONT color='#83E9FF'>깨달음</FONT> 3티어 <FONT color='#83E9FF'>황후의 탐욕 Lv.1</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_21.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 탐욕\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_21.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"루인 스킬의 피해량이 <FONT COLOR='#99ff99'>0.9%</FONT> 증가하며 덱 게이지 획득량이 <FONT COLOR='#99ff99'>4.0%</FONT> 증가하지만, 일반 스킬의 덱 게이지 획득량이 <FONT COLOR='#ff9999'>50.0%</FONT> 감소한다.||<BR>\"}}"
+    },
+    {
+      "Name": "깨달음",
+      "Description": "<FONT color='#83E9FF'>깨달음</FONT> 3티어 <FONT color='#83E9FF'>황후의 연회 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_3.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 연회\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_3.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"4스택 이상의 루인 피해량이 <FONT COLOR='#99ff99'>26.0%</FONT> 증가한다.||<BR>\"}}"
+    },
+    {
+      "Name": "깨달음",
+      "Description": "<FONT color='#83E9FF'>깨달음</FONT> 3티어 <FONT color='#83E9FF'>황제의 자비 Lv.1</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_6.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황제의 자비\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_6.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"카드 사용 시 <FONT COLOR='#ffff99'>8.0</FONT>초간 적에게 주는 피해가 <FONT COLOR='#99ff99'>1.2%</FONT> 증가한다. 또한 이동기의 재사용 대기 시간이 즉시 <FONT COLOR='#ffff99'>1.0</FONT>초 감소한다.||<BR>\"}}"
+    },
+    {
+      "Name": "깨달음",
+      "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>황후의 속삭임 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_23.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 속삭임\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_23.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"루인 스킬의 피해량이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하며 일반 스킬과 스택트 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>6.0%</FONT> 감소한다. 추가로 4스택 이상인 적에게 루인 스킬 적중 시 <FONT COLOR='#ffff99'>6.0</FONT>초간 자신의 공격속도를 <FONT COLOR='#99ff99'>8.0%</FONT> 증가 시키는 효과를 추가한다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 1티어 <FONT color='#F1D594'>치명 Lv.7</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_1.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"치명\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>7</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_1.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"치명이 <FONT COLOR='#99ff99'>350 </FONT>증가합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 1티어 <FONT color='#F1D594'>특화 Lv.30</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_2.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"특화\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>30</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_2.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"특화가 <FONT COLOR='#99ff99'>1500 </FONT>증가합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 1티어 <FONT color='#F1D594'>신속 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_4.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"신속\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_4.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"신속이 <FONT COLOR='#99ff99'>150 </FONT>증가합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>끝없는 마나 Lv.2</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_16.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"끝없는 마나\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_16.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"마나 사용 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>14.0% </font>감소하고, 마나 소모량이 <FONT COLOR='#99ff99'>20.0% </font>감소합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>최적화 훈련 Lv.1</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_22.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"최적화 훈련\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_22.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"각성기, 이동 및 기상기를 제외한 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>4.0% </font>감소하고, 진화형 피해가 <FONT COLOR='#99ff99'>5.0% </font>증가합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>무한한 마력 Lv.2</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_14.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"무한한 마력\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_14.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>16.0% </font>증가하고, 마나 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>14.0% </font>감소, 마나 소모량이 <FONT COLOR='#99ff99'>16.0% </font>감소합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 4티어 <FONT color='#F1D594'>회심 Lv.1</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_40.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"회심\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_40.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"공격이 치명타로 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>12.0%</font> 증가하며, 받는 피해가 <FONT COLOR='#99ff99'>4.0%</font> 감소합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 4티어 <FONT color='#F1D594'>분쇄 Lv.1</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_44.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"분쇄\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_44.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>20.0%</font> 증가하며, 받는 피해가 <FONT COLOR='#99ff99'>4.0%</font> 감소합니다.||<BR>\"}}"
+    },
+    {
+      "Name": "진화",
+      "Description": "<FONT color='#F1D594'>진화</FONT> 5티어 <FONT color='#F1D594'>뭉툭한 가시 Lv.2</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_20.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"뭉툭한 가시\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_20.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>15.0% </font>증가합니다. 치명타가 발생할 확률이 최대 <FONT COLOR='#ff9999'>80.0% </font>로 제한됩니다. 공격 시, 초과한 모든 치명타가 발생할 확률의 <FONT COLOR='#99ff99'>150.0%</font>가 진화형 피해로 전환됩니다. 이 노드에 의한 진화형 피해는 최대 <FONT COLOR='#99ff99'>75.0%</font>까지 적용됩니다.||<BR>\"}}"
+    },
+    {
+      "Name": "도약",
+      "Description": "<FONT color='#C2EA55'>도약</FONT> 1티어 <FONT color='#C2EA55'>각성 증폭기 Lv.1</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_54.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"각성 증폭기\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>도약</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_54.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"각성기 사용 가능 횟수가 <FONT COLOR='#99ff99'>1</FONT>회 증가한다.||<BR>\"}}"
+    },
+    {
+      "Name": "도약",
+      "Description": "<FONT color='#C2EA55'>도약</FONT> 1티어 <FONT color='#C2EA55'>풀려난 힘 Lv.5</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_02/ark_passive_02_2.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"풀려난 힘\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>5</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>도약</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_02/ark_passive_02_2.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"초각성 스킬이 적에게 주는 피해가 <FONT COLOR='#99ff99'>15.0%</FONT> 증가한다.||<BR>\"}}"
+    },
+    {
+      "Name": "도약",
+      "Description": "<FONT color='#C2EA55'>도약</FONT> 1티어 <FONT color='#C2EA55'>잠재력 해방 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_10.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"잠재력 해방\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>도약</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_10.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"초각성 스킬의 재사용 대기 시간이 <FONT COLOR='#99ff99'>6.0%</FONT> 감소한다.||<BR>\"}}"
+    },
+    {
+      "Name": "도약",
+      "Description": "<FONT color='#C2EA55'>도약</FONT> 1티어 <FONT color='#C2EA55'>즉각적인 주문 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_02/ark_passive_02_5.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"즉각적인 주문\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>도약</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_02/ark_passive_02_5.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"초각성 스킬의 시전 속도가 <FONT COLOR='#99ff99'>12.0%</FONT> 증가하고, 마나 소모량이 <FONT COLOR='#99ff99'>90.0%</FONT> 감소한다.||<BR>\"}}"
+    },
+    {
+      "Name": "도약",
+      "Description": "<FONT color='#C2EA55'>도약</FONT> 2티어 <FONT color='#C2EA55'>쿼즈 Lv.3</FONT>",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_12.png",
+      "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"쿼즈\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>도약</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_12.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"더 데빌의 피해가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하고, 4중첩인 적에게 기존 스택트 효과에 추가로 <FONT COLOR='#99ff99'>20.0%</FONT> 증가된 피해를 준다.||<BR>\"}}"
+    }
+  ]
+}

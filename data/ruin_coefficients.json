@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "status": "public-coefficient-candidate",
+    "source": "S38",
+    "combatLevel": 70,
+    "combatLevelBasis": "source_attributed",
+    "evidence": "skill_effect_variable_secondary_key_70",
+    "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+    "sha256": "824a19e8d3c7142963cfc2b99b16f44305d395a86e3a231d9620619bfae9c565",
+    "extractedAt": "2026-10-12",
+    "gamePatch": null,
+    "verifiedAgainstInGameMeasurements": false,
+    "audit": "docs/audit/2026-10-12-ruin-level-basis.json",
+    "description": "Lv70 스택 폭발의 고정 피해 평균과 공격력 계수 후보입니다. 배열 인덱스는 스킬 레벨이 아닌 유효 중첩 0~4입니다. 0은 폭발 없음, 1~4는 S38 원자료입니다. 추가 전투 레벨 배율과 기존 임시 중첩 배율을 곱하지 않습니다."
+  },
+  "skills": {
+    "celestial_rain": {
+      "skillId": 19140,
+      "effectIdsByStack": [null, 191404, 191405, 191406, 191407],
+      "apByStack": [0, 2.119, 4.718, 7.816, 15.894],
+      "flatByStack": [0, 315.5, 705.5, 1172, 2380]
+    },
+    "secret_garden": {
+      "skillId": 19310,
+      "effectIdsByStack": [null, 193101, 193102, 193103, 193104],
+      "apByStack": [0, 2.119, 4.718, 7.816, 15.894],
+      "flatByStack": [0, 315.5, 705.5, 1172, 2380]
+    },
+    "four_of_a_kind": {
+      "skillId": 19160,
+      "effectIdsByStack": [null, 191608, 191609, 191610, 191611],
+      "apByStack": [0, 2.119, 4.718, 7.816, 15.894],
+      "flatByStack": [0, 315.5, 705.5, 1172, 2380]
+    },
+    "serendipity": {
+      "skillId": 19240,
+      "effectIdsByStack": [null, 192402, 192403, 192404, 192405],
+      "apByStack": [0, 2.119, 4.718, 7.816, 15.894],
+      "flatByStack": [0, 315.5, 705.5, 1172, 2380]
+    },
+    "the_devil": {
+      "skillId": 19350,
+      "effectIdsByStack": [null, 193502, 193503, 193504, 193505],
+      "apByStack": [0, 31.24, 69.499, 115.13, 234.121],
+      "flatByStack": [0, 4678, 10389, 17268, 35056.5]
+    }
+  }
+}

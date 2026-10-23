@@ -15,7 +15,7 @@ export function runSavedBuild(input: ReturnType<typeof parseBuildInput>, config:
   const modelId = modelIdentity(process.cwd());
   const command = spawnSync(process.execPath, [resolve('node_modules/vite-node/vite-node.mjs'), resolve('scripts/saved_build_worker.ts')], {
     encoding: 'utf8', input: JSON.stringify({ build: input.build, ...(input.warnings === null ? {} : { warnings: input.warnings }), config }),
-    timeout: 30000, maxBuffer: 10 * 1024 * 1024,
+    timeout: 30000, killSignal: 'SIGKILL', maxBuffer: 10 * 1024 * 1024,
   });
   if (command.error) throw new Error((command.error as NodeJS.ErrnoException).code === 'ETIMEDOUT'
     ? '계산이 30초 제한을 넘어 종료됐습니다. 완료 결과가 없습니다.' : command.error.message);

@@ -178,8 +178,8 @@
     },
     {
       "path": "docs/SECURITY_REVIEW.md",
-      "bytes": 2227,
-      "sha256": "b8d2ed58312b115c8ddda2e78d3cd59a826b701386cbdeac2380b48accf0b24a"
+      "bytes": 2686,
+      "sha256": "76f0f9a6321d528dd7847f244ac3606fd762fed4edff14ef93e07620be374aa8"
     },
     {
       "path": "docs/VALIDATION.md",
@@ -283,8 +283,8 @@
     },
     {
       "path": "scripts/run_saved_build.ts",
-      "bytes": 2061,
-      "sha256": "bd949f5cb9a92b42ec54b22df8ca167e823f276a25fc219eda5c5cfdb1ba0ced"
+      "bytes": 2084,
+      "sha256": "ca9cb40296785de2f0a1467f892c760cc2e5604ddfc3f4d395e34e2d030566b4"
     },
     {
       "path": "scripts/run_sim.ts",

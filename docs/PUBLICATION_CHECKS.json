@@ -1,15 +1,20 @@
 {
-  "date": "2026-10-23",
-  "scope": "Public snapshot only; no live game API calls",
+  "date": "2026-11-16",
+  "decisionDate": "2026-11-15",
+  "checkedAtUtc": "2026-11-15T15:04:11.723Z",
+  "status": "research-and-development-stopped",
+  "scope": "Final reviewed public software snapshot. No game, browser, or live game API validation.",
   "environment": {
     "os": "Windows",
-    "node": "v24.15.0"
+    "node": "v24.15.0",
+    "vite": "6.4.6"
   },
   "unitTests": {
-    "passed": 2950,
+    "passed": 6312,
     "failed": 0,
     "skipped": 0,
-    "files": 159
+    "files": 226,
+    "completedAtUtc": "2026-11-15T14:58:06.798Z"
   },
   "parserTests": {
     "passed": 7,
@@ -17,9 +22,16 @@
   },
   "httpSecurityTests": {
     "passed": 4,
-    "failed": 0
+    "failed": 0,
+    "network": "loopback mock upstream only"
   },
   "typecheckAndBuild": "passed",
+  "eolNormalization": {
+    "policy": "* text=auto eol=lf",
+    "changedFiles": 2,
+    "targetedTestsPassed": 36,
+    "finalBuild": "passed"
+  },
   "npmAudit": {
     "info": 0,
     "low": 0,
@@ -28,25 +40,37 @@
     "critical": 0,
     "total": 0
   },
+  "securityPatch": {
+    "package": "vite",
+    "from": "6.4.4",
+    "to": "6.4.6",
+    "advisory": "https://github.com/advisories/GHSA-8g5g-mxqh-grgj"
+  },
   "gitleaksFiles": {
     "version": "8.30.1",
     "findings": 0
   },
-  "fixtureFiles": 57,
+  "fixtureFiles": 135,
   "privacy": {
-    "pseudonymizedCharacters": 29,
+    "pseudonymizedCharacters": 33,
     "removedProfileImages": 4,
-    "rawArchivesPublished": false
+    "repairedValidBaselineFingerprints": 52,
+    "originalResearchFilesChanged": false,
+    "rawArchivesPublished": false,
+    "sourceCatalogDigestsReferToPublicDerivatives": true,
+    "derivations": "PUBLICATION_DERIVATIONS.json"
   },
-  "limitations": [
-    "No guarantee against all vulnerabilities",
-    "No current-game coefficient or timing certification",
-    "Full historical 72-condition research is not reproduced by this snapshot"
+  "publicModelId": "sha256:17f83b4fb2d09bc143a3b271a1ebd79cd3ec18a485f042e1524efa47133db50c",
+  "validationNotes": [
+    "Earlier export attempts exposed missing derived source paths and old byte digests; final catalog paths and digests were repaired without changing the research originals.",
+    "Sandboxed loopback tests were blocked with EACCES; the same four checks passed outside that restriction.",
+    "A public vendor directory and a short character-name collision were corrected in pseudonymization; general game terminology is retained.",
+    "Final published Git-normalized bytes are indexed separately in PUBLICATION_MANIFEST.json; remote CI is attached to the pushed commit."
   ],
-  "codeqlReview": {
-    "reported": 6,
-    "fixed": 1,
-    "reviewedFalsePositives": 5,
-    "document": "SECURITY_REVIEW.md"
-  }
+  "limitations": [
+    "Tests establish software consistency, not current-game coefficient, timing, card-source attribution, or equipment superiority.",
+    "The original linked combat-cycle goal remains incomplete.",
+    "Full historical raw research and video captures are local-only.",
+    "No guarantee against every vulnerability; research and development are stopped."
+  ]
 }

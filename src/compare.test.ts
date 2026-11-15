@@ -3,6 +3,14 @@ import { diffBuilds, parseBuildInput } from './compare';
 import { empressInkomsu440 } from './engine/presets';
 
 describe('whole Build structural comparison', () => {
+  it.each([false, true])('reads a leading BOM without changing embedded characters (wrapped=%s)', wrapped => {
+    const build = empressInkomsu440(); build.name = '\uFEFF입력 이름';
+    const warnings = ['문자열 내부\uFEFF표식'];
+    const input = wrapped ? { build, warnings } : build;
+    expect(parseBuildInput('\uFEFF' + JSON.stringify(input), 'BOM.json'))
+      .toEqual({ build, warnings: wrapped ? warnings : null });
+  });
+
   it('reads a complete export and distinguishes missing warnings from an empty list', () => {
     const build = empressInkomsu440();
     expect(parseBuildInput(JSON.stringify({ build, warnings: ['미확인 효과'] }), '선택.json').warnings).toEqual(['미확인 효과']);
@@ -19,8 +27,8 @@ describe('whole Build structural comparison', () => {
       .toThrow('입력 경고 형식을 확인하세요: 실패.json');
   });
 
-  it('identifies the selected file when JSON cannot be parsed', () => {
-    expect(() => parseBuildInput('{broken', '실패.json')).toThrow('JSON 형식을 확인하세요: 실패.json');
+  it.each(['{broken', '\uFEFF{broken'])('identifies the selected file when JSON cannot be parsed: %j', text => {
+    expect(() => parseBuildInput(text, '실패.json')).toThrow('JSON 형식을 확인하세요: 실패.json');
   });
 
   it.each(['1e999', '-1e999'])('rejects %s instead of turning it into null during comparison', numericText => {

@@ -5,7 +5,7 @@
     "gamePatch": null,
     "verifiedAgainstInGameMeasurements": false,
     "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
-    "evidenceFile": "docs/audit/2026-10-13-emperor-damage-sources.json",
+    "evidenceFile": "tests/fixtures/audit/2026-10-13-emperor-damage-sources.json",
     "evidenceSha256": "09735244806d10a832324b5da46c98a1e739fb3e214650edd1ba73f8a2ccb060",
     "note": "기본 6+1+1회만 합산합니다. 변형 트포·내부 적중 시각·현행 실측 미검증. 파멸의 폭풍의 모순된 타수/계수 후보는 채택하지 않습니다."
   },

@@ -13,6 +13,12 @@ export function validRandomMode(value: unknown): value is RandomMode | undefined
   return value === undefined || value === 'legacy' || value === 'partitioned-v1';
 }
 
+export function combinedChance(base: number, bonus: number, scale = 1): number {
+  if (!Number.isFinite(base) || !Number.isFinite(bonus) || !Number.isFinite(scale))
+    throw new TypeError('합산 확률의 기본값·보정·배수는 유한한 숫자여야 합니다.');
+  return Math.min(1, base * scale + bonus);
+}
+
 /** 판정 종류·스킬·성분별 실제 추첨 순번을 맞춥니다. 게임 RNG의 재현은 아닙니다. */
 export function randomStream(rng: Rng, ...key: string[]): Rng {
   return rng.stream?.(JSON.stringify(key)) ?? rng;
@@ -21,6 +27,7 @@ export function randomStream(rng: Rng, ...key: string[]): Rng {
 // mulberry32
 export function createRng(seed: number, mode: RandomMode = 'legacy'): Rng {
   if (!validRandomMode(mode)) throw new Error('지원하지 않는 난수 방식입니다.');
+  if (!Number.isSafeInteger(seed)) throw new RangeError('시드는 안전한 정수여야 합니다.');
   let a = seed >>> 0;
   const next = (): number => {
     a = (a + 0x6d2b79f5) >>> 0;
@@ -31,7 +38,10 @@ export function createRng(seed: number, mode: RandomMode = 'legacy'): Rng {
   };
   const rng: Rng = {
     next,
-    chance: (p) => next() < p,
+    chance: (p) => {
+      if (!Number.isFinite(p) || p < 0 || p > 1) throw new RangeError('확률은 0 이상 1 이하의 유한한 숫자여야 합니다.');
+      return next() < p;
+    },
     pick: (arr) => {
       if (arr.length === 0) throw new Error('pick from empty array');
       return arr[Math.floor(next() * arr.length)] as (typeof arr)[number];

@@ -184,6 +184,8 @@ export function resolveStackDamage(build: Build, skill: SkillDef, stacks: number
   const candidate = ruinCandidate(build, skill);
   if (candidate) return { coef: candidate.apByStack[stacks]!, flat: candidate.flatByStack[stacks]! };
   const scale = build.params.stackEffectScale[stacks] ?? stacks;
+  if (![build.params.stackEffectCoefPerStack, scale, skill.stackEffectMultiplier ?? 1].every(Number.isFinite))
+    throw new TypeError('루인 임시 계산 수치는 유한한 숫자여야 합니다.');
   return { coef: build.params.stackEffectCoefPerStack * scale * (skill.stackEffectMultiplier ?? 1), flat: 0 };
 }
 
@@ -228,12 +230,12 @@ export function damageWarnings(build: Build): string[] {
     if (skill.id === 'scratch_dealer') warnings.push('스크래치 딜러: 기본 이동·내려찍기의 총 피해 후보만 합산합니다. 내부 다단 수를 피해에 다시 곱하지 않습니다. 적중 판정 2회·시전 종료 2스택은 임시 처리이며 콤보 입력·내부 타수·게이지·후딜·트포의 개별 타격 범위는 실측 미검증입니다.');
     if (skill.id === 'call_of_destiny') warnings.push('운명의 부름: 기본 2타·연속 공격 3타·페이크 플립 대체 1타의 직접 피해 후보를 분리합니다. 비행·적중·후딜은 임시 합산이며 치명·어두운 운명 시작·시전 단축과 현재 계수의 실측 검증은 미완료입니다.');
     if (skill.runeCdReduce) warnings.push(`${skill.name} 속행 발동 확률 [미확인] ${skill.runeCdReduce.chance * 100}% 가정. 남은 쿨 ${skill.runeCdReduce.fraction * 100}% 감소율과 다릅니다. 시전 시작 시 1회 판정하며 체인 재입력별 발동·동일 시각 처리 순서는 미검증입니다.`);
-    if (skill.hitRune) warnings.push(`${skill.name} 단죄·심판 룬: 직접 적중별 판정, 단죄 갱신·소모, 심판 이후 쿨 시작에 15% 곱연산·공유 내부쿨 30초를 반영합니다. 마나 회복·도트 판정·미스·최적 운용은 미모델이며 현행 서버 실측 미검증입니다.${skill.hitSequence || skill.delayedHits || skill.manualEvoke || skill.splitEvoke ? '' : ' 개별 적중 시간 후보가 없어 임시 타수 전체를 시전 종료에 합산 판정합니다.'}`);
+    if (skill.hitRune) warnings.push(`${skill.name} 단죄·심판 룬: 직접 적중별 판정, 단죄 갱신·소모, 심판 이후 쿨 시작에 15% 곱연산·공유 내부쿨 30초를 반영합니다. 마나 회복·도트 판정·미스·최적 운용은 미모델이며 현행 서버 실측 미검증입니다.${skill.hitSequence || skill.delayedHits || skill.manualEvoke || skill.splitEvoke || skill.fourCardCombo ? '' : ' 개별 적중 시간 후보가 없어 임시 타수 전체를 시전 종료에 합산 판정합니다.'}`);
     const ref = skill.damageReference;
     if (ref?.source === 'public-coefficient-candidate') warnings.push(`${skill.name} Lv${ref.level}: 고정 피해·공격력 계수는 공개 자료 후보입니다. 현재 패치·인게임 실측 및 특화·트포 적용 범위는 미검증입니다.`);
     if (ref?.source === 'codex-tooltip' && skill.level !== ref.level) warnings.push(`${skill.name} Lv${skill.level}: 해당 레벨 피해 미확인 — Lv${ref.level} 대체값 사용`);
     if (ref?.source === 'wiki-tooltip') warnings.push(`${skill.name}: 위키 툴팁 임시값 — 기준 스펙·패치 시점 미확인`);
-    if (!ref) warnings.push(`${skill.name}: 직접 피해 입력값의 출처 미등록`);
+    if (!ref || !['codex-tooltip', 'wiki-tooltip', 'missing', 'public-coefficient-candidate'].includes(ref.source)) warnings.push(`${skill.name}: 직접 피해 입력값의 출처 미등록`);
     if (ref?.source === 'missing') warnings.push(`${skill.name}: 직접 피해 자료 없음 — 0 자리값 사용(실제 무피해 아님)`);
     if (skill.delayedHits) warnings.push(`${skill.name}: 발사 동작과 이후 개별 적중을 분리한 공개 모션 후보입니다. 거리별 비행·취소 후딜·현행 서버 프레임은 실측하지 않았습니다.`);
     if (skill.id === 'evoke') warnings.push(skill.splitEvoke
@@ -263,7 +265,9 @@ export function damageWarnings(build: Build): string[] {
           filterMatches(m.filter, { skill, stacks: 4, component: 'dot' }));
       if (unknown.length) warnings.push(`${name} 적용 미확인·임시 제외: ${[...new Set(unknown.map(m => m.source))].join(', ')}. 과거 세트 실험만으로 현행 각인·코어의 미적용을 확정할 수 없습니다.`);
     }
-    if (skill.id === 'serendipity') warnings.push(skill.hitSequence
+    if (skill.id === 'serendipity') warnings.push(skill.serendipityGauge?.candidate === 'serendipity-preserved-intended'
+      ? '세렌디피티 눈속임·의도된 우연: 평시·심판 모두 두 타를 사용하는 공개 운용 후보입니다. 적중마다 실제 스택·심판·보존을 판정하며 두 타 전체 모션 1.8초에 공속·질풍을 적용합니다. 입력 창·취소 후딜·최적 운용·현행 실측은 미검증이며 스페이스 자원·시전 중 카드 사용은 미모델입니다.'
+      : skill.hitSequence
       ? `세렌디피티: 평시 1타, 심판 사용 후 시전은 ${skill.hitSequence.hits.length}타. 1타 후 행동 가능 시각·후딜 취소는 미확인으로 첫 모션 종료 1.8초를 임시 대기값으로 사용합니다(공속 적용 전). 심판 콤보 시간도 전체 모션 후보이며 스페이스 자원·시전 중 카드 사용은 미모델입니다.`
       : '세렌디피티: 해당 레벨의 타격별 자료 없음 — 기존 합산 임시값 사용, 콤보·복수 폭발 미반영');
     if (skill.defenseIgnore) warnings.push(`${skill.name} 꿰뚫는 일격: 대상 방어력 ${build.params.targetDefense ?? 6500}${build.params.targetDefense === undefined ? ' 가정' : ' 입력값'}에서 방어 무시 없는 동일 대상 대비 증폭만 적용합니다. 절대 방어 감쇠·별도 보스 뎀감·방깎 시너지는 미모델, 직접 피해·폭발의 독립 추첨은 공개 모델 가정이며 현행 서버 실측 미검증입니다.`);

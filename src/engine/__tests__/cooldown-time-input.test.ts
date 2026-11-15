@@ -23,7 +23,7 @@ describe.each([undefined, 2])('effective cooldown with charges %s', maxCharges =
   });
   it.each([2, NaN, Infinity])('rejects an invalid effective reduction %s', value => {
     const { state, skill } = fixture(1, maxCharges, [reduction(value)]);
-    expect(() => state.cast(skill, 3)).toThrow('쿨타임');
+    expect(() => state.cast(skill, 3)).toThrow(Number.isFinite(value) ? '쿨타임' : '수정치 수치');
     expect(state.readyAt.size).toBe(0);
   });
   it('rejects a nonfinite product of finite inputs', () => {

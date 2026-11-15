@@ -2,6 +2,7 @@ import type { Build } from './engine/types';
 
 /** 비교용 저장 형식만 확인하며 장착 조건이나 전체 계산 입력의 유효성을 판정하지 않습니다. */
 export function parseBuildInput(text: string, label: string): { build: Build; warnings: string[] | null } {
+  text = text.replace(/^\uFEFF/, '');
   let input;
   let numberOverflow = false;
   try {

@@ -7,6 +7,8 @@ import { resolve } from 'node:path';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   const key = env.LOSTARK_API_KEY ?? '';
+  const privateDirectories = ['.git', '.claude', '.publication', 'data/raw', 'docs/audit', 'tests/fixtures']
+    .map(path => resolve(process.cwd(), path).replaceAll('\\', '/'));
   return {
     // Browser code has no package dependencies; avoid dependency discovery in CLI runners.
     optimizeDeps: { noDiscovery: true, include: [] },
@@ -16,8 +18,9 @@ export default defineConfig(({ mode }) => {
       host: '127.0.0.1',
       cors: false,
       allowedHosts: ['localhost', '127.0.0.1'],
+      watch: { ignored: privateDirectories.flatMap(path => [path, path + '/**']) },
       fs: { strict: true, deny: ['.env', '.env.*', '*.{crt,pem,key,p12,pfx}',
-        ...['.git', '.claude', '.publication', 'data/raw', 'docs/audit', 'tests/fixtures'].map(path => resolve(process.cwd(), path).replaceAll('\\', '/') + '/**')] },
+        ...privateDirectories.map(path => path + '/**')] },
       proxy: {
         '/api': {
           target: 'https://developer-lostark.game.onstove.com',

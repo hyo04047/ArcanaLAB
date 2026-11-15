@@ -1,0 +1,51 @@
+{
+  "status": "public-candidate",
+  "audit": "docs/audit/2026-10-30-serendipity-gauge-adoption.md",
+  "sourceSha256": "f7fa0511d58c71eeb2dd13c45304d5a725297ccab6c94703720bfb917c9038ac",
+  "warning": "세렌디피티 타격별 게이지: 펼치기 7.28%·접기 11.44%의 배율 전 기본량 후보를 각 실제 적중에만 적용합니다. 우연한 일격의 접기 효과 원값은 없어 기본 접기 22점을 대체한 가정입니다. 실제 스택·심판에 관계없는 기본량도 미검증입니다. 보존 관련 추가 수급은 미해결·미반영이며 실제 0이라는 뜻이 아닙니다. 게시판의 47%나 눈속임의 실제 수급 우위를 재현한 결과로 볼 수 없습니다.",
+  "candidates": [
+    {
+      "id": "serendipity-piercing-continuous",
+      "tripods": [
+        "꿰뚫는 일격",
+        "우연한 일격",
+        "연속된 어둠"
+      ],
+      "profile": "continuousDarkness",
+      "perHit": [
+        0.0728,
+        0.0728,
+        0.1144
+      ],
+      "fullAuto": false
+    },
+    {
+      "id": "serendipity-piercing-intended",
+      "tripods": [
+        "꿰뚫는 일격",
+        "우연한 일격",
+        "의도된 우연"
+      ],
+      "profile": "basic",
+      "perHit": [
+        0.0728,
+        0.1144
+      ],
+      "fullAuto": false
+    },
+    {
+      "id": "serendipity-preserved-intended",
+      "tripods": [
+        "눈속임",
+        "우연한 일격",
+        "의도된 우연"
+      ],
+      "profile": "basic",
+      "perHit": [
+        0.0728,
+        0.1144
+      ],
+      "fullAuto": true
+    }
+  ]
+}

@@ -24,7 +24,7 @@ function state(points: number, speed = 0, galewind = false) {
   build.passiveMods = build.passiveMods.filter(m => m.source.startsWith('루인 마이너셋'));
   build.passiveMods.push({ bucket: 'atkSpeed', value: speed, source: '통제 공속' });
   build.params.gaugePerHit = { normal: 0, stack: 0, ruin: 0, awakening: 0, hyper_awakening: 0 };
-  for (const s of build.skills) { s.mods = []; s.onCast = []; s.onHit = []; s.defenseIgnore = undefined; s.procCritDmg = undefined; }
+  for (const s of build.skills) { s.mods = []; s.onCast = []; s.onHit = []; s.defenseIgnore = undefined; s.procCritDmg = undefined; s.serendipityGauge = undefined; }
   return new SimState(build, { ...createRng(1), chance: () => false }, []);
 }
 function cast(sim: SimState, judgment: boolean) {

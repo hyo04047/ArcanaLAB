@@ -13,6 +13,7 @@ function state(raw = input()) {
   const { build, warnings } = buildFromArmory(raw), skill = build.skills[0]!;
   build.passiveMods = []; build.bluntThorn = undefined; build.onDestiny = []; build.onCardUse = [];
   build.params.atkBase = 10000; build.params.gaugeGainBonus = 0; build.params.normalGaugePenalty = 0;
+  delete build.params.gaugeFactors; // 리턴 타격 시점·기본 수급만 통제합니다.
   build.params.gaugePerHit.normal = 0.1; skill.mods = []; skill.onCast = []; skill.hitRune = undefined; skill.runeCdReduce = undefined;
   const rng = { ...createRng(1), chance: vi.fn((_p: number) => false) };
   return { build, warnings, skill, rng, sim: new SimState(build, rng, []) };

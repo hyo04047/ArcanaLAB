@@ -40,6 +40,7 @@ describe('Back Flush variants', () => {
     const { build } = convert('페이크 플립'), skill = build.skills[0]!;
     build.passiveMods = [{ bucket: 'skillDmg', value: 0.5, filter: { kinds: ['normal'] }, source: 'scope control' }];
     build.params.gaugeGainBonus = 0; build.params.normalGaugePenalty = 0;
+    delete build.params.gaugeFactors; // 분류별 기본량만 통제합니다.
     build.params.gaugePerHit = { normal: 0.1, stack: 0.01, ruin: 0, awakening: 0, hyper_awakening: 0 };
     expect(computeMultipliers({ atkBase: 100 }, build.passiveMods, { skill, component: 'direct', stacks: 0 }).nonCrit).toBe(1.5);
     const sim = new SimState(build, createRng(42), cardsFor('emperor'));

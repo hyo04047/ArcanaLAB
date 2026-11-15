@@ -5,7 +5,7 @@
     "gamePatch": null,
     "verifiedAgainstInGameMeasurements": false,
     "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
-    "evidenceFile": "docs/audit/2026-10-13-stack-skill-sources.json",
+    "evidenceFile": "tests/fixtures/audit/2026-10-13-stack-skill-sources.json",
     "evidenceSha256": "d432b8eebc03b30e5be0332f35ac8f1fcec633c64202dea2389321f461a4c75f",
     "note": "기본 두 입력의 총 피해 후보입니다. split_total 내부 다단 수는 다시 곱하지 않습니다. 실제 타수·입력·후딜·연속 공격 변형은 연결하지 않습니다."
   },

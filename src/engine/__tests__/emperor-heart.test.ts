@@ -43,8 +43,8 @@ describe('Emperor Heart card damage scope', () => {
     play(s, 'emperor'); play(s, 'star');
     for (const id of ['card_emperor', 'card_emperor_proc']) expect(s.breakdown.get(id)?.direct).toBeCloseTo(230 * 1.15 * 1.44 * 1.8);
   });
-  it('does not invent base damage and keeps the unverified 14P warning', () => {
-    const { build, warnings } = buildFromArmory(input()); expect(build.params.cardDamageCoef).toEqual({});
+  it('uses the public base candidate and keeps the unverified 14P warning', () => {
+    const { build, warnings } = buildFromArmory(input()); expect(build.params.cardDamageCoef).toEqual({ emperor: 72.395 });
     expect(warnings.some(w => w.includes('황제의 심장 14P') && w.includes('미반영'))).toBe(true);
   });
   it.each(['condition', 'nodes'])('rejects unverified condition or missing nodes: %s', change => {

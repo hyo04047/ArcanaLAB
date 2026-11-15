@@ -1,0 +1,4240 @@
+{
+  "boundary": "공식 관측은 강화 레벨 미확인, 공개 Lv.1은 현행 미검증 후보입니다. 관측 스킬 레벨만 연결하며 미지원 효과와 전체 장착 규칙은 미완입니다.",
+  "choices": [
+    {
+      "id": "79f5f20f05eb0a6ae022255071fad2e8c7a74b5b08ab7be5dfcc011d9fe73b4c",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "정신 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[0]"
+      }
+    },
+    {
+      "id": "929d1f3b0b8382a672c35b17b5292660c7f3f81cba30a02ef01ac2e9aa5385b5",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "꿰뚫는 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_3.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[1]"
+      }
+    },
+    {
+      "id": "cef93bbbacf345df1186075e0ce69e89dcbf10c3be7d8d4d3e8e94bc1ce9e890",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "날렵한 움직임",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_6.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>27.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[2]"
+      }
+    },
+    {
+      "id": "037a848f127beee05a6f0fa875a74e4c2456502cf6990e29617b2d8c26936ecd",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "퀵 드로",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_66.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적중 시 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[3]"
+      }
+    },
+    {
+      "id": "730bbf3ba69069646b427b85e76fa8a75e6f84ec3f401b00e1e290b3ec82b0cc",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[4]"
+      }
+    },
+    {
+      "id": "f0bc11e0577ab03ca8358baf3a01257e0cc1005483ec63883cadf9b7d9e59fb2",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "어두운 운명",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_53.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 적에게 주는 피해가 <FONT COLOR='#99ff99'>15.0%</FONT> 증가한다. 공격 적중 시 <FONT COLOR='#ffff99'>5.0</FONT>초간 적에게 주는 치명타 피해가 <FONT COLOR='#99ff99'>77.5%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[5]"
+      }
+    },
+    {
+      "id": "529d6016ba41df1919eeea4857214ec8754bf3e84971b38f59f28c8d333129a3",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>카드를 빠르게 <FONT COLOR='#99ff99'>2</FONT>회 날려 적중된 적을 공중으로 띄우는 형태로 변경되며, 총 <FONT COLOR='#99ff99'>70.8%</FONT>증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[6]"
+      }
+    },
+    {
+      "id": "5d3b8398986efaece422dacd924a7ea0a45fae5d7172fcde95a9e780f07333f8",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "페이크 플립",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_68.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'><FONT COLOR='#8181F7'>[스택트 스킬]</FONT> 형태로 변경되어 스택트 중첩이 <FONT COLOR='#ffff99'>2</FONT>회 부여되고 간결한 움직임으로 카드를 날려 시전 시간이 <FONT COLOR='#ffff99'>0.3</FONT>초 짧아지며, 공격이 <FONT COLOR='#ffff99'>1</FONT>회로 변경되지만 적중된 적을 바로 공중에 띄워올리며 <FONT COLOR='#99ff99'>45.0%</FONT> 증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[0].Tripods[7]"
+      }
+    },
+    {
+      "id": "6a5d16c92513674b319022e3c3ee61c78ea1c714d17d69ce2fe654d99d9d7ffa",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "파멸의 셔플",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_8.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>언리미티드 셔플 사용 중 아르카나 주변으로 카드가 휘몰아쳐 기본 피해량의 <FONT COLOR='#99ff99'>45.0%</FONT>에 해당하는 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[0]"
+      }
+    },
+    {
+      "id": "322d1ef8532a7b6f25f3e45783ab7da31a20f6b611bd877e432ac37b6510216a",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>5.0</FONT>초 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[1]"
+      }
+    },
+    {
+      "id": "a53953f45f75f9b3e8d45212384cff831f1be086dd37230c3f5d277ecceb64ca",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "퀵 드로",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_66.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마지막 공격 적중 시 <FONT COLOR='#99ff99'>30.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장 획득한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[2]"
+      }
+    },
+    {
+      "id": "aa7af3e0c0757590bd2f78f624972da921a8cca03a1ac625a09e0a1d4b6e0615",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "무한의 뇌격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_17.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 더 이상 피격이상을 시키지 않지만, 마지막 공격에 적중된 적을 <FONT COLOR='#ffff99'>5.0</FONT>초간 감전상태로 만든다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[3]"
+      }
+    },
+    {
+      "id": "58fe3399bbee79684d3869bbe9a0b5a4d43347807bd5f01157c42108e4a425b2",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "어둠의 핵",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경된다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가하고, 치명타 피해량이  <FONT COLOR='#99ff99'>42.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[4]"
+      }
+    },
+    {
+      "id": "5d4225107aa5ff8670d3f024d79d28f9573c6b48af2eacd779e7ef81d3024bf5",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "얼티밋 셔플",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>언리미티드 셔플의 지속시간이 <FONT COLOR='#ffff99'>0.6</FONT>초 더 증가하고, 카드가 더욱 더 빠르게 날아다녀 판정횟수가 <FONT COLOR='#99ff99'>3</FONT>회 증가하여 최대 <FONT COLOR='#99ff99'>65.4%</FONT> 증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[5]"
+      }
+    },
+    {
+      "id": "59acba54e6000ae1e915fc878af4b8fd4ad5d8e8e692ea9237e45857c4447bba",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "예견된 죽음",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>판정 범위가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하고, 원형 마법진이 추가로 생성돼, 원형 마법진 위에 있는 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[6]"
+      }
+    },
+    {
+      "id": "a68730c4ce95977e50498d90f52ffeb9f75b9e406ece1c8110a383c534d38861",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "파멸의 폭풍",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_41.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>더욱 간결한 동작으로 지정한 위치에 <FONT COLOR='#99ff99'>3</FONT>회의 피해를 주고 적을 공중에 띄워 <FONT COLOR='#99ff99'>105.0%</FONT> 증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[1].Tripods[7]"
+      }
+    },
+    {
+      "id": "0a9b7674cc3d7630f1ed97c46e62f02767814ab7ae7f42703602a33ce5dba9ec",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "급소 노출",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_99.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격 적중 시 대상이 자신 및 파티원에게 받는 피해의 치명타 저항률이 <FONT COLOR='#ffff99'>10.0</FONT>초간 <FONT COLOR='#99ff99'>10.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[0]"
+      }
+    },
+    {
+      "id": "c4664f7c2b3054608367befc7e39084dc25bf8b969e3f2ff1f67bf4a212286f2",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 집중",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[1]"
+      }
+    },
+    {
+      "id": "deedd6a5c3bca9410642e21a7d9288f06bf00f00041a9585e73480ec12028900",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "부위파괴 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_21.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>두 번째 공격에 부위파괴 <FONT COLOR='#99ff99'>2</FONT>레벨이 부여된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[2]"
+      }
+    },
+    {
+      "id": "29efba94c861eed7cf710b64021ef2b97f6ec8c27c15f3dd3c12484644266f3d",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "노출된 표적",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_50.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>첫 번째 공격에 적중당한 대상은 이후 콤보 공격으로 받는 피해가 <FONT COLOR='#99ff99'>100.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[3]"
+      }
+    },
+    {
+      "id": "7e752d700849632579c1ec9dd1cbc35eb72f38355e2b5badbc652fc070d88b65",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[4]"
+      }
+    },
+    {
+      "id": "ec6d1f8f95bd60f2c869c6174d83fad7896566b42244d373b462b1bf3ac8dd33",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "집중된 카드",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_7.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격 각도가 줄어들지만 공격 거리가 <FONT COLOR='#ffff99'>25.0%</FONT> 증가하고 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[5]"
+      }
+    },
+    {
+      "id": "1cfaafbd813ff1debfd436ab603edda9fa7df268a1a916a28d4feb15ced7bd39",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>콤보가 <FONT COLOR='#99ff99'>1</FONT>회 추가되어 추가 입력 시 공중에서 카드를 한번 더 내려찍는다. 세 번째 콤보 공격은 두 번째 콤보 보다 <FONT COLOR='#99ff99'>126.0%</FONT> 증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[6]"
+      }
+    },
+    {
+      "id": "9a3819a3ff397079cdc6aaf5fb93aa6351ccd9119bf17808716671f26f28e7f2",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "노출된 어둠",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_49.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되며, 치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하고, 적중 시 <FONT COLOR='#ffff99'>7.0</FONT>초간 적에게 주는 치명타 피해가 <FONT COLOR='#99ff99'>77.5%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[2].Tripods[7]"
+      }
+    },
+    {
+      "id": "545a810b0e1c35fded443470c1132a44d2628729d6833b2b94b95366f71f4e3d",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "정신 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[0]"
+      }
+    },
+    {
+      "id": "ad79a7ec68c35430fab3a2cdadda5ed1c71587efea57377734b3bd789b6d7f9b",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "부위파괴 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_21.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>부위파괴 레벨이 <FONT COLOR='#99ff99'>1</FONT>만큼 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[1]"
+      }
+    },
+    {
+      "id": "6704c44e93d2657e119827506a835a6bd0db9903d09b8df2d867d14bec93e764",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "퀵 드로",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_66.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>첫 번째 공격 적중 시 <FONT COLOR='#99ff99'>30.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[2]"
+      }
+    },
+    {
+      "id": "8b1ea6b83ef1f4102fabd0df7ae801cff568858b1615ae7d2584076a8b8e912f",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "회피의 달인",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_26.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 회피율이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[3]"
+      }
+    },
+    {
+      "id": "cca56132bc2d61abe4a3bba1e8385479e6ca62ad84a9e887620f0134319208ed",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "쇄도 집중",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_58.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>매 판정마다 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> 씩 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[4]"
+      }
+    },
+    {
+      "id": "1bccf2c988e9adde5b20fe82bab1d1842a7ee9050a385475e39640152fe817a6",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "기동성 약화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_47.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>신비한 쇄도에 적중 된 적의 이동속도를 <FONT COLOR='#ffff99'>4.0</FONT>초간 <FONT COLOR='#99ff99'>69.0%</FONT> 감소시킨다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[5]"
+      }
+    },
+    {
+      "id": "a2efa787a86096b0bdc2e7ee7827652394d3547120d48a7b23d8312784a8dad9",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "신비한 전략",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_83.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스택 가능하게 변경되며, 최대 <FONT COLOR='#ffff99'>2</FONT>회 스택이 가능하다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[6]"
+      }
+    },
+    {
+      "id": "523758a0b8bd8a45064f0684b9b7826875b7d3ece67b9e3a207c62eda21cc423",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "연속 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_8.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#99ff99'>3</FONT>회로 증가하고, 마지막 공격은 적을 멀리 밀어낸다. 부위파괴 강화를 적용할 경우 <FONT COLOR='#ffff99'>2</FONT>번째와 <FONT COLOR='#ffff99'>3</FONT>번째 공격에 각각 <FONT COLOR='#99ff99'>1</FONT>레벨의 부위파괴 공격이 적용된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[3].Tripods[7]"
+      }
+    },
+    {
+      "id": "1cc455c5e973f9f483a10a600bd8b034fb3c10b60e17496aa89846d0c411e1e9",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "날렵한 움직임",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>18.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[0]"
+      }
+    },
+    {
+      "id": "fb1df6e6167e104c48acb7fd5ae1547cbc02adaceeed786956a943fd78f85b82",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "꿰뚫는 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_3.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[1]"
+      }
+    },
+    {
+      "id": "83144333e5cb3ee3a890124bd3471eb9b06d8b7dad3b78e2ed0c39ad00f595ac",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "정신 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[2]"
+      }
+    },
+    {
+      "id": "f9e744cc3632b327d8ccc9e97c5ee08b3ba776e1349cff341f05b8d429a77114",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "퀵 드로",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_66.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>마지막 공격에 적중 시 <FONT COLOR='#99ff99'>40.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[3]"
+      }
+    },
+    {
+      "id": "36c3fd403f29d179325ae315c016089f71690f6791feffa955925792deac5e6f",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "치명적 카드",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[4]"
+      }
+    },
+    {
+      "id": "35c2c53077f286f104ccdf43d0882af924b69dd090680466dff954c2d5e9f043",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강렬한 카드",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[5]"
+      }
+    },
+    {
+      "id": "1d4f1a56c64d5616ea176086eb9b96277af8e5c0ab8881256109700e747df968",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "죽음의 공포",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_45.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>더 이상 점프하지 않고 빠른 속도로 공격해, 마지막 공격에 적중 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 매 초마다 <FONT COLOR='#00ccff'>1,286,200</FONT>의 중독 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[6]"
+      }
+    },
+    {
+      "id": "078d6a25542318470b478748b2c49fc1b04ef3b01c7e74f91a94488188e8d03d",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "분노의 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_53.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>더 이상 공포를 걸지 않지만, 치명타 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가하고, 마지막 공격이 지면을 강타해 적중된 적을 가운데로 모아 넘어뜨리며, <FONT COLOR='#99ff99'>70.0%</FONT> 증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[4].Tripods[7]"
+      }
+    },
+    {
+      "id": "3faf7ba3da947c510d9b81e490eef71fbfac739663427498dc6011a8d04ca1e4",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>8.0</FONT>초 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[0]"
+      }
+    },
+    {
+      "id": "b188236b3217fe3931a7c2f3e166704383e92e9d380341aa11ea16fb1dab3e2f",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[1]"
+      }
+    },
+    {
+      "id": "f8588612d4732c2fbd486c941aa1d6b344409f68a2d0f7a5edefc382fb3e0b0d",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "퀵 드로",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_66.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적중 시 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 아이덴티티 카드를 <FONT COLOR='#ffff99'>1</FONT>장을 획득한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[2]"
+      }
+    },
+    {
+      "id": "d110690a98eb683fae9ed6e31d7b38812ac3b6b9f4801f6bcc917b1c2cb5a41d",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "집속 마법진",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[3]"
+      }
+    },
+    {
+      "id": "3f4b13e7d09f8c384300909acfc8b6398092bb4e668444e84d4f51a280742cd4",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "마나 중독",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_45.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#ff9999'>30.0%</FONT> 감소하고, 더 이상 공중으로 띄우지 않지만 <FONT COLOR='#ffff99'>3.0</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>40.0%</FONT> 감소시키고 매 초마다 <FONT COLOR='#00ccff'>1,179,820</FONT>의 중독 피해를 주며 최대 <FONT COLOR='#ffff99'>3</FONT>회 중첩이 가능하다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[4]"
+      }
+    },
+    {
+      "id": "661680a2bfbfe62971706c9eb761d969ff81154bc868d71f9c0d8ded9b67f54f",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "치명적 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[5]"
+      }
+    },
+    {
+      "id": "438eb3bbf5c535819823c27dd9f34a5b751880ca61cda313edc8090ccd69fd37",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "분할 마법진",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>더 이상 원하는 타이밍에 터트리지 못하지만, <FONT COLOR='#ffff99'>3.0</FONT>초 동안 이보크를 <FONT COLOR='#ffff99'>2</FONT>회 사용할 수 있다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[6]"
+      }
+    },
+    {
+      "id": "d8b710b0eedc2ea5f99ad86daff37ba2dec4bffbf264efac261da41a03f4acfa",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "중첩 마법진",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_8.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#ffff99'>3</FONT>회로 증가하지만, <FONT COLOR='#ffff99'>2</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>50.0%</FONT>, <FONT COLOR='#ffff99'>3</FONT>번째 공격의 피해 및 공격 범위가 <FONT COLOR='#ff9999'>75.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[5].Tripods[7]"
+      }
+    },
+    {
+      "id": "a5f15e716677dc0e1ad7df8d44129d22b2c5959ffe2d8875b0d81e00d6da7710",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "치명적인 꽃",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 스킬 지속시간에 따라 <FONT COLOR='#99ff99'>10.0%</FONT> 씩 최대 <FONT COLOR='#99ff99'>100.0%</FONT> 까지 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[0]"
+      }
+    },
+    {
+      "id": "4ff2b85f770cca38efaaac4ce9f2a951df84c0ffc12a673e58a2e6348ffa2b9e",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "격렬한 춤",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_1.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[1]"
+      }
+    },
+    {
+      "id": "343c15b3c93c740d92ad206945d5cca6b68b82f701492909adf5efc87752c82d",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "가벼운 발걸음",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_11.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>순간이동을 사용하면 <FONT COLOR='#ffff99'>4.0</FONT>초간 이동속도가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[2]"
+      }
+    },
+    {
+      "id": "08fc2b7d5416e045f2419bf134fda9be94707f82fb16587f51c79025f8dcb3cf",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "넓은 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>판정 범위가 <FONT COLOR='#99ff99'>25.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[3]"
+      }
+    },
+    {
+      "id": "1da4dc6261c04214f3de3988a850586706a7ef5c0f964bb61e6c255be60e044b",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "짜릿한 춤",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_17.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, <FONT COLOR='#99ff99'>30.0%</FONT> 확률로 <FONT COLOR='#ffff99'>3.0</FONT>초간 매 초마다 <FONT COLOR='#00ccff'>146,270</FONT>의 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[4]"
+      }
+    },
+    {
+      "id": "ce384e1525a2acba76a835c78c94ec02f416fb95f1bcaa073d7121a5a4f20e96",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "밤에 피는 꽃",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 치명타 피해가 <FONT COLOR='#99ff99'>135.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[5]"
+      }
+    },
+    {
+      "id": "d871d8716603767c92cf86273acc9ef49992f9591a1bd37d91ed436caa6208e5",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "가시 집약",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#ff9999'>4</FONT>회로 줄어들지만, 더욱 빠르게 공격하여 적에게 주는 총 피해가 <FONT COLOR='#99ff99'>95.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[6]"
+      }
+    },
+    {
+      "id": "6409f80229ff22fdceba0c67162c420579752bae74a9fe2803ffd4c71e3180b1",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "페이크 플립",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_68.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'><FONT COLOR='#FFFF00'>[일반 스킬]</FONT> 형태로 변경되고, 순간이동을 사용한 위치에 기본 피해의 <FONT COLOR='#99ff99'>40.0%</FONT> 에 해당하는 치명적 가시 피해를 준다. 해당 스킬 적중 시 치명적 가시 피해는 <FONT COLOR='#99ff99'>72.0%</FONT> 증가되며 최대 <FONT COLOR='#ffff99'>4</FONT>회 중첩된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[9].Tripods[7]"
+      }
+    },
+    {
+      "id": "1dedc57a45d95b40f4ab6c83250552015cd6dc43fafb75cc993a70185cd3f3ea",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "카드 증가",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_67.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스트림 오브 엣지로 쌓을 수 있는 최대 스택트 중첩수가 <FONT COLOR='#ffff99'>2</FONT>에서 <FONT COLOR='#99ff99'>3</FONT>으로 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[0]"
+      }
+    },
+    {
+      "id": "44906077bd08740dad9b5648fdd677ecf437afe0012b7f74c937e00dd8715829",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "가속 스트림",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_11.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스트림 오브 엣지 사용 시 자신의 이동속도가 <FONT COLOR='#ffff99'>4.0</FONT>초간 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[1]"
+      }
+    },
+    {
+      "id": "74f7a0405ce170c97f46be520a9125e9e81ff6079a903573d6356ad061875b26",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "엣지 밤",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_78.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스트림 오브 엣지 종료 시 차원문이 폭발하여, <FONT COLOR='#ffff99'>3.0m</FONT> 이내의 적에게 기본 피해량의 <FONT COLOR='#99ff99'>45.0%</FONT>에 해당하는 추가 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[2]"
+      }
+    },
+    {
+      "id": "cf0fcd5a6bb17ce527151ce474b3174df08e6e25d364843a6b175ab67afab77c",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "데스 휠",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_81.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스트림 오브 엣지가 회전을 하고 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[3]"
+      }
+    },
+    {
+      "id": "6db9ebfa4b4c342f0592f9f264dc051c67eddb1c0eb459c5854d97b32e05d567",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "썬더 스트림",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_17.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 짧은 시간 내 <FONT COLOR='#99ff99'>4</FONT>회 적중 시 <FONT COLOR='#99ff99'>5.0</FONT>초간 감전상태로 만든다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[4]"
+      }
+    },
+    {
+      "id": "18c3338b5be811f980dcb4460b85499aef3494624487406df99a2c7d19660780",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "다크니스 엣지",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 적중 시 마다 아르카나의 치명타 적중률이 <FONT COLOR='#ffff99'>3.0</FONT>초간 <FONT COLOR='#99ff99'>5.5%</FONT> 씩 최대 <FONT COLOR='#99ff99'>27.6%</FONT> 까지 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[5]"
+      }
+    },
+    {
+      "id": "e96c330afaf5e15dd7a0ddd487af0209eeedcf4be326c4d94aa2f8ec2cfb1a48",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "스트림 웨이브",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_52.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>더 이상 지정된 위치에 소환하지 않고 스킬을 사용한 방향으로 천천히 날아가고 적에게 주는 피해가 <FONT COLOR='#99ff99'>205.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[6]"
+      }
+    },
+    {
+      "id": "d25fe3567913b86cc6ee5607028b39fa2a637a8995597fd36cb089d0ad65b29d",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "퍼펙트 스트림",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스트림 오브 엣지의 차원문을 하나 더 소환해 삼각형 형태로 변경된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[2].body[11].Tripods[7]"
+      }
+    },
+    {
+      "id": "336f3fdaee6c705151e8bfbc037c75c15ed6bea77d1cf1d999593a9e9545fa9e",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "탁월한 기동성",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>첫 번째 공격의 이동거리가 <FONT COLOR='#99ff99'>4.0m</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[0]"
+      }
+    },
+    {
+      "id": "8f9f4c623373398513f1e0dc4b0bcea94091392128031b7f21ad417ebaac5ca4",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 노출",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_99.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격 적중 시 대상이 자신 및 파티원에게 받는 피해의 치명타 저항률이 <FONT COLOR='#ffff99'>10.0</FONT>초간 <FONT COLOR='#99ff99'>10.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[1]"
+      }
+    },
+    {
+      "id": "cb4a88792be34ed9ae6e5ebeddac66dec44c82b306165715d180787d6caceec6",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "근육 경련",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_9.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>넘어진 상태 시간이 <FONT COLOR='#99ff99'>0.5</FONT>초 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[2]"
+      }
+    },
+    {
+      "id": "374765ea3ca9387ea1d976a674002d68c4ae1a2248dacde8cbebf9f48b752c1e",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "예리한 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 피해가 <FONT COLOR='#99ff99'>160.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[3]"
+      }
+    },
+    {
+      "id": "fef52b7d9faa78655eb0c4c910719ebaa9ac8b3b52cb0815169eb84ea2b2227c",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "퍼스트 스크래치",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스택트에 중첩되지 않은 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[4]"
+      }
+    },
+    {
+      "id": "48266a6bb797aa197b25a73d17bef741d9a520eeb0b23fef4695827e41d887e5",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "약점 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[5]"
+      }
+    },
+    {
+      "id": "36cee9cc9dd1835fe07832ac7724d9e5305884cbf5f430713f2cfd399b4e7a66",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>콤보 횟수가 <FONT COLOR='#99ff99'>3</FONT>회로 증가한다. 첫번째 공격 이후 대상을 공중에 띄우는 콤보 공격이 추가되며 피해량은 첫번째 공격과 동일하다. 마지막 콤보 공격이 공중에 있는 대상에게 적중하면 피해량이 <FONT COLOR='#99ff99'>110.0%</FONT>증가한다. 마지막 콤보 공격 적중 시 스택트가 <FONT COLOR='#ffff99'>2</FONT>중첩이 된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[6]"
+      }
+    },
+    {
+      "id": "3921e830dcef0246f46eba0dea40129927a8253f4be5f44cee61a050e0a02334",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "안전 장치",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_26.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>콤보 조작이 <FONT COLOR='#99ff99'>3</FONT>회로 증가한다. 마지막 콤보를 사용 시 후방으로 <FONT COLOR='#99ff99'>7.0m</FONT> 순간이동을 하며 스킬 사용 시 <FONT COLOR='#ffff99'>5.0</FONT>초간 공격속도가 <FONT COLOR='#99ff99'>19.2%</FONT> 증가하고, 이동속도가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[7].Tripods[7]"
+      }
+    },
+    {
+      "id": "5591106bb45aab0af5193bc3f07f70de3e85829afb2f61f54167495f1e8abbf2",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "정신 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[0]"
+      }
+    },
+    {
+      "id": "f68fbcaf1aa520b6340fcf140ce53d839dbaf29db66a77f4fca4c2041b8fb43f",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>5.0</FONT>초 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[1]"
+      }
+    },
+    {
+      "id": "c3ccb92c2751142d3960e7f4d39e3b4a72d7d16cae242a8680e29b7914eead40",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "탁월한 기동성",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>이동거리가 <FONT COLOR='#99ff99'>3.0m</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[2]"
+      }
+    },
+    {
+      "id": "a49d38e4af02ee14e8abeadb82a7fb86f155e54951d2eb8d6e5c60f4b81a398c",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "강인함",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_23.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스파이럴 엣지 사용 중 피격 이상에 면역이 된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[3]"
+      }
+    },
+    {
+      "id": "89c95ade33439f7119b3f44c824487c4dab7f8a3574dd845cb4168ae569ac3aa",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "무자비한 사격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_8.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>카드를 연속으로 뿌려 적에게 주는 피해가 총 <FONT COLOR='#99ff99'>46.0%</FONT> 증가하고, 최대 스택트 중첩수가 <FONT COLOR='#ffff99'>1</FONT>회 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[4]"
+      }
+    },
+    {
+      "id": "07303db7096f3731364570f3267322707d668d4242c5f454cc0dcf6ea1ac85c2",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "급소 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_49.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 적중 시 <FONT COLOR='#ffff99'>5.0</FONT>초간 자신에게 받는 치명타 피해가 <FONT COLOR='#99ff99'>77.5%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[5]"
+      }
+    },
+    {
+      "id": "2247afec05dfe279fce2a2c194f37d218831419e983ae2c5aec2980c767c58a6",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "카드 폭풍",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>아르카나가 착지하는 순간 한 번 더 카드를 흩뿌려 총 <FONT COLOR='#99ff99'>144.0%</FONT> 증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[6]"
+      }
+    },
+    {
+      "id": "8467c40c543b91ccff9a80daffe1dd3ffd5b2ff0a62e90943690684d9bdc9381",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "가벼운 발걸음",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_48.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스킬 사용 후 이동속도가 <FONT COLOR='#ffff99'>2.0</FONT>초간 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하고 이동 중 모험가 및 일반 몬스터와 충돌이 무시된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[8].Tripods[7]"
+      }
+    },
+    {
+      "id": "262ffb2b0363f94f12a73eebe8720add2a59f47ab065c09414229d4381f6da79",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "날렵한 움직임",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>27.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[0]"
+      }
+    },
+    {
+      "id": "421e310a5064cf597ba7eebbe31128651a00eb88eec006673245468a1b5832f4",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스킬 및 스택트 효과의 치명타 적중률이 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[1]"
+      }
+    },
+    {
+      "id": "984580a5fb45e9ba3dc8ab9ce8bbd66c5c81fda978a67c33d9e36f9c34a0ae68",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "마력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>시전 시 <FONT COLOR='#99ff99'>67.0%</FONT> 확률로 마나를 소모하지 않는다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[2]"
+      }
+    },
+    {
+      "id": "167661dfd79fac745025c0c7f0d144bb2f5fa7b1890aad5e98c0996fe006ddbe",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "파멸의 카드",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_5.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>기존 스택트 효과에 추가로 중첩에 따라 치명타 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> ~ <FONT COLOR='#99ff99'>160.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[3]"
+      }
+    },
+    {
+      "id": "f8e6d21f7361e246a93fba094bc95488b21327f0ed19e7502b10183f50b556f2",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "기동성 약화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_47.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>기존 스택트 효과에 추가로 적중된 적의 이동속도를 <FONT COLOR='#ffff99'>4.0</FONT>초간 <FONT COLOR='#99ff99'>57.6%</FONT> 감소시킨다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[4]"
+      }
+    },
+    {
+      "id": "7f373c0e9ec5b88668109d583f38eb2e73050cf93be8fad303dca84284592f1d",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강화된 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 스킬 및 스택트 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[5]"
+      }
+    },
+    {
+      "id": "80457c27270d4583630aebc7a53ab47c22e8113c7339a3e910d14406468f0503",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "폭우",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_54.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>카드가 한 번 더 쏟아져 <FONT COLOR='#99ff99'>145.0%</FONT>의 추가 스킬 피해를 주며, 추가로 쏟아진 카드는 넘어진 적에게 <FONT COLOR='#99ff99'>50.0%</FONT> 증가된 스킬 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[6]"
+      }
+    },
+    {
+      "id": "9bd07ecf0fd24637444ea66e02a0dd8060e8b6cf867d5a84392a957fc116066c",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>기존 스택트 효과 대신 피격이상 면역인 적에게 스택트 효과 중첩에 따라 적에게 주는 스택트 효과 피해가 <FONT COLOR='#99ff99'>44.0%</FONT> ~ <FONT COLOR='#99ff99'>176.0%</FONT> 증가하지만 재사용 대기 시간이 <FONT COLOR='#ff9999'>8.0</FONT>초 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[13].Tripods[7]"
+      }
+    },
+    {
+      "id": "184fd24c60998f28c25441c9d959a5e4b85933b999f11a17dce445a3da2325ad",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "신속한 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'><FONT COLOR='#99ff99'>55.0%</FONT> 확률로 재사용 대기시간이 초기화 된다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[0]"
+      }
+    },
+    {
+      "id": "8bf9387df0c79cde5f18aa1092dd6aa169122304aa0996e5c2b6ba80afed3f47",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>62.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[1]"
+      }
+    },
+    {
+      "id": "7a971133ef57e8b57049ad72be192625f49914d8d690fab3da12faf67013a877",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "부위파괴 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_21.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>부위파괴 레벨이 <FONT COLOR='#99ff99'>1</FONT>만큼 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[2]"
+      }
+    },
+    {
+      "id": "c4921db4ed0063c01d8613aa99fc8426016cf55b7797505eaebf6d9865cdf76f",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "눈속임",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_67.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스택트 <FONT COLOR='#ffff99'>4</FONT> 중첩 일 경우 <FONT COLOR='#99ff99'>75.0%</FONT> 확률로 스택트가 소모되지 않는다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[3]"
+      }
+    },
+    {
+      "id": "e9996399c422d46133d651425784923ad2219ed5af697b73dab2ea884e604cff",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "스트레이트",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_156.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>포 카드 사용 중 피격 이상에 면역이 되고, 적에게 주는 스택트 효과 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[4]"
+      }
+    },
+    {
+      "id": "3525bda06f7f447b30b7d3c25c21a922d00bf0bb729e5acb0f1d2e1e8f929689",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "카드 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 스킬 및 스택트 효과의 피해가 <FONT COLOR='#99ff99'>75.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[5]"
+      }
+    },
+    {
+      "id": "ddc9bbe5d036c29b87edb943205f01687d4c0cab2030e78d6f4e6e4a145acd27",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "풀 하우스",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스킬 및 스택트 효과의 치명타 적중률이 <FONT COLOR='#99ff99'>44.0%</FONT> 증가하고, 피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>36.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[6]"
+      }
+    },
+    {
+      "id": "2ab37a972a24d6cca8ae8c1a0f10e41ec0a48794ef32873616c6aa49b86745b6",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "연속 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_38.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>콤보 조작으로 변경되어 스킬키를 추가로 입력 시 원하는 방향으로 포카드를 한번 더 사용한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[14].Tripods[7]"
+      }
+    },
+    {
+      "id": "ca38c5b362e3592c04899c40f2ac680cb0ca8979a7272f7003ad9f4e2e70fed4",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "꿰뚫는 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_3.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스킬 및 스택트 효과 적중 시 <FONT COLOR='#ffff99'>50.0%</FONT> 확률로 적의 모든 방어력을 <FONT COLOR='#99ff99'>80.0%</FONT> 무시한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[0]"
+      }
+    },
+    {
+      "id": "3d0ebab62d647ef86c0c9b57217dc7204a96592b5ab1d91d2426b85ffd2f253a",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "눈속임",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_67.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 적중 시 <FONT COLOR='#ffff99'>28.0%</FONT> 확률로 스택트를 소모하지 않는다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[1]"
+      }
+    },
+    {
+      "id": "18109acb27011899dfc00fc475724e0839d2fc51171dc83dc5eb835ea7363d58",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "정신 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 사용 시 <FONT COLOR='#ffff99'>67.0%</FONT> 확률로 마나를 소모하지 않는다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[2]"
+      }
+    },
+    {
+      "id": "ac562e76f84cf1acc8a36c7674cab3bf8c8f367a53c1ca7a2f49f645789d0113",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "우연한 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_68.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스택트 중첩당 <FONT COLOR='#ffff99'>20.0%</FONT> 확률로 루인으로 주는 치명타 피해가 <FONT COLOR='#99ff99'>504.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[3]"
+      }
+    },
+    {
+      "id": "a960cf35a198a732d80468b4eef1e8db2caff86a68d86bdf206b054b7c48b678",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "우연한 강타",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_44.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>더 이상 날려버리지 않지만 공격 속도가 <FONT COLOR='#99ff99'>42.0%</FONT> 증가하고, 스택트 효과 적중 시 추가로 <FONT COLOR='#ffff99'>2.0</FONT>초간 기절시킨다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[4]"
+      }
+    },
+    {
+      "id": "b0f55e2f44f01f5accb5087a3cbd77c199dd764072ecd4b3f9bb5c3653fc46aa",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강화된 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 스킬 피해가 <FONT COLOR='#99ff99'>170.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[5]"
+      }
+    },
+    {
+      "id": "663cce3e7532cac600a90f725b76e5329cc18c419788469a759053fe16629a72",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속된 어둠",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 스킬이 콤보 조작으로 변경되며 적에게 주는 총 스킬 피해량이 <FONT COLOR='#99ff99'>70.8%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[6]"
+      }
+    },
+    {
+      "id": "643a41749480ed7e7fd3a7acae4d563e30660e3123443aaf55edf9a7fcca4c78",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "의도된 우연",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_36.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>세렌디피티 트라이포드로 증가되는 발동 확률이 스택트의 중첩과 상관없이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[15].Tripods[7]"
+      }
+    },
+    {
+      "id": "ebe52a46b1ee25341ccc55478dfed5fbbf6ede092ef5e3c446e20fd431132433",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>3.0</FONT>초 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[0]"
+      }
+    },
+    {
+      "id": "e2df505f4b375062883adc49cd5e007c068a2fee15f0e4702368e7deaedc240e",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 집중",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[1]"
+      }
+    },
+    {
+      "id": "3bdf7edb4c450d356edd9d83ec3ccad4bf59a2efe8f8fe81add1790136145240",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스킬 및 스택트 효과의 치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[2]"
+      }
+    },
+    {
+      "id": "c7ecf89cb8dbae2adb8aff6f979b0a09fed46aa15a0de53302984683894367dc",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "완전한 비밀",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_68.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>기존 스택트 효과에 추가로 <FONT COLOR='#ffff99'>4</FONT>중첩인 적에게 <FONT COLOR='#99ff99'>80.0%</FONT> 증가된 피해를 준다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[3]"
+      }
+    },
+    {
+      "id": "ae6b40db02f894086be78b09c9b22eb65c06a13830a721af878a3e4dbd6d56b5",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "스톰 가든",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_9.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 스택트 효과로 주는 피해가 <FONT COLOR='#ff9999'>15.0%</FONT> 감소하지만, 중첩에 상관없이 스택트가 걸린 적을 모두 넘어뜨린다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[4]"
+      }
+    },
+    {
+      "id": "a04d2a9559a7c3a48474037af828b778d06fa1409e0e588eeecdf8ddcba2f705",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "다크니스 가든",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_49.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 적에게 주는 스킬 및 스택트 효과의 치명타 피해가 <FONT COLOR='#99ff99'>190.0%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[5]"
+      }
+    },
+    {
+      "id": "247313550e85c6acab836df6f609e263845a6f214912bb7672bf242360d898ba",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "시크릿 찬스",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_50.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 스택트 피해 효과가 <FONT COLOR='#99ff99'>95.0%</FONT> 증가한다. 대상이 모험가일 경우 <FONT COLOR='#99ff99'>124.3%</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[6]"
+      }
+    },
+    {
+      "id": "4d6672114482891551fa87b89e6d38330df43448ca18a5a2edc5801f02939a49",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": null,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "넓은 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#99ff99'>2.0m</FONT> 증가한다.</font>"
+      },
+      "source": {
+        "kind": "official-observed",
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[2].body[16].Tripods[7]"
+      }
+    },
+    {
+      "id": "0643d925bf6aecda0cdee16a1a61e872bcedb089ff3e38f28018acede0f85193",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "정신 강화",
+        "Tooltip": "마나 소모량이 67.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19180.json",
+        "sha256": "34427e83d3aacd523231c133d7b60ecf96c684092c1782f4c48cb05c928fd77b",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "a3178b8df21da57842b760b4dd9db90435227a5708e3f0aed5acf3dc58f8f358",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "꿰뚫는 일격",
+        "Tooltip": "적중된 적의 모든 방어력을 30.0% 무시한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19180.json",
+        "sha256": "34427e83d3aacd523231c133d7b60ecf96c684092c1782f4c48cb05c928fd77b",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "3d9d07bdcd1260e8e6ac0e4e200160ad1fe616af5de0896d5a91af45d7989de5",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "날렵한 움직임",
+        "Tooltip": "공격속도가 27.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19180.json",
+        "sha256": "34427e83d3aacd523231c133d7b60ecf96c684092c1782f4c48cb05c928fd77b",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "4da1873db1aa51964aed089ef60ce6e72efd56209a5896bba2dac20fc7542fb1",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Tooltip": "피격이상 면역인 적에게 주는 피해가 40.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19180.json",
+        "sha256": "34427e83d3aacd523231c133d7b60ecf96c684092c1782f4c48cb05c928fd77b",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "b9a5dcbfe9321ab06dd4c90e7058cc0e2405b0f01168a82a2bdb3d50e7586f53",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "어두운 운명",
+        "Tooltip": "[암] 속성으로 변경되고, 적에게 주는 피해가 15.0% 증가한다. 공격 적중 시 5.0초간 적에게 주는 치명타 피해가 50.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19180.json",
+        "sha256": "34427e83d3aacd523231c133d7b60ecf96c684092c1782f4c48cb05c928fd77b",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "134cf2530dc916a1fc6364163c512702411a509f659ff6c49c8e9874c74637bb",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속 공격",
+        "Tooltip": "카드를 빠르게 2회 날려 적중된 적을 공중으로 띄우는 형태로 변경되며, 총 70.8%증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19180.json",
+        "sha256": "34427e83d3aacd523231c133d7b60ecf96c684092c1782f4c48cb05c928fd77b",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "bf9a5ceca8b97223e21c05f6c68adf4b46566a9a23793780b7bd430d4ee82408",
+      "skillId": "call_of_destiny",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "페이크 플립",
+        "Tooltip": "[스택트 스킬] 형태로 변경되어 스택트 중첩이 2회 부여되고 간결한 움직임으로 카드를 날려 시전 시간이 0.3초 짧아지며, 공격이 1회로 변경되지만 적중된 적을 바로 공중에 띄워올리며 45.0% 증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19180.json",
+        "sha256": "34427e83d3aacd523231c133d7b60ecf96c684092c1782f4c48cb05c928fd77b",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "21317d0319c25256fa2c9511d48fa146367642cfcc632aefeaaf4d2141f505e7",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "파멸의 셔플",
+        "Tooltip": "언리미티드 셔플 사용 중 아르카나 주변으로 카드가 휘몰아쳐 기본 피해량의 45.0%에 해당하는 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19120.json",
+        "sha256": "3fb0bbcc776c0317364451bd268b26ff4a6ae5a0109b6e7139d2ddf89504a899",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "2a2e7ac9f855961923ac485c7a54411b5eba261d53963d6c68c2b1405ce6a898",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "빠른 준비",
+        "Tooltip": "재사용 대기시간이 5.0초 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19120.json",
+        "sha256": "3fb0bbcc776c0317364451bd268b26ff4a6ae5a0109b6e7139d2ddf89504a899",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "c0b44ed1a0017522c4ed64eda4e29ffaace269c4c4ae9cce02413b0a60c7971a",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "무한의 뇌격",
+        "Tooltip": "[뇌] 속성으로 변경되고, 더 이상 피격이상을 시키지 않지만, 마지막 공격에 적중된 적을 4.0초간 감전상태로 만든다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19120.json",
+        "sha256": "3fb0bbcc776c0317364451bd268b26ff4a6ae5a0109b6e7139d2ddf89504a899",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "712132ac2c699c0ab6b2fc2970ff821a5e399380e295f0913e959c5b2fbbd09b",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "어둠의 핵",
+        "Tooltip": "[암] 속성으로 변경된다. 적에게 주는 피해가 35.0% 증가하고, 치명타 피해량이 42.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19120.json",
+        "sha256": "3fb0bbcc776c0317364451bd268b26ff4a6ae5a0109b6e7139d2ddf89504a899",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "52e96b68134fdc8b715452b71495fd6d4da672a740054778c000e209eee0cc81",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "얼티밋 셔플",
+        "Tooltip": "언리미티드 셔플의 지속시간이 0.6초 더 증가하고, 카드가 더욱 더 빠르게 날아다녀 판정횟수가 3회 증가하여 최대 65.5% 증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19120.json",
+        "sha256": "3fb0bbcc776c0317364451bd268b26ff4a6ae5a0109b6e7139d2ddf89504a899",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "72ba716bd5a933ecfdd546b4c24f0b7e7c0e8ab731489d84f4464c875b5b2188",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "예견된 죽음",
+        "Tooltip": "판정 범위가 40.0% 증가하고, 원형 마법진이 추가로 생성돼, 원형 마법진 위에 있는 적에게 주는 피해가 70.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19120.json",
+        "sha256": "3fb0bbcc776c0317364451bd268b26ff4a6ae5a0109b6e7139d2ddf89504a899",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "f7ffbb5457d2e57c3f33af176bea57362282df41c4faccedefb552a6430a28a3",
+      "skillId": "unlimited_shuffle",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "파멸의 폭풍",
+        "Tooltip": "더욱 간결한 동작으로 지정한 위치에 3회의 피해를 주고 적을 공중에 띄워 105.0% 증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19120.json",
+        "sha256": "3fb0bbcc776c0317364451bd268b26ff4a6ae5a0109b6e7139d2ddf89504a899",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "259a890f75dd48da64257c0f25103748133469741517ab4e78553681bb0489ba",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "급소 노출",
+        "Tooltip": "공격 적중 시 대상이 자신 및 파티원에게 받는 피해의 치명타 저항률이 10.0초간 10.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "43c998fa93a94e58a38973da1a68b7b27e9be376ec69d3248196130a1307309a",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 집중",
+        "Tooltip": "마나 소모량이 67.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "368ff69ba240a925f38dbc57eab0ee1e2e2f8281a79ecb326837723ca1bc7d63",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "부위파괴 강화",
+        "Tooltip": "두 번째 공격에 부위파괴 2레벨이 부여된다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "ee819fe9613549cec3a6be42fb80888b54d8f260658001a020c67cadb36d878b",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Tooltip": "피격이상 면역인 적에게 주는 피해가 40.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "679e5d91b1946f47ac867912028f150b61457091086746a4a648de61aefd2a81",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "집중된 카드",
+        "Tooltip": "공격 각도가 줄어들지만 공격 거리가 25.0% 증가하고 주는 피해가 45.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "d9ad47cbd0519aff955d9e96083bfdb10c68eb98591b6de52a2d6778214946ec",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속 공격",
+        "Tooltip": "콤보가 1회 추가되어 추가 입력 시 공중에서 카드를 한번 더 내려찍는다. 세 번째 콤보 공격은 두 번째 콤보 보다 126.0% 증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "ccf625d2c677aa8fcfc84b2b1f07ef465b5349a1e3d892bcbf7b4b8d4407e91a",
+      "skillId": "return",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "노출된 어둠",
+        "Tooltip": "[암] 속성으로 변경되며, 치명타 적중률이 40.0% 증가하고, 적중 시 7.0초간 적에게 주는 치명타 피해가 50.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "9e6ea8e568fddf62a330458905d9a9d25038fbc1e3907be335a982affb7f6b2e",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "정신 강화",
+        "Tooltip": "마나 소모량이 67.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "eb73217993ac95cc41a52333999508c3d4327db4f1fd1992e652d694aedc36a8",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "부위파괴 강화",
+        "Tooltip": "부위파괴 레벨이 1만큼 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "65b82156d94d61db649e5fe974ad24de070b4856c8012d5a31771b00fc852d2c",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "회피의 달인",
+        "Tooltip": "스킬 시전 중 회피율이 20.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "bed57389d9de3b13541bd46411e5bb5c7c56259dc00bddcf811b30d33b111450",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "쇄도 집중",
+        "Tooltip": "매 판정마다 적에게 주는 피해가 40.0% 씩 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "7150d7cbdf294a6c4da171e3814e8dc5306211eda3168f627bc598a09c382efa",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "기동성 약화",
+        "Tooltip": "신비한 쇄도에 적중 된 적의 이동속도를 3.0초간 50.0% 감소시킨다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "f597d6492ed3e5fb9260e44457c49954b1391c8233447cc1fb4e505470b7b50e",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "신비한 전략",
+        "Tooltip": "스택 가능하게 변경되며, 최대 2회 스택이 가능하다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "e02fe34e90030a556df6cfb3af6040b2ee5dbb0023a8d0b402f30d543edf6947",
+      "skillId": "mysterious_stampede",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "연속 공격",
+        "Tooltip": "공격 횟수가 3회로 증가하고, 마지막 공격은 적을 멀리 밀어낸다. 부위파괴 강화를 적용할 경우 2번째와 3번째 공격에 각각 1레벨의 부위파괴 공격이 적용된다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "64c239fd90c5b8e17f1c8fd4209903d789e51ce235459da7e87812a949675dc9",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "날렵한 움직임",
+        "Tooltip": "공격속도가 18.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19050.json",
+        "sha256": "f20f1f936856aa2fc20c57ef90783de1f8250c8ef8f316964028fbe1f8ae05c1",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "22526a18bd6c27413f54d8a2c03d7bd48978c428ebf274776ffe91fd9b5a28df",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "꿰뚫는 일격",
+        "Tooltip": "적중된 적의 모든 방어력을 30.0% 무시한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19050.json",
+        "sha256": "f20f1f936856aa2fc20c57ef90783de1f8250c8ef8f316964028fbe1f8ae05c1",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "e2e9523858388235e02856752364b09e5710742cf64e6f8bad286279b2a98b16",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "정신 강화",
+        "Tooltip": "마나 소모량이 67.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19050.json",
+        "sha256": "f20f1f936856aa2fc20c57ef90783de1f8250c8ef8f316964028fbe1f8ae05c1",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "dbae9bd5a7ba08c0db8a3ebe52431a2e324cfcee86340506468c434a9a62a8ba",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "치명적 카드",
+        "Tooltip": "치명타 적중률이 60.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19050.json",
+        "sha256": "f20f1f936856aa2fc20c57ef90783de1f8250c8ef8f316964028fbe1f8ae05c1",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "88283a4655996cfc2920108fdd873eafb13efe40e51bc5b9748539498af24522",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강렬한 카드",
+        "Tooltip": "적에게 주는 피해가 50.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19050.json",
+        "sha256": "f20f1f936856aa2fc20c57ef90783de1f8250c8ef8f316964028fbe1f8ae05c1",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "6f17f6682852320449f3ae00cd5f9ee8298c82b2dcbfd0ab0a747f42e6691224",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "죽음의 공포",
+        "Tooltip": "더 이상 점프하지 않고 빠른 속도로 공격해, 마지막 공격에 적중 시 3.0초 동안 매 초마다 542.3의 중독 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19050.json",
+        "sha256": "f20f1f936856aa2fc20c57ef90783de1f8250c8ef8f316964028fbe1f8ae05c1",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "b9256e2f53cff405a87a3b09a1a65b699df74ef4bf33102e0b3ee0c000fd5fe5",
+      "skillId": "dark_resurrection",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "분노의 일격",
+        "Tooltip": "더 이상 공포를 걸지 않지만, 치명타 피해가 80.0% 증가하고, 마지막 공격이 지면을 강타해 적중된 적을 가운데로 모아 넘어뜨리며, 70.0% 증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19050.json",
+        "sha256": "f20f1f936856aa2fc20c57ef90783de1f8250c8ef8f316964028fbe1f8ae05c1",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "2f5e6ed83bd7ead5f560b2d972b23c8c440e94992a6238d55ae14b1e4afec580",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Tooltip": "재사용 대기시간이 8.0초 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19030.json",
+        "sha256": "90717ba23d17b2bf995c583154709302235ffe0eccfd3c3d8f5be5c99207bddd",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "174dac87297da0cf094881543df351735fc0e5d3fdcfd8ca58187c599e6d4f85",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 강화",
+        "Tooltip": "마나 소모량이 67.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19030.json",
+        "sha256": "90717ba23d17b2bf995c583154709302235ffe0eccfd3c3d8f5be5c99207bddd",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "22cb7e31a9af0e6d71a6da86f2914b5366cb0cc025bb3dd61458515e42f497cd",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "집속 마법진",
+        "Tooltip": "적에게 주는 피해가 50.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19030.json",
+        "sha256": "90717ba23d17b2bf995c583154709302235ffe0eccfd3c3d8f5be5c99207bddd",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "8bfce13f0868cc7cf1f85c3f2a6752504a4d9916ad527a35488f72dcc2e85807",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "마나 중독",
+        "Tooltip": "적에게 주는 피해가 30.0% 감소하고, 더 이상 공중으로 띄우지 않지만 3.0초간 이동속도를 40.0% 감소시키고 매 초마다 416.3의 중독 피해를 주며 최대 3회 중첩이 가능하다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19030.json",
+        "sha256": "90717ba23d17b2bf995c583154709302235ffe0eccfd3c3d8f5be5c99207bddd",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "80c6546a559fd7275afb7e4b5bff6fc0c8226e8579adc9078ea53812b0669cba",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "치명적 공격",
+        "Tooltip": "치명타 적중률이 60.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19030.json",
+        "sha256": "90717ba23d17b2bf995c583154709302235ffe0eccfd3c3d8f5be5c99207bddd",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "ef5d568be49ba0ea24e88c3327b8b8d405d9910e8a1cfc2b30a99b22b9ad54ef",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "분할 마법진",
+        "Tooltip": "더 이상 원하는 타이밍에 터트리지 못하지만, 3.0초 동안 이보크를 2회 사용할 수 있다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19030.json",
+        "sha256": "90717ba23d17b2bf995c583154709302235ffe0eccfd3c3d8f5be5c99207bddd",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "c35b9fd099ced058aec8537927c154971f87104ceba538c000b9c1921eb00a9e",
+      "skillId": "evoke",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "중첩 마법진",
+        "Tooltip": "공격 횟수가 3회로 증가하지만, 2번째 공격의 피해 및 공격 범위가 50.0%, 3번째 공격의 피해 및 공격 범위가 75.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19030.json",
+        "sha256": "90717ba23d17b2bf995c583154709302235ffe0eccfd3c3d8f5be5c99207bddd",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "af12fa49180534c35e6e258c081b742a93e7461951984e95dd6a5eb09dcc81a2",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "탁월한 기동성",
+        "Tooltip": "첫 번째 공격의 이동거리가 4.0m 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "01860e9284bf194ef7a5aad85c64e29ffd23386e0cbcb1aa915bb3fe6637c9f3",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 노출",
+        "Tooltip": "공격 적중 시 대상이 자신 및 파티원에게 받는 피해의 치명타 저항률이 10.0초간 10.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "7b62d37c020df805cbe5e0c90ddb4e2f38f3dcf96b27d5b1b14c70183e99a932",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "근육 경련",
+        "Tooltip": "넘어진 상태 시간이 0.5초 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "fce32cba08a3c0c78841394beb952b8341c03aa9cd1fbc18422d94de7f1f587c",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "예리한 일격",
+        "Tooltip": "치명타 피해가 160.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "f885522de822698bbc2eb5aa57c7f2db352dcc7df13c6d61c6e420f21d0c6be4",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "퍼스트 스크래치",
+        "Tooltip": "스택트에 중첩되지 않은 적에게 주는 피해가 40.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "a28cbf4d9a7c214d3156dee9d140c27927c79889c40f08243f3c1c41cadabd7d",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "약점 공격",
+        "Tooltip": "피격이상 면역인 적에게 주는 피해가 40.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "f115c93672bbef0e5e98e9ae4550420bbe7b163dea81e1325f784aae50e2040b",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속 공격",
+        "Tooltip": "콤보 횟수가 3회로 증가한다. 첫번째 공격 이후 대상을 공중에 띄우는 콤보 공격이 추가되며 피해량은 첫번째 공격과 동일하다. 마지막 콤보 공격이 공중에 있는 대상에게 적중하면 피해량이 50.0%증가한다. 마지막 콤보 공격 적중 시 스택트가 2중첩이 된다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "4204b3caee841392e736dcecb548d065a82eb561319d2d6fc4ae684049de56dd",
+      "skillId": "scratch_dealer",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "안전 장치",
+        "Tooltip": "콤보 조작이 3회로 증가한다. 마지막 콤보를 사용 시 후방으로 7.0m 순간이동을 하며 스킬 사용 시 4.0초간 공격속도가 10.0% 증가하고, 이동속도가 20.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19320.json",
+        "sha256": "d83450483878a3501361fb486c2814db9ea2a84b6444a3d8f5369b35e95a012b",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "84a8d2f03006fc17f093368fdaea4006bf6bda9daebe25dcd954d1399ab0d89b",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "정신 강화",
+        "Tooltip": "마나 소모량이 67.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "1ac937688b7ddfd15d75c3aa1701421bc9c51369a5613d312e897b44cf14ae67",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "빠른 준비",
+        "Tooltip": "재사용 대기시간이 5.0초 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "5b31fad5a276694d9e432b61644a5f3122fe6ea183ebd87406ee42e1f49f990c",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "탁월한 기동성",
+        "Tooltip": "이동거리가 3.0m 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "239e8f4d99d36f1122443dd96fe2782aaee3b325ff8ef8c9a37301ae0cd9b397",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "강인함",
+        "Tooltip": "스파이럴 엣지 사용 중 피격 이상에 면역이 된다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "3d01889a1ad497e52f83eb40d2326d1e5174455680c06c3b0e07c92fdcca9073",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "무자비한 사격",
+        "Tooltip": "카드를 연속으로 뿌려 적에게 주는 피해가 총 46.0% 증가하고, 최대 스택트 중첩수가 1회 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "0981e136c75e2f13818a08b6366f78ee1ed56ccd82dd7b9d39b428aec8c42d9f",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "급소 포착",
+        "Tooltip": "공격 적중 시 5.0초간 자신에게 받는 치명타 피해가 50.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "c6b87d5314ea327f69348f0966218286342c1bc1499fcbae0ef2011440cdcf52",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "카드 폭풍",
+        "Tooltip": "아르카나가 착지하는 순간 한 번 더 카드를 흩뿌려 총 144.0% 증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "4bae98fbe5e9ea1d64c5a518c145f0fb9357e814d544ce49cef6faa733cac95b",
+      "skillId": "spiral_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "가벼운 발걸음",
+        "Tooltip": "스킬 사용 후 이동속도가 2.0초간 40.0% 증가하고 이동 중 모험가 및 일반 몬스터와 충돌이 무시된다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19190.json",
+        "sha256": "9e109126d3f301054502ef478e93b4976f86d18aded9d4ebde2b60106efa8253",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "e831c128f4c1a0fde1a4168e1bd562351125e84c60f4ad2c6eaf469d836708ef",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "치명적인 꽃",
+        "Tooltip": "치명타 적중률이 스킬 지속시간에 따라 10.0% 씩 최대 100.0% 까지 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "50e37372b7230db39c40d739e66e9a285ddb4a4dbab8b9ebfbce2dc41049d8a2",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "격렬한 춤",
+        "Tooltip": "적에게 주는 피해가 45.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "9f6ccd9f27856c50f568484d8600a6117424323dc42bbab807caf2d3f64093b7",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "가벼운 발걸음",
+        "Tooltip": "순간이동을 사용하면 3.0초간 이동속도가 20.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "651c93c9f18aecf8b2e12896aad7fd8ac42f507dbe2a3a8bff9e049b0836d86c",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "넓은 공격",
+        "Tooltip": "판정 범위가 25.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "5198a5def9a17b8e0d1fef0b9afff4c15740aac04bf6ca594bfc429e8c3de53e",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "짜릿한 춤",
+        "Tooltip": "[뇌] 속성으로 변경되고, 30.0% 확률로 3.0초간 매 초마다 94.1의 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "74a7e0c420e9a5674a2fa8902d4cf810da4bbda595181d63bc775112fc5fffe7",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "밤에 피는 꽃",
+        "Tooltip": "[암] 속성으로 변경되고, 치명타 피해가 75.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "bc504623431622f72762b290c34328e6528792bdfdd7b87ddee63417de0aa545",
+      "skillId": "dancing_of_spineflower",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "가시 집약",
+        "Tooltip": "공격 횟수가 4회로 줄어들지만, 더욱 빠르게 공격하여 적에게 주는 총 피해가 95.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "8a37395a7c00a9619f12c7c77b4e76c0de3d25d53530263c59a1922c8b6ee00b",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "카드 증가",
+        "Tooltip": "스트림 오브 엣지로 쌓을 수 있는 최대 스택트 중첩수가 2에서 3으로 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "c7e597fc28115953bf01b719d1390cfea24d05fef9583655b3b3d02bad0abfa2",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "가속 스트림",
+        "Tooltip": "스트림 오브 엣지 사용 시 자신의 이동속도가 3.0초간 20.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "598aefd211a3027fb19b2e24ceff1f8eec7e17af9505fb8a12057c9da20ba8aa",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "엣지 밤",
+        "Tooltip": "스트림 오브 엣지 종료 시 차원문이 폭발하여, 3.0m 이내의 적에게 기본 피해량의 45.0%에 해당하는 추가 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "41ed89dd172207541bbb4fa348e6d46fc0d96723e77d60045813628b03223eb8",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "데스 휠",
+        "Tooltip": "스트림 오브 엣지가 회전을 하고 적에게 주는 피해가 70.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "b97701c70bc9f98b4e950d4a498f158c4ef0f671a34ebae0773cd54a77f79aa4",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "썬더 스트림",
+        "Tooltip": "[뇌] 속성으로 변경되고, 짧은 시간 내 4회 적중 시 3.0초간 감전상태로 만든다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "2a082abbeace3ff259a90d4410d73ad7fa6dec0e20f2d2a71b7d8208ce961845",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "다크니스 엣지",
+        "Tooltip": "[암] 속성으로 변경되고, 적중 시 마다 아르카나의 치명타 적중률이 3.0초간 3.0% 씩 최대 15.0% 까지 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "3c6a902e6881327b5bed8012660037a897e32c15e07fbb4c18a3c1fc66ad3b8c",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "스트림 웨이브",
+        "Tooltip": "더 이상 지정된 위치에 소환하지 않고 스킬을 사용한 방향으로 천천히 날아가고 적에게 주는 피해가 205.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "25ffeaee0c1747e01991939a0124ec4fd545466d30715a4f4a5d57d0b78f40e0",
+      "skillId": "stream_of_edge",
+      "skillLevel": 10,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "퍼펙트 스트림",
+        "Tooltip": "스트림 오브 엣지의 차원문을 하나 더 소환해 삼각형 형태로 변경된다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19150.json",
+        "sha256": "dc893d74d8a6cd6a36935d0c327675fa155a27deef2929461f16341de660d0f6",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "4d27d123dc9da425fbd93118a4cb0b61e69ef6fae319dabec464d14d5ef71560",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "날렵한 움직임",
+        "Tooltip": "공격속도가 27.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "048b0f95836121c7e8630dfa8a74aaa219990c6d96bec259ec9bbb8511d30f93",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 타격",
+        "Tooltip": "스킬 및 스택트 효과의 치명타 적중률이 45.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "27cba623b565a5f5671f88f15e0edeb3b6489c960969b80f0cbacc125bde19dc",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "마력 조절",
+        "Tooltip": "시전 시 67.0% 확률로 마나를 소모하지 않는다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "d0d8e538334fa1e1a74ad3e772894bc685b7434fa49af8852ee179d44820f7ef",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "파멸의 카드",
+        "Tooltip": "기존 스택트 효과에 추가로 중첩에 따라 치명타 피해가 40.0% ~ 160.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "354c01cc5b759aaae2470affcebbb772df55ab19948f9c3215894ddada48973e",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "기동성 약화",
+        "Tooltip": "기존 스택트 효과에 추가로 적중된 적의 이동속도를 3.0초간 40.0% 감소시킨다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "a2d762b4e9a918c0b93e6905fbbd5fd55231a48fd42c1351d14cd074507b04da",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강화된 일격",
+        "Tooltip": "적에게 주는 스킬 및 스택트 피해가 60.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "849e5d25dc83867fc93119c054d2debf6f981858579edf1794b0fb8c2347424d",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "폭우",
+        "Tooltip": "카드가 한 번 더 쏟아져 145.0%의 추가 스킬 피해를 주며, 추가로 쏟아진 카드는 넘어진 적에게 50.0% 증가된 스킬 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "10235ed787b39b35813cf3d2371c67484490352b00368ceebd802d97e53a2102",
+      "skillId": "celestial_rain",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Tooltip": "기존 스택트 효과 대신 피격이상 면역인 적에게 스택트 효과 중첩에 따라 적에게 주는 스택트 효과 피해가 44.0% ~ 176.0% 증가하지만 재사용 대기 시간이 8.0초 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19140.json",
+        "sha256": "663da41287d9c58d5687667f87a2b07b74975a8e0df034e1c701333bb66c7984",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "f8d8deb35c40573470f4f4850c49ea7bc0527cdb8db9286e1cc2b5968076bb0e",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "신속한 준비",
+        "Tooltip": "55.0% 확률로 재사용 대기시간이 초기화 된다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "f80d27404c0d3871f6f232f58ab9103b940a644b0da87c3b233d303eb8bf45c4",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 강화",
+        "Tooltip": "마나 소모량이 62.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "6d225220cd104498adc43fcbd787d9d3c7e529f8da3b3b87b774fc17b8acf6c9",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "부위파괴 강화",
+        "Tooltip": "부위파괴 레벨이 1만큼 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "43a3c9f58f06ac038bafc8b128b14406e933c07dd1c0db6cec8c4738150ea8fd",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "눈속임",
+        "Tooltip": "스택트 4 중첩 일 경우 44.0% 확률로 스택트가 소모되지 않는다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "3120c91d4cfd3bf5b7012598fc4dddfacab0fc4ae806e9f7b47148a3bf8200c8",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "스트레이트",
+        "Tooltip": "포 카드 사용 중 피격 이상에 면역이 되고, 적에게 주는 스택트 효과 피해가 60.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "5c56ac40ae147c6ab406f03475606ae407e67bdeb2707cce5c9fa7caa7aac169",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "카드 강화",
+        "Tooltip": "적에게 주는 스킬 및 스택트 효과의 피해가 75.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "19a007b75ff759070f22d950a97cbfea92d119b6d50bbf1513a080b797712cc3",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "풀 하우스",
+        "Tooltip": "스킬 및 스택트 효과의 치명타 적중률이 44.0% 증가하고, 피격이상 면역인 적에게 주는 피해가 12.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "125f4a54d49852565bfc81ed367e9d4ba6fe0ab77630d101b410460510930dcd",
+      "skillId": "four_of_a_kind",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "연속 공격",
+        "Tooltip": "콤보 조작으로 변경되어 스킬키를 추가로 입력 시 원하는 방향으로 포카드를 한번 더 사용한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19160.json",
+        "sha256": "97cbc0067912095077c76c405a1eff39a27b90c0e4a68d7071839c4be821854a",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "e86479e2ce879255eaca238041040898b21c36e66ecd4cc37ce2ea16aa168932",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "꿰뚫는 일격",
+        "Tooltip": "스킬 및 스택트 효과 적중 시 50.0% 확률로 적의 모든 방어력을 50.0% 무시한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "67b0d62b7e35ee02938b3722d402097e9a32a4953fb27e7edd44b238662c5c6d",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "눈속임",
+        "Tooltip": "스킬 적중 시 10.0% 확률로 스택트를 소모하지 않는다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "02241bc30eb84a8c6e7ec598dbb5b76d61d7a6435236bf9035464112b48cdbc3",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "정신 강화",
+        "Tooltip": "스킬 사용 시 67.0% 확률로 마나를 소모하지 않는다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "7fd80ef67e62e182a2f231ba0c4c915bd9dbf94d83246808adad24bc8ddfe84c",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "우연한 일격",
+        "Tooltip": "스택트 중첩당 20.0% 확률로 루인으로 주는 치명타 피해가 240.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "24a7503a731a8203b72c4d4cdffee34b9a06e4dc9f67949ddda2b15a9d18e871",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "우연한 강타",
+        "Tooltip": "더 이상 날려버리지 않지만 공격 속도가 42.0% 증가하고, 스택트 효과 적중 시 추가로 2.0초간 기절시킨다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "3cb0e125f7e8d23ee54749c6d3d94d04beb947155dcea5083fd92ff5cdbb5444",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강화된 일격",
+        "Tooltip": "적에게 주는 스킬 피해가 170.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "fa245d8cb76e98946482029510cc8dc999e3172330fa2f3a6919928b88ca6a67",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "연속된 어둠",
+        "Tooltip": "[암] 속성으로 변경되고, 스킬이 콤보 조작으로 변경되며 적에게 주는 총 스킬 피해량이 70.8% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "22fd109dbbb0b01aed5f6633dcff3b8ed81bf6eade697e517f1958ab0c32d84b",
+      "skillId": "serendipity",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "의도된 우연",
+        "Tooltip": "세렌디피티 트라이포드로 증가되는 발동 확률이 스택트의 중첩과 상관없이 20.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19240.json",
+        "sha256": "463f09c66a122c5559df5bdfa69e513fa67d865a9e569d6a0911572c40ae6511",
+        "location": "tripods[2][1]"
+      }
+    },
+    {
+      "id": "8e6072b5dcc08f807b8a138e3b7a5f83e566a698af598eba9e935f9d44c8b788",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Tooltip": "재사용 대기시간이 3.0초 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[0][0]"
+      }
+    },
+    {
+      "id": "915983adbef024fcce5be2431134b56f70c31733b08b8b2bbd16c020d678464d",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "정신 집중",
+        "Tooltip": "마나 소모량이 67.0% 감소한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[0][1]"
+      }
+    },
+    {
+      "id": "7fe24102785bfa5e6b992f3d51093dddcbe62a5ffce49b5bf984fdfe3d903e77",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "급소 타격",
+        "Tooltip": "스킬 및 스택트 효과의 치명타 적중률이 40.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[0][2]"
+      }
+    },
+    {
+      "id": "d7c8ce72e6e560ad72ba237726b73e91a2af51c9b0d15a95bf0e2f55fbf9ee26",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "완전한 비밀",
+        "Tooltip": "기존 스택트 효과에 추가로 4중첩인 적에게 80.0% 증가된 피해를 준다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[1][0]"
+      }
+    },
+    {
+      "id": "7f971ba8ade89095d4460e848188ce52f153e262261783e9cbe98e517a88db28",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "스톰 가든",
+        "Tooltip": "[뇌] 속성으로 변경되고, 스택트 효과로 주는 피해가 15.0% 감소하지만, 중첩에 상관없이 스택트가 걸린 적을 모두 넘어뜨린다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[1][1]"
+      }
+    },
+    {
+      "id": "d64a4b6dfb2bfbae5e0a840f5dcedf6df62455c6238504ce310a821c0e284dc9",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "다크니스 가든",
+        "Tooltip": "[암] 속성으로 변경되고, 적에게 주는 스킬 및 스택트 효과의 치명타 피해가 120.0% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[1][2]"
+      }
+    },
+    {
+      "id": "eb5f7026035a50cb883c2cc68c4658d41148e6c8720cb51280022631d904cccd",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "시크릿 찬스",
+        "Tooltip": "적에게 주는 스택트 피해 효과가 95.0% 증가한다. 대상이 모험가일 경우 124.3% 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[2][0]"
+      }
+    },
+    {
+      "id": "be6bf09d131f046718c11cdd51e57295f0e71efa006ffd4d57f17608cc1cb137",
+      "skillId": "secret_garden",
+      "skillLevel": 14,
+      "enhancementLevel": 1,
+      "tripod": {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "넓은 공격",
+        "Tooltip": "공격 범위가 2.0m 증가한다.",
+        "IsSelected": true
+      },
+      "source": {
+        "kind": "public-level1-candidate",
+        "path": "tests/fixtures/armory/codex/19310.json",
+        "sha256": "a9ab4f0f071a25b6ca799d75905a100ab79d4e5217d771e00a3680e4669a9061",
+        "location": "tripods[2][1]"
+      }
+    }
+  ]
+}

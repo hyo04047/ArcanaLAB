@@ -6,7 +6,7 @@
     "verifiedAgainstInGameMeasurements": false,
     "officialInputLevel": 1,
     "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
-    "evidenceFile": "docs/audit/2026-10-13-emperor-damage-sources.json",
+    "evidenceFile": "tests/fixtures/audit/2026-10-13-emperor-damage-sources.json",
     "evidenceSha256": "09735244806d10a832324b5da46c98a1e739fb3e214650edd1ba73f8a2ccb060",
     "note": "개별 효과의 AP·고정항이며 193401은 4타입니다. 모션과 발사 후 간격은 공개 후보입니다. T 내부 피해 레벨·거리별 비행·취소 시각은 실측하지 않았습니다."
   },

@@ -113,7 +113,7 @@ describe('saved result replay CLI', () => {
     const command = run(save(changed));
     expect(command.status).toBe(1);
     expect(command.stdout).toBe('');
-    expect(command.stderr).toContain('unknown skill missing');
+    expect(command.stderr).toContain('로테이션 ruinPriority');
   }, 15000);
 
   it('terminates a non-advancing edited build instead of running indefinitely', () => {

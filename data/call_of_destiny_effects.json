@@ -5,7 +5,7 @@
     "gamePatch": null,
     "verifiedAgainstInGameMeasurements": false,
     "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
-    "evidenceFile": "docs/audit/2026-10-13-stack-skill-sources.json",
+    "evidenceFile": "tests/fixtures/audit/2026-10-13-stack-skill-sources.json",
     "evidenceSha256": "d432b8eebc03b30e5be0332f35ac8f1fcec633c64202dea2389321f461a4c75f",
     "note": "기본 첫·마지막 타격과 페이크 플립 대체 효과의 숫자 후보입니다. 선택 트포 증가는 별도이며 실제 비행 시간·적중·후딜은 연결하지 않습니다."
   },

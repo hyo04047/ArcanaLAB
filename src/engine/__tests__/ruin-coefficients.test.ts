@@ -17,7 +17,7 @@ const ids = ['celestial_rain', 'secret_garden', 'four_of_a_kind', 'serendipity',
 
 function state(id: string, build = preset, extra: Partial<SkillDef> = {}) {
   const skill: SkillDef = { ...build.skills.find(s => s.id === id)!, mods: [], onCast: [], castTime: 1,
-    procCritDmg: undefined, defenseIgnore: undefined, cdResetChance: undefined, keepStacksChance: undefined, ...extra };
+    procCritDmg: undefined, defenseIgnore: undefined, cdResetChance: undefined, keepStacksChance: undefined, serendipityGauge: undefined, ...extra };
   return new SimState({ ...build, skills: [skill], passiveMods: [], bluntThorn: undefined,
     onRuinAt4: [], cardDurationBonus: {}, params: { ...build.params, atkBase: 10000,
       gaugePerHit: { normal: 0, stack: 0, ruin: 0, hyper_awakening: 0, awakening: 0 } } }, createRng(1), cardsFor('empress'));

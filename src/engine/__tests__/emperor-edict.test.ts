@@ -9,7 +9,7 @@ function input(n = node): RawArmory {
   return { profiles: load('tests/fixtures/armory/FixtureCharacter26/profiles.json'), combatSkills: [], arkpassive: { Effects: [n] }, arkgrid: null, engravings: null, gems: null };
 }
 describe('Emperor Edict damage scope', () => {
-  it('uses live level 3 80 percent only for Emperor and leaves missing base damage zero', () => {
+  it('uses live level 3 80 percent only for Emperor with the separate public base candidate', () => {
     const { build } = buildFromArmory(input());
     const mods = build.passiveMods.filter(m => m.source.startsWith('황제의 칙령'));
     expect(mods).toHaveLength(1);
@@ -17,7 +17,7 @@ describe('Emperor Edict damage scope', () => {
       const skill: SkillDef = { id, name: id, kind: 'identity_card', directCoef: 1, hits: 1, cooldown: 0, castTime: 0 };
       expect(computeMultipliers({ atkBase: 100 }, mods, { skill, stacks: 0, component: 'direct' }).skillDmg).toBe(id === 'card_emperor' ? 1.8 : 1);
     }
-    expect(build.params.cardDamageCoef).toEqual({});
+    expect(build.params.cardDamageCoef).toEqual({ emperor: 72.395 });
   });
   it.each([0, 40, 73])('reads supplied percent %s instead of inferring from node level', value => {
     const n = structuredClone(node); n.ToolTip = n.ToolTip.replace('80.0%', `${value}.0%`);

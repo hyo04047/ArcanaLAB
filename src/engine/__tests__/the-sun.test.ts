@@ -25,6 +25,7 @@ function state(speed = 1) {
   const { build } = buildFromArmory(input());
   build.passiveMods = [{ bucket: 'atkSpeed', value: speed - 1, source: '합성 공속' }];
   build.params.atkBase = 100; build.params.gaugeGainBonus = 0; build.params.gaugePerHit.hyper_awakening = 0;
+  delete build.params.gaugeFactors; // 투사체 시점 통제에서 게이지 배율은 제거합니다.
   build.onCardUse = []; build.onDestiny = []; build.bluntThorn = undefined;
   const sun = build.skills[0]!;
   const other: SkillDef = { id: 'other', name: '합성 동작', kind: 'normal', cooldown: 10, castTime: 2, directCoef: 0, hits: 1 };

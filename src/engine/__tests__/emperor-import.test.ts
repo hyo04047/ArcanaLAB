@@ -18,6 +18,7 @@ function focused(name: string) {
   const { build, warnings } = buildFromArmory(raw);
   build.variant = 'emperor'; build.passiveMods = []; build.bluntThorn = undefined; build.stats.swift = 0;
   build.params.gaugeGainBonus = 0; build.params.normalGaugePenalty = 0;
+  delete build.params.gaugeFactors; // 기본 적중·충전 통제에서 배율은 제거합니다.
   build.params.gaugePerHit = { normal: 0.1, stack: 0.01, ruin: 0, awakening: 0, hyper_awakening: 0 };
   return { raw, build, warnings };
 }

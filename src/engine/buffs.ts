@@ -1,5 +1,6 @@
 // 시간 제한 버프 관리. 같은 id 는 갱신(지속시간 리셋), maxStacks 가 있으면 중첩.
 import type { Modifier, TimedEffect } from './types';
+import { modifierValue } from './damage';
 
 interface Active {
   id: string;
@@ -13,16 +14,20 @@ export class BuffManager {
   private active = new Map<string, Active>();
 
   apply(e: TimedEffect, now: number): void {
+    const expiresAt = now + e.duration;
+    if (!Number.isFinite(e.duration) || e.duration < 0 || !Number.isFinite(expiresAt))
+      throw new RangeError('버프 지속시간은 0 이상의 유한한 수이고 만료 시각도 유한해야 합니다.');
     const cur = this.active.get(e.id);
-    const max = e.maxStacks ?? 1;
+    const max = e.maxStacks === undefined ? 1 : e.maxStacks;
+    if (!Number.isSafeInteger(max) || max < 1) throw new RangeError('버프 중첩 상한은 1 이상의 안전한 정수여야 합니다.');
     if (cur && cur.expiresAt > now) {
-      cur.expiresAt = now + e.duration;
+      cur.expiresAt = expiresAt;
       cur.stacks = Math.min(max, cur.stacks + 1);
       cur.mod = e.mod;
     } else {
       // Start a new activation in the same order whether modsAt already removed the expired entry or not.
       this.active.delete(e.id);
-      this.active.set(e.id, { id: e.id, mod: e.mod, expiresAt: now + e.duration, stacks: 1, maxStacks: max });
+      this.active.set(e.id, { id: e.id, mod: e.mod, expiresAt, stacks: 1, maxStacks: max });
     }
   }
 
@@ -54,7 +59,8 @@ export class BuffManager {
         this.active.delete(id);
         continue;
       }
-      out.push(a.stacks === 1 ? a.mod : { ...a.mod, value: a.mod.value * a.stacks });
+      const value = modifierValue(a.mod);
+      out.push(a.stacks === 1 ? a.mod : { ...a.mod, value: value * a.stacks });
     }
     return out;
   }

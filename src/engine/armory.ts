@@ -1,11 +1,16 @@
 // 로스트아크 Open API armory 응답 → 엔진 Build 변환기.
 // 입력은 profiles / equipment / combat-skills / arkpassive / arkgrid / engravings / gems / cards 의 원본 JSON.
 // 툴팁 문구를 정규식 규칙으로 수정치(Modifier)로 바꾼다. 해석 못 한 문구는 warnings 로 남긴다.
-import { statMods } from './presets';
+import { cardsFor, statMods } from './presets';
 import { cardSupplyWarnings } from './cards';
 import { defaultRotation } from './rotation';
 import { HITS, SKILL_BY_NAME, damageWarnings, resolveCallOfDestinyDamage, resolveEvokePoison, resolveFearOfDeath, resolveFlowerReturnDamage, resolveReturnFirstDamage, resolveSkillDamage, resolveStampedeFocusDamage, resolveStream132Damage, type CallVariant } from './skilldata';
 import evokeEffects from '../../data/evoke_effects.json';
+import cardDamage from '../../data/card_damage_coefficients.json';
+import cardGauge from '../../data/card_gauge_candidates.json';
+import fourCardCombo from '../../data/four_card_combo.json';
+import serendipityGauge from '../../data/serendipity_gauge_candidates.json';
+import evokeGauge from '../../data/evoke_gauge_candidates.json';
 import { parseSeconds, pct, strip, tooltipLines } from './tooltip';
 import type { Build, Modifier, SimParams, SkillDef, SkillKind, TimedEffect } from './types';
 
@@ -15,10 +20,11 @@ export interface RawArmory {
   equipment?: { Type: string; Tooltip?: string }[] | null;
   cards?: { Effects: { Items: { Name: string; Description: string }[] }[] } | null;
   combatSkills: { Name: string; Level: number; Type: string; SkillType: number; Tripods?: { Tier: number; Slot: number; Name: string; IsSelected: boolean; Tooltip?: string }[]; Rune?: { Name: string; Grade: string; Tooltip?: string } | null; Tooltip: string }[];
-  arkpassive: { Effects: { Name: string; Description: string; ToolTip?: string }[] } | null;
-  arkgrid: { Slots: { Index: number; Name: string; Point: number; Tooltip?: string; Gems?: { Index: number; Grade: string; IsActive?: boolean; Tooltip?: string }[] }[]; Effects?: { Name: string; Tooltip?: string }[] } | null;
+  arkpassive: { Effects: { Name: string; Description: string; ToolTip?: string }[]; Points?: { Name: string; Value: number }[] } | null;
+  arkgrid: { Slots: { Index: number; Name: string; Point: number; Grade?: string; Tooltip?: string; Gems?: { Index: number; Grade: string; IsActive?: boolean; Tooltip?: string }[] }[]; Effects?: { Name: string; Tooltip?: string }[] } | null;
   engravings: { ArkPassiveEffects?: { Name: string; Grade: string; Level: number; AbilityStoneLevel: number | null; Description: string }[] } | null;
-  gems: { Effects?: { Skills?: { Name: string; Description?: string[] }[] } | null } | null;
+  gems: { Gems?: { Slot: number; Name: string; Level: number; Grade: string; Tooltip: string }[] | null;
+    Effects?: { Description?: string; Skills?: { Name: string; Description?: string[]; GemSlot?: number; Option?: string; Tooltip?: string | null }[] } | null } | null;
 }
 
 export interface ConvertResult {
@@ -388,7 +394,7 @@ function parseTripod(skillId: string, name: string, desc: string, p: SkillPatch,
   }
   if (skillId === 'four_of_a_kind' && (name === '신속한 준비' || name === '눈속임')) {
     const m = desc.match(name === '신속한 준비'
-      ? /^([\d.]+)% 확률로 재사용 대기시간이 FixtureCharacter25화 된다\.$/
+      ? /^([\d.]+)% 확률로 재사용 대기시간이 초기화 된다\.$/
       : /^스택트 4 중첩 일 경우 ([\d.]+)% 확률로 스택트가 소모되지 않는다\.$/);
     if (m && Number.isFinite(Number(m[1])) && Number(m[1]) <= 100) {
       if (name === '신속한 준비') p.set.cdResetChance = Number(m[1]) / 100;
@@ -475,8 +481,10 @@ function parseTripod(skillId: string, name: string, desc: string, p: SkillPatch,
   if (!matched) warn(`트라이포드 해석 못함: ${skillId} / ${name}: ${desc}`);
 }
 
-function parseRune(skillId: string, rune: { Name: string; Grade: string; Tooltip?: string } | null | undefined, p: SkillPatch, warn: (m: string) => void): void {
-  if (!rune) return;
+type RuneInputStatus = 'none' | 'applied' | 'unsupported' | 'invalid';
+
+function parseRune(skillId: string, rune: { Name: string; Grade: string; Tooltip?: string } | null | undefined, p: SkillPatch, warn: (m: string) => void): RuneInputStatus {
+  if (!rune) return 'none';
   let effectText = tooltipLines(rune.Tooltip).join(' ');
   try {
     const sections: { type?: string; value?: { Element_000?: string } }[] = Object.values(JSON.parse(rune.Tooltip ?? ''));
@@ -496,16 +504,16 @@ function parseRune(skillId: string, rune: { Name: string; Grade: string; Tooltip
       const value = effect ? Number(effect[1]) : NaN;
       if (!Number.isFinite(value) || value > 100) {
         warn(`룬 ${rune.Name} 해석 못함 (${skillId}) — 수치를 추정하지 않고 미반영`);
-        break;
+        return 'invalid';
       }
       if (rune.Name === '질풍') p.castSpeed += value / 100;
       else if (rune.Name === '풍요') p.set.gaugeMultiplier = 1 + value / 100;
       else {
         p.set.runeCdReduce = { chance: 0.2, fraction: value / 100 };
       }
-      break;
+      return 'applied';
     }
-    case '출혈': case '중독': warn(`룬 ${rune.Name}(도트) 미모델 (${skillId})`); break;
+    case '출혈': case '중독': warn(`룬 ${rune.Name}(도트) 미모델 (${skillId})`); return 'unsupported';
     case '단죄': case '심판': {
       const pattern = rune.Name === '단죄'
         ? /^스킬 적중 시 ([\d.]+)% 확률로 자신에게 ([\d.]+)초간 지속되는 '단죄' 상태 부여하며 해당 상태 일 때 '심판' 을 통해 추가 효과를 발동\.?$/
@@ -513,12 +521,18 @@ function parseRune(skillId: string, rune: { Name: string; Grade: string; Tooltip
       const m = effectText.match(pattern);
       if (m && m.slice(1).every(v => Number.isFinite(Number(v))) && Number(m[1]) >= 0 && Number(m[1]) <= 100 && Number(m[2]) > 0) {
         p.set.hitRune = { kind: rune.Name === '단죄' ? 'conviction' : 'judgment', chance: Number(m[1]) / 100, duration: Number(m[2]) };
+        return 'applied';
       } else warn(`룬 ${rune.Name} 해석 못함 (${skillId}) — 확률·지속시간을 추정하지 않고 미반영`);
-      break;
+      return 'invalid';
     }
-    case '단심': warn(`룬 단심은 단죄·심판의 조합 이름입니다 (${skillId}) — 개별 룬 입력 필요·미반영`); break;
-    default: warn(`룬 ${rune.Name} 미모델 (${skillId}) — 효과 미반영`); break;
+    case '단심': warn(`룬 단심은 단죄·심판의 조합 이름입니다 (${skillId}) — 개별 룬 입력 필요·미반영`); return 'invalid';
+    default: warn(`룬 ${rune.Name} 미모델 (${skillId}) — 효과 미반영`); return 'unsupported';
   }
+}
+
+/** 변환기와 같은 규칙으로 설명을 확인합니다. 등급별 수치나 장착 가능성을 인증하지 않습니다. */
+export function runeInputStatus(rune: RawArmory['combatSkills'][number]['Rune']): RuneInputStatus {
+  return parseRune('', rune, { mods: [], onCast: [], set: {}, castSpeed: 0, cdDelta: 0 }, () => {});
 }
 
 // ---------- 스킬 ----------
@@ -541,7 +555,16 @@ function convertSkills(raw: RawArmory, variant: Build['variant'], warn: (m: stri
     if (row.id === 'evoke' && !selected.some(t => ['분할 마법진', '중첩 마법진'].includes(t.Name))) {
       p.set.manualEvoke = manualEvoke([{ after: 0, weight: 1 }], false);
     }
-    for (const t of selected) parseTripod(row.id, t.Name, strip(t.Tooltip), p, warn);
+    let tripodWarning = false;
+    const combo = row.id === 'four_of_a_kind' && fourCardCombo.candidates.find(candidate =>
+      selected.length === candidate.tripods.length && candidate.tripods.every(name => selected.some(t => t.Name === name)));
+    for (const t of selected) {
+      if (combo && t.Name === '연속 공격' && strip(t.Tooltip) === fourCardCombo.tooltip) continue;
+      parseTripod(row.id, t.Name, strip(t.Tooltip), p, message => {
+        if (!(row.id === 'evoke' && t.Name === '정신 강화' && strip(t.Tooltip) === evokeGauge.manaTooltip)) tripodWarning = true;
+        warn(message);
+      });
+    }
     parseRune(row.id, s.Rune, p, warn);
     if (p.set.kind) kind = p.set.kind;
     const stream132 = row.id === 'stream_of_edge' && p.set.stacksGranted === 3 &&
@@ -606,13 +629,69 @@ function convertSkills(raw: RawArmory, variant: Build['variant'], warn: (m: stri
         }
       }
     }
+    const gauge = cardGauge.skills.find(candidate => candidate.id === def.id &&
+      selected.length === candidate.tripods.length && candidate.tripods.every(name => selected.some(t => t.Name === name)));
+    const reference = def.damageReference;
+    if (gauge && (!gauge.candidateId || !tripodWarning) && def.kind === gauge.kind && def.hits === gauge.hits &&
+        !def.hitSequence && !def.delayedHits && !def.splitEvoke && !def.manualEvoke &&
+        selected.length === gauge.tripods.length && gauge.tripods.every(name => selected.some(t => t.Name === name)) &&
+        gauge.requiredTags.every(tag => def.tags?.includes(tag)) &&
+        reference?.source === 'public-coefficient-candidate' &&
+        reference.effectIds.length === gauge.effectIds.length &&
+        gauge.effectIds.every(id => reference.effectIds.includes(id))) {
+      def.gaugeBase = gauge.base;
+      if (gauge.candidateId) def.gaugeCandidate = gauge.candidateId as SkillDef['gaugeCandidate'];
+    }
+    if (combo) {
+      if (!tripodWarning && def.kind === 'ruin' && def.hits === 1 && def.cdResetChance === .55 &&
+          (combo.id === 'four-card-combo-preserved' ? def.keepStacksChance === .75 : def.keepStacksChance === undefined) &&
+          !def.hitSequence && !def.delayedHits && !def.splitEvoke && !def.manualEvoke &&
+          reference?.source === 'public-coefficient-candidate' && reference.effectIds.length === 1 && reference.effectIds[0] === 191600) {
+        def.fourCardCombo = { candidate: combo.id as NonNullable<SkillDef['fourCardCombo']>['candidate'],
+          duration: fourCardCombo.duration, hitAt: fourCardCombo.hitAt, gaugeBase: combo.gaugeBase };
+        def.directCoef *= 2; def.directFlat = (def.directFlat ?? 0) * 2; def.hits = 2;
+        def.castTime = 2 * fourCardCombo.duration / (1 + p.castSpeed);
+      } else warn('포 카드 / 연속 공격: 지정 조합·설명·피해 프로필이 후보 조건과 맞지 않아 추가 입력·적중·수급 미반영');
+    }
+    const serenGauge = row.id === 'serendipity' && serendipityGauge.candidates.find(candidate =>
+      selected.length === candidate.tripods.length && candidate.tripods.every(name => selected.some(t => t.Name === name)));
+    if (serenGauge && !tripodWarning && def.kind === 'ruin' && def.hitSequence?.hits.length === serenGauge.perHit.length &&
+        def.procCritDmg?.chancePerStack === .2 && (def.tripodChanceBonus ?? 0) === (serenGauge.profile === 'basic' ? .2 : 0) &&
+        (serenGauge.fullAuto ? def.keepStacksChance === .28 && def.keepStacksMin === 1 && !def.defenseIgnore
+          : !def.keepStacksChance && def.defenseIgnore?.chance === .5 && def.defenseIgnore.fraction === .8) &&
+        reference?.source === 'public-coefficient-candidate' && reference.effectIds.length === 2 &&
+        [192400, 192401].every(id => reference.effectIds.includes(id))) {
+      def.serendipityGauge = { candidate: serenGauge.id as NonNullable<SkillDef['serendipityGauge']>['candidate'], perHit: [...serenGauge.perHit] };
+    }
+    const evoke = row.id === 'evoke' && evokeGauge.candidates.find(candidate => candidate.id === 'evoke-manual-basic'
+      ? Array.isArray(s.Tripods) && selected.length <= 1 && selected.every(t => t.Tier === 0 &&
+        evokeGauge.manualFirstTripods.some(choice => t.Name === choice.name && t.Slot === choice.slot && strip(t.Tooltip) === choice.tooltip))
+      : selected.length === 3 &&
+      selected.some(t => t.Tier === 0 && evokeGauge.firstTripods.includes(t.Name)) &&
+      selected.some(t => t.Tier === 1 && evokeGauge.secondTripods.includes(t.Name)) &&
+      selected.some(t => t.Tier === 2 && t.Name === candidate.tripod));
+    const split = def.splitEvoke, manual = def.manualEvoke, motion = evokeEffects.manual;
+    const basic = evoke && evoke.id === 'evoke-manual-basic', offsets = basic ? [0] : motion.explosionOffsets;
+    if (evoke && !tripodWarning && def.kind === 'normal' && def.hits === 1 &&
+        (evoke.id === 'evoke-split'
+          ? !manual && split?.duration === 1.3 && split.placementAt === .326 && split.delay === 2 && split.window === 3
+          : !split && manual?.duration === motion.duration && manual.placementAt === (basic ? motion.basicPlacementAt : motion.placementAt) &&
+            manual.minRecastDelay === motion.minRecastDelay && manual.lifetime === motion.lifetime && manual.recastRecovery === motion.recastRecoveryFallback &&
+            manual.hits.length === offsets.length && offsets.every((after, i) => manual.hits[i]?.after === after && manual.hits[i]?.weight === 2 ** -i)) &&
+        (!basic || !def.manaPoison) &&
+        (!def.quickDraw || def.quickDraw.chance === .2 && def.quickDraw.trigger === 'each' && def.quickDraw.attempts === (evoke.id === 'evoke-overlap' ? 3 : 1)) &&
+        reference?.source === 'public-coefficient-candidate' && reference.effectIds.length === 1 && reference.effectIds[0] === 190301) {
+      def.evokeGauge = { candidate: evoke.id as NonNullable<SkillDef['evokeGauge']>['candidate'], perHit: [...evoke.perHit], warningVersion: 2 };
+    }
+    if (row.id === 'evoke' && manual && !selected.some(t => t.Name === '중첩 마법진') && !def.evokeGauge)
+      warn(evokeGauge.manualUnsupportedWarning);
     out.push(def);
   }
   return out;
 }
 
 // ---------- 아크 패시브 ----------
-interface PassiveCtx { mods: Modifier[]; onSkillCast: TimedEffect[]; onCardUse: TimedEffect[]; onRuinAt4: TimedEffect[]; cardDuration: Record<string, number>; deckAdd: string[]; deckRemove: string[]; bluntThorn?: Build['bluntThorn']; gaugeBonus: number; normalGaugePenalty: number; skillPatches: Map<string, Modifier[]>; hiddenHandChance?: number; darknessEdgeCritDmg?: Modifier; infinityDeck?: Build['infinityDeck']; ruinFullset?: boolean; chainDraw?: Build['chainDraw']; stackHold?: boolean; emperorHeartChance?: number; normalEnhanceCooldown?: number; normalEnhanceBuff?: TimedEffect; impactMateBuff?: TimedEffect; highTempoBuffs?: TimedEffect[]; anotherEmperorChance?: number; flowerCooldownDelta?: number; flowerThornBonus?: number; flowerThornChance?: number; hyperCastSpeed?: number; }
+interface PassiveCtx { mods: Modifier[]; onSkillCast: TimedEffect[]; onCardUse: TimedEffect[]; onRuinAt4: TimedEffect[]; cardDuration: Record<string, number>; deckAdd: string[]; deckRemove: string[]; bluntThorn?: Build['bluntThorn']; gaugeBonus: number; greedGaugeBonus: number; otherGaugeBonus: boolean; normalGaugePenalty: number; skillPatches: Map<string, Modifier[]>; hiddenHandChance?: number; darknessEdgeCritDmg?: Modifier; infinityDeck?: Build['infinityDeck']; ruinFullset?: boolean; chainDraw?: Build['chainDraw']; stackHold?: boolean; emperorHeartChance?: number; normalEnhanceCooldown?: number; normalEnhanceBuff?: TimedEffect; impactMateBuff?: TimedEffect; highTempoBuffs?: TimedEffect[]; anotherEmperorChance?: number; flowerCooldownDelta?: number; flowerThornBonus?: number; flowerThornChance?: number; hyperCastSpeed?: number; }
 
 function parseArkPassive(raw: RawArmory, ctx: PassiveCtx, warn: (m: string) => void): void {
   for (const e of raw.arkpassive?.Effects ?? []) {
@@ -743,6 +822,7 @@ function parseArkPassive(raw: RawArmory, ctx: PassiveCtx, warn: (m: string) => v
           if (valid(effect)) {
             push({ bucket: 'skillDmg', value: Number(effect[1]) / 100, filter: { kinds: ['ruin'] }, source: src });
             ctx.gaugeBonus += Number(effect[2]) / 100; ctx.normalGaugePenalty -= Number(effect[3]) / 100;
+            ctx.greedGaugeBonus += Number(effect[2]) / 100;
           }
         } else if (name === '황후의 연회') {
           const effect = text.match(/^4스택 이상의 루인 피해량이 ([\d.]+)% 증가한다\.$/);
@@ -770,7 +850,7 @@ function parseArkPassive(raw: RawArmory, ctx: PassiveCtx, warn: (m: string) => v
             ((effect && Number.isFinite(Number(effect[1]))) || text === '카드덱에 황후의 기사 카드가 추가된다.')) {
           ctx.deckAdd.push('empress_knight');
           if (effect) push({ bucket: 'skillDmg', value: Number(effect[1]) / 100, filter: { ids: ['card_empress_knight'] }, source: src });
-          warn('황후의 기사 기본 피해 계수의 기준 전투 레벨 [미확인] → 자동 입력 0'); ok = true;
+          ok = true;
         } else warn(`${src}: 카드 추가·피해 증가 문구 미확인 — 미반영`);
         break;
       }
@@ -794,7 +874,7 @@ function parseArkPassive(raw: RawArmory, ctx: PassiveCtx, warn: (m: string) => v
           if (effect) push({ bucket: 'emperorCardDmg', value: Number(effect[1]) / 100, filter: { ids: ['card_emperor'] }, source: src });
           ok = true;
         } else warn(`${src}: 황제 피해 증가 문구 미확인 — 미반영`);
-        warn('황제 카드 기본 피해 계수의 기준 전투 레벨 [미확인]'); break;
+        break;
       }
       case '황제의 만찬': {
         const text = lines.filter(l => !/^아크 패시브 레벨 \d+$/.test(l)).join(' ').replace(/\|\|/g, ' ').trim();
@@ -1055,6 +1135,7 @@ function parseGridOption(core: string, p: number, text: string, ctx: PassiveCtx,
       push({ bucket: 'critDmg', value: pct(m[1]!), source: src });
     } else if ((m = part.match(/^덱 게이지 획득량이 ([\d.]+)% 증가$/))) {
       ctx.gaugeBonus += pct(m[1]!);
+      ctx.otherGaugeBonus = true;
     } else {
       unsupported(rest);
       return;
@@ -1317,7 +1398,7 @@ function parseEquipmentDamage(raw: RawArmory, mods: Modifier[], warn: (m: string
 function reconstructAttack(raw: RawArmory, mods: Modifier[], warn: (m: string) => void): Build['attackPower'] {
   const stat = raw.profiles.Stats.find(s => s.Type === '공격력');
   const text = (stat?.Tooltip ?? []).map(strip).join(' ');
-  const base = num(text.replaceAll(',', ''), /기본 공격력은 (\d+)/);
+  const base = num(text.replaceAll(',', ''), /기본 공격력은 (\d+(?:\.\d+)?)/);
   const displayed = Number(stat?.Value.replaceAll(',', ''));
   if (base === null || !Number.isFinite(base) || base <= 0 || !Number.isFinite(displayed) || displayed <= 0) {
     warn('기본 공격력 툴팁 미확인 — 공격력 입력값 1을 유지합니다');
@@ -1363,12 +1444,17 @@ export function buildFromArmory(raw: RawArmory): ConvertResult {
   const variant: Build['variant'] = emperorActive ? 'emperor' : 'empress';
 
   const st = parseProfileStats(raw, stats, warn);
-  const ctx: PassiveCtx = { mods: [...st.mods], onSkillCast: [], onCardUse: [], onRuinAt4: [], cardDuration: {}, deckAdd: [], deckRemove: [], gaugeBonus: st.gaugeBonus, normalGaugePenalty: 0, skillPatches: new Map() };
+  const ctx: PassiveCtx = { mods: [...st.mods], onSkillCast: [], onCardUse: [], onRuinAt4: [], cardDuration: {}, deckAdd: [], deckRemove: [], gaugeBonus: st.gaugeBonus, greedGaugeBonus: 0, otherGaugeBonus: false, normalGaugePenalty: 0, skillPatches: new Map() };
   const params: Partial<SimParams> = {};
   const destiny = { draw: false };
 
   parseArkPassive(raw, ctx, warn);
   const cores = parseArkGrid(raw, ctx, params, destiny, warn);
+  const gaugeCandidate = !ctx.otherGaugeBonus && ctx.greedGaugeBonus <= 1 &&
+    ctx.normalGaugePenalty === (ctx.greedGaugeBonus > 0 ? -0.5 : 0) && (ctx.chainDraw?.gaugeBonus ?? 0) <= 1;
+  if (!gaugeCandidate) warn(ctx.otherGaugeBonus
+    ? '카드 게이지 조합: 기타 게이지 증가 효과가 있어 기존 합산을 유지합니다. 해당 조합의 연산은 미검증입니다.'
+    : '카드 게이지 조합: 탐욕·체인 값이 공개 후보 조건 밖이므로 기존 합산을 유지합니다. 해당 조합의 연산은 미검증입니다.');
   parseEquipmentAttack(raw, ctx.mods, warn);
   parseEquipmentDamage(raw, ctx.mods, warn);
   const attackPower = reconstructAttack(raw, ctx.mods, warn);
@@ -1443,6 +1529,7 @@ export function buildFromArmory(raw: RawArmory): ConvertResult {
       stackEffectCoefPerStack: 600, // [PLACEHOLDER] Lv70 후보 적용 대상 밖에서만 사용합니다.
       gaugePerHit: { normal: 0.04, stack: 0.03, ruin: 0.03, hyper_awakening: 0.05, awakening: 0 }, // [PLACEHOLDER]
       gaugeGainBonus: ctx.gaugeBonus,
+      ...(gaugeCandidate ? { gaugeFactors: { specialization: st.gaugeBonus, greed: ctx.greedGaugeBonus } } : {}),
       normalGaugePenalty: ctx.normalGaugePenalty,
       atkBase: attackPower?.base ?? 1,
       raidCaptainRatio: params.raidCaptainRatio ?? 0,
@@ -1453,6 +1540,18 @@ export function buildFromArmory(raw: RawArmory): ConvertResult {
       stackEffectScale: [0, 1, 2, 3, 4],
     },
   };
+  if (build.combatLevel === cardDamage._meta.automaticInputCombatLevel) {
+    const deck = cardsFor(build.variant, build.deckOverrides);
+    for (const [id, damage] of Object.entries(cardDamage.cards)) {
+      if (!deck.some(card => card.id === id)) continue;
+      build.params.cardDamageCoef[id] = damage.ap;
+      (build.params.cardDamageFlat ??= {})[id] = damage.flat;
+    }
+  }
+  if (skills.some(s => s.id === 'evoke' && s.manaPoison) && ctx.mods.some(m =>
+    m.source === '보석 이보크' && m.bucket === 'skillDmg' && m.value > 0 && m.dotScope === 'exclude' && m.filter?.ids?.includes('evoke'))) {
+    warn('이보크 중독·피해 보석: 2022년 멸화 미적용 관측에 따라 보석의 스킬 피해 증가를 중독에서 잠정 제외합니다. 2023년 해외 보석 오류 수정 공지는 중독 틱을 구분하지 않아 현행 적용 여부는 미확인입니다. 보석의 기본 공격력 증가·쿨타임 감소는 별도 처리합니다.');
+  }
   damageWarnings(build).forEach(warn);
   cardSupplyWarnings(build).forEach(warn);
 

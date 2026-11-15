@@ -37,7 +37,7 @@ describe('simulation worker responses', () => {
     expect(scope.postMessage).toHaveBeenLastCalledWith({ id: 5, summary: expect.objectContaining({ iterations: 1 }), modelId });
   });
 
-  it('returns a calculation failure instead of leaving the request unresolved', async () => {
+  it('returns a rotation error with the request id and recovers for a valid build', async () => {
     const scope = await worker(), build = empressInkomsu440();
     build.rotation.ruinPriority = ['missing_skill'];
     build.rotation.stackPriority = [];
@@ -45,6 +45,8 @@ describe('simulation worker responses', () => {
     build.rotation.fishing = ['missing_skill'];
     delete build.rotation.finisher;
     expect(() => scope.onmessage!({ data: { id: 8, build, config: { durationSec: 1, iterations: 1, seed: 1 } } })).not.toThrow();
-    expect(scope.postMessage).toHaveBeenLastCalledWith({ id: 8, error: expect.stringContaining('unknown skill') });
+    expect(scope.postMessage).toHaveBeenLastCalledWith({ id: 8, error: expect.stringContaining('로테이션') });
+    scope.onmessage!({ data: { id: 9, build: empressInkomsu440(), config: { durationSec: 1, iterations: 1, seed: 1 } } });
+    expect(scope.postMessage).toHaveBeenLastCalledWith({ id: 9, summary: expect.objectContaining({ iterations: 1 }), modelId });
   });
 });

@@ -14,8 +14,8 @@
     "dancing_of_spineflower": {
       "skillId": 19200,
       "codex": {
-        "path": "data/raw/codex/19200.json",
-        "sha256": "9bcc3a0b21379c707803f580ccada3a2a5af292a08b4ad5b04a0f17d20b5521b"
+        "path": "tests/fixtures/armory/codex/19200.json",
+        "sha256": "fcf7d69243c4efb4c8c932732607c25a8c33c3d68eb9176dccbaf4b7894a8a91"
       },
       "effects": [
         {
@@ -303,8 +303,8 @@
     "mysterious_stampede": {
       "skillId": 19210,
       "codex": {
-        "path": "data/raw/codex/19210.json",
-        "sha256": "282161419df4ceb30d0a6aaa84603b3f1f2b153df353eaa894e27ce7ab98f83a"
+        "path": "tests/fixtures/armory/codex/19210.json",
+        "sha256": "1a984497664a876d921d373815ea417a0894ebb114def97c6a5812d65fd44bef"
       },
       "effects": [
         {
@@ -452,8 +452,8 @@
     "return": {
       "skillId": 19260,
       "codex": {
-        "path": "data/raw/codex/19260.json",
-        "sha256": "47281939cd4082e11cab91875dc8ec8316de3a89d9842d064598add0bc0488c6"
+        "path": "tests/fixtures/armory/codex/19260.json",
+        "sha256": "d300e3bc9b5bfb20eb675388bb1ba3a10848b8fcd023af20016676c3b9e1c9b0"
       },
       "effects": [
         {

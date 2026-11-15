@@ -28,12 +28,13 @@ describe('official identity gem conversion', () => {
     }
     expect(mods.some(m => m.bucket === 'atk' || m.bucket === 'atkFlat')).toBe(false);
   });
-  it.each(refs)('uses $character gem on both card damage terms without filling unknown base damage', ref => {
+  it.each(refs)('uses $character gem on both public and manually supplied card damage terms', ref => {
     const { build } = buildFromArmory(input(ref.data));
     build.passiveMods = build.passiveMods.filter(m => m.source === '보석 황제');
     build.params.atkBase = 100; build.bluntThorn = undefined;
-    const empty = new SimState(build, createRng(1), cardsFor('emperor'));
-    empty.drawCards(1, 'emperor'); empty.useCardNow('emperor'); expect(empty.total).toBe(0);
+    const candidate = new SimState(build, createRng(1), cardsFor('emperor'));
+    candidate.drawCards(1, 'emperor'); candidate.useCardNow('emperor');
+    expect(candidate.total).toBeCloseTo((7791 + 72.395 * 100) * (ref.character === refs[0]!.character ? 1.44 : 1.36), 8);
     build.params.cardDamageCoef = { emperor: 2 }; build.params.cardDamageFlat = { emperor: 30 };
     const sim = new SimState(build, createRng(1), cardsFor('emperor'));
     sim.drawCards(1, 'emperor'); sim.useCardNow('emperor');

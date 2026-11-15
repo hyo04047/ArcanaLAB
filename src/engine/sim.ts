@@ -1,15 +1,126 @@
 // 시뮬레이션 루프 (docs/mechanics.md §3·§4). 고정 사이클 로봇 플레이어.
 // 마나·평타·보스 패턴 미모델. 타격/투사체 후보가 없는 스킬은 시전 종료에 합산 피해.
 import { BuffManager } from './buffs';
-import { HELD_CARDS, cardSupplyWarnings, emptyCardDraws, useCard, type CardHost } from './cards';
-import { computeMultipliers, rollDefenseIgnore, rollHit, skillMatches, type DamageEnv } from './damage';
+import { HELD_CARDS, cardEffectEnabled, cardSupplyWarnings, emptyCardDraws, useCard, type CardHost } from './cards';
+import { computeMultipliers, modifierValue, rollDefenseIgnore, rollHit, skillMatches, validateModifierBuckets, type DamageEnv } from './damage';
 import { Deck, type CardDef } from './deck';
-import { createRng, randomStream, validRandomMode, type Rng, type RandomMode } from './rng';
+import { combinedChance, createRng, randomStream, validRandomMode, type Rng, type RandomMode } from './rng';
 import { summarize } from './stats';
 import { damageWarnings, resolveStackDamage } from './skilldata';
+import cardGauge from '../../data/card_gauge_candidates.json';
+import fourCardCombo from '../../data/four_card_combo.json';
+import serendipityGauge from '../../data/serendipity_gauge_candidates.json';
+import serendipityHits from '../../data/serendipity_hits.json';
+import evokeGauge from '../../data/evoke_gauge_candidates.json';
+import evokeEffects from '../../data/evoke_effects.json';
 import type { Build, CardDrawSource, Modifier, SimConfig, SimRunResult, SimSummary, SkillBreakdown, SkillDef, SkillFilter, TimedEffect } from './types';
 
 const MAX_STACKS = 4;
+
+function validateGaugeFactors(build: Build, skill?: SkillDef): void {
+  const p = build.params, factors = p.gaugeFactors;
+  if (factors === undefined) return;
+  if (!factors || typeof factors !== 'object' || Array.isArray(factors) ||
+      Object.keys(factors).length !== 2 || !Object.hasOwn(factors, 'specialization') || !Object.hasOwn(factors, 'greed'))
+    throw new TypeError('카드 게이지 조합은 특화·탐욕 두 성분의 객체여야 합니다.');
+  const chain = build.chainDraw?.gaugeBonus === undefined ? 0 : build.chainDraw.gaugeBonus;
+  const wealth = skill?.gaugeMultiplier === undefined ? 1 : skill.gaugeMultiplier;
+  if (![factors.specialization, factors.greed, chain, wealth, p.gaugeGainBonus].every(Number.isFinite) ||
+      factors.specialization < 0 || factors.greed < 0 || factors.greed > 1 || chain < 0 || chain > 1 || wealth < 0 ||
+      !Number.isFinite((1 + factors.specialization) * (1 + factors.greed) * (1 + chain) * wealth))
+    throw new RangeError('카드 게이지 조합 성분·풍요는 유한한 비음수이며 탐욕·체인은 0~100%여야 합니다.');
+  const sum = factors.specialization + factors.greed;
+  if (Math.abs(p.gaugeGainBonus - sum) > 1e-12 * Math.max(1, sum) ||
+      p.normalGaugePenalty !== (factors.greed > 0 ? -0.5 : 0))
+    throw new RangeError('카드 게이지 조합과 기존 합산값·일반 감소가 일치하지 않습니다.');
+}
+
+function validateSkillCounts(skill: SkillDef): void {
+  if (!['normal', 'stack', 'ruin', 'hyper_awakening', 'awakening', 'identity_card'].includes(skill.kind))
+    throw new TypeError(`${skill.name}의 스킬 분류가 올바르지 않습니다.`);
+  if (skill.tags !== undefined && (!Array.isArray(skill.tags) || !skill.tags.every(tag => typeof tag === 'string')))
+    throw new TypeError(`${skill.name}의 스킬 태그는 문자열 배열이어야 합니다.`);
+  if (skill.kind === 'stack' && skill.stacksGranted !== undefined && (!Number.isSafeInteger(skill.stacksGranted) || skill.stacksGranted < 0))
+    throw new RangeError(`${skill.name}의 부여 스택 수는 0 이상의 안전한 정수여야 합니다.`);
+  if (!Number.isSafeInteger(skill.hits) || skill.hits < 0)
+    throw new RangeError(`${skill.name}의 타격 횟수는 0 이상의 안전한 정수여야 합니다.`);
+  if (skill.fourCardCombo !== undefined) {
+    const combo = skill.fourCardCombo;
+    const candidate = combo && fourCardCombo.candidates.find(row => row.id === combo.candidate);
+    if (!combo || typeof combo !== 'object' || Array.isArray(combo) || Object.keys(combo).length !== 4 || !candidate ||
+        combo.duration !== fourCardCombo.duration || combo.hitAt !== fourCardCombo.hitAt || combo.gaugeBase !== candidate.gaugeBase ||
+        skill.id !== 'four_of_a_kind' || skill.kind !== 'ruin' || skill.hits !== 2 || skill.cdResetChance !== .55 ||
+        (candidate.id === 'four-card-combo-preserved' ? skill.keepStacksChance !== .75 : skill.keepStacksChance !== undefined && skill.keepStacksChance !== 0) ||
+        (skill.keepStacksMin !== undefined && skill.keepStacksMin !== 4) ||
+        !Number.isFinite(skill.castTime) || skill.castTime <= 0 ||
+        skill.gaugeBase !== undefined || skill.gaugeCandidate !== undefined || skill.hitSequence !== undefined ||
+        skill.delayedHits !== undefined || skill.splitEvoke !== undefined || skill.manualEvoke !== undefined || skill.maxCharges !== undefined)
+      throw new TypeError(`${skill.name}의 연속 공격 후보 출처·모션·게이지·스킬·적중 프로필이 일치하지 않습니다.`);
+  }
+  if (skill.serendipityGauge !== undefined) {
+    const gauge = skill.serendipityGauge;
+    const candidate = gauge && serendipityGauge.candidates.find(row => row.id === gauge.candidate);
+    const motion = candidate?.profile === 'basic' ? serendipityHits.basic : serendipityHits.continuousDarkness;
+    const sequence = skill.hitSequence;
+    if (!gauge || typeof gauge !== 'object' || Array.isArray(gauge) || Object.keys(gauge).length !== 2 || !candidate ||
+        !Array.isArray(gauge.perHit) || gauge.perHit.length !== candidate.perHit.length ||
+        candidate.perHit.some((value, i) => gauge.perHit[i] !== value) ||
+        skill.id !== 'serendipity' || skill.kind !== 'ruin' || skill.hits !== motion.hits.length ||
+        !sequence || sequence.duration !== motion.duration || sequence.firstHitEnd !== serendipityHits.singleHit.fallbackEnd ||
+        !Array.isArray(sequence.hits) || sequence.hits.length !== motion.hits.length ||
+        motion.hits.some((hit, i) => !sequence.hits[i] || sequence.hits[i]!.at !== hit.at) ||
+        skill.procCritDmg?.chancePerStack !== .2 || (skill.tripodChanceBonus ?? 0) !== (candidate.profile === 'basic' ? .2 : 0) ||
+        (candidate.fullAuto ? skill.keepStacksChance !== .28 || skill.keepStacksMin !== 1 || skill.defenseIgnore !== undefined
+          : !!skill.keepStacksChance || skill.defenseIgnore?.chance !== .5 || skill.defenseIgnore.fraction !== .8) ||
+        !Number.isFinite(skill.castTime) || skill.castTime <= 0 ||
+        skill.gaugeBase !== undefined || skill.gaugeCandidate !== undefined || skill.fourCardCombo !== undefined ||
+        skill.delayedHits !== undefined || skill.splitEvoke !== undefined || skill.manualEvoke !== undefined ||
+        skill.maxCharges !== undefined || skill.quickDraw !== undefined)
+      throw new TypeError(`${skill.name}의 세렌디피티 게이지 후보 출처·기본량·타격·보존 프로필이 일치하지 않습니다.`);
+  }
+  if (skill.evokeGauge !== undefined) {
+    const gauge = skill.evokeGauge;
+    const candidate = gauge && evokeGauge.candidates.find(row => row.id === gauge.candidate);
+    const split = skill.splitEvoke, manual = skill.manualEvoke, motion = evokeEffects.manual;
+    const basic = candidate?.id === 'evoke-manual-basic', offsets = basic ? [0] : motion.explosionOffsets;
+    if (!gauge || typeof gauge !== 'object' || Array.isArray(gauge) ||
+        Object.keys(gauge).some(key => !['candidate', 'perHit', 'warningVersion'].includes(key)) ||
+        ('warningVersion' in gauge && gauge.warningVersion !== 2) || !candidate ||
+        !Array.isArray(gauge.perHit) || gauge.perHit.length !== candidate.perHit.length ||
+        candidate.perHit.some((value, i) => gauge.perHit[i] !== value) ||
+        skill.id !== 'evoke' || skill.kind !== 'normal' || skill.hits !== 1 || !Number.isFinite(skill.castTime) || skill.castTime <= 0 ||
+        (candidate.id === 'evoke-split'
+          ? !split || !!manual || split.duration !== 1.3 || split.placementAt !== .326 || split.delay !== 2 || split.window !== 3
+          : !!split || !manual || manual.duration !== motion.duration || manual.placementAt !== (basic ? motion.basicPlacementAt : motion.placementAt) ||
+            manual.minRecastDelay !== motion.minRecastDelay || manual.lifetime !== motion.lifetime || manual.recastRecovery !== motion.recastRecoveryFallback ||
+            !Array.isArray(manual.hits) || manual.hits.length !== offsets.length || offsets.some((after, i) =>
+              !manual.hits[i] || manual.hits[i]!.after !== after || manual.hits[i]!.weight !== 2 ** -i)) ||
+        (skill.quickDraw !== undefined && (skill.quickDraw?.chance !== .2 || skill.quickDraw.trigger !== 'each' ||
+          skill.quickDraw.attempts !== (candidate.id === 'evoke-overlap' ? 3 : 1))) ||
+        (basic && skill.manaPoison !== undefined) ||
+        skill.gaugeBase !== undefined || skill.gaugeCandidate !== undefined || skill.fourCardCombo !== undefined ||
+        skill.serendipityGauge !== undefined || skill.hitSequence !== undefined || skill.delayedHits !== undefined || skill.maxCharges !== undefined)
+      throw new TypeError(`${skill.name}의 이보크 게이지 후보 출처·기본량·설치·폭발 프로필이 일치하지 않습니다.`);
+  }
+  if (skill.gaugeBase !== undefined) {
+    if (!Number.isFinite(skill.gaugeBase) || skill.gaugeBase < 0)
+      throw new RangeError(`${skill.name}의 기본 게이지는 0 이상의 유한한 숫자여야 합니다.`);
+    if (skill.hitSequence || skill.delayedHits || skill.splitEvoke || skill.manualEvoke)
+      throw new TypeError(`${skill.name}의 기본 게이지는 개별 타격·설치 프로필 없는 합산 적중에서만 사용할 수 있습니다.`);
+  }
+  if (skill.gaugeCandidate !== undefined) {
+    const candidate = cardGauge.skills.find(row => row.candidateId === skill.gaugeCandidate);
+    if (!candidate || candidate.id !== skill.id || candidate.base !== skill.gaugeBase ||
+        candidate.kind !== skill.kind || candidate.hits !== skill.hits)
+      throw new TypeError(`${skill.name}의 카드 게이지 후보 출처와 스킬·기본량·합산 적중이 일치하지 않습니다.`);
+  }
+  if (skill.quickDraw !== undefined && (!skill.quickDraw || !Number.isSafeInteger(skill.quickDraw.attempts) || skill.quickDraw.attempts < 0))
+    throw new RangeError(`${skill.name}의 퀵 드로 횟수는 0 이상의 안전한 정수여야 합니다.`);
+  if (skill.quickDraw && !['each', 'first', 'last'].includes(skill.quickDraw.trigger))
+    throw new Error(`${skill.name}의 퀵 드로 적중 조건은 each, first, last 중 하나여야 합니다.`);
+  if (skill.maxCharges !== undefined && (!Number.isSafeInteger(skill.maxCharges) || skill.maxCharges < 1))
+    throw new RangeError(`${skill.name}의 충전 횟수는 1 이상의 안전한 정수여야 합니다.`);
+}
 
 export class SimState implements CardHost {
   now = 0;
@@ -45,12 +156,17 @@ export class SimState implements CardHost {
     readonly rng: Rng,
     cards: CardDef[],
   ) {
+    if (build.variant !== 'empress' && build.variant !== 'emperor')
+      throw new TypeError('Build 계열은 empress 또는 emperor여야 합니다.');
+    validateGaugeFactors(build);
     this.deck = new Deck(cards);
     this.twistedFateZeroChance = build.params.twistedFateZeroChance;
     this.fatalHandCull = build.params.fatalHandCull;
     this.cardDamageCoef = build.params.cardDamageCoef;
     this.env = { atkBase: build.params.atkBase, bluntThorn: build.bluntThorn, raidCaptainRatio: build.params.raidCaptainRatio };
     for (const s of build.skills) {
+      validateSkillCounts(s);
+      validateGaugeFactors(build, s);
       if (this.breakdown.has(s.id)) throw new Error(`스킬 ID가 중복되었습니다: ${s.id}`);
       this.breakdown.set(s.id, { id: s.id, name: s.name, casts: 0, direct: 0, stackEffect: 0 });
       if (s.maxCharges && s.maxCharges > 1) this.charges.set(s.id, s.maxCharges);
@@ -65,6 +181,7 @@ export class SimState implements CardHost {
     this.buffs.remove(id);
   }
   drawCards(n: number, forcedId?: string, source: Exclude<CardDrawSource, 'gauge'> = 'manual'): void {
+    if (!Number.isSafeInteger(n) || n < 0) throw new RangeError('카드 지급 횟수는 0 이상의 안전한 정수여야 합니다.');
     for (let i = 0; i < n; i++) {
       const c = this.deck.draw(randomStream(this.rng, 'cardDraw'), forcedId);
       if (c) { this.cardsDrawn++; this.cardDraws[source]++; }
@@ -80,6 +197,7 @@ export class SimState implements CardHost {
       if (s?.kind === 'awakening') continue;
       if (filter && (!s || !skillMatches(filter, s))) continue;
       if (t > this.now) {
+        if (!Number.isFinite(fraction)) throw new TypeError('남은 쿨타임 감소 비율은 유한한 숫자여야 합니다.');
         const remaining = (t - this.now) * (1 - fraction);
         if (!Number.isFinite(remaining) || remaining < 0) throw new RangeError(`${s?.name ?? id}의 남은 쿨타임은 0 이상의 유한한 수여야 합니다.`);
         this.readyAt.set(id, this.now + remaining);
@@ -91,6 +209,7 @@ export class SimState implements CardHost {
   }
   dealCardDamage(cardId: string, coef: number, proc = false): void {
     const flat = this.build.params.cardDamageFlat?.[cardId] ?? 0;
+    if (!Number.isFinite(coef) || !Number.isFinite(flat)) throw new TypeError('카드 피해 수치는 유한한 숫자여야 합니다.');
     if (coef <= 0 && flat <= 0) return;
     const pseudo: SkillDef = { id: `card_${cardId}`, name: cardId, kind: 'identity_card', usesMana: false,
       cooldown: 0, castTime: 0, directCoef: coef, directFlat: flat, hits: 1 };
@@ -110,7 +229,9 @@ export class SimState implements CardHost {
 
   // ---- helpers ----
   activeMods(): Modifier[] {
-    return [...this.build.passiveMods, ...this.buffs.modsAt(this.now)];
+    const mods = [...this.build.passiveMods, ...this.buffs.modsAt(this.now)];
+    validateModifierBuckets(mods);
+    return mods;
   }
   cooldownMultiplier(skill: SkillDef): number {
     let p = 1;
@@ -118,19 +239,25 @@ export class SimState implements CardHost {
     for (const m of this.activeMods()) {
       if (m.bucket !== 'cooldown') continue;
       if (!skillMatches(m.filter, skill)) continue;
-      if (m.cooldownGroup) groups.set(m.cooldownGroup, (groups.get(m.cooldownGroup) ?? 0) + m.value);
-      else p *= 1 - m.value;
+      const value = modifierValue(m);
+      if (m.cooldownGroup !== undefined && typeof m.cooldownGroup !== 'string')
+        throw new TypeError('쿨감 합산 묶음은 문자열이어야 합니다.');
+      if (m.cooldownGroup) groups.set(m.cooldownGroup, (groups.get(m.cooldownGroup) ?? 0) + value);
+      else p *= 1 - value;
     }
     for (const value of groups.values()) p *= 1 - value;
     return p;
   }
   private cooldownDuration(skill: SkillDef): number {
+    if (!Number.isFinite(skill.cooldown)) throw new TypeError(`${skill.name}의 기본 쿨타임은 유한한 숫자여야 합니다.`);
     const cd = skill.cooldown * this.cooldownMultiplier(skill);
     if (!Number.isFinite(cd) || cd < 0) throw new RangeError(`${skill.name}의 적용 쿨타임은 0 이상의 유한한 수여야 합니다.`);
     return cd;
   }
   private startCooldown(skill: SkillDef, input = true): void {
     let cd = this.cooldownDuration(skill);
+    if (input && skill.cdResetChance !== undefined && !Number.isFinite(skill.cdResetChance))
+      throw new TypeError('쿨 초기화 확률은 유한한 숫자여야 합니다.');
     if (input && this.nextSkillCdReset) {
       cd = 0;
       this.nextSkillCdReset = false;
@@ -148,7 +275,7 @@ export class SimState implements CardHost {
   }
   atkSpeed(): number {
     let s = 0;
-    for (const m of this.activeMods()) if (m.bucket === 'atkSpeed') s += m.value;
+    for (const m of this.activeMods()) if (m.bucket === 'atkSpeed') s += modifierValue(m);
     if (!Number.isFinite(s) || s <= -1) throw new RangeError('공격 속도 배율은 0보다 큰 유한한 수여야 합니다.');
     // 일반 공속 상한 140%(S81·S82). 질풍/트포의 스킬 자체 속도는 castTime에 별도로 적용합니다.
     return Math.min(s, 0.4);
@@ -176,6 +303,7 @@ export class SimState implements CardHost {
 
   /** 시간을 진행하며 예약 폭발과 체인 만료를 차례로 처리합니다. */
   advanceTo(time: number): void {
+    if (!Number.isFinite(time) || time < this.now) throw new RangeError('진행 시각은 현재 이상인 유한한 숫자여야 합니다.');
     while (true) {
       const expiry = this.evokeChain?.expiresAt ?? Infinity;
       const hitAt = this.pendingHits[0]?.at ?? Infinity;
@@ -200,6 +328,7 @@ export class SimState implements CardHost {
         const effect = (p.skill.manaPoison ?? p.skill.fearOfDeath)!;
         const nextTick = p.nextTick + effect.interval;
         if (nextTick <= p.nextTick) throw new RangeError(`${p.skill.name}의 도트 반복 간격이 현재 시각을 증가시키지 못합니다.`);
+        if (!Number.isFinite(effect.coef) || !Number.isFinite(effect.flat)) throw new TypeError('도트 피해 수치는 유한한 숫자여야 합니다.');
         const m = computeMultipliers(this.env, [...this.activeMods(), ...(p.skill.mods ?? [])],
           { skill: { ...p.skill, usesMana: false }, stacks: this.stacks, component: 'dot' });
         const damage = rollHit(randomStream(this.rng, 'dotCrit', p.skill.id), effect.coef * p.stacks, m, effect.flat * p.stacks).dmg;
@@ -223,6 +352,8 @@ export class SimState implements CardHost {
 
   private applyPoison(skill: SkillDef): void {
     const effect = (skill.manaPoison ?? skill.fearOfDeath)!;
+    if (!Number.isSafeInteger(effect.maxStacks) || effect.maxStacks < 1)
+      throw new RangeError(`${skill.name}의 도트 중첩 상한은 1 이상의 안전한 정수여야 합니다.`);
     if (!Number.isFinite(effect.duration) || effect.duration < 0 || !Number.isFinite(effect.firstTick) || effect.firstTick < 0 ||
         !Number.isFinite(effect.interval) || effect.interval <= 0)
       throw new RangeError(`${skill.name}의 도트 시간을 확인하세요: 지속·첫 틱은 0 이상, 반복 간격은 0보다 커야 합니다.`);
@@ -238,8 +369,12 @@ export class SimState implements CardHost {
 
   private detonateEvoke(skill: SkillDef, endTime: number): void {
     const profile = skill.manualEvoke!;
-    for (const h of profile.hits) this.pendingHits.push({ at: this.now + h.after,
+    if (profile.hits.length > 0 && (![skill.directCoef, skill.directFlat ?? 0].every(Number.isFinite) ||
+      profile.hits.some(hit => !Number.isFinite(hit.weight))))
+      throw new TypeError('수동 격발 피해 수치는 유한한 숫자여야 합니다.');
+    for (const [i, h] of profile.hits.entries()) this.pendingHits.push({ at: this.now + h.after,
       skill: { ...skill, hits: 1, directCoef: skill.directCoef * h.weight, directFlat: (skill.directFlat ?? 0) * h.weight,
+        ...(skill.evokeGauge ? { evokeGauge: undefined, manualEvoke: undefined, gaugeBase: skill.evokeGauge.perHit[i] } : {}),
         ...(skill.quickDraw ? { quickDraw: { ...skill.quickDraw, attempts: 1 } } : {}) }, breakdown: this.breakdown.get(skill.id)! });
     this.pendingHits.sort((a, b) => a.at - b.at);
     this.advanceTo(Math.min(this.now + profile.recastRecovery, endTime));
@@ -251,6 +386,7 @@ export class SimState implements CardHost {
     const placementAt = this.now + profile.placementAt * duration / profile.duration;
     if (placementAt <= endTime) {
       this.pendingHits.push({ at: placementAt + profile.delay, skill: { ...skill, hits: 1,
+        ...(skill.evokeGauge ? { evokeGauge: undefined, splitEvoke: undefined, gaugeBase: skill.evokeGauge.perHit[0] } : {}),
         ...(skill.quickDraw ? { quickDraw: { ...skill.quickDraw, attempts: 1 } } : {}) }, breakdown: b });
       this.pendingHits.sort((a, b) => a.at - b.at);
     }
@@ -278,7 +414,7 @@ export class SimState implements CardHost {
     }
     const chance = this.build.chainDraw?.chance;
     if (chance !== undefined && randomStream(this.rng, 'chainDraw', id).chance(chance)) this.triggerDestiny();
-    if (this.build.stackHold && ++this.stackHoldUses === 2) { this.stackHoldUses = 0; this.triggerDestiny(); }
+    if (cardEffectEnabled(this.build.stackHold, '스택 홀드') && ++this.stackHoldUses === 2) { this.stackHoldUses = 0; this.triggerDestiny(); }
   }
 
   /** 즉시형·장기 버프 카드는 바로 사용 */
@@ -313,6 +449,8 @@ export class SimState implements CardHost {
 
   /** 기본은 실제 운용 정책입니다. full은 기본 계수·전체 타격 구조를 검산할 때만 지정합니다. */
   cast(skill: SkillDef, endTime: number, mode: 'auto' | 'full' = 'auto', emperorCardsAfterStart = false): void {
+    if (!Number.isFinite(endTime) || endTime < this.now) throw new RangeError('시전 종료 시각은 현재 이상인 유한한 숫자여야 합니다.');
+    validateSkillCounts(skill);
     const sequence = skill.hitSequence;
     if (sequence && !skill.splitEvoke && !skill.manualEvoke && !skill.delayedHits) {
       if (!Number.isFinite(sequence.duration) || sequence.duration <= 0 || !Number.isFinite(skill.castTime) || skill.castTime < 0 ||
@@ -370,7 +508,21 @@ export class SimState implements CardHost {
     const start = this.now;
     const speed = 1 + this.atkSpeed();
     let duration = skill.castTime / speed;
-    if (skill.splitEvoke) {
+    if (skill.fourCardCombo) {
+      const combo = skill.fourCardCombo;
+      const hitSkill = { ...skill, fourCardCombo: undefined, hits: 1,
+        directCoef: skill.directCoef / 2, directFlat: (skill.directFlat ?? 0) / 2, gaugeBase: combo.gaugeBase };
+      for (let i = 0; i < 2 && this.now < endTime; i++) {
+        // 첫 모션 종료 직후 추가 입력하는 후보. 쿨·시전 효과를 다시 시작하지 않습니다.
+        const inputStart = this.now;
+        const inputDuration = skill.castTime / 2 / (i === 0 ? speed : 1 + this.atkSpeed());
+        const hitAt = inputStart + combo.hitAt / combo.duration * inputDuration;
+        this.advanceTo(Math.min(hitAt, endTime));
+        if (hitAt <= endTime) this.hit(hitSkill, b, i === 0, i === 1);
+        this.advanceTo(Math.min(inputStart + inputDuration, endTime));
+      }
+      return;
+    } else if (skill.splitEvoke) {
       this.evokeChain = { skill, availableAt: start + skill.splitEvoke.placementAt * duration / skill.splitEvoke.duration,
         expiresAt: start + skill.splitEvoke.placementAt * duration / skill.splitEvoke.duration + skill.splitEvoke.window };
       this.placeSplitEvoke(skill, b, endTime);
@@ -394,15 +546,18 @@ export class SimState implements CardHost {
       }
     } else if (skill.hitSequence) {
       const scale = (skill.castTime / skill.hitSequence.duration) / speed;
-      // 카드를 사용한 뒤 시전 시작 시점에 결정합니다. 도태·눈속임은 추가타 조건이 아닙니다.
-      const firstOnly = mode === 'auto' && skill.id === 'serendipity' && !this.judgmentActive();
+      // 새 눈속임·의도된 우연 후보만 평시에도 두 타를 사용합니다. 기존 저장 정책은 유지합니다.
+      const fullAuto = skill.serendipityGauge?.candidate === 'serendipity-preserved-intended';
+      const firstOnly = mode === 'auto' && skill.id === 'serendipity' && !fullAuto && !this.judgmentActive();
       const hits = firstOnly ? skill.hitSequence.hits.slice(0, 1) : skill.hitSequence.hits;
       if (firstOnly) duration = (skill.hitSequence.firstHitEnd ?? skill.hitSequence.duration) * scale;
       for (const [i, h] of hits.entries()) {
         const hitAt = start + h.at * scale;
         if (hitAt > endTime) break;
         this.advanceTo(hitAt);
-        this.hit({ ...skill, directCoef: h.directCoef, directFlat: h.directFlat, hits: 1 }, b, i === 0, i === skill.hitSequence.hits.length - 1);
+        this.hit({ ...skill, directCoef: h.directCoef, directFlat: h.directFlat, hits: 1,
+          ...(skill.serendipityGauge ? { serendipityGauge: undefined, hitSequence: undefined, gaugeBase: skill.serendipityGauge.perHit[i] } : {})
+        }, b, i === 0, i === skill.hitSequence.hits.length - 1);
       }
     } else {
       const hitAt = start + skill.castTime / speed;
@@ -422,11 +577,15 @@ export class SimState implements CardHost {
 
   private triggerHitRune(skill: SkillDef): void {
     const rune = skill.hitRune;
-    if (!rune || this.now < this.judgmentRuneReadyAt) return;
+    if (!rune || skill.hits === 0 || this.now < this.judgmentRuneReadyAt) return;
+    if (rune.kind !== 'conviction' && rune.kind !== 'judgment') throw new Error(`${skill.name}의 룬 종류는 단죄 또는 심판이어야 합니다.`);
     if (rune.kind === 'judgment' && this.now >= this.convictionUntil) return;
     for (let i = 0; i < skill.hits; i++) {
       if (!randomStream(this.rng, 'hitRune', skill.id, rune.kind).chance(rune.chance)) continue;
-      if (rune.kind === 'conviction') this.convictionUntil = this.now + rune.duration;
+      const expiresAt = this.now + rune.duration;
+      if (!Number.isFinite(rune.duration) || rune.duration < 0 || !Number.isFinite(expiresAt))
+        throw new RangeError(`${skill.name}의 룬 지속시간은 0 이상의 유한한 숫자이고 만료 시각도 유한해야 합니다.`);
+      if (rune.kind === 'conviction') this.convictionUntil = expiresAt;
       else {
         this.convictionUntil = 0;
         // 원 작성자 실험 S69: 심판 성공 시 30초 공유 내부쿨, 이후 쿨 시작에 15%.
@@ -439,6 +598,11 @@ export class SimState implements CardHost {
   }
 
   hit(skill: SkillDef, b: SkillBreakdown, firstHit = true, lastHit = true): void {
+    validateSkillCounts(skill);
+    if (skill.fourCardCombo) throw new TypeError('포 카드 연속 공격은 두 입력의 개별 적중으로 처리해야 합니다.');
+    if (skill.serendipityGauge) throw new TypeError('세렌디피티 게이지 후보는 개별 적중으로 처리해야 합니다.');
+    if (skill.evokeGauge) throw new TypeError('이보크 게이지 후보는 개별 폭발로 처리해야 합니다.');
+    validateGaugeFactors(this.build, skill);
     const judgment = this.judgmentActive();
     const stacksForHit = this.isRuin(skill) && judgment ? MAX_STACKS : this.stacks;
     const mods = this.activeMods();
@@ -464,7 +628,7 @@ export class SimState implements CardHost {
       }
       if (stacksForHit > 0) {
         // 폭발마다 한 번 추첨합니다. 4스택 80%, 의도된 우연 선택 시 +20%p.
-        if (skill.procCritDmg && randomStream(this.rng, 'procCritDmg', skill.id).chance(Math.min(1, skill.procCritDmg.chancePerStack * stacksForHit + (skill.tripodChanceBonus ?? 0)))) {
+        if (skill.procCritDmg && randomStream(this.rng, 'procCritDmg', skill.id).chance(combinedChance(skill.procCritDmg.chancePerStack, skill.tripodChanceBonus ?? 0, stacksForHit))) {
           all.push({ bucket: 'critDmg', value: skill.procCritDmg.value, filter: { component: 'stack' }, source: '우연한 일격' });
         }
         const ms = computeMultipliers(this.env, all, { skill, stacks: stacksForHit, component: 'stack' });
@@ -475,8 +639,10 @@ export class SimState implements CardHost {
         b.stackEffect += se;
       }
       if (!judgment || this.stacks > 0) {
+        if (skill.keepStacksChance && !Number.isFinite(skill.keepStacksMin ?? MAX_STACKS))
+          throw new TypeError('스택 유지 최소 조건은 유한한 숫자여야 합니다.');
         const keep = skill.keepStacksChance && this.stacks >= (skill.keepStacksMin ?? MAX_STACKS)
-          && randomStream(this.rng, 'keepStacks', skill.id).chance(Math.min(1, skill.keepStacksChance + (skill.tripodChanceBonus ?? 0)));
+          && randomStream(this.rng, 'keepStacks', skill.id).chance(combinedChance(skill.keepStacksChance, skill.tripodChanceBonus ?? 0));
         if (!keep) this.stacks = 0;
       }
       if (stacksForHit >= MAX_STACKS) for (const e of this.build.onRuinAt4 ?? []) this.applyBuff(e);
@@ -492,9 +658,16 @@ export class SimState implements CardHost {
     }
     // 덱 게이지
     const p = this.build.params;
-    let gain = (skill.kind === 'identity_card' ? 0 : p.gaugePerHit[skill.kind]) * skill.hits
-      * (1 + p.gaugeGainBonus + (this.build.chainDraw?.gaugeBonus ?? 0)) * (skill.gaugeMultiplier ?? 1);
-    if (skill.kind === 'normal') gain *= 1 + p.normalGaugePenalty;
+    const normal = skillMatches({ kinds: ['normal'] }, skill);
+    const base = skill.kind === 'identity_card' ? 0 : skill.gaugeBase !== undefined
+      ? (skill.hits > 0 ? skill.gaugeBase : 0) : p.gaugePerHit[skill.kind] * skill.hits;
+    if (![skill.kind === 'identity_card' || skill.gaugeBase !== undefined ? base : p.gaugePerHit[skill.kind], p.gaugeGainBonus, this.build.chainDraw?.gaugeBonus ?? 0,
+      skill.gaugeMultiplier ?? 1, normal ? p.normalGaugePenalty : 0].every(Number.isFinite))
+      throw new TypeError('카드 게이지 계산 수치는 유한한 숫자여야 합니다.');
+    const multiplier = p.gaugeFactors === undefined ? 1 + p.gaugeGainBonus + (this.build.chainDraw?.gaugeBonus ?? 0)
+      : (1 + p.gaugeFactors.specialization) * (this.isRuin(skill) ? 1 + p.gaugeFactors.greed : 1) * (1 + (this.build.chainDraw?.gaugeBonus ?? 0));
+    let gain = base * multiplier * (skill.gaugeMultiplier ?? 1);
+    if (normal) gain *= 1 + p.normalGaugePenalty;
     const got = this.deck.addGauge(gain, randomStream(this.rng, 'cardDraw'));
     this.cardsDrawn += got.length;
     this.cardDraws.gauge += got.length;
@@ -512,7 +685,7 @@ export class SimState implements CardHost {
     }
     this.triggerHitRune(skill);
     // S100 사용자 관측에 따른 후보. 폭발·연속 타격을 중복 집계하지 않습니다.
-    if (this.build.ruinFullset && firstHit && skill.hits > 0 && this.isRuin(skill)) {
+    if (cardEffectEnabled(this.build.ruinFullset, '루인 풀셋') && firstHit && skill.hits > 0 && this.isRuin(skill)) {
       if (++this.fullsetHits === 4) { this.fullsetHits = 0; this.triggerDestiny(); }
     }
   }
@@ -590,6 +763,25 @@ export class SimState implements CardHost {
   }
 
   run(duration: number): SimRunResult {
+    if (!Number.isFinite(duration) || duration <= 0 || duration < this.now) throw new RangeError('전투 종료 시각은 0보다 크고 현재 이상인 유한한 숫자여야 합니다.');
+    const rotation = this.build.rotation;
+    const lists = ['ruinPriority', 'stackPriority', 'cullRuinPriority', 'fishing', 'wheelTargets', 'fillers'] as const;
+    const singles = ['finisher', 'setupSkill', 'critSetupSkill'] as const;
+    if (!rotation || typeof rotation !== 'object' || Array.isArray(rotation)
+      || Object.keys(rotation).some(key => ![...lists, ...singles].some(field => field === key)))
+      throw new Error('로테이션은 지원하는 스킬 순서와 대상 항목을 가진 객체여야 합니다.');
+    const skillIds = new Set(this.build.skills.map(skill => skill.id));
+    for (const key of lists) {
+      const ids = rotation[key];
+      if (ids === undefined && key !== 'ruinPriority' && key !== 'stackPriority') continue;
+      if (!Array.isArray(ids) || !ids.every(id => typeof id === 'string' && skillIds.has(id)))
+        throw new Error(`로테이션 ${key}에는 Build에 등록된 스킬 ID 배열이 필요합니다.`);
+    }
+    for (const key of singles) {
+      const id = rotation[key];
+      if (id !== undefined && (typeof id !== 'string' || !skillIds.has(id)))
+        throw new Error(`로테이션 ${key}에는 Build에 등록된 스킬 ID가 필요합니다.`);
+    }
     while (this.now < duration) {
       this.flushInstantCards();
       const action = this.chooseAction();

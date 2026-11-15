@@ -19,6 +19,16 @@ function skill(id: string, kind: SkillKind, extra: Partial<SkillDef> = {}): Skil
 }
 
 export function cardsFor(variant: 'empress' | 'emperor', overrides?: Build['deckOverrides']): CardDef[] {
+  if (overrides !== undefined) {
+    if (!overrides || typeof overrides !== 'object' || Array.isArray(overrides)
+      || Object.keys(overrides).some(key => key !== 'add' && key !== 'remove'))
+      throw new Error('덱 변경은 add/remove 목록을 가진 객체여야 합니다.');
+    for (const key of ['add', 'remove'] as const) {
+      const ids = overrides[key];
+      if (ids !== undefined && (!Array.isArray(ids) || !ids.every(id => typeof id === 'string' && cardsJson.cards.some(card => card.id === id))))
+        throw new Error(`덱 변경 ${key}에는 등록된 카드 ID 배열이 필요합니다.`);
+    }
+  }
   const base = (cardsJson.cards as { id: string; name: string; duration: number | null; drawWeight: number; availability: string[]; requires?: string }[])
     .filter((c) => c.availability.includes(variant))
     .filter((c) => !c.requires) // 노드 필요 카드는 overrides.add 로
@@ -180,7 +190,7 @@ export function empressInkomsu440(): Build {
       cullRuinPriority: ['the_devil', 'serendipity', 'celestial_rain', 'secret_garden', 'four_of_a_kind'],
       stackPriority: ['stream_of_edge', 'spiral_edge', 'scratch_dealer'],
       finisher: 'call_of_destiny', // 2스택 → 운부(2스택 + 치피 77.5%) → 루인
-      fishing: ['four_of_a_kind'], // 노스택 포카: 신속한 준비 55% FixtureCharacter25화 낚시
+      fishing: ['four_of_a_kind'], // 노스택 포카: 신속한 준비 55% 초기화 낚시
       wheelTargets: ['celestial_rain', 'the_devil', 'serendipity'],
       fillers: [],
     },

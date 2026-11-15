@@ -19,6 +19,8 @@ function input(skillName: string, name?: string, edit?: (text: string) => string
 }
 describe.each(cases)('$skill / $name cooldown and chance input', ({ skill, name }) => {
   const base = input(skill).build.skills[0]!;
+  // 미해석 선택은 미선택 기본형의 게이지 출처를 상속하지 않습니다.
+  const invalidBase = { ...base }; delete invalidBase.evokeGauge;
   it('keeps the official effect', () => {
     const result = input(skill, name);
     expect(result.build.skills[0]).not.toEqual(base);
@@ -29,10 +31,10 @@ describe.each(cases)('$skill / $name cooldown and chance input', ({ skill, name 
       const result = input(skill, name, text => {
         if (change === 'prefix condition') return '특정 버프가 있을 때만 ' + text;
         if (change === 'suffix condition') return text + ' 마나가 50% 이상인 경우에만 적용됩니다.';
-        if (change === 'changed effect') return text.replace(name === '빠른 준비' ? '감소한다' : name === '신속한 준비' ? 'FixtureCharacter25화 된다' : '4 중첩', name === '눈속임' ? '2 중첩' : '감소하지 않는다');
+        if (change === 'changed effect') return text.replace(name === '빠른 준비' ? '감소한다' : name === '신속한 준비' ? '초기화 된다' : '4 중첩', name === '눈속임' ? '2 중첩' : '감소하지 않는다');
         return text.replace(/[\d.]+(?=초|%)/, change === 'malformed number' ? '1.2.3' : '9'.repeat(400));
       });
-      expect(result.build.skills[0]).toEqual(base);
+      expect(result.build.skills[0]).toEqual(invalidBase);
       expect(result.warnings.some(w => w.includes(name) && w.includes('해석 못함'))).toBe(true);
     });
 });

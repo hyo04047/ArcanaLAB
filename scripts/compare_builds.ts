@@ -1,11 +1,11 @@
 // 사용: npx --no-install vite-node scripts/compare_builds.ts before.json after.json
 // Build 또는 buildFromArmory 결과 { build, warnings, summary }를 읽고 stdout에 JSON을 출력합니다.
-import { readFileSync } from 'node:fs';
+import { readSavedText } from './read_saved_text';
 import { diffBuilds, parseBuildInput } from '../src/compare';
 import { describeBuildPath } from '../src/buildDifferenceDescriptions';
 
 function readInput(path: string) {
-  return { path, ...parseBuildInput(readFileSync(path, 'utf8'), path) };
+  return { path, ...parseBuildInput(readSavedText(path), path) };
 }
 
 try {

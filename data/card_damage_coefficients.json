@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "status": "public-coefficient-candidate",
+    "url": "https://github.com/acapzed/lostark-simulator-engine/blob/fe2fd9ddaa64b13839b174faf53c8de3e6a7608f/skill-data/arcana/backend/cards.json",
+    "commit": "fe2fd9ddaa64b13839b174faf53c8de3e6a7608f",
+    "sha256": "564c4c15d70e9c2845901b4bf9d42fcf49247331272aed6c6bdc98535afc1208",
+    "gitBlobSha": "4d16a1d596bbe9699288d3bd35edc3b541c6c530",
+    "upstreamLicense": "GPL-3.0-only",
+    "upstreamAuthor": "Minjea Kim",
+    "adoptedAt": "2026-10-30",
+    "automaticInputCombatLevel": 70,
+    "verifiedCombatLevel": null,
+    "verifiedAgainstInGameMeasurements": false,
+    "description": "기본 고정항과 공격력 계수의 공개 후보입니다. Lv70 새 입력에만 연결하며 기준 전투 레벨·절대 피해는 실측 미검증입니다. 별도 레벨 보정·황제 +5%를 추가하지 않습니다. 패시브·보석·코어는 기존 경로에서 따로 적용합니다."
+  },
+  "cards": {
+    "emperor": {
+      "skillId": 19282,
+      "effectId": 192824,
+      "ap": 72.395,
+      "flat": 7791
+    },
+    "empress_knight": {
+      "skillId": 19288,
+      "effectId": 192840,
+      "ap": 120.65,
+      "flat": 12984.5
+    }
+  }
+}

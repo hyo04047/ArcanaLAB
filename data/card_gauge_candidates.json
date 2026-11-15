@@ -1,0 +1,188 @@
+{
+  "status": "public-candidate",
+  "unit": "card fraction per aggregate direct-hit event, before modifiers",
+  "threshold": 10000,
+  "cardGaugePerUltimatePoint": 52,
+  "source": {
+    "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+    "sha256": "f7fa0511d58c71eeb2dd13c45304d5a725297ccab6c94703720bfb917c9038ac",
+    "commit": "fe2fd9ddaa64b13839b174faf53c8de3e6a7608f",
+    "audit": "docs/audit/2026-10-30-card-gauge-adoption.md"
+  },
+  "limits": [
+    "Only the listed tripod combination and aggregate hit profile are supported.",
+    "No additional ruin-explosion, preserved-stack, installation or DoT gain.",
+    "Current modifier assumptions and unverified game accuracy remain."
+  ],
+  "skills": [
+    {
+      "id": "call_of_destiny",
+      "name": "운명의 부름",
+      "kind": "stack",
+      "hits": 1,
+      "tripods": [
+        "날렵한 움직임",
+        "어두운 운명",
+        "페이크 플립"
+      ],
+      "effectIds": [
+        191823
+      ],
+      "requiredTags": [],
+      "base": 0.026,
+      "points": [
+        5
+      ]
+    },
+    {
+      "id": "scratch_dealer",
+      "name": "스크래치 딜러",
+      "kind": "stack",
+      "hits": 2,
+      "tripods": [
+        "급소 노출",
+        "약점 공격",
+        "안전 장치"
+      ],
+      "effectIds": [
+        193200,
+        193202
+      ],
+      "requiredTags": [],
+      "base": 0.0676,
+      "points": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": "spiral_edge",
+      "name": "스파이럴 엣지",
+      "kind": "stack",
+      "hits": 2,
+      "tripods": [
+        "빠른 준비",
+        "무자비한 사격",
+        "가벼운 발걸음"
+      ],
+      "effectIds": [
+        191902
+      ],
+      "requiredTags": [],
+      "base": 0.0936,
+      "points": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "celestial_rain",
+      "name": "셀레스티얼 레인",
+      "kind": "ruin",
+      "hits": 1,
+      "tripods": [
+        "급소 타격",
+        "강화된 일격",
+        "약점 포착"
+      ],
+      "effectIds": [
+        191401
+      ],
+      "requiredTags": [],
+      "base": 0.1092,
+      "points": [
+        21
+      ]
+    },
+    {
+      "id": "secret_garden",
+      "name": "시크릿 가든",
+      "kind": "ruin",
+      "hits": 1,
+      "tripods": [
+        "급소 타격",
+        "완전한 비밀",
+        "시크릿 찬스"
+      ],
+      "effectIds": [
+        193100
+      ],
+      "requiredTags": [],
+      "base": 0.0884,
+      "points": [
+        17
+      ]
+    },
+    {
+      "id": "four_of_a_kind",
+      "name": "포 카드",
+      "kind": "ruin",
+      "hits": 1,
+      "tripods": [
+        "신속한 준비",
+        "카드 강화",
+        "풀 하우스"
+      ],
+      "effectIds": [
+        191600
+      ],
+      "requiredTags": [],
+      "base": 0.1716,
+      "points": [
+        33
+      ],
+      "candidateId": "four-card-enhanced",
+      "evidence": {
+        "kind": "public-raw-point-candidate",
+        "audit": "docs/audit/2026-10-30-four-card-gauge-adoption.md"
+      },
+      "warning": "포 카드 / 카드 강화 게이지: 신속한 준비·풀 하우스 조합에 배율 전 17.16%의 공개 원값 후보를 적용합니다. 쿨 초기화 자체에는 지급하지 않고 실제 재적중 때 다시 지급합니다. 심판·실제 스택에 동일 기본량 적용과 보존 추가 수급 미반영은 검증 전 가정입니다."
+    },
+    {
+      "id": "four_of_a_kind",
+      "name": "포 카드",
+      "kind": "ruin",
+      "hits": 1,
+      "tripods": [
+        "신속한 준비",
+        "눈속임",
+        "풀 하우스"
+      ],
+      "effectIds": [
+        191600
+      ],
+      "requiredTags": [],
+      "base": 0.14247721471070698,
+      "candidateId": "four-card-preserved",
+      "evidence": {
+        "kind": "secondary-community-inverse-candidate",
+        "source": "https://www.inven.co.kr/board/lostark/5346/158925",
+        "sourceDate": "2025-01-13",
+        "referenceSpecialization": 1800,
+        "assumedWealth": 1,
+        "assumedOtherGaugeBonuses": 0,
+        "formula": "(31.5 / 134.5) / (1 + 1800 / 699 * 0.25)",
+        "profileNote": "effectIds only checks the aggregate direct-damage profile; it is not the source of this inverse gauge amount.",
+        "audit": "docs/audit/2026-10-30-four-card-gauge-adoption.md"
+      },
+      "warning": "포 카드 / 눈속임 게이지: 신속한 준비·풀 하우스 조합에 배율 전 약 14.25%의 게시판 역산 후보를 적용합니다. 원측정 글 접근 불가·조건 미확인이며 풍요 없음·기타 증가 없음으로 역산했습니다. 쿨 초기화·보존 자체에는 지급하지 않고 실제 재적중 때 다시 지급합니다. 심판·실제 스택에 동일 기본량 적용과 보존 추가 수급 미반영은 검증 전 가정입니다."
+    },
+    {
+      "id": "the_devil",
+      "name": "더 데빌",
+      "kind": "hyper_awakening",
+      "hits": 1,
+      "tripods": [],
+      "effectIds": [
+        193501
+      ],
+      "requiredTags": [
+        "ruin"
+      ],
+      "base": 0.6396,
+      "points": [
+        123
+      ]
+    }
+  ]
+}

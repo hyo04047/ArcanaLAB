@@ -1,6 +1,11 @@
 // 카드 효과 → 시뮬 상태 변경 (docs/mechanics.md §3.4). 수치는 data/cards.json 과 일치시킨다.
 import { randomStream, type Rng } from './rng';
 import type { Build, CardDrawSource, TimedEffect } from './types';
+import cardDamage from '../../data/card_damage_coefficients.json';
+import cardGauge from '../../data/card_gauge_candidates.json';
+import fourCardCombo from '../../data/four_card_combo.json';
+import serendipityGauge from '../../data/serendipity_gauge_candidates.json';
+import evokeGauge from '../../data/evoke_gauge_candidates.json';
 
 export const CARD_DRAW_LABELS: Record<CardDrawSource, string> = {
   gauge: '게이지', quickDraw: '퀵 드로', hiddenHand: '숨겨진 패', flowerThorn: '플라워 가시', destiny: '운명 발동', royal: '로열',
@@ -11,18 +16,50 @@ export function emptyCardDraws(): Record<CardDrawSource, number> {
   return { gauge: 0, quickDraw: 0, hiddenHand: 0, flowerThorn: 0, destiny: 0, royal: 0, clown: 0, empressKnight: 0, manual: 0 };
 }
 
+export function cardEffectEnabled(value: boolean | undefined, name: string): boolean {
+  if (value !== undefined && typeof value !== 'boolean') throw new TypeError(`${name} 사용 여부는 boolean이어야 합니다.`);
+  return value === true;
+}
+
 export function cardSupplyWarnings(build: Build): string[] {
+  const explicit = build.skills.filter(s => s.gaugeBase !== undefined && s.kind !== 'identity_card');
+  const candidate = explicit.filter(s => cardGauge.skills.some(row => row.id === s.id && row.base === s.gaugeBase &&
+    (!row.candidateId || row.candidateId === s.gaugeCandidate)));
+  const manual = explicit.filter(s => !candidate.includes(s));
+  const combos = build.skills.filter(s => s.fourCardCombo !== undefined);
+  const seren = build.skills.filter(s => s.serendipityGauge !== undefined);
+  const evokes = build.skills.filter(s => s.evokeGauge !== undefined);
+  const fallback = build.skills.filter(s => s.gaugeBase === undefined && !s.fourCardCombo && !s.serendipityGauge && !s.evokeGauge && s.kind !== 'identity_card');
   const warnings = [
     '각 반복은 빈 손패·게이지 0·대상 스택 0, 모든 스킬 사용 가능·충전 최대 상태에서 시작합니다. 시간제 버프와 이전 전투 상태를 이월하지 않으며, 상시 효과 가정은 Build 입력을 따릅니다. 시작 카드·게이지·사전 버프를 지정하는 입력은 지원하지 않습니다.',
     '기본 드로우 가중치는 균등한 임시 가정이며 실제 확률이 아닙니다. 카드별 관측 빈도와 손패 조건을 검증하기 전 카드 운·세팅 우열을 판정할 수 없습니다.',
-    '카드 게이지는 스킬 분류·타수별 임시값입니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.',
+    ...(explicit.length || combos.length || seren.length || evokes.length ? [
+      ...(candidate.length ? [`카드 게이지 기본량 (${candidate.map(s => s.name).join(', ')}): 공개 수급 후보와 일치하는 지정값을 합산 직접 적중 1회에 적용합니다. 피해 타수에 다시 곱하지 않으며, 개별 지급 시점·루인 폭발·심판·스택 보존의 추가 수급은 실측 미검증·미반영입니다.`] : []),
+      ...(manual.length ? [`카드 게이지 수동 기본량 (${manual.map(s => s.name).join(', ')}): 지정한 합산 직접 적중량을 사용합니다. 값과 적용 범위는 입력자가 확인해야 합니다.`] : []),
+      ...(fallback.length ? [`카드 게이지 임시값 (${fallback.map(s => s.name).join(', ')}): 기존 스킬 분류·타수별 가정을 사용합니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.`] : []),
+    ] : ['카드 게이지는 스킬 분류·타수별 임시값입니다. 분당 카드 수가 비슷해도 세팅별 수급이 검증된 것은 아닙니다.']),
+    ...candidate.flatMap(s => {
+      const row = s.gaugeCandidate && cardGauge.skills.find(row => row.candidateId === s.gaugeCandidate);
+      return row && row.warning ? [row.warning] : [];
+    }),
+    ...combos.flatMap(s => [fourCardCombo.warning,
+      fourCardCombo.candidates.find(row => row.id === s.fourCardCombo?.candidate)!.warning]),
+    ...(seren.length ? [serendipityGauge.warning] : []),
+    ...(evokes.some(s => s.evokeGauge?.candidate !== 'evoke-manual-basic' && s.evokeGauge?.warningVersion === undefined) ? [evokeGauge.warning] : []),
+    ...(evokes.some(s => s.evokeGauge?.candidate === 'evoke-manual-basic' && s.evokeGauge?.warningVersion === undefined) ? [evokeGauge.manualWarning] : []),
+    ...(evokes.some(s => s.evokeGauge?.candidate !== 'evoke-manual-basic' && s.evokeGauge?.warningVersion === 2) ? [evokeGauge.warningV2] : []),
+    ...(evokes.some(s => s.evokeGauge?.candidate === 'evoke-manual-basic' && s.evokeGauge?.warningVersion === 2) ? [evokeGauge.manualWarningV2] : []),
     '마나 소모·회복·고갈은 미모델이며 마나 부족으로 시전을 멈추지 않습니다. 별의 마나 효과와 삼두사의 평타·스택·게이지 효과도 미반영입니다. 두 카드는 사용 횟수와 카드 사용 연동 효과에는 포함되므로, 현재 DPS로 마나 유지율이나 평타 운용의 이득을 판단할 수 없습니다.',
-    '특화·패시브 게이지 증가는 합산하고 풍요는 별도로 곱하는 임시 모델입니다. 조합별 실제 연산은 미검증입니다.',
+    build.params.gaugeFactors === undefined
+      ? '특화·패시브 게이지 증가는 합산하고 풍요는 별도로 곱하는 임시 모델입니다. 조합별 실제 연산은 미검증입니다.'
+      : '카드 게이지 조합은 공개 곱연산 후보입니다. 특화·체인·풍요는 각각 곱하고 탐욕 증가는 루인에만 적용합니다. 일반 감소는 변형 후 분류를 따르며, 증가 대상·조합 연산은 게임 실측 미검증입니다.',
     '환희는 사용마다 한 번 50%를 판정해 대상의 남은 쿨을 함께 15% 또는 30% 줄입니다. 서버의 공통 판정 단위와 체인 도중 추가 쿨감은 미검증이며, 체인 중 환희의 관측 예외는 아직 반영하지 않습니다.',
   ];
   if (build.infinityDeck) warnings.push('인피니티 덱 17P는 해석한 카드별 조건만 반영합니다. 심판의 지연 쿨감은 남은 시간 기준이며 연속 사용은 독립 예약하는 후보입니다. 실제 감소 기준·중복 예약·동일 프레임 순서는 미검증입니다. 균형의 루인 피해 버프는 사용 시 갱신합니다.');
   if (build.ruinFullset) warnings.push('루인 풀셋 14P는 첫 직접 적중을 사용당 1회 세며 0스택·더 데빌도 포함하는 후보입니다. 세렌 연속타·폭발은 중복 집계하지 않습니다. 현행 판정·누적 유지·손패 포화 시 주기 소모·게이지 다음 운명 처리 순서는 영상 실측 미검증입니다.');
-  if (build.chainDraw) warnings.push('체인 드로우는 해석한 포인트의 효과만 적용합니다. 14P는 실제 카드 사용 뒤 독립 확률로 운명을 판정하고 카드 고유 효과를 먼저 처리합니다. 17P 적중 게이지는 특화·탐욕과 합산하는 후보입니다. 실제 확률 독립성·로열/광대와의 순서·게이지 조합 연산은 미검증입니다.');
+  if (build.chainDraw) warnings.push('체인 드로우는 해석한 포인트의 효과만 적용합니다. 14P는 실제 카드 사용 뒤 독립 확률로 운명을 판정하고 카드 고유 효과를 먼저 처리합니다. '
+    + (build.params.gaugeFactors === undefined ? '17P 적중 게이지는 특화·탐욕과 합산하는 후보입니다. ' : '17P 적중 게이지는 별도로 곱하는 공개 후보입니다. ')
+    + '실제 확률 독립성·로열/광대와의 순서·게이지 조합 연산은 미검증입니다.');
   if (build.stackHold) warnings.push('스택 홀드 14P는 실제 카드 사용 두 번마다 운명을 발생시킵니다. 획득·광대 복제는 세지 않습니다. 카드 효과 다음 처리·누적 유지 시간은 현행 실측 미검증입니다. 17P는 실제 대상 스택 조건으로 적용하며 스택 자연 만료는 미모델입니다.');
   if (build.emperorHeartChance !== undefined) warnings.push('황제의 심장 14P는 일반·스택트 첫 시전마다 한 번 판정하는 부분 구현입니다. 이보크 재입력·수동 격발·엣지 두 번째 입력·T 스킬은 미확인·미반영입니다. 충전 소비는 각각 새 시전으로 처리하며 확률 독립성·동일 시각 쿨 시작 순서는 실측 미검증입니다.');
   if (build.anotherEmperorChance !== undefined) warnings.push('또 다른 황제는 황제 이외의 실제 카드 사용당 확률을 판정하고 추가 피해를 별도로 집계합니다. 카드 고유 효과·자비 다음, 운명 이전에 즉시 적중하는 순서와 확률 독립성은 미검증입니다. 추가 발동을 카드 사용·획득·스킬 적중으로 다시 세지 않습니다. 검색 변환은 추가 카드 피해를 칙령과 합산해 직접 사용·추가 발동에 적용하는 후보이며 게임 실측 미검증입니다.');
@@ -35,7 +72,13 @@ export function cardSupplyWarnings(build: Build): string[] {
   if (build.variant === 'emperor' && build.rotation.critSetupSkill) warnings.push('황제 기본 운용은 다크니스 엣지가 없고 도태가 비활성일 때 준비된 스트림을 일반기 앞에서 사용합니다. 적 4스택에서도 재사용하지만 실제 타격 시각·버프 가동률·도태 보관·설치 중 미리 준비하는 최적 순서는 미검증입니다.');
   if (build.variant === 'emperor' && build.rotation.setupSkill === 'return' && !build.rotation.fillers?.includes('return')) warnings.push('새 황제 기본 순서의 리턴은 선택된 공통 버프가 없을 때 일반기 앞에서 준비하며, 버프 유지 중에는 쿨마다 다시 쓰지 않습니다. 속행·카드 수급 기회도 줄어드는 후보 운용이며 선제 갱신·설치기 순서와 실제 DPS는 미검증입니다.');
   if (build.variant === 'emperor' || build.deckOverrides?.add?.includes('empress_knight')) {
-    warnings.push('황제·황후의 기사 피해는 기준 전투 레벨을 확인하지 못해 자동 입력이 0입니다. 황제 피해 보석·칙령·기사 노드의 피해 증가는 반영하지만 또 다른 황제의 합연산 후보·적중 지연은 실측 미검증이므로 수동 계수로도 세팅 우열을 판정할 수 없습니다.');
+    const configured = Object.entries(cardDamage.cards).filter(([id]) => build.params.cardDamageCoef[id] !== undefined || build.params.cardDamageFlat?.[id] !== undefined);
+    const publicCandidate = build.combatLevel === cardDamage._meta.automaticInputCombatLevel && configured.length > 0
+      && configured.every(([id, damage]) => build.params.cardDamageCoef[id] === damage.ap && build.params.cardDamageFlat?.[id] === damage.flat);
+    const hasDamage = configured.some(([id]) => (build.params.cardDamageCoef[id] ?? 0) > 0 || (build.params.cardDamageFlat?.[id] ?? 0) > 0);
+    if (publicCandidate) warnings.push('황제·황후의 기사 기본 피해는 공개 계수 후보를 사용합니다. 기준 전투 레벨·절대 피해는 게임 실측 미검증이며 별도 레벨 보정은 적용하지 않습니다. 카드 빈도·적중·피해 비중에 따라 전체 세팅 비교 결론이 달라질 수 있습니다.');
+    else if (hasDamage) warnings.push('황제·황후의 기사 기본 피해는 저장된 수동 계수·고정항을 사용합니다. 공개 후보와 동일한 입력으로 확인되지 않았으며 기준 전투 레벨·절대 피해·적중 지연은 실측 미검증입니다. 입력값만으로 실제 세팅 우열을 확정할 수 없습니다.');
+    else warnings.push('황제·황후의 기사 피해는 기준 전투 레벨을 확인하지 못해 자동 입력이 0입니다. 황제 피해 보석·칙령·기사 노드의 피해 증가는 반영하지만 또 다른 황제의 합연산 후보·적중 지연은 실측 미검증이므로 수동 계수로도 세팅 우열을 판정할 수 없습니다.');
     warnings.push('카드 피해는 일반 스킬 전용 효과에서 분리합니다. 황제에 제후 미적용은 공략 근거가 있으나 황후의 기사와 각 효과의 현행 적용 범위는 추가 검증이 필요합니다.');
   }
   if (build.skills.some(s => s.kind === 'ruin' || s.tags?.includes('ruin'))) {
@@ -67,16 +110,20 @@ export interface CardHost {
   twistedFateZeroChance: number;
   /** 페이탈 핸드 14P: 도태 치피 +20%p 후보(S101) */
   fatalHandCull: boolean;
-  /** 카드 피해 공격력 계수 (황제·황후의 기사). 기준 전투 레벨 미확인, 자동 입력 0. */
+  /** 카드 피해 공격력 계수 (황제·황후의 기사). 공개 후보 또는 저장된 수동 입력입니다. */
   cardDamageCoef: Record<string, number>;
 }
 
 export function useCard(id: string, h: CardHost): void {
-  const dur = (base: number) => base + h.durationBonus(id);
+  const dur = (base: number) => {
+    const bonus = h.durationBonus(id);
+    if (!Number.isFinite(bonus)) throw new TypeError('카드 지속시간 보정은 유한한 숫자여야 합니다.');
+    return base + bonus;
+  };
   switch (id) {
     case 'cull':
       h.applyBuff({ id: 'cull_rate', duration: dur(4), mod: { bucket: 'critRate', value: 1.0, source: '도태' } });
-      h.applyBuff({ id: 'cull_dmg', duration: dur(4), mod: { bucket: 'critDmg', value: h.fatalHandCull ? 0.7 : 0.5, source: '도태' } });
+      h.applyBuff({ id: 'cull_dmg', duration: dur(4), mod: { bucket: 'critDmg', value: cardEffectEnabled(h.fatalHandCull, '페이탈 핸드') ? 0.7 : 0.5, source: '도태' } });
       break;
     case 'judgment':
       h.applyBuff({ id: 'judgment', duration: dur(4), mod: { bucket: 'skillDmg', value: 0, source: '심판' } });

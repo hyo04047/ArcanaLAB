@@ -24,8 +24,9 @@ describe('saved cast duration and effective attack speed', () => {
   it.each([[-1], [-2], [Infinity], [-Infinity], [NaN], [-0.6, -0.4], [1e308, 1e308]])(
     'rejects an invalid effective speed from %j before advancing time', (...bonuses) => {
       const state = new SimState(input(1, bonuses), createRng(1), []);
-      expect(() => state.atkSpeed()).toThrow('공격 속도');
-      expect(() => state.cast(state.build.skills[0]!, 2)).toThrow('공격 속도');
+      const error = bonuses.every(Number.isFinite) ? '공격 속도' : '수정치 수치';
+      expect(() => state.atkSpeed()).toThrow(error);
+      expect(() => state.cast(state.build.skills[0]!, 2)).toThrow(error);
       expect(state.now).toBe(0); expect(state.total).toBe(0);
     });
   it.each(['cast', 'destiny'] as const)('rejects speed introduced by a %s effect', trigger => {

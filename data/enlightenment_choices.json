@@ -1,0 +1,139 @@
+{
+  "boundary": "저장 공식 설명의 관측 레벨만 포함합니다. 비용·전체 선행 조건·상호 배타·장착 가능성은 미확인입니다.",
+  "sideNodeIds": [
+    "empress_greed",
+    "emperor_mercy",
+    "empress_knight",
+    "emperor_judgment"
+  ],
+  "choices": [
+    {
+      "nodeId": "emperor_mercy",
+      "tier": 3,
+      "level": 1,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 3티어 <FONT color='#83E9FF'>황제의 자비 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_6.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황제의 자비\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_6.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"카드 사용 시 <FONT COLOR='#ffff99'>8.0</FONT>초간 적에게 주는 피해가 <FONT COLOR='#99ff99'>1.2%</FONT> 증가한다. 또한 이동기의 재사용 대기 시간이 즉시 <FONT COLOR='#ffff99'>1.0</FONT>초 감소한다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "empress_greed",
+      "tier": 3,
+      "level": 1,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 3티어 <FONT color='#83E9FF'>황후의 탐욕 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_21.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 탐욕\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_21.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"루인 스킬의 피해량이 <FONT COLOR='#99ff99'>0.9%</FONT> 증가하며 덱 게이지 획득량이 <FONT COLOR='#99ff99'>4.0%</FONT> 증가하지만, 일반 스킬의 덱 게이지 획득량이 <FONT COLOR='#ff9999'>50.0%</FONT> 감소한다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[1].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "emperor_judgment",
+      "tier": 4,
+      "level": 1,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>황제의 심판 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_18.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황제의 심판\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_18.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"루인 스킬의 피해량이 <FONT COLOR='#ff9999'>2.0%</FONT> 감소하지만, 스택트 스킬과 일반스킬이 적에게 주는 피해가 <FONT COLOR='#99ff99'>2.0%</FONT> 증가한다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-leap-lower-sources.json",
+        "sha256": "28756395304084433075a965d8eaed4cea062a78b96a64d2bb06070b0f22a69e",
+        "location": "records[2].body"
+      }
+    },
+    {
+      "nodeId": "emperor_judgment",
+      "tier": 4,
+      "level": 2,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>황제의 심판 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_18.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황제의 심판\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_01/ark_passive_01_18.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"루인 스킬의 피해량이 <FONT COLOR='#ff9999'>4.0%</FONT> 감소하지만, 스택트 스킬과 일반스킬이 적에게 주는 피해가 <FONT COLOR='#99ff99'>4.0%</FONT> 증가한다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-enlightenment-levels-sources.json",
+        "sha256": "4d55f3228eb0f2bcc6d90ac6a43c957599618cf3a3ff43bbef215d8e1773c2f0",
+        "location": "records[3].body"
+      }
+    },
+    {
+      "nodeId": "empress_knight",
+      "tier": 4,
+      "level": 1,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>황후의 기사 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 기사\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"카드덱에 황후의 기사 카드가 추가된다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "empress_knight",
+      "tier": 4,
+      "level": 2,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>황후의 기사 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 기사\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"카드덱에 황후의 기사 카드가 추가되고, 황후의 기사 카드의 피해량이 <FONT COLOR='#99ff99'>100.0%</FONT> 증가한다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-enlightenment-levels-sources.json",
+        "sha256": "4d55f3228eb0f2bcc6d90ac6a43c957599618cf3a3ff43bbef215d8e1773c2f0",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "empress_knight",
+      "tier": 4,
+      "level": 4,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>황후의 기사 Lv.4</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 기사\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>4</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"카드덱에 황후의 기사 카드가 추가되고, 황후의 기사 카드의 피해량이 <FONT COLOR='#99ff99'>300.0%</FONT> 증가한다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-leap-lower-sources.json",
+        "sha256": "28756395304084433075a965d8eaed4cea062a78b96a64d2bb06070b0f22a69e",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "empress_knight",
+      "tier": 4,
+      "level": 5,
+      "effect": {
+        "Name": "깨달음",
+        "Description": "<FONT color='#83E9FF'>깨달음</FONT> 4티어 <FONT color='#83E9FF'>황후의 기사 Lv.5</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"황후의 기사\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>5</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>깨달음</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_ac/ark_passive_ac_7.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"카드덱에 황후의 기사 카드가 추가되고, 황후의 기사 카드의 피해량이 <FONT COLOR='#99ff99'>400.0%</FONT> 증가한다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-13-knight-passive-sources.json",
+        "sha256": "858bfdb70907ae9fd969bfd3799324bc779663436a24a75f46d98e69c2903acc",
+        "location": "refs[0].data"
+      }
+    }
+  ]
+}

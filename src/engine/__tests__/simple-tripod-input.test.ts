@@ -27,6 +27,8 @@ function convert(skillName: string, name: string, description?: string, index = 
 }
 for (const { skill, name, effect, value } of cases) describe(`${skill} ${name} single effect`, () => {
   const { result: empty, text } = convert(skill, name), base = empty.build.skills[0]!;
+  // 미해석 선택은 미선택 기본형의 게이지 출처를 상속하지 않습니다.
+  const invalidBase = { ...base }; delete invalidBase.evokeGauge;
   it.each([0, 1])('preserves official source %s', index => {
     const official = convert(skill, name, undefined, index).text;
     const result = convert(skill, name, official, index).result.build.skills[0]!;
@@ -35,14 +37,14 @@ for (const { skill, name, effect, value } of cases) describe(`${skill} ${name} s
   });
   it.each(['특정 버프가 있을 때만 ' + text, text + ' 마나가 50% 이상일 때만 적용된다.'])('does not drop an extra condition: %s', description => {
     const result = convert(skill, name, description).result;
-    expect(result.build.skills[0]).toEqual(base);
+    expect(result.build.skills[0]).toEqual(invalidBase);
     expect(result.warnings.some(w => w.includes(name) && w.includes('해석 못함'))).toBe(true);
   });
   it.each(['1.2.3', '9'.repeat(400), '-1'])('rejects invalid values: %s', invalid => {
-    expect(convert(skill, name, text.replace(/[\d.]+%/, invalid + '%')).result.build.skills[0]).toEqual(base);
+    expect(convert(skill, name, text.replace(/[\d.]+%/, invalid + '%')).result.build.skills[0]).toEqual(invalidBase);
   });
   if (effect === 'critRate') it('rejects impossible crit probability', () => {
-    expect(convert(skill, name, text.replace(/[\d.]+%/, '101%')).result.build.skills[0]).toEqual(base);
+    expect(convert(skill, name, text.replace(/[\d.]+%/, '101%')).result.build.skills[0]).toEqual(invalidBase);
   });
   if (effect === 'skillDmg') it('allows damage over 100 percent', () => {
     expect(convert(skill, name, text.replace(/[\d.]+%/, '150%')).result.build.skills[0]!.mods)

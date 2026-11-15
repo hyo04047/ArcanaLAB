@@ -154,7 +154,8 @@ describe('Serendipity per-hit ruin processing', () => {
 
   it('connects three hits and the per-hit direct bonus through preset and character import', () => {
     for (const build of [preset, buildFromArmory(raw).build]) {
-      const sk = { ...build.skills.find(s => s.id === row.id)!, procCritDmg: undefined, defenseIgnore: undefined };
+      const sk = { ...build.skills.find(s => s.id === row.id)!, procCritDmg: undefined, defenseIgnore: undefined,
+        serendipityGauge: undefined }; // Direct-damage isolation removes the new full-tripod gauge profile too.
       const s = state(sk); judgment(s);
       const b = cast(s);
       expect(sk.hits).toBe(3);

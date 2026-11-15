@@ -5,7 +5,7 @@
     "gamePatch": null,
     "verifiedAgainstInGameMeasurements": false,
     "url": "https://lostarksim.com/api/game-data/skills/class/%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
-    "evidenceFile": "docs/audit/2026-10-13-emperor-damage-sources.json",
+    "evidenceFile": "tests/fixtures/audit/2026-10-13-emperor-damage-sources.json",
     "evidenceSha256": "09735244806d10a832324b5da46c98a1e739fb3e214650edd1ba73f8a2ccb060",
     "note": "분노의 일격은 기본 마지막 타격에 툴팁 배율을 적용하는 후보입니다. 죽공 +66%는 공개 트포 후보이며 선택 레벨 미확인입니다. 전체 모션을 실제 취소 후딜로 확정하지 않습니다."
   },

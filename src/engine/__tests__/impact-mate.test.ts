@@ -18,6 +18,7 @@ function state(point = 17) {
   const { build } = buildFromArmory(input(point));
   build.passiveMods = []; build.params.atkBase = 100; build.bluntThorn = undefined;
   build.params.cardDamageCoef = { emperor: 1 }; build.params.raidCaptainRatio = 0;
+  build.params.cardDamageFlat = {}; // 이 검사는 고정항 없는 합성 피해의 버프 범위만 통제합니다.
   build.skills = [{ id: 'normal', name: '통제', kind: 'normal', castTime: 0, cooldown: 0, hits: 1, directCoef: 1 }];
   return new SimState(build, createRng(1), cardsFor('emperor'));
 }

@@ -19,7 +19,7 @@ function state(point = 14) {
   const { build } = buildFromArmory(input(point));
   build.passiveMods = []; build.bluntThorn = undefined; build.onRuinAt4 = []; build.onDestiny = ['drawCard'];
   build.params.gaugePerHit = { normal: 0, stack: 0, ruin: 0, awakening: 0, hyper_awakening: 0 };
-  for (const s of build.skills) { s.cooldown = 0; s.runeCdReduce = undefined; s.quickDraw = undefined; s.hitRune = undefined; s.onCast = []; s.onHit = []; }
+  for (const s of build.skills) { delete s.gaugeBase; delete s.gaugeCandidate; s.cooldown = 0; s.runeCdReduce = undefined; s.quickDraw = undefined; s.hitRune = undefined; s.onCast = []; s.onHit = []; }
   return new SimState(build, { ...createRng(1), chance: () => false }, cardsFor('empress'));
 }
 function cast(sim: SimState, id = 'secret_garden', stacks = 4) { sim.stacks = stacks; sim.cast(sim.skill(id), 100); }

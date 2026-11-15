@@ -18,7 +18,9 @@ export class Deck {
   constructor(
     readonly cards: CardDef[],
     readonly handSize = 2,
-  ) {}
+  ) {
+    if (!Number.isSafeInteger(handSize) || handSize < 0) throw new RangeError('손패 한도는 0 이상의 안전한 정수여야 합니다.');
+  }
 
   private drawable(): CardDef[] {
     return this.cards.filter((c) => !this.hand.includes(c.id));
@@ -30,6 +32,8 @@ export class Deck {
 
   /** 게이지 추가. 가득 차면 드로우. 손패가 꽉 차 있으면 게이지는 0 고정. */
   addGauge(amount: number, rng: Rng): string[] {
+    if (!Number.isFinite(amount) || amount < 0 || !Number.isFinite(this.gauge + amount))
+      throw new RangeError('카드 게이지 증가는 0 이상의 유한한 수여야 합니다.');
     const got: string[] = [];
     if (this.isFull) {
       this.gauge = 0;
@@ -39,7 +43,8 @@ export class Deck {
     while (this.gauge >= 1 && !this.isFull) {
       this.gauge -= 1;
       const c = this.draw(rng);
-      if (c) got.push(c);
+      if (!c) { this.gauge %= 1; break; }
+      got.push(c);
     }
     if (this.isFull) this.gauge = 0;
     return got;
@@ -51,9 +56,11 @@ export class Deck {
     let id: string;
     if (forcedId) id = forcedId;
     else {
-      const pool = this.drawable();
+      const pool = this.drawable().filter(c => c.weight !== 0);
       if (pool.length === 0) return null;
+      if (pool.some(c => !Number.isFinite(c.weight) || c.weight < 0)) throw new RangeError('카드 가중치는 0 이상의 유한한 숫자여야 합니다.');
       const total = pool.reduce((s, c) => s + c.weight, 0);
+      if (!Number.isFinite(total)) throw new RangeError('추첨 가능한 카드의 가중치 합계는 유한해야 합니다.');
       let r = rng.next() * total;
       id = pool[pool.length - 1]!.id;
       for (const c of pool) {

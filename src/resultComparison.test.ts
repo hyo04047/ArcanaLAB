@@ -7,6 +7,13 @@ const original = JSON.parse(readFileSync('tests/fixtures/audit/2026-10-17-ui-res
 const read = (value: typeof original) => parseResultInput(JSON.stringify(value), '결과.json')!;
 
 describe('saved model result comparison', () => {
+  it('reads a leading BOM without changing saved results or embedded characters', () => {
+    const saved = structuredClone(original);
+    saved.build.name = '\uFEFF입력 이름'; saved.result.build = saved.build.name;
+    saved.result.damageWarnings.push('문자열 내부\uFEFF표식');
+    expect(parseResultInput('\uFEFF' + JSON.stringify(saved), 'BOM.json')).toEqual(read(saved));
+  });
+
   it('blocks different known models and keeps missing identity explicit without retrofitting old files', () => {
     const legacy = read(original), first = read({ ...original, modelId: 'sha256:' + 'a'.repeat(64) });
     const second = read({ ...original, modelId: 'sha256:' + 'b'.repeat(64) });

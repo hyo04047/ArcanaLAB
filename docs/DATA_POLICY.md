@@ -17,6 +17,8 @@
 
 fixture에 남은 과거 해시·모델 식별값은 당시 비교의 테스트 입력입니다. 비식별 공개 파일 자체의 원본 인증으로 해석하지 않습니다. 공개 파일의 현재 해시는 `docs/PUBLICATION_MANIFEST.json`에서 확인합니다.
 
+공개 파생 과정에서 정상 세팅 baseline의 원본 필드가 비식별화되면 앱의 동일한 해시 함수로 baseline fingerprint를 다시 계산합니다. 과거 계산의 모델 식별값은 바꾸지 않습니다. 선택지 카탈로그의 `source.path`와 `source.sha256`는 공개 fixture와 그 바이트를 가리키도록 함께 변환하며, 원래 출처 해시와 파생 해시의 대응은 [파생 자료 목록](PUBLICATION_DERIVATIONS.json)에 별도로 남깁니다. 개인정보 매핑표는 공개하지 않습니다.
+
 ## 자료 출처
 
 - [로스트아크 공식 Open API](https://developer-lostark.game.onstove.com/): 공개 캐릭터 전투 정보와 게임 데이터

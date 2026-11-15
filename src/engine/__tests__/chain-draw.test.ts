@@ -17,6 +17,7 @@ function state(point = 14, proc = true) {
   const { build } = buildFromArmory(input(point));
   build.passiveMods = []; build.bluntThorn = undefined; build.onDestiny = ['drawCard'];
   build.params.gaugeGainBonus = 0; build.params.normalGaugePenalty = 0;
+  delete build.params.gaugeFactors; // 카드 사용·기존 합산 경로를 독립적으로 통제합니다.
   build.params.gaugePerHit = { normal: 0.1, stack: 0, ruin: 0, awakening: 0, hyper_awakening: 0 };
   build.skills = [{ id: 'test', name: '통제 스킬', kind: 'normal', usesMana: true, directCoef: 0, hits: 1, cooldown: 0, castTime: 0 }];
   const chance = vi.fn(() => proc);

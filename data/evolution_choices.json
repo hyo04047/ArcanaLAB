@@ -1,0 +1,325 @@
+{
+  "boundary": "저장된 공식 API의 관측 레벨만 포함합니다. 현재 서버 실측·모든 레벨·장착 가능성을 인증하지 않습니다.",
+  "choices": [
+    {
+      "nodeId": "endless_mana",
+      "tier": 2,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>끝없는 마나 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_16.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"끝없는 마나\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_16.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"마나 사용 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>7.0% </font>감소하고, 마나 소모량이 <FONT COLOR='#99ff99'>10.0% </font>감소합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[3].body"
+      }
+    },
+    {
+      "nodeId": "endless_mana",
+      "tier": 2,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>끝없는 마나 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_16.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"끝없는 마나\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_16.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"마나 사용 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>14.0% </font>감소하고, 마나 소모량이 <FONT COLOR='#99ff99'>20.0% </font>감소합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "forbidden_spell",
+      "tier": 2,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>금단의 주문 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_12.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"금단의 주문\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_12.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>10.0% </font>증가, 마나 스킬의 진화형 피해는 <FONT COLOR='#99ff99'>10.0% </font>더 증가하고, 마나 소모량이 <FONT COLOR='#99ff99'>12.0% </font>감소합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[3].body"
+      }
+    },
+    {
+      "nodeId": "keen_sense",
+      "tier": 2,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>예리한 감각 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_29.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"예리한 감각\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_29.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"치명타 적중률이 <FONT COLOR='#99ff99'>8.0% </font>증가하고, 진화형 피해가 <FONT COLOR='#99ff99'>10.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[1].body"
+      }
+    },
+    {
+      "nodeId": "limit_break",
+      "tier": 2,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>한계 돌파 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_34.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"한계 돌파\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_34.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>10.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[1].body"
+      }
+    },
+    {
+      "nodeId": "limit_break",
+      "tier": 2,
+      "level": 3,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>한계 돌파 Lv.3</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_34.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"한계 돌파\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>3</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_34.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>30.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-chariot-sources.json",
+        "sha256": "69da7ebcc2f7675fd5d8f41d65eaeb8d85c78f6f3ab898792683e6e7e21853cb",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "optimized_training",
+      "tier": 2,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 2티어 <FONT color='#F1D594'>최적화 훈련 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_22.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"최적화 훈련\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_22.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"각성기, 이동 및 기상기를 제외한 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>4.0% </font>감소하고, 진화형 피해가 <FONT COLOR='#99ff99'>5.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "all_out_strike",
+      "tier": 3,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>혼신의 강타 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_27.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"혼신의 강타\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_27.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"치명타 적중률이 <FONT COLOR='#99ff99'>12.0% </font>증가하고, 진화형 피해가 <FONT COLOR='#99ff99'>2.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-chariot-sources.json",
+        "sha256": "69da7ebcc2f7675fd5d8f41d65eaeb8d85c78f6f3ab898792683e6e7e21853cb",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "all_out_strike",
+      "tier": 3,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>혼신의 강타 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_27.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"혼신의 강타\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_27.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"치명타 적중률이 <FONT COLOR='#99ff99'>24.0% </font>증가하고, 진화형 피해가 <FONT COLOR='#99ff99'>4.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[2].body"
+      }
+    },
+    {
+      "nodeId": "chariot",
+      "tier": 3,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>파괴 전차 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_35.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"파괴 전차\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_35.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>12.0% </font>증가하고, 공격 속도가 <FONT COLOR='#99ff99'>4.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-chariot-sources.json",
+        "sha256": "69da7ebcc2f7675fd5d8f41d65eaeb8d85c78f6f3ab898792683e6e7e21853cb",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "chariot",
+      "tier": 3,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>파괴 전차 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_35.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"파괴 전차\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_35.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>24.0% </font>증가하고, 공격 속도가 <FONT COLOR='#99ff99'>8.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-chariot-sources.json",
+        "sha256": "69da7ebcc2f7675fd5d8f41d65eaeb8d85c78f6f3ab898792683e6e7e21853cb",
+        "location": "records[1].body"
+      }
+    },
+    {
+      "nodeId": "infinite_magick",
+      "tier": 3,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>무한한 마력 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_14.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"무한한 마력\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_14.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>8.0% </font>증가하고, 마나 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>7.0% </font>감소, 마나 소모량이 <FONT COLOR='#99ff99'>8.0% </font>감소합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "infinite_magick",
+      "tier": 3,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>무한한 마력 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_14.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"무한한 마력\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_14.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>16.0% </font>증가하고, 마나 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>14.0% </font>감소, 마나 소모량이 <FONT COLOR='#99ff99'>16.0% </font>감소합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "single_strike",
+      "tier": 3,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>일격 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_32.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"일격\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_32.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"치명타 적중률이 <FONT COLOR='#99ff99'>10.0% </font>증가하고, 방향성 공격 스킬의 치명타 피해가 <FONT COLOR='#99ff99'>16.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "single_strike",
+      "tier": 3,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 3티어 <FONT color='#F1D594'>일격 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_32.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"일격\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_32.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"치명타 적중률이 <FONT COLOR='#99ff99'>20.0% </font>증가하고, 방향성 공격 스킬의 치명타 피해가 <FONT COLOR='#99ff99'>32.0% </font>증가합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[1].body"
+      }
+    },
+    {
+      "nodeId": "critical_insight",
+      "tier": 4,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 4티어 <FONT color='#F1D594'>회심 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_40.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"회심\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_40.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"공격이 치명타로 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>12.0%</font> 증가하며, 받는 피해가 <FONT COLOR='#99ff99'>4.0%</font> 감소합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "crush",
+      "tier": 4,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 4티어 <FONT color='#F1D594'>분쇄 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_44.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"분쇄\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_44.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>20.0%</font> 증가하며, 받는 피해가 <FONT COLOR='#99ff99'>4.0%</font> 감소합니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "master",
+      "tier": 4,
+      "level": 1,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 4티어 <FONT color='#F1D594'>달인 Lv.1</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_41.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"달인\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>1</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_41.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"받는 피해가 <FONT COLOR='#99ff99'>4.0%</font> 감소하며, 이동기 및 기상기를 제외한 스킬 사용시 10초간 '달인' 효과를 얻습니다.<BR> 달인 : 치명타 적중률 <FONT COLOR='#99ff99'>+1.4%</font> / 추가 피해 <FONT COLOR='#99ff99'>+1.7%</font>, 최대 5중첩||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[0].body"
+      }
+    },
+    {
+      "nodeId": "blunt_thorn",
+      "tier": 5,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 5티어 <FONT color='#F1D594'>뭉툭한 가시 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_20.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"뭉툭한 가시\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_20.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>15.0% </font>증가합니다. 치명타가 발생할 확률이 최대 <FONT COLOR='#ff9999'>80.0% </font>로 제한됩니다. 공격 시, 초과한 모든 치명타가 발생할 확률의 <FONT COLOR='#99ff99'>150.0%</font>가 진화형 피해로 전환됩니다. 이 노드에 의한 진화형 피해는 최대 <FONT COLOR='#99ff99'>75.0%</font>까지 적용됩니다.||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-fresh-armory-sources.json",
+        "sha256": "551d5fe38768dfd7178b2e6f31158f64200bcf77706f63f8ade51781d2829ffc",
+        "location": "records[0].responses[5].body"
+      }
+    },
+    {
+      "nodeId": "standing_striker",
+      "tier": 5,
+      "level": 2,
+      "effect": {
+        "Name": "진화",
+        "Description": "<FONT color='#F1D594'>진화</FONT> 5티어 <FONT color='#F1D594'>입식 타격가 Lv.2</FONT>",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png",
+        "ToolTip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"입식 타격가\"},\"Element_001\":{\"type\":\"CommonSkillTitle\",\"value\":{\"leftText\":\"아크 패시브 레벨 <FONT COLOR='#FFD200'>2</FONT>\",\"level\":\"\",\"name\":\"<FONT SIZE='13' COLOR='#FFFFAC'>진화</FONT>\",\"slotData\":{\"iconGrade\":0,\"iconPath\":\"https://cdn-lostark.game.onstove.com/efui_iconatlas/ark_passive_evolution/ark_passive_evolution_18.png\",\"imagePath\":\"\"}}},\"Element_002\":{\"type\":\"MultiTextBox\",\"value\":\"진화형 피해가 <FONT COLOR='#99ff99'>12.0%</font>, 낙인력이 <FONT COLOR='#99ff99'>8.0%</font> 증가합니다. <BR>전투 시작 후, '입식 타격 II' 효과를 최대로 얻습니다. 피격 이상 시 중첩을 3회 잃습니다. 이후 2초가 지날 때마다 효과를 1중첩 회복합니다.<BR> 입식 타격 II :  진화형 피해 <FONT COLOR='#99ff99'>+1.5% </font> / 낙인력 <FONT COLOR='#99ff99'>+2.0% </font>, 최대 6중첩||<BR>\"}}"
+      },
+      "source": {
+        "path": "tests/fixtures/audit/2026-10-17-common-passive-sources.json",
+        "sha256": "e9c457607dbd1678f232f97f9f8789ed8abd153946808f94fa86d2f05d8eba65",
+        "location": "records[1].body"
+      }
+    }
+  ]
+}

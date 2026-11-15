@@ -93,7 +93,7 @@ export interface SkillDef {
   keepStacksMin?: number;
   /** 세렌디피티 '의도된 우연': 트라이포드 발동 확률 가산(20%p = 0.2). */
   tripodChanceBonus?: number;
-  /** 사용 시 쿨타임 FixtureCharacter25화 확률 (포 카드 '신속한 준비') */
+  /** 사용 시 쿨타임 초기화 확률 (포 카드 '신속한 준비') */
   cdResetChance?: number;
   /** 루인: 스택당 확률로 치피 증가 (세렌디피티 '우연한 일격') */
   procCritDmg?: { chancePerStack: number; value: number };
@@ -105,6 +105,18 @@ export interface SkillDef {
   hitRune?: { kind: 'conviction' | 'judgment'; chance: number; duration: number };
   /** 이 스킬의 덱 게이지 획득 배율 (풍요 룬 1.4) */
   gaugeMultiplier?: number;
+  /** 합산 직접 적중 1회당 기본 게이지(1 = 카드 1장). 생략 시 기존 분류별 값×타수입니다. 개별 타격·설치 프로필과 함께 사용하지 않습니다. */
+  gaugeBase?: number;
+  /** 새 포 카드 후보의 출처 식별자. 없는 과거 입력은 값이 같아도 자동 후보로 재분류하지 않습니다. */
+  gaugeCandidate?: 'four-card-enhanced' | 'four-card-preserved';
+  /** 포 카드 두 입력 후보. 모션·게이지는 입력당 값, directCoef/directFlat/hits/castTime은 전체 합계입니다. */
+  fourCardCombo?: { candidate: 'four-card-combo-enhanced' | 'four-card-combo-preserved';
+    duration: number; hitAt: number; gaugeBase: number };
+  /** 지정 세렌 조합의 실제 적중별 기본량 후보. 표식 없는 기존 저장의 수급·정책은 유지합니다. */
+  serendipityGauge?: { candidate: 'serendipity-piercing-continuous' | 'serendipity-piercing-intended' | 'serendipity-preserved-intended';
+    perHit: number[] };
+  /** 새 이보크 후보의 실제 폭발별 기본량. 분할 배열은 설치 1회당 값이며 두 번째 설치에도 적용합니다. */
+  evokeGauge?: { candidate: 'evoke-split' | 'evoke-overlap' | 'evoke-manual-basic'; perHit: number[]; warningVersion?: 2 };
   /** 선택한 퀵 드로의 표시 확률과 적중 조건. attempts는 합산 적중 1회에 포함된 판정 수입니다. */
   quickDraw?: { chance: number; trigger: 'each' | 'first' | 'last'; attempts: number };
   /** 숨겨진 패: 더 썬의 마지막 직접 적중에서 1회 카드 획득을 판정합니다. */
@@ -207,6 +219,8 @@ export interface SimParams {
   gaugePerHit: Record<Exclude<SkillKind, 'identity_card'>, number>;
   /** 게이지 획득량 증가 합(특화 + 탐욕 등) */
   gaugeGainBonus: number;
+  /** 새 입력의 공개 곱연산 후보. 탐욕 증가는 루인 한정이며 게임 미검증. 생략은 기존 합산입니다. */
+  gaugeFactors?: { specialization: number; greed: number };
   /** 일반 스킬 게이지 패널티(황후의 탐욕 −0.5) */
   normalGaugePenalty: number;
   /** 검색은 API 기본 공격력, 미확인·수동 프리셋은 자리값 1. 고정·% 공격력 수정치 적용 전입니다. */
@@ -219,9 +233,9 @@ export interface SimParams {
   fatalHandCull: boolean;
   /** 부식 디버프 값 (기본 0.10, 페이탈 핸드 17P 0.12/0.13) */
   corrosionValue: number;
-  /** 카드 피해 공격력 계수. 기준 전투 레벨 미확인으로 자동 입력하지 않습니다. */
+  /** 카드 피해 공격력 계수. 새 Lv70 입력은 공개 후보이며 기준 레벨·절대 피해는 실측 미검증입니다. */
   cardDamageCoef: Record<string, number>;
-  /** 카드 고정 피해. 공격력에 곱하지 않으며 통제용 수동 입력만 지원합니다. */
+  /** 카드 고정 피해. 공격력에 곱하지 않습니다. 기존 저장 입력은 자동 보충하지 않습니다. */
   cardDamageFlat?: Record<string, number>;
   /** 후보 적용 대상 밖에서만 쓰는 중첩별 임시 배율 (index = 중첩 수, 0~4). */
   stackEffectScale: number[];

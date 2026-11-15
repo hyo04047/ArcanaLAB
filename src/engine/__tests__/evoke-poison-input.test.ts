@@ -33,6 +33,8 @@ const invalid: [string, string][] = [
 ];
 describe.each(['기본', '분할 마법진', '중첩 마법진'])('Evoke poison %s input', mode => {
   const baseline = convert(mode).build.skills[0]!;
+  // 미해석 선택은 미선택 기본형의 게이지 출처를 상속하지 않습니다.
+  const invalidBaseline = { ...baseline }; delete invalidBaseline.evokeGauge;
   it('keeps the official reduction and poison together', () => {
     const result = convert(mode, text).build.skills[0]!;
     expect(result.manaPoison).toMatchObject({ duration: 3, maxStacks: 3 });
@@ -42,7 +44,7 @@ describe.each(['기본', '분할 마법진', '중첩 마법진'])('Evoke poison 
   });
   it.each(invalid)('rejects the whole effect for %s', (_label, description) => {
     const result = convert(mode, description);
-    expect(result.build.skills[0]).toEqual(baseline);
+    expect(result.build.skills[0]).toEqual(invalidBaseline);
     expect(result.warnings.some(w => w.includes('마나 중독') && w.includes('해석 못함'))).toBe(true);
   });
 });

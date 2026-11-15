@@ -76,9 +76,10 @@ describe('identity card damage control path', () => {
   it('does not deal damage for a card absent from the hand', () => {
     const s = state(); s.useCardNow('emperor'); expect(s.total).toBe(0);
   });
-  it('reports missing automatic values and provisional scope even with manual inputs', () => {
+  it('reports manual damage inputs and provisional scope without calling the damage zero', () => {
     const s = state(); const warnings = cardSupplyWarnings(s.build);
-    expect(warnings.some(w => w.includes('자동 입력이 0'))).toBe(true);
+    expect(warnings.some(w => w.includes('수동 계수·고정항'))).toBe(true);
+    expect(warnings.some(w => w.includes('자동 입력이 0'))).toBe(false);
     expect(warnings.some(w => w.includes('황후의 기사') && w.includes('추가 검증'))).toBe(true);
   });
 });

@@ -16,6 +16,7 @@ const close = (a: number, b: number) => Number.isFinite(a) && Number.isFinite(b)
 
 /** 저장 파일의 내부 일관성 검사입니다. 엔진 동일성·원본 진위·게임 정확도는 검증하지 않습니다. */
 export function parseResultInput(text: string, label: string): SavedResult | null {
+  text = text.replace(/^\uFEFF/, '');
   const input = parseBuildInput(text, label), saved = JSON.parse(text);
   if (!Object.hasOwn(saved, 'result') && !Object.hasOwn(saved, 'config')) return null;
   const fail = (): never => { throw new Error(`저장 결과 형식을 확인하세요: ${label}`); };

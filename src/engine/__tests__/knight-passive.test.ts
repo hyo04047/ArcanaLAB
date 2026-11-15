@@ -36,8 +36,9 @@ describe('Empress Knight passive', () => {
     expect(sim.total).toBe((30 + 2 * 100) * 5); expect(sim.cardDraws.empressKnight).toBe(1);
     expect(sim.deck.hand).toHaveLength(1); expect(sim.deck.gauge).toBe(0);
   });
-  it('keeps the unknown basic card damage zero and still draws a replacement card', () => {
-    const build = buildFromArmory(input()).build;
+  it('keeps an unsupported combat level at zero damage and still draws a replacement card', () => {
+    const raw = input(); raw.profiles.CharacterLevel = 69;
+    const build = buildFromArmory(raw).build;
     expect(build.params.cardDamageCoef).toEqual({});
     const sim = new SimState(build, createRng(1), cardsFor(build.variant, build.deckOverrides));
     sim.drawCards(1, 'empress_knight'); sim.useCardNow('empress_knight');

@@ -21,7 +21,7 @@ const cases = [
 
 function clean(build: Build, id: string): SkillDef {
   const source = build.skills.find(s => s.id === id)!;
-  return { ...source, ...resolveSkillDamage(SKILL_BY_ID.get(id)!, source.level!), mods: [], onCast: [], procCritDmg: undefined, defenseIgnore: undefined };
+  return { ...source, ...resolveSkillDamage(SKILL_BY_ID.get(id)!, source.level!), mods: [], onCast: [], procCritDmg: undefined, defenseIgnore: undefined, serendipityGauge: undefined };
 }
 function hit(build: Build, skill: SkillDef, attackPower = 10000, stacks = 0) {
   const s = new SimState({ ...build, skills: [skill], passiveMods: [], bluntThorn: undefined, onRuinAt4: [],

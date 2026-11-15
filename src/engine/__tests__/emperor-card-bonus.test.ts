@@ -58,9 +58,9 @@ describe('Emperor passive damage addition candidate', () => {
       expect(sim.breakdown.get(card === 'emperor' ? 'card_emperor' : 'card_emperor_proc')?.casts).toBe(1);
     }
   });
-  it('retains the unknown base damage and clearly identifies the provisional operation', () => {
+  it('uses the public base candidate and clearly identifies the provisional operation', () => {
     const { build, warnings } = buildFromArmory(input());
-    expect(build.params.cardDamageCoef).toEqual({});
+    expect(build.params.cardDamageCoef).toEqual({ emperor: 72.395 });
     expect(warnings.some(w => w.includes('합연산 후보') && w.includes('실측 미검증'))).toBe(true);
   });
 });

@@ -75,7 +75,7 @@ describe('observed core, grade, point and gem bundles', () => {
   it('excludes inactive gems while rejecting unknown status and preserves a same-bundle no-op', async () => {
     const slot = structuredClone(heart.slot), gem = slot.Gems[0]!;
     const oldPoints = coreSlotInfo(slot).points;
-    const point = Number(gem.Tooltip.replace(/<[^>]+>/g, '').match(/질서 포인트 : (\d+)/)![1]);
+    const point = Number(gem.Tooltip.match(/질서 포인트 : (?:<[^>]*>)*(\d+)/)![1]);
     gem.IsActive = false; slot.Point = oldPoints - point;
     expect(coreSlotInfo(slot).points).toBe(oldPoints - point);
     const raw = structuredClone(emperor); raw.arkgrid!.Slots[1] = structuredClone(heart.slot);

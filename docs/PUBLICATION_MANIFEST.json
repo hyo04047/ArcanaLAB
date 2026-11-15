@@ -228,8 +228,8 @@
     },
     {
       "path": "docs/PUBLICATION_CHECKS.json",
-      "bytes": 2592,
-      "sha256": "944b22beeab93d140cb353e7eeae3fa60f82388b53ff1d5ae12a17eeb14020cc"
+      "bytes": 2874,
+      "sha256": "a1b4e226596dd29dc0254b6fe37c8e36de53e2a290397622a14b493f3242f8b5"
     },
     {
       "path": "docs/PUBLICATION_DERIVATIONS.json",
@@ -238,8 +238,8 @@
     },
     {
       "path": "docs/SECURITY_REVIEW.md",
-      "bytes": 3420,
-      "sha256": "46f21aa365d0387fae96b445e4ea7fa51c081abe94c8df03c8c6f84c16aa9f48"
+      "bytes": 3978,
+      "sha256": "eefce223a65a3478666c6354b4a9e1f73f489339b788acaf15acb31231812890"
     },
     {
       "path": "docs/VALIDATION.md",
@@ -618,8 +618,8 @@
     },
     {
       "path": "src/engine/__tests__/core-settings.test.ts",
-      "bytes": 8667,
-      "sha256": "8cb192314e3ca6ec401fd507c6b075fb65520f7c7214f2085fd8851f2d35fdee"
+      "bytes": 8655,
+      "sha256": "8f71f3a9eb637ac615c96a51047d7e892337c8b579ccdfc23f44a63fce5a87bc"
     },
     {
       "path": "src/engine/__tests__/damage-number-validation.test.ts",

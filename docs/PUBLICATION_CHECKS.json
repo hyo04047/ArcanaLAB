@@ -72,5 +72,10 @@
     "The original linked combat-cycle goal remains incomplete.",
     "Full historical raw research and video captures are local-only.",
     "No guarantee against every vulnerability; research and development are stopped."
-  ]
+  ],
+  "codeqlTestExpression": {
+    "scope": "Public test fixture numeric extraction only; no HTML output path and no calculation-model change",
+    "targetedTests": 78,
+    "history": "Additional final commit removes unnecessary tag replacement rather than suppressing the alert"
+  }
 }
